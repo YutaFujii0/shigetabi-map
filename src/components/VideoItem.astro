@@ -1,0 +1,13 @@
+---
+import { ymd, youtubeUrl, type Video } from '../lib/data';
+import Thumb from './Thumb.astro';
+import Title from './Title.astro';
+interface Props { video: Video }
+const { video: v } = Astro.props;
+---
+<li>
+  <a class="vid" href={youtubeUrl(v.video_id)} target="_blank" rel="noopener">
+    <Thumb video={v} />
+    <div><div class="t"><Title title={v.title} /></div><div class="d">{ymd(v.published_at)} 公開</div></div>
+  </a>
+</li>

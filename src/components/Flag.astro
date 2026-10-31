@@ -1,0 +1,7 @@
+---
+// 国旗は SVG（flag-icons）。絵文字は Windows で国旗として表示されないので使わない
+import { countryA2 } from '../lib/data';
+interface Props { iso?: string; a2?: string }
+const a2 = (Astro.props.a2 ?? (Astro.props.iso ? countryA2(Astro.props.iso) : undefined))?.toLowerCase();
+---
+{a2 && <span class={`flag fi fi-${a2}`} aria-hidden="true"></span>}

@@ -1,0 +1,133 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorldMap from '../../components/WorldMap.astro';
+import VideoItem from '../../components/VideoItem.astro';
+import Title from '../../components/Title.astro';
+import Flag from '../../components/Flag.astro';
+import { bbox } from '../../lib/geo';
+import {
+  allSeries, visited, countryName, videosByCountry, lastStopIn, seriesSummary, getSeries, ym, youtubeUrl, type Series,
+} from '../../lib/data';
+
+export function getStaticPaths() {
+  return allSeries.map((s) => ({ params: { id: s.id }, props: { series: s } }));
+}
+interface Props { series: Series }
+const { series: se } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const seriesUrl = (id: string) => `${base}/series/${id}/`;
+const sm = seriesSummary(se);
+const i = allSeries.findIndex((s) => s.id === se.id);
+const prev = allSeries[i - 1], next = allSeries[i + 1];
+const range = (a: string | null, b: string | null) => (a ? (ym(a) === ym(b) || !b ? ym(a) : `${ym(a)} – ${ym(b)}`) : '');
+
+// 吹き出しの中身（国ごと）。シリーズ内の国はそのシリーズの動画、別シリーズの国はその国の全動画
+const bubbles = [...visited].map((iso) => {
+  const inSeries = sm.stops.find((s) => s.iso_n3 === iso);
+  const stop = inSeries ?? lastStopIn(iso);
+  const vs = videosByCountry(iso).filter((v) => !inSeries || v.series_id === se.id).reverse();
+  return { iso, inSeries: !!inSeries, stop, vs, other: stop ? getSeries(stop.series_id) : getSeries(vs[0].series_id) };
+});
+---
+<Base title={se.name} description={`しげ旅「${se.name}」のルート（${sm.countryCount}か国）と全${sm.videoCount}本の動画を訪問順にまとめた非公式ファンサイトのページです。`}>
+  <a class="crumb" href={`${base}/`}>← ホーム</a>
+  <div class="sp-head">
+    <div>
+      <div class="eyebrow">シリーズ {i + 1} / {allSeries.length}</div>
+      <h1>{se.name}{!se.ended && <i class="live">旅の途中</i>}</h1>
+    </div>
+    <div class="sp-meta">
+      <div><b>{ym(se.started)}</b>出発</div>
+      <div><b>{sm.countryCount}</b>か国</div>
+      <div><b>{sm.videoCount}</b>本の動画</div>
+    </div>
+  </div>
+
+  <div class="seriesmap">
+    <WorldMap id="sermap" route={sm.stops} numbered fit={bbox(sm.stops, 70)} fitNarrow={bbox(sm.stops, 50)} />
+  </div>
+
+  <section class="box">
+    <h2>動画（訪問順）</h2>
+    {sm.stops.map((s, k) => (
+      <div class="vgroup" id={`vg-${s.seq}`} data-iso={s.iso_n3}>
+        <h3>
+          <span class="cn"><span class="seq">{k + 1}</span><Flag iso={s.iso_n3} />{s.name}</span>
+          <small><span class="city">{s.city}</span> ・ {range(s.arrived, s.departed)} ・ {s.videos.length}本</small>
+        </h3>
+        <ul class="vlist">{s.videos.map((v) => <VideoItem video={v} />)}</ul>
+      </div>
+    ))}
+  </section>
+
+  <nav class="pn" aria-label="前後のシリーズ">
+    {prev && <a href={seriesUrl(prev.id)}>← 前のシリーズ<b>{prev.name}</b></a>}
+    {next && <a class="nx" href={seriesUrl(next.id)}>次のシリーズ →<b>{next.name}</b></a>}
+  </nav>
+
+  {bubbles.map((b) => (
+    <template data-bubble={b.iso}>
+      <div class="bubble" role="dialog" aria-label={countryName(b.iso)}>
+        <button type="button" class="x" aria-label="閉じる">×</button>
+        <div class="bh">
+          <b><Flag iso={b.iso} />{countryName(b.iso)}</b>
+          <span>{b.stop ? `${ym(b.stop.arrived)} ・ ` : ''}{b.other.name}</span>
+        </div>
+        <ul>
+          {b.vs.map((v) => (
+            <li><a href={youtubeUrl(v.video_id)} target="_blank" rel="noopener"><span class="ep2">{v.episode != null ? `#${v.episode}` : ''}</span><span><Title title={v.title} stripSeries /></span></a></li>
+          ))}
+        </ul>
+        {b.inSeries
+          ? <button type="button" class="bl" data-jump={b.iso}>下の動画リストで見る ↓</button>
+          : <a class="bl" href={seriesUrl(b.other.id)}>{b.other.name}を見る →</a>}
+      </div>
+    </template>
+  ))}
+</Base>
+
+<script>
+  import { initMap, isNarrow, type PickDetail } from '../../scripts/map';
+  const card = document.getElementById('sermap')!;
+  const map = initMap(card);
+  const smooth = () => (matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth') as ScrollBehavior;
+
+  function close() {
+    card.querySelectorAll('.bubble').forEach((b) => b.remove());
+    map.select(null);
+  }
+  card.addEventListener('map:pick', (e) => {
+    const { id, x, y } = (e as CustomEvent<PickDetail>).detail;
+    close();
+    const tpl = document.querySelector<HTMLTemplateElement>(`template[data-bubble="${CSS.escape(id)}"]`);
+    if (!tpl) return; // 動画の無い国は吹き出しを出さない
+    map.select(id);
+    const b = (tpl.content.firstElementChild as HTMLElement).cloneNode(true) as HTMLElement;
+    card.appendChild(b);
+    if (!isNarrow()) {
+      // クリック位置の上に出す。入らなければ下に
+      const r = card.getBoundingClientRect();
+      const bw = b.offsetWidth, bh = b.offsetHeight;
+      b.style.left = `${Math.min(Math.max(x - bw / 2, 8), r.width - bw - 8)}px`;
+      b.style.top = `${y - bh - 14 > 8 ? y - bh - 14 : Math.max(8, Math.min(y + 14, r.height - bh - 8))}px`;
+    }
+  });
+  card.addEventListener('click', (e) => {
+    const t = e.target as Element;
+    if (t.closest('.bubble .x')) close();
+    const j = t.closest<HTMLElement>('[data-jump]');
+    if (j) {
+      close();
+      const g = document.querySelector<HTMLElement>(`.vgroup[data-iso="${CSS.escape(j.dataset.jump!)}"]`);
+      if (!g) return;
+      map.select(j.dataset.jump!);
+      g.scrollIntoView({ behavior: smooth(), block: 'start' });
+      g.classList.remove('flash');
+      void g.offsetWidth;
+      g.classList.add('flash');
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && card.querySelector('.bubble')) close();
+  });
+</script>

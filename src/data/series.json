@@ -1,0 +1,74 @@
+[
+  {
+    "id": "europe",
+    "name": "ヨーロッパ編",
+    "playlist_title": "ヨーロッパ",
+    "order": 1,
+    "started": "2022-06",
+    "ended": null,
+    "playlist_id": "PL_SAMPLE_europe"
+  },
+  {
+    "id": "north-america",
+    "name": "北米編",
+    "playlist_title": "北米",
+    "order": 2,
+    "started": "2022-10",
+    "ended": "2022-10",
+    "playlist_id": "PL_SAMPLE_north-america"
+  },
+  {
+    "id": "central-america",
+    "name": "中米編",
+    "playlist_title": "中米",
+    "order": 3,
+    "started": "2022-11",
+    "ended": "2022-11",
+    "playlist_id": "PL_SAMPLE_central-america"
+  },
+  {
+    "id": "south-america",
+    "name": "南米編",
+    "playlist_title": "南米",
+    "order": 4,
+    "started": "2023-02",
+    "ended": "2023-04",
+    "playlist_id": "PL_SAMPLE_south-america"
+  },
+  {
+    "id": "caribbean",
+    "name": "カリブ海編",
+    "playlist_title": "カリブ海",
+    "order": 5,
+    "started": "2023-10",
+    "ended": "2023-10",
+    "playlist_id": "PL_SAMPLE_caribbean"
+  },
+  {
+    "id": "asia",
+    "name": "アジア編",
+    "playlist_title": "アジア",
+    "order": 6,
+    "started": "2024-01",
+    "ended": "2024-02",
+    "playlist_id": "PL_SAMPLE_asia"
+  },
+  {
+    "id": "oceania",
+    "name": "オセアニア編",
+    "playlist_title": "オセアニア",
+    "order": 7,
+    "started": "2026-02",
+    "ended": "2026-04",
+    "playlist_id": "PL_SAMPLE_oceania"
+  },
+  {
+    "id": "africa",
+    "name": "アフリカ編",
+    "playlist_title": "アフリカ",
+    "order": 8,
+    "started": "2026-05",
+    "ended": "2026-06",
+    "playlist_id": "PL_SAMPLE_africa"
+  }
+]

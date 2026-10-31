@@ -1,0 +1,143 @@
+---
+import Base from '../layouts/Base.astro';
+import WorldMap from '../components/WorldMap.astro';
+import MiniMap from '../components/MiniMap.astro';
+import VideoItem from '../components/VideoItem.astro';
+import Thumb from '../components/Thumb.astro';
+import Title from '../components/Title.astro';
+import Flag from '../components/Flag.astro';
+import { bbox, W, H } from '../lib/geo';
+import {
+  allSeries, visited, latestVideo, recentStops, currentPos, latestPost, site,
+  countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
+} from '../lib/data';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const seriesUrl = (id: string) => `${base}/series/${id}/`;
+const latestSeries = getSeries(latestVideo.series_id);
+const latestNames = latestVideo.countries.map(countryName).join('・');
+const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
+const visitedList = [...visited];
+const postDate = latestPost ? new Date(latestPost.posted_at).toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' }) : '';
+---
+<Base>
+  <div class="main">
+    <WorldMap id="homemap" route={recentStops} routeButton="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow} />
+
+    <aside class="panel" id="panel" aria-live="polite">
+      <!-- 初期表示：最新の動画1本。現在地とは混ぜない -->
+      <div data-panel="latest">
+        <div class="eyebrow">最新の動画</div>
+        <a class="lv" href={youtubeUrl(latestVideo.video_id)} target="_blank" rel="noopener">
+          <Thumb video={latestVideo} />
+          <div class="bd">
+            <div class="sr"><i class="sw" style="background:var(--latest)"></i>{latestNames} ・ {latestSeries.name}</div>
+            <div class="t"><Title title={latestVideo.title} /></div>
+            <div class="d">{ymd(latestVideo.published_at)} 公開</div>
+            <span class="more">YouTube で見る →</span>
+          </div>
+        </a>
+        <p class="hint">地図で<b>黄色</b>の国がこの動画の国です。国をクリックすると、その国の動画一覧に切り替わります。</p>
+      </div>
+
+      {visitedList.map((iso) => {
+        const vs = videosByCountry(iso);
+        const s = lastStopIn(iso);
+        const ss = seriesOfCountry(iso);
+        return (
+          <div data-panel={iso} hidden>
+            <button type="button" class="back" data-latest>← 最新の動画に戻る</button>
+            <div class="eyebrow">{ss.map((x) => x.name).join(' / ')}</div>
+            <h3><Flag iso={iso} />{countryName(iso)}</h3>
+            <div class="meta">
+              {s && <div>訪問時期 <b>{ym(s.arrived)}</b></div>}
+              {s && <div>主な滞在地 <b>{[...new Set(vs.flatMap((v) => v.cities))].slice(0, 3).join('・') || s.city}</b></div>}
+              <div>動画 <b>{vs.length}本</b></div>
+            </div>
+            <ul class="vlist">{vs.map((v) => <VideoItem video={v} />)}</ul>
+            {ss.map((x) => <a class="serieslink" href={seriesUrl(x.id)}>{x.name}のルートと全動画 <span>→</span></a>)}
+          </div>
+        );
+      })}
+
+      <div data-panel="none" hidden>
+        <button type="button" class="back" data-latest>← 最新の動画に戻る</button>
+        <div class="eyebrow">COUNTRY</div>
+        <h3 data-name></h3>
+        <span class="status">まだの国</span>
+        <p class="empty">この国の動画はまだありません。</p>
+      </div>
+    </aside>
+  </div>
+
+  <section class="sec">
+    <div class="sec-h"><h2>最新の投稿</h2><span class="sub">Instagram</span></div>
+    {latestPost && !latestPost.sample && (
+      <div class="igwrap">
+        <blockquote class="instagram-media" data-instgrm-permalink={latestPost.permalink} data-instgrm-version="14">
+          <a href={latestPost.permalink} target="_blank" rel="noopener">Instagram で見る</a>
+        </blockquote>
+        <script is:inline async src="https://www.instagram.com/embed.js"></script>
+      </div>
+    )}
+    {latestPost?.sample && (
+      <article class="post1">
+        <div class="ph">サンプル投稿（本番は公式埋め込み）</div>
+        <div class="bd">
+          <div class="who"><span class="av"></span>{site.instagram_account}</div>
+          <div>{latestPost.caption}</div>
+          <div class="tm">{postDate}</div>
+          <a class="more" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る →</a>
+        </div>
+      </article>
+    )}
+    {latestPost && !latestPost.sample && <a class="more igmore" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る →</a>}
+  </section>
+
+  <section class="sec">
+    <div class="sec-h"><h2>旅のシリーズ</h2><span class="sub">各シリーズのルートと全動画はこちら</span></div>
+    <div class="series">
+      {allSeries.slice().reverse().map((se) => {
+        const sm = seriesSummary(se);
+        return (
+          <a class="scard" href={seriesUrl(se.id)}>
+            <MiniMap stops={sm.stops} />
+            <div class="bd">
+              <div class="nm">{se.name}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
+              <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
+              <div class="cs">{sm.countryNames.join(' → ')}</div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { initMap, isNarrow, type PickDetail } from '../scripts/map';
+  const card = document.getElementById('homemap')!;
+  const panel = document.getElementById('panel')!;
+  const map = initMap(card);
+  const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
+
+  function show(key: string) {
+    panel.querySelectorAll<HTMLElement>('[data-panel]').forEach((p) => (p.hidden = p.dataset.panel !== key));
+  }
+  card.addEventListener('map:pick', (e) => {
+    const { id } = (e as CustomEvent<PickDetail>).detail;
+    map.select(id);
+    if (panel.querySelector(`[data-panel="${CSS.escape(id)}"]`)) show(id);
+    else {
+      panel.querySelector('[data-panel="none"] [data-name]')!.textContent = (tips[id] ?? id).replace(/・まだの国$/, '');
+      show('none');
+    }
+    if (isNarrow()) panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  });
+  panel.addEventListener('click', (e) => {
+    if ((e.target as Element).closest('[data-latest]')) {
+      map.select(null);
+      show('latest');
+    }
+  });
+</script>

@@ -1,0 +1,8 @@
+---
+import { titleParts } from '../lib/data';
+import Flag from './Flag.astro';
+interface Props { title: string; stripSeries?: boolean }
+// 吹き出しなど狭い所では末尾の【シリーズ#話数】撮影期間 を省く
+const t = Astro.props.stripSeries ? Astro.props.title.replace(/【[^】]*#\s*\d+\s*】.*$/, '') : Astro.props.title;
+---
+{titleParts(t).map((p) => ('flag' in p ? <Flag a2={p.flag} /> : p.text))}

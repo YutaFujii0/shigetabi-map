@@ -1,0 +1,45 @@
+---
+import 'flag-icons/css/flag-icons.min.css';
+import '../styles/global.css';
+import { visited } from '../lib/data';
+interface Props { title?: string; description?: string }
+const { title, description = '旅系YouTuber「しげ旅」の訪問国とシリーズのルートを世界地図で見られる非公式ファンサイトです。' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ（非公式ファンサイト）';
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta name="theme-color" content="#F8F9FA" />
+    <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <defs>
+        <radialGradient id="auraG"><stop offset="0" stop-color="#FF4F8B" stop-opacity=".9"></stop><stop offset=".55" stop-color="#7B5CFF" stop-opacity=".35"></stop><stop offset="1" stop-color="#7B5CFF" stop-opacity="0"></stop></radialGradient>
+        <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD34D"></stop><stop offset=".5" stop-color="#FF4F8B"></stop><stop offset="1" stop-color="#7B5CFF"></stop></linearGradient>
+        <linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD34D"></stop><stop offset="1" stop-color="#FF4F8B"></stop></linearGradient>
+      </defs>
+    </svg>
+    <div class="wrap">
+      <header class="a-head">
+        <a class="logo" href={base}>しげ旅<b>マップ</b></a>
+        <span class="pill">非公式ファンサイト</span>
+        <div class="count"><b>{visited.size}</b>か国 訪問</div>
+      </header>
+      <main><slot /></main>
+      <footer class="a-foot">
+        本サイトは「しげ旅」の非公式ファンサイトです。しげさんの位置は公開済みの投稿から推定した国レベルの情報で、実際の所在とは異なる場合があります。
+      </footer>
+    </div>
+  </body>
+</html>

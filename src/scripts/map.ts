@@ -1,0 +1,196 @@
+// 地図の操作（ズーム・ドラッグ・ピンチ・ツールチップ・国のクリック）。
+// 国をクリックすると mapcard 要素に `map:pick` イベント（detail: { id, x, y }）を発火する
+const W = 1000,
+  H = 520,
+  MAX_K = 8;
+
+export const isNarrow = () => matchMedia('(max-width: 760px)').matches;
+
+export type MapController = { select(id: string | null): void; home(): void; el: HTMLElement };
+export type PickDetail = { id: string; x: number; y: number };
+
+const parseBox = (s?: string) => {
+  if (!s) return null;
+  const [x, y, w, h] = s.split(',').map(Number);
+  return { x, y, w, h };
+};
+
+export function initMap(card: HTMLElement): MapController {
+  const svg = card.querySelector<SVGSVGElement>(':scope > svg')!;
+  const gC = svg.querySelector<SVGGElement>('.gC')!;
+  const gR = svg.querySelector<SVGGElement>('.gR')!;
+  const tip = card.querySelector<HTMLElement>('.tip')!;
+  const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
+  const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
+  const routes = [...gR.querySelectorAll<SVGPathElement>('.rt')];
+  let view = { cx: W / 2, cy: H / 2, k: 1 };
+
+  function aspect() {
+    const r = svg.getBoundingClientRect();
+    return r.width ? r.height / r.width : H / W;
+  }
+  function apply() {
+    const asp = aspect();
+    let w = W / view.k,
+      h = w * asp;
+    if (h > H) {
+      h = H / view.k;
+      w = h / asp;
+    }
+    view.cx = w >= W ? W / 2 : Math.min(Math.max(view.cx, w / 2), W - w / 2);
+    view.cy = h >= H ? H / 2 : Math.min(Math.max(view.cy, h / 2), H - h / 2);
+    svg.setAttribute('viewBox', `${view.cx - w / 2} ${view.cy - h / 2} ${w} ${h}`);
+    // ズームしても印や線の見た目の大きさがあまり変わらないようにする
+    const s = Math.min(1, 1.6 / Math.sqrt(view.k));
+    for (const g of scaled) g.setAttribute('transform', `translate(${g.dataset.sx},${g.dataset.sy}) scale(${s})`);
+    for (const p of routes) p.style.strokeWidth = String(1.3 * s);
+    gC.style.strokeWidth = String(0.6 / view.k);
+    card.classList.toggle('zoomed', view.k > 1.01);
+  }
+  function fit(b: { x: number; y: number; w: number; h: number }) {
+    const asp = aspect();
+    view = { cx: b.x + b.w / 2, cy: b.y + b.h / 2, k: Math.max(1, Math.min(MAX_K, Math.min(W / b.w, (W * asp) / b.h))) };
+    apply();
+  }
+  function home() {
+    const b = parseBox(isNarrow() ? (card.dataset.fitNarrow ?? card.dataset.fit) : card.dataset.fit);
+    if (b) fit(b);
+    else {
+      view = { cx: W / 2, cy: H / 2, k: 1 };
+      apply();
+    }
+  }
+  function zoomAt(factor: number, px?: number, py?: number) {
+    const k = Math.min(Math.max(view.k * factor, 1), MAX_K);
+    if (px != null && py != null) {
+      // 指・カーソルの位置を中心にズーム
+      const vb = svg.viewBox.baseVal,
+        r = svg.getBoundingClientRect();
+      const mx = vb.x + ((px - r.left) / r.width) * vb.width,
+        my = vb.y + ((py - r.top) / r.height) * vb.height;
+      const f = view.k / k;
+      view.cx = mx + (view.cx - mx) * f;
+      view.cy = my + (view.cy - my) * f;
+    }
+    view.k = k;
+    apply();
+  }
+
+  card.querySelector('.mapctl')!.addEventListener('click', (e) => {
+    const z = (e.target as Element).closest<HTMLElement>('button')?.dataset.z;
+    if (z === 'in') zoomAt(1.6);
+    if (z === 'out') zoomAt(1 / 1.6);
+    if (z === 'fit') home();
+  });
+
+  // ドラッグ・ピンチ
+  const pointers = new Map<number, { x: number; y: number }>();
+  let drag: { x: number; y: number; cx: number; cy: number } | null = null;
+  let pinch: { d: number } | null = null;
+  let moved = false;
+  svg.addEventListener('pointerdown', (e) => {
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.size === 1) {
+      drag = { x: e.clientX, y: e.clientY, cx: view.cx, cy: view.cy };
+      moved = false;
+    } else if (pointers.size === 2) {
+      const [a, b] = [...pointers.values()];
+      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) };
+      drag = null;
+    }
+  });
+  window.addEventListener('pointermove', (e) => {
+    if (!pointers.has(e.pointerId)) return;
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch && pointers.size === 2) {
+      const [a, b] = [...pointers.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      zoomAt(d / pinch.d, (a.x + b.x) / 2, (a.y + b.y) / 2);
+      pinch.d = d;
+      moved = true;
+      return;
+    }
+    if (!drag) return;
+    const dx = e.clientX - drag.x,
+      dy = e.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) moved = true;
+    // 全体表示のとき（k=1）はタッチでのドラッグをページスクロールに譲る
+    if (!moved || (view.k <= 1.01 && e.pointerType === 'touch')) return;
+    svg.classList.add('drag');
+    const sc = svg.viewBox.baseVal.width / svg.getBoundingClientRect().width;
+    view.cx = drag.cx - dx * sc;
+    view.cy = drag.cy - dy * sc;
+    apply();
+  });
+  const end = (e: PointerEvent) => {
+    pointers.delete(e.pointerId);
+    if (pointers.size < 2) pinch = null;
+    if (pointers.size === 0) drag = null;
+    svg.classList.remove('drag');
+  };
+  window.addEventListener('pointerup', end);
+  window.addEventListener('pointercancel', end);
+  svg.addEventListener(
+    'wheel',
+    (e) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      zoomAt(e.deltaY < 0 ? 1.2 : 1 / 1.2, e.clientX, e.clientY);
+    },
+    { passive: false },
+  );
+
+  // ツールチップ
+  gC.addEventListener('pointermove', (e) => {
+    const id = (e.target as SVGElement).dataset?.id;
+    if (!id || e.pointerType === 'touch' || (drag && moved)) {
+      tip.hidden = true;
+      return;
+    }
+    const r = card.getBoundingClientRect();
+    tip.textContent = tips[id] ?? '';
+    tip.style.left = `${e.clientX - r.left}px`;
+    tip.style.top = `${e.clientY - r.top}px`;
+    tip.hidden = false;
+  });
+  gC.addEventListener('pointerleave', () => (tip.hidden = true));
+  gC.addEventListener('click', (e) => {
+    if (moved) return;
+    const id = (e.target as SVGElement).dataset?.id;
+    if (!id) return;
+    tip.hidden = true;
+    const r = card.getBoundingClientRect();
+    card.dispatchEvent(new CustomEvent<PickDetail>('map:pick', { detail: { id, x: e.clientX - r.left, y: e.clientY - r.top } }));
+  });
+
+  const rb = card.querySelector<HTMLButtonElement>('.routebtn');
+  rb?.addEventListener('click', () => {
+    const on = rb.getAttribute('aria-pressed') !== 'true';
+    rb.setAttribute('aria-pressed', String(on));
+    card.classList.toggle('routes-off', !on);
+  });
+
+  let lastNarrow = isNarrow();
+  new ResizeObserver(() => {
+    // モバイル⇔PC をまたいだら初期表示の範囲を切り替える
+    if (isNarrow() !== lastNarrow) {
+      lastNarrow = isNarrow();
+      home();
+    } else apply();
+  }).observe(card);
+  home();
+
+  return {
+    el: card,
+    home,
+    select(id) {
+      gC.querySelectorAll('.sel').forEach((p) => p.classList.remove('sel'));
+      if (!id) return;
+      const p = gC.querySelector(`[data-id="${CSS.escape(id)}"]`);
+      if (p) {
+        p.classList.add('sel');
+        gC.appendChild(p); // 枠線が隣の国に隠れないよう最前面へ
+      }
+    },
+  };
+}

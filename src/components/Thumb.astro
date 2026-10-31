@@ -1,0 +1,16 @@
+---
+import { duration, type Video } from '../lib/data';
+interface Props { video: Video }
+const { video: v } = Astro.props;
+// サンプル動画はサムネが無いのでグラデーションで代用する
+const GRADS = [['#2E6F95', '#9BD1E5'], ['#B4532A', '#F2C14E'], ['#3C7A5A', '#BFD8A5'], ['#6B3FA0', '#E39AC4'], ['#1F3B57', '#E8A15C']];
+const src = v.thumbnail ?? (v.video_id.startsWith('sample') ? null : `https://i.ytimg.com/vi/${v.video_id}/mqdefault.jpg`);
+const hash = [...v.video_id].reduce((a, c) => a + c.charCodeAt(0), 0);
+const g = GRADS[hash % GRADS.length];
+---
+<div class="thumb" style={src ? undefined : `background:linear-gradient(135deg,${g[0]},${g[1]})`}>
+  {src && <img src={src} alt="" loading="lazy" width="320" height="180" />}
+  {v.episode != null && <span class="ep">#{v.episode}</span>}
+  <span class="du">{duration(v.duration)}</span>
+  <span class="pl"><i></i></span>
+</div>

@@ -1,0 +1,111 @@
+[
+  {
+    "iso_n3": "840",
+    "iso_a2": "US",
+    "name_ja": "アメリカ",
+    "aliases": [
+      "米国",
+      "アメリカ合衆国",
+      "USA"
+    ]
+  },
+  {
+    "iso_n3": "826",
+    "iso_a2": "GB",
+    "name_ja": "イギリス",
+    "aliases": [
+      "英国",
+      "UK"
+    ]
+  },
+  {
+    "iso_n3": "214",
+    "iso_a2": "DO",
+    "name_ja": "ドミニカ共和国",
+    "aliases": []
+  },
+  {
+    "iso_n3": "598",
+    "iso_a2": "PG",
+    "name_ja": "パプアニューギニア",
+    "aliases": [
+      "PNG"
+    ]
+  },
+  {
+    "iso_n3": "068",
+    "iso_a2": "BO",
+    "name_ja": "ボリビア",
+    "aliases": []
+  },
+  {
+    "iso_n3": "643",
+    "iso_a2": "RU",
+    "name_ja": "ロシア",
+    "aliases": []
+  },
+  {
+    "iso_n3": "862",
+    "iso_a2": "VE",
+    "name_ja": "ベネズエラ",
+    "aliases": []
+  },
+  {
+    "iso_n3": "418",
+    "iso_a2": "LA",
+    "name_ja": "ラオス",
+    "aliases": []
+  },
+  {
+    "iso_n3": "408",
+    "iso_a2": "KP",
+    "name_ja": "北朝鮮",
+    "aliases": []
+  },
+  {
+    "iso_n3": "410",
+    "iso_a2": "KR",
+    "name_ja": "韓国",
+    "aliases": [
+      "大韓民国"
+    ]
+  },
+  {
+    "iso_n3": "364",
+    "iso_a2": "IR",
+    "name_ja": "イラン",
+    "aliases": []
+  },
+  {
+    "iso_n3": "760",
+    "iso_a2": "SY",
+    "name_ja": "シリア",
+    "aliases": []
+  },
+  {
+    "iso_n3": "498",
+    "iso_a2": "MD",
+    "name_ja": "モルドバ",
+    "aliases": []
+  },
+  {
+    "iso_n3": "156",
+    "iso_a2": "CN",
+    "name_ja": "中国",
+    "aliases": [
+      "中華人民共和国"
+    ]
+  },
+  {
+    "iso_n3": "096",
+    "iso_a2": "BN",
+    "name_ja": "ブルネイ",
+    "aliases": []
+  },
+  {
+    "iso_n3": "180",
+    "iso_a2": "CD",
+    "name_ja": "コンゴ民主共和国",
+    "aliases": []
+  }
+]
