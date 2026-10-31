@@ -117,13 +117,6 @@ img { max-width: 100%; display: block; }
 /* Instagram */
 .igwrap { max-width: 540px; }
 .igwrap .instagram-media { margin: 0 !important; min-width: 0 !important; width: 100% !important; }
-.post1 { display: grid; grid-template-columns: 240px minmax(0, 1fr); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; max-width: 720px; }
-.post1 .ph { aspect-ratio: 1 / 1; background: linear-gradient(160deg, #3d7ab8, #f3c78b); display: grid; place-items: center; color: rgba(255, 255, 255, 0.9); font-size: 12px; font-weight: 700; }
-.post1 .bd { padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; line-height: 1.65; min-width: 0; }
-.post1 .who { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; }
-.post1 .av { width: 26px; height: 26px; border-radius: 50%; background: conic-gradient(var(--aura1), var(--aura2), var(--aura3), var(--aura1)); }
-.post1 .tm { font: 500 11px var(--f-num); color: var(--muted); }
-.post1 .more { margin-top: auto; }
 .igmore { display: inline-block; margin-top: 10px; }
 
 /* シリーズ一覧 */
@@ -197,8 +190,6 @@ img { max-width: 100%; display: block; }
   .mapctl button { width: 40px; height: 40px; }
   .panel { position: static; }
   .panel h3 { font-size: 24px; }
-  .post1 { grid-template-columns: minmax(0, 1fr); }
-  .post1 .ph { aspect-ratio: 4 / 3; }
   .series { grid-template-columns: minmax(0, 1fr); }
   .vgroup { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .vgroup h3 { position: static; flex-direction: row; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; }

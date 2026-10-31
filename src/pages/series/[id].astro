@@ -49,15 +49,21 @@ const bubbles = [...visited].map((iso) => {
 
   <section class="box">
     <h2>動画（訪問順）</h2>
-    {sm.stops.map((s, k) => (
+    {sm.stops.map((s) => (
       <div class="vgroup" id={`vg-${s.seq}`} data-iso={s.iso_n3}>
         <h3>
-          <span class="cn"><span class="seq">{k + 1}</span><Flag iso={s.iso_n3} />{s.name}</span>
-          <small><span class="city">{s.city}</span> ・ {range(s.arrived, s.departed)} ・ {s.videos.length}本</small>
+          <span class="cn"><span class="seq">{s.seq}</span><Flag iso={s.iso_n3} />{s.name}</span>
+          <small>{s.city && <span class="city">{s.city} ・ </span>}{range(s.arrived, s.departed)} ・ {s.videos.length}本</small>
         </h3>
         <ul class="vlist">{s.videos.map((v) => <VideoItem video={v} />)}</ul>
       </div>
     ))}
+    {sm.others.length > 0 && (
+      <div class="vgroup">
+        <h3><span class="cn">移動・その他</span><small>{sm.others.length}本</small></h3>
+        <ul class="vlist">{sm.others.map((v) => <VideoItem video={v} />)}</ul>
+      </div>
+    )}
   </section>
 
   <nav class="pn" aria-label="前後のシリーズ">

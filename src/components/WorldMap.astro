@@ -41,10 +41,10 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     <g class="gC">{COUNTRY_SHAPES.map((c) => <path class={cls(c.id)} data-id={c.id} d={c.d}></path>)}</g>
     <g class="gR">
       {route.slice(1).map((s, i) => <path class="rt" d={arc(route[i], s)}></path>)}
-      {route.map((s, i) => (
+      {route.map((s) => (
         <g class="st" data-sx={s.x} data-sy={s.y} transform={`translate(${s.x},${s.y})`}>
           <circle r={numbered ? 5 : 3}></circle>
-          {numbered && <text>{i + 1}</text>}
+          {numbered && <text>{s.seq}</text>}
         </g>
       ))}
     </g>

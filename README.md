@@ -18,23 +18,45 @@ Astro（静的出力）＋ d3-geo / world-atlas（Natural Earth 110m）。地図
 
 ## データ
 
-`src/data/*.json` は今は**サンプル**（動画ID `sample00001` などはダミー。タイトル形式・再生リスト名は実チャンネルに合わせてある）。サーバー・DB は持たず、データはすべてこのリポジトリの JSON に置く。定期バッチ（GitHub Actions の cron）が YouTube / Instagram の新着を取得してこの JSON を更新する PR を作り、人が確認してマージ → 再ビルドで公開される。
+サーバー・DB は持たず、データはすべて `src/data/*.json`（このリポジトリ）に置く。今の `videos.json` / `series.json` / `stops.json` は**サンプル**（動画IDはダミー）で、下の取得スクリプトを実行すると実データに置き換わる。
 
-| ファイル | 内容 |
-|---|---|
-| `series.json` | シリーズ＝チャンネルの再生リスト（`id` は URL 用、`playlist_title` は再生リスト名、`ended: null` は旅の途中） |
-| `videos.json` | 動画。`countries` は ISO 3166 数字コード、`episode` はタイトルの【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間 |
-| `stops.json` | ルート上の滞在（都市の代表座標）。全体の順番は撮影時期（`arrived`）で決める |
-| `countries.json` | 国名の上書きと別名（無い国は i18n-iso-countries の日本語名） |
-| `location.json` | しげさんの現在地（国単位の推定。`source: manual` が最優先） |
-| `instagram_posts.json` | 最新投稿の URL（手動登録。`sample: true` の間は埋め込みの代わりにダミーカード） |
+| ファイル | 書く人 | 内容 |
+|---|---|---|
+| `playlists.json` | 人 | 対象にする再生リスト（許可リスト）。国内・W杯などはここに入れなければ対象外 |
+| `overrides.json` | 人 | 判定の手動修正。`videos.<動画ID>` に `countries`（数字コード）/`cities`/`filmed_at`/`series_id`/`flight`/`exclude`、`series.<id>` に `ended`/`name` |
+| `cities.json` | 自動＋人 | 都市の座標キャッシュ（キーは `数字コード:都市名`）。見つからない都市は手で足す |
+| `videos.json` | 自動 | 動画。`countries` は ISO 3166 数字コード、`episode` は【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間、`flight` は移動回 |
+| `series.json` | 自動 | シリーズ＝再生リスト。期間は撮影時期から。最後の公開から45日以内なら `ended: null`（旅の途中） |
+| `stops.json` | 自動 | ルート上の滞在。同じ国・都市が続く動画を1つにまとめる。座標が無ければ国の代表点に置く |
+| `countries.json` | 人 | 国名の上書き（無い国は i18n-iso-countries の日本語名） |
+| `location.json` | 人 | しげさんの現在地（国単位の推定。`iso_n3`・`as_of`・`source`・根拠URL） |
+| `instagram_posts.json` | 人 | 最新投稿の URL（`[{ "permalink": "https://www.instagram.com/p/xxxx/", "posted_at": "..." }]`）。公式埋め込みで表示 |
 
-### 実チャンネルを見て分かったこと（収集の実装向けメモ）
+### YouTube からの取得
 
-- タイトルは `{都市}旅🇨🇴{説明}【南米#01】2023年2月3日〜8日` の形。**国は国旗の絵文字**で入っている（複数国の回は旗が複数）。国旗 → ISO alpha-2 → 数字コードで機械的に判定できる。旗が無い回（移動・フライト回）は LLM か手動
-- 【シリーズ#話数】と撮影期間もタイトルから取れる（`filmed_at`・`stops.arrived/departed` の材料）
-- 再生リストには国内（北海道・沖縄…）やイベント（北中米W杯・JAL修行）もあるので、対象の再生リストは許可リストで指定する
-- 1つの再生リストが何年にもまたがる（ヨーロッパ #1 は2022年、#64 は2026年）。シリーズの期間は飛び飛びになる
+```sh
+YOUTUBE_API_KEY=... npm run data:update   # 取得 → src/data を更新、要約を scripts/out/report.md に出力
+npm test                                  # タイトル解析のテスト
+```
+
+1. `playlists.json` の再生リストごとに `playlistItems.list` で動画IDを取得（公開動画のみ）
+2. `videos.list` で タイトル・公開日・長さ・サムネイル を取得
+3. タイトルを解析（`scripts/lib/parse-title.ts`）
+   - 国：**国旗の絵文字** → ISO alpha-2 → 数字コード（複数国の回は旗が複数）
+   - 都市：先頭の「○○旅」（「34歳ひとり」「乗継」は除く）。飛行機・乗継の回は `flight` にしてルートに載せない
+   - 話数：【南米#01】、撮影期間：末尾の「2023年2月3日〜8日」
+4. 国が判定できなかった動画・座標が見つからなかった都市はレポートに出るので、`overrides.json` / `cities.json` で直す
+5. `extract.reviewed: true` の動画は再取得しても判定を上書きしない。`overrides.json` が最優先
+6. 都市の座標は OpenStreetMap Nominatim（1秒1回）で調べて `cities.json` にキャッシュ。`--no-geocode` で無効
+
+API の消費は 1回あたり「再生リストのページ数＋動画数/50」ユニット程度（無料枠は1日10,000）。YouTube の規約上、取得データは定期的に再取得して最新に保つ（毎日全件を取り直している）。
+
+### 定期実行
+
+`.github/workflows/update-data.yml` が毎日 6:17（JST）に取得し、差分があれば `data/update` ブランチで PR を作る。確認してマージすると Pages が再ビルドされる。必要な設定：
+
+- Settings → Secrets and variables → Actions に `YOUTUBE_API_KEY`
+- Settings → Actions → General → 「Allow GitHub Actions to create and approve pull requests」をオン
 
 ## 公開（GitHub Pages）
 

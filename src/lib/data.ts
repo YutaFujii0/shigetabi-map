@@ -28,26 +28,29 @@ export type Video = {
   published_at: string;
   duration: string;
   series_id: string;
-  episode?: number;
+  episode?: number | null;
   countries: string[];
   cities: string[];
   filmed_at?: { from: string; to: string } | null;
+  /** 飛行機・乗継などの移動回（ルートには載せない） */
+  flight?: boolean;
   thumbnail?: string;
-  extract: { method: 'title' | 'llm' | 'manual'; confidence: number; reviewed: boolean };
+  extract: { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 };
 export type Stop = {
   series_id: string;
   seq: number;
   iso_n3: string;
-  city: string;
-  lat: number;
-  lng: number;
+  city: string | null;
+  /** 都市の座標が無いときは国の代表点に置く */
+  lat: number | null;
+  lng: number | null;
   arrived: string | null;
   departed: string | null;
   video_ids: string[];
 };
 export type Location = { iso_n3: string; as_of: string; source: 'instagram' | 'manual'; evidence_url?: string };
-export type InstagramPost = { permalink: string; posted_at: string; sample?: boolean; caption?: string };
+export type InstagramPost = { permalink: string; posted_at: string };
 
 export const site = siteJson;
 export const allSeries = (seriesJson as Series[]).slice().sort((a, b) => a.order - b.order);
@@ -78,14 +81,21 @@ export type RouteStop = Stop & Pt & { name: string; videos: Video[] };
 export const stops: RouteStop[] = (stopsJson as Stop[])
   .slice()
   .sort((a, b) => (a.arrived ?? '').localeCompare(b.arrived ?? '') || a.seq - b.seq)
-  .map((s) => ({
-    ...s,
-    ...project(s.lng, s.lat),
-    name: countryName(s.iso_n3),
-    videos: s.video_ids.map((id) => videoById.get(id)).filter((v): v is Video => !!v),
-  }));
+  .flatMap((s) => {
+    // 110m の地図に無い小さな国で都市の座標も無いものは、地図には載せられないので除く
+    const pos = s.lat != null && s.lng != null ? project(s.lng, s.lat) : countryCenter(s.iso_n3);
+    if (!pos) return [];
+    const vs = s.video_ids.map((id) => videoById.get(id)).filter((v): v is Video => !!v);
+    return vs.length ? [{ ...s, ...pos, name: countryName(s.iso_n3), videos: vs }] : [];
+  });
 export const seriesStops = (id: string) => stops.filter((s) => s.series_id === id).sort((a, b) => a.seq - b.seq);
-export const recentStops = stops.slice(-5);
+/** 直近5か国ぶんの滞在（同じ国の別の都市は1か国と数える） */
+export const recentStops = (() => {
+  const isos = new Set<string>();
+  let i = stops.length;
+  while (i > 0 && (isos.size < 5 || isos.has(stops[i - 1].iso_n3))) isos.add(stops[--i].iso_n3);
+  return stops.slice(i);
+})();
 
 /* ---------- 地図の色 ---------- */
 // 行った国 ＝ 動画が公開されている国
@@ -117,10 +127,14 @@ export const seriesPeriod = (s: Series) => `${ym(s.started)} – ${s.ended ? ym(
 
 export function seriesSummary(s: Series) {
   const st = seriesStops(s.id);
+  const vs = videosOfSeries(s.id);
+  const inStops = new Set(st.flatMap((x) => x.video_ids));
   return {
     stops: st,
-    countryCount: new Set(st.map((x) => x.iso_n3)).size,
-    videoCount: videosOfSeries(s.id).length,
+    /** ルートに載らない動画（移動回・複数国の総集編など） */
+    others: vs.filter((v) => !inStops.has(v.video_id)),
+    countryCount: new Set(vs.flatMap((v) => v.countries)).size,
+    videoCount: vs.length,
     countryNames: st.map((x) => x.name).filter((n, i, a) => n !== a[i - 1]),
   };
 }

@@ -18,7 +18,6 @@ const latestSeries = getSeries(latestVideo.series_id);
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
 const visitedList = [...visited];
-const postDate = latestPost ? new Date(latestPost.posted_at).toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' }) : '';
 ---
 <Base>
   <div class="main">
@@ -72,26 +71,15 @@ const postDate = latestPost ? new Date(latestPost.posted_at).toLocaleDateString(
 
   <section class="sec">
     <div class="sec-h"><h2>最新の投稿</h2><span class="sub">Instagram</span></div>
-    {latestPost && !latestPost.sample && (
+    {latestPost && (
       <div class="igwrap">
         <blockquote class="instagram-media" data-instgrm-permalink={latestPost.permalink} data-instgrm-version="14">
-          <a href={latestPost.permalink} target="_blank" rel="noopener">Instagram で見る</a>
+          <a href={latestPost.permalink} target="_blank" rel="noopener">Instagram でこの投稿を見る</a>
         </blockquote>
         <script is:inline async src="https://www.instagram.com/embed.js"></script>
       </div>
     )}
-    {latestPost?.sample && (
-      <article class="post1">
-        <div class="ph">サンプル投稿（本番は公式埋め込み）</div>
-        <div class="bd">
-          <div class="who"><span class="av"></span>{site.instagram_account}</div>
-          <div>{latestPost.caption}</div>
-          <div class="tm">{postDate}</div>
-          <a class="more" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る →</a>
-        </div>
-      </article>
-    )}
-    {latestPost && !latestPost.sample && <a class="more igmore" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る →</a>}
+    <a class="more igmore" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る（@{site.instagram_account}）→</a>
   </section>
 
   <section class="sec">
