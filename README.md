@@ -2,7 +2,7 @@
 
 旅系YouTuber「しげ旅」の**非公式ファンサイト**。訪問国を世界地図で塗り分け、シリーズ（再生リスト）ごとのルートと動画を見られるようにする。
 
-- ホーム `/` … 世界地図（行った国＝青／最新動画の国＝黄／まだの国＝グレー、しげさんアイコン、直近5か国のルート）、最新の動画、最新の Instagram 投稿、シリーズ一覧
+- ホーム `/` … 世界地図（行った国＝青／最新動画の国＝黄／まだの国＝グレー、しげさんアイコン、直近5か国のルート）、最新の動画、Instagram（プロフィール埋め込み）、シリーズ一覧
 - シリーズ `/series/[id]/` … シリーズの全ルート（訪問順の番号付き）、国をクリックで吹き出し、訪問順の動画リスト
 
 ## 開発
@@ -28,9 +28,9 @@ Astro（静的出力）＋ d3-geo / world-atlas（Natural Earth 110m）。地図
 | `videos.json` | 自動 | 動画。`countries` は ISO 3166 数字コード、`episode` は【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間、`flight` は移動回 |
 | `series.json` | 自動 | シリーズ＝再生リスト。期間は撮影時期から。最後の公開から45日以内なら `ended: null`（旅の途中） |
 | `stops.json` | 自動 | ルート上の滞在。同じ国・都市が続く動画を1つにまとめる。座標が無ければ国の代表点に置く |
+| `site.json` | 人 | チャンネル・Instagram のアカウント。Instagram はプロフィールの公式埋め込み（直近の投稿が自動で更新される）で表示 |
 | `countries.json` | 人 | 国名の上書き（無い国は i18n-iso-countries の日本語名） |
-| `location.json` | 人 | しげさんの現在地（国単位の推定。`iso_n3`・`as_of`・`source`・根拠URL） |
-| `instagram_posts.json` | 人 | 最新投稿の URL（`[{ "permalink": "https://www.instagram.com/p/xxxx/", "posted_at": "..." }]`）。公式埋め込みで表示 |
+| `location.json` | 人 | しげさんの現在地（国単位の推定。当面は管理者が手で更新する。`iso_n3`・`as_of`・`source`・根拠URL） |
 
 ### YouTube からの取得
 

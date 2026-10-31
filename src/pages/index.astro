@@ -8,7 +8,7 @@ import Title from '../components/Title.astro';
 import Flag from '../components/Flag.astro';
 import { bbox, W, H } from '../lib/geo';
 import {
-  allSeries, visited, latestVideo, recentStops, currentPos, latestPost, site,
+  allSeries, visited, latestVideo, recentStops, currentPos, site,
   countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
 } from '../lib/data';
 
@@ -70,16 +70,14 @@ const visitedList = [...visited];
   </div>
 
   <section class="sec">
-    <div class="sec-h"><h2>最新の投稿</h2><span class="sub">Instagram</span></div>
-    {latestPost && (
-      <div class="igwrap">
-        <blockquote class="instagram-media" data-instgrm-permalink={latestPost.permalink} data-instgrm-version="14">
-          <a href={latestPost.permalink} target="_blank" rel="noopener">Instagram でこの投稿を見る</a>
-        </blockquote>
-        <script is:inline async src="https://www.instagram.com/embed.js"></script>
-      </div>
-    )}
-    <a class="more igmore" href={site.instagram_url} target="_blank" rel="noopener">Instagram でもっと見る（@{site.instagram_account}）→</a>
+    <div class="sec-h"><h2>最新の投稿</h2><span class="sub">Instagram @{site.instagram_account}</span></div>
+    <!-- プロフィールの公式埋め込み。直近の投稿が Instagram 側で自動的に更新される -->
+    <div class="igwrap">
+      <blockquote class="instagram-media" data-instgrm-permalink={site.instagram_url} data-instgrm-version="14">
+        <a href={site.instagram_url} target="_blank" rel="noopener">Instagram で @{site.instagram_account} を見る</a>
+      </blockquote>
+      <script is:inline async src="https://www.instagram.com/embed.js"></script>
+    </div>
   </section>
 
   <section class="sec">

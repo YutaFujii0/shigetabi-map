@@ -7,7 +7,6 @@ import videosJson from '../data/videos.json';
 import stopsJson from '../data/stops.json';
 import countriesJson from '../data/countries.json';
 import locationJson from '../data/location.json';
-import instagramJson from '../data/instagram_posts.json';
 import siteJson from '../data/site.json';
 import { COUNTRY_SHAPES, countryCenter, project, type Pt } from './geo';
 
@@ -50,13 +49,11 @@ export type Stop = {
   video_ids: string[];
 };
 export type Location = { iso_n3: string; as_of: string; source: 'instagram' | 'manual'; evidence_url?: string };
-export type InstagramPost = { permalink: string; posted_at: string };
 
 export const site = siteJson;
 export const allSeries = (seriesJson as Series[]).slice().sort((a, b) => a.order - b.order);
 export const videos = (videosJson as Video[]).slice().sort((a, b) => a.published_at.localeCompare(b.published_at));
 export const location = locationJson as Location;
-export const latestPost = (instagramJson as InstagramPost[]).slice().sort((a, b) => b.posted_at.localeCompare(a.posted_at))[0];
 
 const seriesById = new Map(allSeries.map((s) => [s.id, s]));
 export const getSeries = (id: string) => seriesById.get(id)!;
