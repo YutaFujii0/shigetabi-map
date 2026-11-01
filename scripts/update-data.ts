@@ -10,9 +10,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import countries from 'i18n-iso-countries';
 import ja from 'i18n-iso-countries/langs/ja.json' with { type: 'json' };
-import { geoContains } from 'd3-geo';
+import { geoBounds } from 'd3-geo';
 import { feature } from 'topojson-client';
-import type { Feature, FeatureCollection } from 'geojson';
+import type { FeatureCollection } from 'geojson';
 import type { Topology, GeometryCollection } from 'topojson-specification';
 import world from 'world-atlas/countries-50m.json' with { type: 'json' };
 import { parseTitle, namesToA2 } from './lib/parse-title.ts';
@@ -39,7 +39,7 @@ type Overrides = {
   videos: Record<string, Partial<Pick<Video, 'countries' | 'cities' | 'filmed_at' | 'series_id' | 'flight'>> & { exclude?: boolean }>;
   series: Record<string, { ended?: string | null; name?: string }>;
 };
-type City = { lat: number; lng: number; source: 'wikipedia' | 'nominatim' | 'manual' };
+type City = { lat: number; lng: number; source: 'wikipedia' | 'nominatim' | 'search' | 'manual' };
 
 const read = <T>(f: string): T => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
 const write = (f: string, d: unknown) => fs.writeFileSync(path.join(DATA, f), JSON.stringify(d, null, 2) + '\n');
@@ -84,18 +84,28 @@ async function videoDetails(ids: string[]) {
 const UA = { 'User-Agent': 'shigetabi-map data updater (https://github.com/YutaFujii0/shigetabi-map)' };
 const round = (n: number) => Math.round(n * 100) / 100;
 
-// 国境の判定用（50m は小さな島国も含む）
+// 座標の検証用：国ごとの範囲（50m は小さな島国も含む）。同じ国コードの図形が複数ある（オーストラリアと周辺の小島など）ので配列で持つ
 const topo = world as unknown as Topology<{ countries: GeometryCollection }>;
-const shapes = new Map<string, Feature>(
-  (feature(topo, topo.objects.countries) as FeatureCollection).features.map((f) => [String(f.id), f]),
-);
-/** 座標がその国の範囲内か。地図データに無い国は判定できないので通す */
+const bounds = new Map<string, [[number, number], [number, number]][]>();
+for (const f of (feature(topo, topo.objects.countries) as FeatureCollection).features) {
+  const id = String(f.id);
+  bounds.set(id, [...(bounds.get(id) ?? []), geoBounds(f)]);
+}
+// 海外領土を持つ国（グアム・サイパン＝🇺🇸 など）は本土の範囲で判定できないので検証しない
+const HAS_TERRITORIES = new Set(['840', '250', '826', '528', '208', '554', '036', '578']);
+/**
+ * 座標がその国の範囲（を約1度広げた長方形）に入っているか。同じ名前の別の国の場所を弾くのが目的。
+ * 小さな島や海沿いの都市は国境データが粗くて外れるので、厳密な国境判定はしない
+ */
 function inCountry(c: City, n3: string): boolean {
-  const f = shapes.get(n3);
-  if (!f) return true;
-  if (geoContains(f, [c.lng, c.lat])) return true;
-  // 海沿いの都市は粗い国境の外に出ることがあるので、少しずらして確かめる
-  return [[0.3, 0], [-0.3, 0], [0, 0.3], [0, -0.3]].some(([dx, dy]) => geoContains(f, [c.lng + dx, c.lat + dy]));
+  const bs = bounds.get(n3);
+  if (!bs || HAS_TERRITORIES.has(n3)) return true;
+  const M = 1;
+  return bs.some(([[x0, y0], [x1, y1]]) => {
+    if (c.lat < y0 - M || c.lat > y1 + M) return false;
+    // 日付変更線をまたぐ国は x0 > x1 になる
+    return x0 <= x1 ? c.lng >= x0 - M && c.lng <= x1 + M : c.lng >= x0 - M || c.lng <= x1 + M;
+  });
 }
 
 async function wikipedia(city: string): Promise<City | null> {
@@ -125,11 +135,25 @@ async function nominatim(city: string, a2: string): Promise<City | null> {
   return hit ? { lat: round(+hit.lat), lng: round(+hit.lon), source: 'nominatim' } : null;
 }
 
+/** 表記揺れ（エルカラファテ → エル・カラファテ など）用：Wikipedia の検索結果の上位から座標を探す */
+async function wikipediaSearch(city: string, n3: string): Promise<City | null> {
+  const qs = new URLSearchParams({ action: 'query', list: 'search', srsearch: city, srlimit: '3', format: 'json', formatversion: '2' });
+  const res = await fetch(`https://ja.wikipedia.org/w/api.php?${qs}`, { headers: UA });
+  if (!res.ok) return null;
+  const hits = ((await res.json()) as { query?: { search?: { title: string }[] } }).query?.search ?? [];
+  for (const h of hits) {
+    const c = await wikipedia(h.title).catch(() => null);
+    if (c && inCountry(c, n3)) return { ...c, source: 'search' };
+  }
+  return null;
+}
+
 async function geocode(city: string, n3: string): Promise<City | null> {
   const w = await wikipedia(city).catch(() => null);
   if (w && inCountry(w, n3)) return w;
   const n = await nominatim(city, toA2(n3) ?? '').catch(() => null);
-  return n && inCountry(n, n3) ? n : null;
+  if (n && inCountry(n, n3)) return n;
+  return wikipediaSearch(city, n3).catch(() => null);
 }
 
 /** 国旗の無いタイトル用の国名辞書（i18n-iso-countries の日本語名と別名 ＋ countries.json） */
@@ -151,7 +175,7 @@ async function main() {
   const cities = read<Record<string, City>>('cities.json');
   const prev = new Map(read<Video[]>('videos.json').map((v) => [v.video_id, v]));
   const names = nameDictionary();
-  const report = { unresolved: [] as Video[], byName: [] as Video[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
+  const report = { unresolved: [] as Video[], byName: [] as Video[], searched: [] as string[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
 
   // 1. 再生リスト → 動画ID（複数の再生リストに入っている動画は先に書いたシリーズを優先）
   const seriesOf = new Map<string, string>();
@@ -229,6 +253,7 @@ async function main() {
       if (city && !c && GEOCODE) {
         c = await geocode(city, iso);
         if (c) cities[`${iso}:${city}`] = c;
+        if (c?.source === 'search') report.searched.push(`${city}（${iso}）→ ${c.lat}, ${c.lng}`);
       }
       if (city && !c) report.noCoords.push(`${city}（${iso}）`);
       ss.push({ series_id: pl.id, seq: ss.length + 1, iso_n3: iso, city, lat: c?.lat ?? null, lng: c?.lng ?? null, arrived: when(v), departed: v.filmed_at?.to ?? when(v), video_ids: [v.video_id] });
@@ -267,6 +292,7 @@ async function main() {
     ...(report.added.length ? [`### 新しい動画`, ...report.added.map((v) => `- ${v.title}（${v.countries.join(',') || '国なし'}）`), ``] : []),
     ...(report.unresolved.length ? [`### 国が判定できなかった動画（overrides.json で指定してください）`, ...report.unresolved.map((v) => `- \`${v.video_id}\` ${v.title}`), ``] : []),
     ...(report.byName.length ? [`### 国旗が無く本文の国名から判定した動画（確認して overrides.json か reviewed で確定してください）`, ...report.byName.map((v) => `- \`${v.video_id}\` ${v.title} → ${v.countries.join(',')}`), ``] : []),
+    ...(report.searched.length ? [`### 検索で見つけた座標（別の場所の可能性あり。地図で確認し、違えば cities.json を直してください）`, ...report.searched.map((c) => `- ${c}`), ``] : []),
     ...(report.noCoords.length ? [`### 座標が見つからなかった都市（cities.json に追加してください）`, ...[...new Set(report.noCoords)].map((c) => `- ${c}`), ``] : []),
     ...(report.unknownFlags.length ? [`### 国コードに変換できなかった国旗`, ...report.unknownFlags.map((c) => `- ${c}`), ``] : []),
     ...(report.dup.length ? [`### 複数のシリーズに入っている動画（先のシリーズを採用）`, ...report.dup.map((c) => `- ${c}`), ``] : []),
