@@ -30,7 +30,8 @@ interface Props {
 const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries, fillWidth = false, noRoute = false } = Astro.props;
 const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
 // 凡例の「行った国」は、シリーズの色を全部入れた四角1つで表す
-const cols = allSeries.map((x) => seriesColor(x.id));
+// 日本国内編は金色の日本だけなので除く。同じ色のシリーズは1つにまとめる
+const cols = [...new Set(allSeries.filter((x) => x.group !== 'japan').map((x) => seriesColor(x.id)))];
 const multiColor = `conic-gradient(${cols.map((c, i) => `${c} ${(i * 100) / cols.length}% ${((i + 1) * 100) / cols.length}%`).join(', ')})`;
 // 地図は左右に複製してあり、横に何周でも回せる（src/scripts/map.ts）。
 // シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描く
@@ -132,7 +133,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     {routeLabel && (
       <span><svg class="lg-route" viewBox="0 0 22 8" aria-hidden="true"><path d="M1 6 Q11 0 21 6"></path></svg>{routeLabel}</span>
     )}
-    <span><i class="sw" style="background:var(--japan)"></i>日本</span>
+    {focusSeries && <span><i class="sw" style="background:var(--japan)"></i>日本</span>}
     <span><i class="sw outline"></i>最新動画の国</span>
     <span><i class="sw" style="background:var(--land)"></i>まだの国</span>
     {marker && (
