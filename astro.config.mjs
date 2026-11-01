@@ -1,9 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages（https://<user>.github.io/shigetabi-map/）を想定。独自ドメインにしたら BASE_PATH=/ でビルドする
+// 独自ドメイン（https://r-u-all-traveling.com/）の直下で公開する。
+// github.io のサブパスで出す場合は SITE_URL=https://yutafujii0.github.io BASE_PATH=/shigetabi-map でビルドする
 export default defineConfig({
-  site: process.env.SITE_URL ?? 'https://yutafujii0.github.io',
-  base: process.env.BASE_PATH ?? '/shigetabi-map',
+  site: process.env.SITE_URL ?? 'https://r-u-all-traveling.com',
+  base: process.env.BASE_PATH ?? '/',
   trailingSlash: 'ignore',
 });
