@@ -34,7 +34,7 @@ const jsonLd = [
 ---
 <Base home description={description} jsonLd={jsonLd}>
   <div class="main">
-    <WorldMap id="homemap" route={recentStops} routeButton="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow}>
+    <WorldMap id="homemap" route={recentStops} routeLabel="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow}>
       <!-- スマホ：国をタップしても自動ではスクロールせず、この案内から動画一覧へ移る -->
       <button type="button" class="pickchip" hidden></button>
     </WorldMap>

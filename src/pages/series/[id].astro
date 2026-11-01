@@ -65,7 +65,7 @@ const bubbles = [...visited].map((iso) => {
   </div>
 
   <div class="seriesmap">
-    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
+    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} routeLabel="ルート（番号は訪問順）" numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
   </div>
 
   <section class="box" style={`--focus:${seriesColor(se.id)}`}>

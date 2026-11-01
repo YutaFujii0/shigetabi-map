@@ -192,13 +192,6 @@ export function initMap(card: HTMLElement): MapController {
     card.dispatchEvent(new CustomEvent<PickDetail>('map:pick', { detail: { id, x: e.clientX - r.left, y: e.clientY - r.top } }));
   });
 
-  const rb = card.querySelector<HTMLButtonElement>('.routebtn');
-  rb?.addEventListener('click', () => {
-    const on = rb.getAttribute('aria-pressed') !== 'true';
-    rb.setAttribute('aria-pressed', String(on));
-    // 左右の複製（<use>）にも反映されるよう、クラスではなく要素自体の style で消す
-    gR.style.display = on ? '' : 'none';
-  });
 
   let lastNarrow = isNarrow();
   new ResizeObserver(() => {

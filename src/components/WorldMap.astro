@@ -12,8 +12,8 @@ interface Props {
   route: RouteStop[];
   /** 訪問順の番号を出す（シリーズページ） */
   numbered?: boolean;
-  /** ルートの表示/非表示ボタンのラベル。無ければボタンを出さない */
-  routeButton?: string;
+  /** 凡例に出すルートの説明（例：直近5か国のルート） */
+  routeLabel?: string;
   /** しげさんアイコンを出す（ホームのみ） */
   marker?: boolean;
   /** 初期表示の範囲。無ければ全体 */
@@ -23,7 +23,7 @@ interface Props {
   /** シリーズページ：このシリーズの国だけシリーズの色で塗り、ほかのシリーズで行った国は薄くする */
   focusSeries?: string;
 }
-const { id, route: rawRoute, numbered = false, routeButton, marker = false, fit, fitNarrow, focusSeries } = Astro.props;
+const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries } = Astro.props;
 const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
 // 地図は左右に複製してあり、横に何周でも回せる（src/scripts/map.ts）。
 // シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描く
@@ -119,13 +119,15 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
         {allSeries.map((x) => <span><i class="sw" style={`background:${seriesColor(x.id)}`}></i>{x.name.replace(/編$/, '')}</span>)}
       </>
     )}
+    {routeLabel && (
+      <span><svg class="lg-route" viewBox="0 0 22 8" aria-hidden="true"><path d="M1 6 Q11 0 21 6"></path></svg>{routeLabel}</span>
+    )}
     <span><i class="sw outline"></i>最新動画の国</span>
     <span><i class="sw" style="background:var(--land)"></i>まだの国</span>
     {marker && (
       <span><svg class="mk-ico" viewBox="-12 -12 24 24" aria-hidden="true"><g class="legend-mk"><circle class="ring" r="9"></circle><circle class="core" r="5"></circle></g></svg>しげさん（推定）</span>
     )}
   </div>
-  {routeButton && <button type="button" class="routebtn" aria-pressed="true">{routeButton}</button>}
   <div class="tip" hidden></div>
   <slot />
   <script type="application/json" data-tips set:html={JSON.stringify(tips)}></script>
