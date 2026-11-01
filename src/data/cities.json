@@ -1,4 +1,29 @@
 {
+  "008:ティラナ": {
+    "lat": 41.33,
+    "lng": 19.82,
+    "source": "wikipedia"
+  },
+  "020:アンドラ": {
+    "lat": 42.54,
+    "lng": 1.6,
+    "source": "wikipedia"
+  },
+  "028:アンティグアバーブーダ": {
+    "lat": 17.12,
+    "lng": -61.85,
+    "source": "wikipedia"
+  },
+  "031:バクー": {
+    "lat": 40.37,
+    "lng": 49.84,
+    "source": "wikipedia"
+  },
+  "032:ウシュアイア": {
+    "lat": -54.8,
+    "lng": -68.3,
+    "source": "wikipedia"
+  },
   "032:エルカラファテ": {
     "lat": -50.34,
     "lng": -72.27,
@@ -9,20 +34,705 @@
     "lng": -72.89,
     "source": "manual"
   },
+  "032:ブエノスアイレス": {
+    "lat": -34.6,
+    "lng": -58.38,
+    "source": "wikipedia"
+  },
+  "032:プエルトイグアス": {
+    "lat": -25.61,
+    "lng": -54.58,
+    "source": "wikipedia"
+  },
+  "036:ウルル": {
+    "lat": -25.34,
+    "lng": 131.04,
+    "source": "wikipedia"
+  },
+  "036:ケアンズ": {
+    "lat": -16.93,
+    "lng": 145.78,
+    "source": "wikipedia"
+  },
+  "036:ゴールドコースト": {
+    "lat": -28.17,
+    "lng": 153.55,
+    "source": "wikipedia"
+  },
+  "036:シドニー": {
+    "lat": -33.87,
+    "lng": 151.21,
+    "source": "wikipedia"
+  },
+  "036:タスマニア": {
+    "lat": -42,
+    "lng": 147,
+    "source": "wikipedia"
+  },
+  "036:パース": {
+    "lat": -31.96,
+    "lng": 115.86,
+    "source": "nominatim"
+  },
+  "036:ブリスベン": {
+    "lat": -27.47,
+    "lng": 153.03,
+    "source": "wikipedia"
+  },
+  "036:メルボルン": {
+    "lat": -37.82,
+    "lng": 144.96,
+    "source": "wikipedia"
+  },
+  "040:ウィーン": {
+    "lat": 48.21,
+    "lng": 16.37,
+    "source": "wikipedia"
+  },
+  "044:ナッソー": {
+    "lat": 25.08,
+    "lng": -77.34,
+    "source": "wikipedia"
+  },
+  "048:マナーマ": {
+    "lat": 26.22,
+    "lng": 50.58,
+    "source": "wikipedia"
+  },
+  "050:ダッカ": {
+    "lat": 23.73,
+    "lng": 90.39,
+    "source": "wikipedia"
+  },
+  "051:エレバン": {
+    "lat": 40.18,
+    "lng": 44.51,
+    "source": "wikipedia"
+  },
+  "052:バルバドス": {
+    "lat": 13.17,
+    "lng": -59.55,
+    "source": "wikipedia"
+  },
+  "056:ブリュッセル": {
+    "lat": 50.85,
+    "lng": 4.35,
+    "source": "wikipedia"
+  },
+  "064:ティンプー": {
+    "lat": 27.47,
+    "lng": 89.63,
+    "source": "wikipedia"
+  },
+  "064:パロ": {
+    "lat": 27.46,
+    "lng": 89.32,
+    "source": "nominatim"
+  },
+  "068:ウユニ塩湖": {
+    "lat": -20.33,
+    "lng": -67.7,
+    "source": "wikipedia"
+  },
+  "068:ラパス": {
+    "lat": -16.5,
+    "lng": -68.13,
+    "source": "wikipedia"
+  },
+  "070:サラエボ": {
+    "lat": 43.86,
+    "lng": 18.41,
+    "source": "wikipedia"
+  },
+  "076:サンパウロ": {
+    "lat": -23.54,
+    "lng": -46.63,
+    "source": "wikipedia"
+  },
+  "076:フォスドイグアス": {
+    "lat": -25.54,
+    "lng": -54.59,
+    "source": "wikipedia"
+  },
+  "076:ブラジリア": {
+    "lat": -15.8,
+    "lng": -47.86,
+    "source": "wikipedia"
+  },
+  "076:ベレン": {
+    "lat": -1.45,
+    "lng": -48.47,
+    "source": "nominatim"
+  },
+  "076:マナウス": {
+    "lat": -3.12,
+    "lng": -60.02,
+    "source": "wikipedia"
+  },
+  "076:リオデジャネイロ": {
+    "lat": -22.91,
+    "lng": -43.2,
+    "source": "wikipedia"
+  },
+  "084:キーカーカー": {
+    "lat": 17.74,
+    "lng": -88.02,
+    "source": "wikipedia"
+  },
   "084:サンペドロ": {
     "lat": 17.92,
     "lng": -87.96,
     "source": "manual"
   },
+  "084:ベリーズシティ": {
+    "lat": 17.5,
+    "lng": -88.19,
+    "source": "wikipedia"
+  },
+  "090:ホニアラ": {
+    "lat": -9.43,
+    "lng": 159.95,
+    "source": "wikipedia"
+  },
+  "096:バンダルスリブガワン": {
+    "lat": 4.92,
+    "lng": 114.92,
+    "source": "wikipedia"
+  },
+  "096:ブルネイ": {
+    "lat": 4.4,
+    "lng": 114.57,
+    "source": "wikipedia"
+  },
+  "100:ソフィア": {
+    "lat": 42.7,
+    "lng": 23.32,
+    "source": "nominatim"
+  },
+  "104:ヤンゴン": {
+    "lat": 16.8,
+    "lng": 96.16,
+    "source": "wikipedia"
+  },
+  "116:シェムリアップ": {
+    "lat": 13.36,
+    "lng": 103.86,
+    "source": "wikipedia"
+  },
+  "116:プノンペン": {
+    "lat": 11.55,
+    "lng": 104.92,
+    "source": "wikipedia"
+  },
+  "124:トロント": {
+    "lat": 43.67,
+    "lng": -79.39,
+    "source": "wikipedia"
+  },
+  "124:ナイアガラの滝": {
+    "lat": 43.08,
+    "lng": -79.07,
+    "source": "wikipedia"
+  },
+  "124:バンクーバー": {
+    "lat": 49.26,
+    "lng": -123.11,
+    "source": "nominatim"
+  },
+  "124:モントリオール": {
+    "lat": 45.5,
+    "lng": -73.59,
+    "source": "wikipedia"
+  },
+  "144:コロンボ": {
+    "lat": 6.93,
+    "lng": 79.86,
+    "source": "wikipedia"
+  },
+  "152:イースター島": {
+    "lat": -27.12,
+    "lng": -109.37,
+    "source": "wikipedia"
+  },
+  "152:サンティアゴ": {
+    "lat": -33.44,
+    "lng": -70.65,
+    "source": "nominatim"
+  },
+  "152:パタゴニア": {
+    "lat": -41.81,
+    "lng": -68.91,
+    "source": "wikipedia"
+  },
+  "152:プエルトウィリアムズ": {
+    "lat": -54.93,
+    "lng": -67.62,
+    "source": "wikipedia"
+  },
+  "152:プンタアレナス": {
+    "lat": -53.16,
+    "lng": -70.91,
+    "source": "wikipedia"
+  },
+  "156:上海": {
+    "lat": 31.17,
+    "lng": 121.48,
+    "source": "wikipedia"
+  },
+  "156:北京": {
+    "lat": 39.9,
+    "lng": 116.41,
+    "source": "wikipedia"
+  },
+  "156:広州": {
+    "lat": 23.13,
+    "lng": 113.26,
+    "source": "wikipedia"
+  },
+  "156:成都": {
+    "lat": 30.66,
+    "lng": 104.07,
+    "source": "wikipedia"
+  },
+  "156:深圳": {
+    "lat": 22.55,
+    "lng": 114.1,
+    "source": "wikipedia"
+  },
+  "156:重慶": {
+    "lat": 29.57,
+    "lng": 106.55,
+    "source": "wikipedia"
+  },
+  "158:台北": {
+    "lat": 25.09,
+    "lng": 121.56,
+    "source": "wikipedia"
+  },
+  "158:台南": {
+    "lat": 22.98,
+    "lng": 120.18,
+    "source": "wikipedia"
+  },
+  "158:高雄": {
+    "lat": 22.64,
+    "lng": 120.3,
+    "source": "nominatim"
+  },
+  "170:カリ": {
+    "lat": 3.45,
+    "lng": -76.53,
+    "source": "nominatim"
+  },
+  "170:ボゴタ": {
+    "lat": 4.61,
+    "lng": -74.08,
+    "source": "wikipedia"
+  },
+  "170:メデジン": {
+    "lat": 6.25,
+    "lng": -75.57,
+    "source": "wikipedia"
+  },
+  "184:ラロトンガ島": {
+    "lat": -21.23,
+    "lng": -159.78,
+    "source": "wikipedia"
+  },
+  "188:コスタリカ": {
+    "lat": 9.93,
+    "lng": -84.08,
+    "source": "wikipedia"
+  },
+  "188:サンホセ": {
+    "lat": 9.93,
+    "lng": -84.08,
+    "source": "nominatim"
+  },
+  "191:ザグレブ": {
+    "lat": 45.82,
+    "lng": 15.98,
+    "source": "wikipedia"
+  },
+  "191:ドブロブニク": {
+    "lat": 42.65,
+    "lng": 18.09,
+    "source": "search"
+  },
+  "192:ハバナ": {
+    "lat": 23.14,
+    "lng": -82.36,
+    "source": "wikipedia"
+  },
+  "192:バラデロ": {
+    "lat": 23.15,
+    "lng": -81.26,
+    "source": "nominatim"
+  },
   "196:アヤナパ": {
     "lat": 34.99,
-    "lng": 34.0,
+    "lng": 34,
     "source": "manual"
+  },
+  "196:ニコシア": {
+    "lat": 35.17,
+    "lng": 33.37,
+    "source": "wikipedia"
+  },
+  "203:プラハ": {
+    "lat": 50.08,
+    "lng": 14.42,
+    "source": "wikipedia"
+  },
+  "208:コペンハーゲン": {
+    "lat": 55.68,
+    "lng": 12.57,
+    "source": "wikipedia"
+  },
+  "212:ロゾー": {
+    "lat": 15.3,
+    "lng": -61.38,
+    "source": "wikipedia"
+  },
+  "214:サントドミンゴ": {
+    "lat": 18.46,
+    "lng": -69.94,
+    "source": "wikipedia"
+  },
+  "218:ガラパゴス諸島": {
+    "lat": -0.67,
+    "lng": -90.55,
+    "source": "wikipedia"
+  },
+  "218:キト": {
+    "lat": -0.22,
+    "lng": -78.51,
+    "source": "wikipedia"
+  },
+  "218:グアヤキル": {
+    "lat": -2.19,
+    "lng": -79.89,
+    "source": "wikipedia"
+  },
+  "222:サンサルバドル": {
+    "lat": 13.7,
+    "lng": -89.19,
+    "source": "wikipedia"
+  },
+  "233:タリン": {
+    "lat": 59.44,
+    "lng": 24.75,
+    "source": "wikipedia"
+  },
+  "242:スバ": {
+    "lat": -18.13,
+    "lng": 178.43,
+    "source": "wikipedia"
+  },
+  "242:ナンディ": {
+    "lat": -17.8,
+    "lng": 177.42,
+    "source": "wikipedia"
+  },
+  "246:ヘルシンキ": {
+    "lat": 60.17,
+    "lng": 24.94,
+    "source": "wikipedia"
+  },
+  "250:カイエンヌ": {
+    "lat": 4.93,
+    "lng": -52.33,
+    "source": "wikipedia"
+  },
+  "250:パリ": {
+    "lat": 48.86,
+    "lng": 2.35,
+    "source": "wikipedia"
+  },
+  "258:ボラボラ": {
+    "lat": -16.49,
+    "lng": -151.74,
+    "source": "search"
+  },
+  "268:トビリシ": {
+    "lat": 41.69,
+    "lng": 44.81,
+    "source": "wikipedia"
+  },
+  "268:バトゥミ": {
+    "lat": 41.65,
+    "lng": 41.64,
+    "source": "wikipedia"
+  },
+  "276:ベルリン": {
+    "lat": 52.52,
+    "lng": 13.38,
+    "source": "wikipedia"
+  },
+  "296:タラワ": {
+    "lat": 1.42,
+    "lng": 173.03,
+    "source": "wikipedia"
+  },
+  "300:アテネ": {
+    "lat": 37.98,
+    "lng": 23.73,
+    "source": "wikipedia"
+  },
+  "304:ヌーク": {
+    "lat": 64.18,
+    "lng": -51.73,
+    "source": "wikipedia"
+  },
+  "308:グレナダ": {
+    "lat": 12.1,
+    "lng": -61.7,
+    "source": "wikipedia"
+  },
+  "320:グアテマラシティ": {
+    "lat": 14.64,
+    "lng": -90.51,
+    "source": "wikipedia"
   },
   "320:フローレス": {
     "lat": 16.93,
     "lng": -89.89,
     "source": "manual"
+  },
+  "328:ジョージタウン": {
+    "lat": 6.8,
+    "lng": -58.15,
+    "source": "nominatim"
+  },
+  "336:バチカン": {
+    "lat": 41.9,
+    "lng": 12.45,
+    "source": "wikipedia"
+  },
+  "340:テグシガルパ": {
+    "lat": 14.11,
+    "lng": -87.2,
+    "source": "wikipedia"
+  },
+  "340:ロアタン島": {
+    "lat": 16.38,
+    "lng": -86.4,
+    "source": "wikipedia"
+  },
+  "344:香港": {
+    "lat": 22.27,
+    "lng": 114.19,
+    "source": "wikipedia"
+  },
+  "348:ブダペスト": {
+    "lat": 47.49,
+    "lng": 19.05,
+    "source": "wikipedia"
+  },
+  "352:レイキャビク": {
+    "lat": 64.15,
+    "lng": -21.93,
+    "source": "wikipedia"
+  },
+  "356:アグラ": {
+    "lat": 27.18,
+    "lng": 78.01,
+    "source": "nominatim"
+  },
+  "356:コルカタ": {
+    "lat": 22.57,
+    "lng": 88.36,
+    "source": "wikipedia"
+  },
+  "356:ジャイプール": {
+    "lat": 26.92,
+    "lng": 75.82,
+    "source": "wikipedia"
+  },
+  "356:デリー": {
+    "lat": 28.7,
+    "lng": 77.2,
+    "source": "wikipedia"
+  },
+  "356:バラナシ": {
+    "lat": 25.32,
+    "lng": 83.01,
+    "source": "wikipedia"
+  },
+  "356:ベンガルール": {
+    "lat": 12.97,
+    "lng": 77.56,
+    "source": "wikipedia"
+  },
+  "356:ムンバイ": {
+    "lat": 18.96,
+    "lng": 72.83,
+    "source": "wikipedia"
+  },
+  "360:ジャカルタ": {
+    "lat": -6.2,
+    "lng": 106.8,
+    "source": "wikipedia"
+  },
+  "360:バリ島": {
+    "lat": -8.37,
+    "lng": 115.14,
+    "source": "wikipedia"
+  },
+  "372:ダブリン": {
+    "lat": 53.34,
+    "lng": -6.27,
+    "source": "wikipedia"
+  },
+  "376:エルサレム": {
+    "lat": 31.78,
+    "lng": 35.22,
+    "source": "wikipedia"
+  },
+  "376:テルアビブ": {
+    "lat": 32.08,
+    "lng": 34.78,
+    "source": "wikipedia"
+  },
+  "380:ミラノ": {
+    "lat": 45.47,
+    "lng": 9.19,
+    "source": "wikipedia"
+  },
+  "380:ローマ": {
+    "lat": 41.89,
+    "lng": 12.48,
+    "source": "wikipedia"
+  },
+  "388:キングストン": {
+    "lat": 17.97,
+    "lng": -76.79,
+    "source": "nominatim"
+  },
+  "398:アスタナ": {
+    "lat": 51.13,
+    "lng": 71.43,
+    "source": "wikipedia"
+  },
+  "398:アルマティ": {
+    "lat": 43.24,
+    "lng": 76.92,
+    "source": "wikipedia"
+  },
+  "400:アンマン": {
+    "lat": 31.95,
+    "lng": 35.94,
+    "source": "wikipedia"
+  },
+  "400:ペトラ": {
+    "lat": 30.33,
+    "lng": 35.44,
+    "source": "wikipedia"
+  },
+  "410:ソウル": {
+    "lat": 37.57,
+    "lng": 126.97,
+    "source": "wikipedia"
+  },
+  "410:チェジュ": {
+    "lat": 33.49,
+    "lng": 126.5,
+    "source": "nominatim"
+  },
+  "410:釜山": {
+    "lat": 35.1,
+    "lng": 129.03,
+    "source": "wikipedia"
+  },
+  "414:クウェート": {
+    "lat": 29.17,
+    "lng": 47.6,
+    "source": "wikipedia"
+  },
+  "417:ビシュケク": {
+    "lat": 42.87,
+    "lng": 74.57,
+    "source": "wikipedia"
+  },
+  "418:ヴィエンチャン": {
+    "lat": 17.97,
+    "lng": 102.6,
+    "source": "wikipedia"
+  },
+  "418:バンビエン": {
+    "lat": 18.93,
+    "lng": 102.45,
+    "source": "wikipedia"
+  },
+  "418:ビエンチャン": {
+    "lat": 17.97,
+    "lng": 102.6,
+    "source": "wikipedia"
+  },
+  "418:ルアンパバーン": {
+    "lat": 19.88,
+    "lng": 102.13,
+    "source": "wikipedia"
+  },
+  "428:リガ": {
+    "lat": 56.95,
+    "lng": 24.11,
+    "source": "wikipedia"
+  },
+  "438:ファドゥーツ": {
+    "lat": 47.14,
+    "lng": 9.52,
+    "source": "wikipedia"
+  },
+  "440:ビリニュス": {
+    "lat": 54.69,
+    "lng": 25.28,
+    "source": "wikipedia"
+  },
+  "442:ルクセンブルク": {
+    "lat": 49.77,
+    "lng": 6.13,
+    "source": "wikipedia"
+  },
+  "446:マカオ": {
+    "lat": 22.19,
+    "lng": 113.54,
+    "source": "wikipedia"
+  },
+  "458:クアラルンプール": {
+    "lat": 3.13,
+    "lng": 101.7,
+    "source": "wikipedia"
+  },
+  "462:モルディブ": {
+    "lat": 4.18,
+    "lng": 73.51,
+    "source": "wikipedia"
+  },
+  "470:バレッタ": {
+    "lat": 35.9,
+    "lng": 14.51,
+    "source": "wikipedia"
+  },
+  "484:オアハカ": {
+    "lat": 17.06,
+    "lng": -96.73,
+    "source": "wikipedia"
+  },
+  "484:カンクン": {
+    "lat": 21.16,
+    "lng": -86.82,
+    "source": "wikipedia"
+  },
+  "484:グアダラハラ": {
+    "lat": 20.67,
+    "lng": -103.34,
+    "source": "nominatim"
+  },
+  "484:グアナファト": {
+    "lat": 21.02,
+    "lng": -101.26,
+    "source": "wikipedia"
   },
   "484:サンミゲルデアジェンデ": {
     "lat": 20.91,
@@ -34,9 +744,534 @@
     "lng": -87.08,
     "source": "manual"
   },
+  "484:メキシコシティ": {
+    "lat": 19.43,
+    "lng": -99.13,
+    "source": "wikipedia"
+  },
+  "492:モナコ": {
+    "lat": 43.73,
+    "lng": 7.42,
+    "source": "wikipedia"
+  },
+  "496:ウランバートル": {
+    "lat": 47.92,
+    "lng": 106.92,
+    "source": "wikipedia"
+  },
+  "496:モンゴル": {
+    "lat": 46,
+    "lng": 105,
+    "source": "wikipedia"
+  },
+  "498:キシナウ": {
+    "lat": 47.02,
+    "lng": 28.84,
+    "source": "wikipedia"
+  },
+  "499:ポドゴリツァ": {
+    "lat": 42.44,
+    "lng": 19.26,
+    "source": "wikipedia"
+  },
+  "512:マスカット": {
+    "lat": 23.61,
+    "lng": 58.59,
+    "source": "wikipedia"
+  },
+  "520:ナウル": {
+    "lat": -0.53,
+    "lng": 166.93,
+    "source": "wikipedia"
+  },
+  "524:カトマンズ": {
+    "lat": 27.7,
+    "lng": 85.33,
+    "source": "wikipedia"
+  },
+  "528:アムステルダム": {
+    "lat": 52.37,
+    "lng": 4.9,
+    "source": "wikipedia"
+  },
+  "534:セントマーチン": {
+    "lat": 18.07,
+    "lng": -63.05,
+    "source": "search"
+  },
+  "540:ヌメア": {
+    "lat": -22.28,
+    "lng": 166.46,
+    "source": "wikipedia"
+  },
+  "548:タンナ島": {
+    "lat": -19.5,
+    "lng": 169.33,
+    "source": "wikipedia"
+  },
+  "548:ポートビラ": {
+    "lat": -17.73,
+    "lng": 168.32,
+    "source": "wikipedia"
+  },
+  "554:ニュージーランド北島": {
+    "lat": -38.4,
+    "lng": 175.72,
+    "source": "wikipedia"
+  },
+  "554:ニュージーランド南島": {
+    "lat": -43.98,
+    "lng": 170.45,
+    "source": "wikipedia"
+  },
+  "558:マナグア": {
+    "lat": 12.15,
+    "lng": -86.27,
+    "source": "wikipedia"
+  },
+  "570:ニウエ": {
+    "lat": -19.07,
+    "lng": -169.87,
+    "source": "wikipedia"
+  },
+  "578:オスロ": {
+    "lat": 59.91,
+    "lng": 10.74,
+    "source": "wikipedia"
+  },
+  "583:チューク": {
+    "lat": 7.42,
+    "lng": 151.78,
+    "source": "search"
+  },
+  "583:ポンペイ": {
+    "lat": 6.91,
+    "lng": 158.1,
+    "source": "nominatim"
+  },
+  "584:マジュロ": {
+    "lat": 7.08,
+    "lng": 171.12,
+    "source": "wikipedia"
+  },
+  "585:パラオ": {
+    "lat": 7.35,
+    "lng": 134.51,
+    "source": "wikipedia"
+  },
+  "586:カラチ": {
+    "lat": 24.86,
+    "lng": 67.01,
+    "source": "wikipedia"
+  },
+  "586:フンザ": {
+    "lat": 36.32,
+    "lng": 74.65,
+    "source": "wikipedia"
+  },
+  "586:ラホール": {
+    "lat": 31.55,
+    "lng": 70.41,
+    "source": "wikipedia"
+  },
+  "591:パナマシティ": {
+    "lat": 8.97,
+    "lng": -79.53,
+    "source": "wikipedia"
+  },
+  "598:ポートモレスビー": {
+    "lat": -9.48,
+    "lng": 147.15,
+    "source": "wikipedia"
+  },
+  "600:アスンシオン": {
+    "lat": -25.28,
+    "lng": -57.63,
+    "source": "wikipedia"
+  },
+  "604:クスコ": {
+    "lat": -13.52,
+    "lng": -71.97,
+    "source": "wikipedia"
+  },
+  "604:マチュピチュ": {
+    "lat": -13.16,
+    "lng": -72.55,
+    "source": "wikipedia"
+  },
+  "604:リマ": {
+    "lat": -12.09,
+    "lng": -77.05,
+    "source": "wikipedia"
+  },
   "604:レインボーマウンテン": {
     "lat": -13.87,
     "lng": -71.3,
     "source": "manual"
+  },
+  "608:セブ": {
+    "lat": 10.29,
+    "lng": 123.9,
+    "source": "wikipedia"
+  },
+  "608:マニラ": {
+    "lat": 14.58,
+    "lng": 120.97,
+    "source": "wikipedia"
+  },
+  "616:クラクフ": {
+    "lat": 50.06,
+    "lng": 19.94,
+    "source": "wikipedia"
+  },
+  "616:ワルシャワ": {
+    "lat": 52.23,
+    "lng": 21.01,
+    "source": "wikipedia"
+  },
+  "620:リスボン": {
+    "lat": 38.73,
+    "lng": -9.15,
+    "source": "wikipedia"
+  },
+  "626:ディリ": {
+    "lat": -8.55,
+    "lng": 125.58,
+    "source": "wikipedia"
+  },
+  "634:ドーハ": {
+    "lat": 25.29,
+    "lng": 51.53,
+    "source": "wikipedia"
+  },
+  "642:ブカレスト": {
+    "lat": 44.41,
+    "lng": 26.1,
+    "source": "wikipedia"
+  },
+  "659:セントクリストファーネイビス": {
+    "lat": 17.27,
+    "lng": -62.67,
+    "source": "wikipedia"
+  },
+  "662:セントルシア": {
+    "lat": 13.88,
+    "lng": -60.97,
+    "source": "wikipedia"
+  },
+  "670:セントビンセント及びグレナディーン諸島": {
+    "lat": 13.25,
+    "lng": -61.2,
+    "source": "wikipedia"
+  },
+  "674:サンマリノ": {
+    "lat": 43.93,
+    "lng": 12.47,
+    "source": "wikipedia"
+  },
+  "682:ジェッダ": {
+    "lat": 21.53,
+    "lng": 39.16,
+    "source": "wikipedia"
+  },
+  "682:メディナ": {
+    "lat": 24.47,
+    "lng": 39.6,
+    "source": "wikipedia"
+  },
+  "682:リヤド": {
+    "lat": 24.64,
+    "lng": 46.72,
+    "source": "wikipedia"
+  },
+  "688:ベオグラード": {
+    "lat": 44.82,
+    "lng": 20.48,
+    "source": "wikipedia"
+  },
+  "702:シンガポール": {
+    "lat": 1.3,
+    "lng": 103.8,
+    "source": "wikipedia"
+  },
+  "703:ブラチスラバ": {
+    "lat": 48.15,
+    "lng": 17.11,
+    "source": "wikipedia"
+  },
+  "704:ダナン": {
+    "lat": 16.07,
+    "lng": 108.23,
+    "source": "wikipedia"
+  },
+  "704:ハノイ": {
+    "lat": 21.03,
+    "lng": 105.85,
+    "source": "wikipedia"
+  },
+  "704:ホーチミン": {
+    "lat": 10.77,
+    "lng": 106.72,
+    "source": "nominatim"
+  },
+  "705:リュブリャナ": {
+    "lat": 46.05,
+    "lng": 14.51,
+    "source": "wikipedia"
+  },
+  "724:サンセバスチャン": {
+    "lat": 43.32,
+    "lng": -1.99,
+    "source": "wikipedia"
+  },
+  "724:バルセロナ": {
+    "lat": 41.38,
+    "lng": 2.18,
+    "source": "wikipedia"
+  },
+  "724:マドリード": {
+    "lat": 40.42,
+    "lng": -3.69,
+    "source": "wikipedia"
+  },
+  "740:パラマリボ": {
+    "lat": 5.87,
+    "lng": -55.17,
+    "source": "wikipedia"
+  },
+  "752:ストックホルム": {
+    "lat": 59.33,
+    "lng": 18.07,
+    "source": "wikipedia"
+  },
+  "756:チューリッヒ": {
+    "lat": 47.37,
+    "lng": 8.54,
+    "source": "wikipedia"
+  },
+  "762:ドゥシャンベ": {
+    "lat": 38.57,
+    "lng": 68.79,
+    "source": "wikipedia"
+  },
+  "764:スラタニ": {
+    "lat": 9.14,
+    "lng": 99.32,
+    "source": "wikipedia"
+  },
+  "764:パンガン島": {
+    "lat": 9.73,
+    "lng": 100.01,
+    "source": "wikipedia"
+  },
+  "764:バンコク": {
+    "lat": 13.75,
+    "lng": 100.49,
+    "source": "wikipedia"
+  },
+  "764:プーケット": {
+    "lat": 7.98,
+    "lng": 98.33,
+    "source": "wikipedia"
+  },
+  "776:ヌクアロファ": {
+    "lat": -21.13,
+    "lng": -175.2,
+    "source": "wikipedia"
+  },
+  "780:ポートオブスペイン": {
+    "lat": 10.67,
+    "lng": -61.52,
+    "source": "wikipedia"
+  },
+  "784:アブダビ": {
+    "lat": 24.45,
+    "lng": 54.4,
+    "source": "wikipedia"
+  },
+  "784:ドバイ": {
+    "lat": 25.14,
+    "lng": 55.33,
+    "source": "wikipedia"
+  },
+  "788:スース": {
+    "lat": 35.83,
+    "lng": 10.63,
+    "source": "wikipedia"
+  },
+  "788:チュニス": {
+    "lat": 36.8,
+    "lng": 10.18,
+    "source": "wikipedia"
+  },
+  "792:イスタンブール": {
+    "lat": 41.01,
+    "lng": 28.96,
+    "source": "wikipedia"
+  },
+  "792:カッパドキア": {
+    "lat": 38.67,
+    "lng": 34.84,
+    "source": "wikipedia"
+  },
+  "795:アシガバット": {
+    "lat": 37.95,
+    "lng": 58.38,
+    "source": "wikipedia"
+  },
+  "795:地獄の門": {
+    "lat": 40.21,
+    "lng": 58.41,
+    "source": "nominatim"
+  },
+  "798:フナフティ": {
+    "lat": -8.5,
+    "lng": 179.12,
+    "source": "wikipedia"
+  },
+  "807:スコピエ": {
+    "lat": 42,
+    "lng": 21.43,
+    "source": "wikipedia"
+  },
+  "818:エジプト": {
+    "lat": 30.03,
+    "lng": 31.22,
+    "source": "wikipedia"
+  },
+  "818:カイロ": {
+    "lat": 30.03,
+    "lng": 31.23,
+    "source": "wikipedia"
+  },
+  "826:エディンバラ": {
+    "lat": 55.95,
+    "lng": -3.19,
+    "source": "wikipedia"
+  },
+  "826:カーディフ": {
+    "lat": 51.48,
+    "lng": -3.18,
+    "source": "wikipedia"
+  },
+  "826:グラスゴー": {
+    "lat": 55.86,
+    "lng": -4.25,
+    "source": "wikipedia"
+  },
+  "826:ベルファスト": {
+    "lat": 54.6,
+    "lng": -5.93,
+    "source": "wikipedia"
+  },
+  "826:マンチェスター": {
+    "lat": 53.48,
+    "lng": -2.25,
+    "source": "wikipedia"
+  },
+  "826:リバプール": {
+    "lat": 53.41,
+    "lng": -2.99,
+    "source": "wikipedia"
+  },
+  "826:ロンドン": {
+    "lat": 51.51,
+    "lng": -0.13,
+    "source": "wikipedia"
+  },
+  "840:アンカレッジ": {
+    "lat": 61.22,
+    "lng": -149.89,
+    "source": "wikipedia"
+  },
+  "840:グアム": {
+    "lat": 13.45,
+    "lng": 144.78,
+    "source": "wikipedia"
+  },
+  "840:サイパン": {
+    "lat": 15.18,
+    "lng": 145.76,
+    "source": "wikipedia"
+  },
+  "840:サンフランシスコ": {
+    "lat": 37.78,
+    "lng": -122.42,
+    "source": "wikipedia"
+  },
+  "840:シアトル": {
+    "lat": 47.61,
+    "lng": -122.33,
+    "source": "wikipedia"
+  },
+  "840:シリコンバレー": {
+    "lat": 37.38,
+    "lng": -122.07,
+    "source": "wikipedia"
+  },
+  "840:ニューヨーク": {
+    "lat": 40.71,
+    "lng": -74.01,
+    "source": "wikipedia"
+  },
+  "840:フェアバンクス": {
+    "lat": 64.84,
+    "lng": -147.72,
+    "source": "wikipedia"
+  },
+  "840:マイアミ": {
+    "lat": 25.77,
+    "lng": -80.19,
+    "source": "wikipedia"
+  },
+  "840:ラスベガス": {
+    "lat": 36.17,
+    "lng": -115.15,
+    "source": "wikipedia"
+  },
+  "840:ロサンゼルス": {
+    "lat": 34.05,
+    "lng": -118.24,
+    "source": "wikipedia"
+  },
+  "840:ワシントンD.C.": {
+    "lat": 38.9,
+    "lng": -77.04,
+    "source": "wikipedia"
+  },
+  "858:モンテビデオ": {
+    "lat": -34.88,
+    "lng": -56.17,
+    "source": "wikipedia"
+  },
+  "860:サマルカンド": {
+    "lat": 39.65,
+    "lng": 66.98,
+    "source": "wikipedia"
+  },
+  "860:タシケント": {
+    "lat": 41.31,
+    "lng": 69.28,
+    "source": "wikipedia"
+  },
+  "860:ブハラ": {
+    "lat": 39.77,
+    "lng": 64.43,
+    "source": "wikipedia"
+  },
+  "862:カラカス": {
+    "lat": 10.51,
+    "lng": -66.91,
+    "source": "wikipedia"
+  },
+  "882:アピア": {
+    "lat": -13.83,
+    "lng": -171.75,
+    "source": "wikipedia"
+  },
+  "983:プリシュティナ": {
+    "lat": 42.67,
+    "lng": 21.17,
+    "source": "wikipedia"
   }
 }

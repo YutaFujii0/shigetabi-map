@@ -1,11 +1,432 @@
 [
   {
-    "video_id": "sample00001",
-    "title": "ロンドン33歳ひとり旅🇬🇧鉄道ストライキに負けずパブをはしご【ヨーロッパ#01】2022年6月20日〜23日",
-    "published_at": "2022-09-04T10:00:00Z",
-    "duration": "PT25M13S",
+    "video_id": "aBhAn8VbMww",
+    "title": "バンコクからビエンチャン30歳ひとり旅。14時間の陸路国境越え。タイから寝台列車とバスを乗り継ぎラオスへ【東南アジア一周#1】",
+    "published_at": "2020-03-19T20:16:14Z",
+    "duration": "PT8M23S",
+    "series_id": "southeast-asia",
+    "episode": 1,
+    "countries": [
+      "764",
+      "418"
+    ],
+    "cities": [
+      "ビエンチャン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/aBhAn8VbMww/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "uniUFcdmqXQ",
+    "title": "ビエンチャン30歳ひとり旅。ラオスの首都は世界一何も無いって本当ですか？【東南アジア一周#2】",
+    "published_at": "2020-03-22T11:13:40Z",
+    "duration": "PT10M27S",
+    "series_id": "southeast-asia",
+    "episode": 2,
+    "countries": [
+      "418"
+    ],
+    "cities": [
+      "ビエンチャン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/uniUFcdmqXQ/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "hB4feyAW5Vk",
+    "title": "バンビエン30歳ひとり旅。バックパッカーが集まるラオスの秘境【東南アジア一周#3】",
+    "published_at": "2020-03-25T19:27:03Z",
+    "duration": "PT10M56S",
+    "series_id": "southeast-asia",
+    "episode": 3,
+    "countries": [
+      "418"
+    ],
+    "cities": [
+      "バンビエン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/hB4feyAW5Vk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "JKhogq0hkTQ",
+    "title": "ルアンパバーン30歳ひとり旅。ラオスの古都は街全体が世界遺産【東南アジア一周#4】",
+    "published_at": "2020-03-28T12:13:26Z",
+    "duration": "PT10M24S",
+    "series_id": "southeast-asia",
+    "episode": 4,
+    "countries": [
+      "418"
+    ],
+    "cities": [
+      "ルアンパバーン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/JKhogq0hkTQ/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "MHUjhwAHSG8",
+    "title": "シェムリアップ30歳ひとり旅。カンボジアの超巨大遺跡アンコールワット【東南アジア一周#5】",
+    "published_at": "2020-04-01T10:35:41Z",
+    "duration": "PT9M55S",
+    "series_id": "southeast-asia",
+    "episode": 5,
+    "countries": [
+      "116"
+    ],
+    "cities": [
+      "シェムリアップ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/MHUjhwAHSG8/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "EYK0dDdNp5s",
+    "title": "【閲覧注意】プノンペン30歳ひとり旅。カンボジア大虐殺の悲しい歴史【東南アジア一周#6】",
+    "published_at": "2020-04-04T18:35:58Z",
+    "duration": "PT8M11S",
+    "series_id": "southeast-asia",
+    "episode": 6,
+    "countries": [
+      "116"
+    ],
+    "cities": [
+      "プノンペン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/EYK0dDdNp5s/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "qbVuucMZhho",
+    "title": "ホーチミン30歳ひとり旅。ベトナム最大都市の道路は人間イライラ棒です【東南アジア一周#7】",
+    "published_at": "2020-04-09T13:07:16Z",
+    "duration": "PT10M41S",
+    "series_id": "southeast-asia",
+    "episode": 7,
+    "countries": [
+      "704"
+    ],
+    "cities": [
+      "ホーチミン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/qbVuucMZhho/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "KoDCdh8PWs8",
+    "title": "ダナン、ホイアン30歳ひとり旅。ベトナムはフォーだけじゃない。あなたが知らないベトナム中部飯【東南アジア一周#8】",
+    "published_at": "2020-04-18T13:23:24Z",
+    "duration": "PT15M58S",
+    "series_id": "southeast-asia",
+    "episode": 8,
+    "countries": [
+      "704"
+    ],
+    "cities": [
+      "ダナン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/KoDCdh8PWs8/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "UVQTEY1Hl_Y",
+    "title": "ハノイ30歳ひとり旅。ベトナム北部の世界遺産ハロン湾【東南アジア一周#9】",
+    "published_at": "2020-04-25T15:50:40Z",
+    "duration": "PT11M16S",
+    "series_id": "southeast-asia",
+    "episode": 9,
+    "countries": [
+      "704"
+    ],
+    "cities": [
+      "ハノイ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/UVQTEY1Hl_Y/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "PEeoz5S7oWo",
+    "title": "マニラ30歳ひとり旅。フィリピンの首都はカオスな大都市【東南アジア一周#10】",
+    "published_at": "2020-05-05T07:59:48Z",
+    "duration": "PT8M43S",
+    "series_id": "southeast-asia",
+    "episode": 10,
+    "countries": [
+      "608"
+    ],
+    "cities": [
+      "マニラ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/PEeoz5S7oWo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "Sw6X0Wouv9E",
+    "title": "バンダルスリブガワン30歳ひとり旅。ブルネイの首都に2泊3日4,000円で滞在【東南アジア一周#11】",
+    "published_at": "2020-05-10T03:00:07Z",
+    "duration": "PT13M21S",
+    "series_id": "southeast-asia",
+    "episode": 11,
+    "countries": [
+      "096"
+    ],
+    "cities": [
+      "バンダルスリブガワン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Sw6X0Wouv9E/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "ae8mmgO-hAk",
+    "title": "シンガポール30歳ひとり旅。だけど友達いすぎて全然ひとりじゃない！【東南アジア一周#12】",
+    "published_at": "2020-05-17T08:48:57Z",
+    "duration": "PT12M59S",
+    "series_id": "southeast-asia",
+    "episode": 12,
+    "countries": [
+      "702"
+    ],
+    "cities": [
+      "シンガポール"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/ae8mmgO-hAk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "HSsUlxUjT4Y",
+    "title": "ジャカルタ30歳ひとり旅。インドネシアの首都は格差がカオス。世界第二位のメガシティ【東南アジア一周#13】",
+    "published_at": "2020-05-24T11:59:02Z",
+    "duration": "PT14M54S",
+    "series_id": "southeast-asia",
+    "episode": 13,
+    "countries": [
+      "360"
+    ],
+    "cities": [
+      "ジャカルタ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/HSsUlxUjT4Y/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "zH2qWVNMeTY",
+    "title": "クアラルンプール30歳ひとり旅。マレーシア（13年連続移住したい国No.1）の首都！【東南アジア一周#14】",
+    "published_at": "2020-06-06T03:00:18Z",
+    "duration": "PT17M36S",
+    "series_id": "southeast-asia",
+    "episode": 14,
+    "countries": [
+      "458"
+    ],
+    "cities": [
+      "クアラルンプール"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/zH2qWVNMeTY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "NIzxO-ia5OI",
+    "title": "ヤンゴン30歳ひとり旅前編。ミャンマーでぼったくりトゥクトゥクと口論になった【東南アジア一周#15】",
+    "published_at": "2020-06-28T11:00:06Z",
+    "duration": "PT18M49S",
+    "series_id": "southeast-asia",
+    "episode": 15,
+    "countries": [
+      "104"
+    ],
+    "cities": [
+      "ヤンゴン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/NIzxO-ia5OI/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "ZdnuYrdwJ5I",
+    "title": "ヤンゴン30歳ひとり旅後編。ミャンマーのゴールデンロックと屋台飯！【東南アジア一周#16】",
+    "published_at": "2020-07-05T03:00:04Z",
+    "duration": "PT14M41S",
+    "series_id": "southeast-asia",
+    "episode": 16,
+    "countries": [
+      "104"
+    ],
+    "cities": [
+      "ヤンゴン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/ZdnuYrdwJ5I/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "jlKvY3F5Pcw",
+    "title": "パンガン島30歳ひとり旅前編。タイの美しいビーチを巡る！【東南アジア一周#17】",
+    "published_at": "2020-07-11T10:00:12Z",
+    "duration": "PT13M42S",
+    "series_id": "southeast-asia",
+    "episode": 17,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "パンガン島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/jlKvY3F5Pcw/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "sJVTuNIjkMo",
+    "title": "フルムーンパーティー30歳ひとり旅。タイのパンガン島の世界三大パーティー！【東南アジア一周#18】",
+    "published_at": "2020-07-18T03:00:07Z",
+    "duration": "PT10M24S",
+    "series_id": "southeast-asia",
+    "episode": 18,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "パンガン島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/sJVTuNIjkMo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "x1i53Ztn9bM",
+    "title": "スラタニ30歳ひとり旅。地方都市のナイトマーケットで屋台飯。そして成田へ帰国【東南アジア一周#19（完結）】",
+    "published_at": "2020-07-29T12:00:15Z",
+    "duration": "PT14M26S",
+    "series_id": "southeast-asia",
+    "episode": null,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "スラタニ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/x1i53Ztn9bM/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "CQ1F6LaIpug",
+    "title": "成田ロンドン33歳ひとり旅。エティハド航空で二年半ぶりに海外行ったら22時間フライトがキツすぎた。【ヨーロッパ#1】2022年6月19日〜20日",
+    "published_at": "2022-06-20T15:00:13Z",
+    "duration": "PT10M",
     "series_id": "europe",
     "episode": 1,
+    "countries": [],
+    "cities": [],
+    "filmed_at": {
+      "from": "2022-06-19",
+      "to": "2022-06-20"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/CQ1F6LaIpug/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "js-xFxZPgA8",
+    "title": "ロンドン33歳ひとり旅🇬🇧鉄道ストライキに負けずパブ6軒はしご酒とフィッシュ＆チップス【ヨーロッパ#2】2022年6月20日〜23日",
+    "published_at": "2022-06-24T11:00:36Z",
+    "duration": "PT27M34S",
+    "series_id": "europe",
+    "episode": 2,
     "countries": [
       "826"
     ],
@@ -16,19 +437,20 @@
       "from": "2022-06-20",
       "to": "2022-06-23"
     },
+    "thumbnail": "https://i.ytimg.com/vi/js-xFxZPgA8/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00002",
-    "title": "ダブリン33歳ひとり旅🇮🇪本場のギネスビールが旨すぎた【ヨーロッパ#02】2022年6月23日〜25日",
-    "published_at": "2022-09-09T10:00:00Z",
-    "duration": "PT32M26S",
+    "video_id": "wHjx3xlvuvI",
+    "title": "ダブリン33歳ひとり旅🇮🇪本場のギネスビール旨すぎた。【ヨーロッパ#3】2022年6月23日〜25日",
+    "published_at": "2022-07-01T11:00:41Z",
+    "duration": "PT23M37S",
     "series_id": "europe",
-    "episode": 2,
+    "episode": 3,
     "countries": [
       "372"
     ],
@@ -39,19 +461,20 @@
       "from": "2022-06-23",
       "to": "2022-06-25"
     },
+    "thumbnail": "https://i.ytimg.com/vi/wHjx3xlvuvI/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00003",
-    "title": "パリ33歳ひとり旅🇫🇷街全体が美術館のような街並み【ヨーロッパ#03】2022年6月25日〜28日",
-    "published_at": "2022-09-06T10:00:00Z",
-    "duration": "PT20M39S",
+    "video_id": "_hj-f1X89C4",
+    "title": "パリ33歳ひとり旅🇫🇷街全体が美術館の美しい街並み。【ヨーロッパ#4】2022年6月25日〜28日",
+    "published_at": "2022-07-04T12:30:10Z",
+    "duration": "PT21M56S",
     "series_id": "europe",
-    "episode": 3,
+    "episode": 4,
     "countries": [
       "250"
     ],
@@ -62,19 +485,68 @@
       "from": "2022-06-25",
       "to": "2022-06-28"
     },
+    "thumbnail": "https://i.ytimg.com/vi/_hj-f1X89C4/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00004",
-    "title": "アムステルダム33歳ひとり旅🇳🇱自由すぎる国オランダ【ヨーロッパ#04】2022年7月3日〜6日",
-    "published_at": "2022-09-17T10:00:00Z",
-    "duration": "PT27M52S",
+    "video_id": "RZ3i1O4jXTQ",
+    "title": "ルクセンブルク33歳ひとり旅🇱🇺一人当たりGDP世界一の要塞国家。【ヨーロッパ#5】2022年6月28日〜30日",
+    "published_at": "2022-07-07T14:45:04Z",
+    "duration": "PT19M13S",
     "series_id": "europe",
-    "episode": 4,
+    "episode": 5,
+    "countries": [
+      "442"
+    ],
+    "cities": [
+      "ルクセンブルク"
+    ],
+    "filmed_at": {
+      "from": "2022-06-28",
+      "to": "2022-06-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/RZ3i1O4jXTQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "5ByMGCE8rE4",
+    "title": "ブリュッセル33歳ひとり旅🇧🇪ビール大国の世界一美しい広場と美食の街。【ヨーロッパ#6】2022年6月30日〜7月3日",
+    "published_at": "2022-07-10T14:12:39Z",
+    "duration": "PT22M3S",
+    "series_id": "europe",
+    "episode": 6,
+    "countries": [
+      "056"
+    ],
+    "cities": [
+      "ブリュッセル"
+    ],
+    "filmed_at": {
+      "from": "2022-06-30",
+      "to": "2022-07-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/5ByMGCE8rE4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "nfia5ep3bIo",
+    "title": "アムステルダム33歳ひとり旅🇳🇱日本ではあり得ない自由すぎる国オランダ。【ヨーロッパ#7】2022年7月3日〜6日",
+    "published_at": "2022-07-14T11:00:34Z",
+    "duration": "PT23M10S",
+    "series_id": "europe",
+    "episode": 7,
     "countries": [
       "528"
     ],
@@ -85,19 +557,20 @@
       "from": "2022-07-03",
       "to": "2022-07-06"
     },
+    "thumbnail": "https://i.ytimg.com/vi/nfia5ep3bIo/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00005",
-    "title": "ベルリン33歳ひとり旅🇩🇪巨大ビールとソーセージ【ヨーロッパ#05】2022年7月6日〜9日",
-    "published_at": "2022-09-23T10:00:00Z",
-    "duration": "PT34M5S",
+    "video_id": "cM-zweiLMOg",
+    "title": "ベルリン33歳ひとり旅🇩🇪ドイツといえば巨大ビールとソーセージ。【ヨーロッパ#8】2022年7月6日〜9日",
+    "published_at": "2022-07-17T13:30:23Z",
+    "duration": "PT26M54S",
     "series_id": "europe",
-    "episode": 5,
+    "episode": 8,
     "countries": [
       "276"
     ],
@@ -108,19 +581,68 @@
       "from": "2022-07-06",
       "to": "2022-07-09"
     },
+    "thumbnail": "https://i.ytimg.com/vi/cM-zweiLMOg/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00006",
-    "title": "ストックホルム33歳ひとり旅🇸🇪北欧のヴェネツィアを歩く【ヨーロッパ#06】2022年7月15日〜18日",
-    "published_at": "2022-09-26T10:00:00Z",
-    "duration": "PT22M18S",
+    "video_id": "sS99_xnIn9M",
+    "title": "コペンハーゲン33歳ひとり旅🇩🇰カールスバーグと北欧の街並み。【ヨーロッパ#9】2022年7月9日〜12日",
+    "published_at": "2022-07-20T11:00:36Z",
+    "duration": "PT22M48S",
     "series_id": "europe",
-    "episode": 6,
+    "episode": 9,
+    "countries": [
+      "208"
+    ],
+    "cities": [
+      "コペンハーゲン"
+    ],
+    "filmed_at": {
+      "from": "2022-07-09",
+      "to": "2022-07-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sS99_xnIn9M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "iH6BjUI1cSU",
+    "title": "オスロ33歳ひとり旅🇳🇴ノルウェーの飲食が高すぎて失神寸前。【ヨーロッパ#10】2022年7月12日〜15日",
+    "published_at": "2022-07-23T12:00:21Z",
+    "duration": "PT22M8S",
+    "series_id": "europe",
+    "episode": 10,
+    "countries": [
+      "578"
+    ],
+    "cities": [
+      "オスロ"
+    ],
+    "filmed_at": {
+      "from": "2022-07-12",
+      "to": "2022-07-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/iH6BjUI1cSU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1pBKT9gtWko",
+    "title": "ストックホルム33歳ひとり旅🇸🇪世界一美しい首都と称される北欧のヴェネツィア【ヨーロッパ#11】2022年7月15日〜18日",
+    "published_at": "2022-07-26T12:31:16Z",
+    "duration": "PT25M17S",
+    "series_id": "europe",
+    "episode": 11,
     "countries": [
       "752"
     ],
@@ -131,19 +653,140 @@
       "from": "2022-07-15",
       "to": "2022-07-18"
     },
+    "thumbnail": "https://i.ytimg.com/vi/1pBKT9gtWko/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00007",
-    "title": "クラクフ33歳ひとり旅🇵🇱美しき古都を歩く【ヨーロッパ#07】2022年8月2日〜4日",
-    "published_at": "2022-10-16T10:00:00Z",
-    "duration": "PT29M31S",
+    "video_id": "SRW6Bl6j4xQ",
+    "title": "ヘルシンキ33歳ひとり旅🇫🇮物価も街並みも北欧で一番穏やか【ヨーロッパ#12】2022年7月18日〜21日",
+    "published_at": "2022-07-29T16:30:07Z",
+    "duration": "PT24M",
     "series_id": "europe",
-    "episode": 7,
+    "episode": 12,
+    "countries": [
+      "246"
+    ],
+    "cities": [
+      "ヘルシンキ"
+    ],
+    "filmed_at": {
+      "from": "2022-07-18",
+      "to": "2022-07-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SRW6Bl6j4xQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "jzLxMGexKQI",
+    "title": "タリン33歳ひとり旅🇪🇪電子国家で有名だけど実は旧市街が最高【ヨーロッパ#13】2022年7月21日〜24日",
+    "published_at": "2022-08-01T13:22:16Z",
+    "duration": "PT24M37S",
+    "series_id": "europe",
+    "episode": 13,
+    "countries": [
+      "233"
+    ],
+    "cities": [
+      "タリン"
+    ],
+    "filmed_at": {
+      "from": "2022-07-21",
+      "to": "2022-07-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/jzLxMGexKQI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NVKz8pUU7FA",
+    "title": "リガ33歳ひとり旅🇱🇻意外と良いぞバルト三国【ヨーロッパ#14】2022年7月24日〜27日",
+    "published_at": "2022-08-04T19:00:07Z",
+    "duration": "PT21M35S",
+    "series_id": "europe",
+    "episode": 14,
+    "countries": [
+      "428"
+    ],
+    "cities": [
+      "リガ"
+    ],
+    "filmed_at": {
+      "from": "2022-07-24",
+      "to": "2022-07-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NVKz8pUU7FA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "fP_g3XmTl0Q",
+    "title": "ビリニュス33歳ひとり旅🇱🇹杉原千畝が6000人以上のユダヤ人を救ったリトアニア【ヨーロッパ#15 】2022年7月27日〜30日",
+    "published_at": "2022-08-08T00:15:01Z",
+    "duration": "PT25M31S",
+    "series_id": "europe",
+    "episode": 15,
+    "countries": [
+      "440"
+    ],
+    "cities": [
+      "ビリニュス"
+    ],
+    "filmed_at": {
+      "from": "2022-07-27",
+      "to": "2022-07-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/fP_g3XmTl0Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WaweQjf_PB4",
+    "title": "ワルシャワ33歳ひとり旅🇵🇱大都市なのに物価激安！【ヨーロッパ#16 】2022年7月30日〜8月2日",
+    "published_at": "2022-08-11T01:30:06Z",
+    "duration": "PT23M31S",
+    "series_id": "europe",
+    "episode": 16,
+    "countries": [
+      "616"
+    ],
+    "cities": [
+      "ワルシャワ"
+    ],
+    "filmed_at": {
+      "from": "2022-07-30",
+      "to": "2022-08-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WaweQjf_PB4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "V9j5L5uh47M",
+    "title": "クラクフ33歳ひとり旅🇵🇱美しき古都からアウシュビッツ収容所へ【ヨーロッパ#17】2022年8月2日〜4日",
+    "published_at": "2022-08-18T07:48:38Z",
+    "duration": "PT28M42S",
+    "series_id": "europe",
+    "episode": 17,
     "countries": [
       "616"
     ],
@@ -154,19 +797,188 @@
       "from": "2022-08-02",
       "to": "2022-08-04"
     },
+    "thumbnail": "https://i.ytimg.com/vi/V9j5L5uh47M/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00008",
-    "title": "レイキャビク33歳ひとり旅🇮🇸アイスランドの大自然が想像を絶してた【ヨーロッパ#08】2022年8月21日〜22日",
-    "published_at": "2022-11-06T10:00:00Z",
-    "duration": "PT36M44S",
+    "video_id": "0fPTSg9bf-I",
+    "title": "プラハ33歳ひとり旅🇨🇿百塔の街が美しい激安ビール天国【ヨーロッパ#18】2022年8月4日〜6日",
+    "published_at": "2022-08-22T01:00:00Z",
+    "duration": "PT23M2S",
     "series_id": "europe",
-    "episode": 8,
+    "episode": 18,
+    "countries": [
+      "203"
+    ],
+    "cities": [
+      "プラハ"
+    ],
+    "filmed_at": {
+      "from": "2022-08-04",
+      "to": "2022-08-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0fPTSg9bf-I/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "YwpwfGV07pc",
+    "title": "ウィーン33歳ひとり旅🇦🇹オーストリア帝国の面影が残る豪華すぎる街並み【ヨーロッパ#19】2022年8月6日〜9日",
+    "published_at": "2022-08-26T00:00:19Z",
+    "duration": "PT23M3S",
+    "series_id": "europe",
+    "episode": 19,
+    "countries": [
+      "040"
+    ],
+    "cities": [
+      "ウィーン"
+    ],
+    "filmed_at": {
+      "from": "2022-08-06",
+      "to": "2022-08-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/YwpwfGV07pc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "RynpqUu-aLo",
+    "title": "ブラチスラバ33歳ひとり旅🇸🇰チェコと分離独立したスロバキア【ヨーロッパ#20】2022年8月9日〜11日",
+    "published_at": "2022-08-28T12:48:54Z",
+    "duration": "PT21M32S",
+    "series_id": "europe",
+    "episode": 20,
+    "countries": [
+      "703"
+    ],
+    "cities": [
+      "ブラチスラバ"
+    ],
+    "filmed_at": {
+      "from": "2022-08-09",
+      "to": "2022-08-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/RynpqUu-aLo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "S9ihZa25x74",
+    "title": "ブダペスト33歳ひとり旅🇭🇺激安フォアグラと混浴温泉に悶絶ワインもあるドナウの真珠【ヨーロッパ#21】2022年8月11日〜13日",
+    "published_at": "2022-09-01T00:00:05Z",
+    "duration": "PT25M39S",
+    "series_id": "europe",
+    "episode": 21,
+    "countries": [
+      "348"
+    ],
+    "cities": [
+      "ブダペスト"
+    ],
+    "filmed_at": {
+      "from": "2022-08-11",
+      "to": "2022-08-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/S9ihZa25x74/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "k0ET1z9BFdI",
+    "title": "【悲報】レイキャビク33歳ひとり旅🇮🇸グリーンランドに行けなくなりました...【ヨーロッパ#22】2022年8月13日〜16日",
+    "published_at": "2022-09-08T02:37:15Z",
+    "duration": "PT23M3S",
+    "series_id": "europe",
+    "episode": 22,
+    "countries": [
+      "352"
+    ],
+    "cities": [
+      "レイキャビク"
+    ],
+    "filmed_at": {
+      "from": "2022-08-13",
+      "to": "2022-08-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/k0ET1z9BFdI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "phYC5f9OwyI",
+    "title": "ヌーク33歳ひとり旅🇬🇱グリーンランドのフィヨルドツアーでウィスキー流氷ロック【ヨーロッパ#23】2022年8月16日〜18日",
+    "published_at": "2022-09-12T11:30:11Z",
+    "duration": "PT21M7S",
+    "series_id": "europe",
+    "episode": 23,
+    "countries": [
+      "304"
+    ],
+    "cities": [
+      "ヌーク"
+    ],
+    "filmed_at": {
+      "from": "2022-08-16",
+      "to": "2022-08-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/phYC5f9OwyI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_1Z84pw5YVA",
+    "title": "ヌーク33歳ひとり旅🇬🇱グリーンランドで外国人と呑み歩いたら絶望した俺の英語力を晒します【ヨーロッパ#24】2022年8月18日〜21日",
+    "published_at": "2022-09-15T18:15:42Z",
+    "duration": "PT19M49S",
+    "series_id": "europe",
+    "episode": 24,
+    "countries": [
+      "304"
+    ],
+    "cities": [
+      "ヌーク"
+    ],
+    "filmed_at": {
+      "from": "2022-08-18",
+      "to": "2022-08-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_1Z84pw5YVA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "fK0_J6mXz-c",
+    "title": "レイキャビク33歳ひとり旅🇮🇸アイスランドの大自然が想像を絶してた【ヨーロッパ#25 】2022年8月21日〜24日",
+    "published_at": "2022-09-18T12:00:20Z",
+    "duration": "PT32M",
+    "series_id": "europe",
+    "episode": 25,
     "countries": [
       "352"
     ],
@@ -175,249 +987,950 @@
     ],
     "filmed_at": {
       "from": "2022-08-21",
-      "to": "2022-08-22"
-    },
-    "extract": {
-      "method": "title",
-      "confidence": 1,
-      "reviewed": true
-    }
-  },
-  {
-    "video_id": "sample00009",
-    "title": "レイキャビク33歳ひとり旅🇮🇸温泉ラグーンで一杯【ヨーロッパ#09】2022年8月22日〜24日",
-    "published_at": "2022-11-02T10:00:00Z",
-    "duration": "PT24M57S",
-    "series_id": "europe",
-    "episode": 9,
-    "countries": [
-      "352"
-    ],
-    "cities": [
-      "レイキャビク"
-    ],
-    "filmed_at": {
-      "from": "2022-08-22",
       "to": "2022-08-24"
     },
+    "thumbnail": "https://i.ytimg.com/vi/fK0_J6mXz-c/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00010",
-    "title": "ニューヨーク33歳ひとり旅🇺🇸物価高のマンハッタンで飲み歩き【北米#01】2022年10月10日〜12日",
-    "published_at": "2022-12-24T10:00:00Z",
-    "duration": "PT31M10S",
-    "series_id": "north-america",
-    "episode": 1,
+    "video_id": "aWFYUASM_2c",
+    "title": "カーディフ33歳ひとり旅🏴󠁧󠁢󠁷󠁬󠁳󠁿ウェールズって国なの？国じゃないの？【ヨーロッパ#26 】2022年8月24日〜28日",
+    "published_at": "2022-09-21T12:04:42Z",
+    "duration": "PT30M26S",
+    "series_id": "europe",
+    "episode": 26,
     "countries": [
-      "840"
+      "826"
     ],
     "cities": [
-      "ニューヨーク"
+      "カーディフ"
     ],
     "filmed_at": {
-      "from": "2022-10-10",
-      "to": "2022-10-12"
+      "from": "2022-08-24",
+      "to": "2022-08-28"
     },
+    "thumbnail": "https://i.ytimg.com/vi/aWFYUASM_2c/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00011",
-    "title": "ニューヨーク33歳ひとり旅🇺🇸ブルックリンの古着とクラフトビール【北米#02】2022年10月12日〜15日",
-    "published_at": "2022-12-30T10:00:00Z",
-    "duration": "PT19M23S",
-    "series_id": "north-america",
-    "episode": 2,
+    "video_id": "JDp45rXnnSw",
+    "title": "ベルファスト33歳ひとり旅🇬🇧かつてテロが頻発した北アイルランド紛争の現在【ヨーロッパ#27 】2022年8月28日〜31日",
+    "published_at": "2022-09-23T12:10:24Z",
+    "duration": "PT21M9S",
+    "series_id": "europe",
+    "episode": 27,
     "countries": [
-      "840"
+      "826"
     ],
     "cities": [
-      "ニューヨーク"
+      "ベルファスト"
+    ],
+    "filmed_at": {
+      "from": "2022-08-28",
+      "to": "2022-08-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/JDp45rXnnSw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1AA0LDFhViE",
+    "title": "エディンバラ33歳ひとり旅🏴󠁧󠁢󠁳󠁣󠁴󠁿USJよりハリーポッターな魔法の街【ヨーロッパ#28 】2022年8月31日〜9月1日",
+    "published_at": "2022-09-25T12:22:14Z",
+    "duration": "PT18M54S",
+    "series_id": "europe",
+    "episode": 28,
+    "countries": [
+      "826"
+    ],
+    "cities": [
+      "エディンバラ"
+    ],
+    "filmed_at": {
+      "from": "2022-08-31",
+      "to": "2022-09-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1AA0LDFhViE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "D9qxxF0JwPs",
+    "title": "エディンバラ33歳ひとり旅🏴󠁧󠁢󠁳󠁣󠁴󠁿本場のスコッチウィスキー呑み比べ【ヨーロッパ#29 】2022年9月2日〜3日",
+    "published_at": "2022-09-28T11:00:07Z",
+    "duration": "PT14M39S",
+    "series_id": "europe",
+    "episode": 29,
+    "countries": [
+      "826"
+    ],
+    "cities": [
+      "エディンバラ"
+    ],
+    "filmed_at": {
+      "from": "2022-09-02",
+      "to": "2022-09-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/D9qxxF0JwPs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "33yq7ydWRUg",
+    "title": "グラスゴー33歳ひとり旅🏴󠁧󠁢󠁳󠁣󠁴󠁿登録者20万人をスコッチ呑んで祝い酒【ヨーロッパ#30 】2022年9月3日〜6日",
+    "published_at": "2022-10-01T05:00:01Z",
+    "duration": "PT22M43S",
+    "series_id": "europe",
+    "episode": 30,
+    "countries": [
+      "826"
+    ],
+    "cities": [
+      "グラスゴー"
+    ],
+    "filmed_at": {
+      "from": "2022-09-03",
+      "to": "2022-09-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/33yq7ydWRUg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "AhXNNn6IJ74",
+    "title": "リバプール33歳ひとり旅🏴󠁧󠁢󠁥󠁮󠁧󠁿ビートルズとサッカーをツマミに酒を呑む【ヨーロッパ#31 】2022年9月6日〜9日",
+    "published_at": "2022-10-04T11:00:06Z",
+    "duration": "PT20M45S",
+    "series_id": "europe",
+    "episode": 31,
+    "countries": [
+      "826"
+    ],
+    "cities": [
+      "リバプール"
+    ],
+    "filmed_at": {
+      "from": "2022-09-06",
+      "to": "2022-09-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/AhXNNn6IJ74/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kfVQH3P3Qc4",
+    "title": "マンチェスター33歳ひとり旅🏴󠁧󠁢󠁥󠁮󠁧󠁿エリザベス女王崩御の意外な影響【ヨーロッパ#32 】2022年9月9日〜12日",
+    "published_at": "2022-10-07T11:00:34Z",
+    "duration": "PT26M21S",
+    "series_id": "europe",
+    "episode": 32,
+    "countries": [
+      "826"
+    ],
+    "cities": [
+      "マンチェスター"
+    ],
+    "filmed_at": {
+      "from": "2022-09-09",
+      "to": "2022-09-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kfVQH3P3Qc4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "KWAfH7TqGbg",
+    "title": "アヤナパ33歳ひとり旅🇨🇾ヨーロッパの穴場リゾートに行ってみた【ヨーロッパ#33 】2022年9月12日〜16日",
+    "published_at": "2022-10-10T11:00:19Z",
+    "duration": "PT24M53S",
+    "series_id": "europe",
+    "episode": 33,
+    "countries": [
+      "196"
+    ],
+    "cities": [
+      "アヤナパ"
+    ],
+    "filmed_at": {
+      "from": "2022-09-12",
+      "to": "2022-09-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/KWAfH7TqGbg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "BtiJ1DqVnrQ",
+    "title": "アヤナパ33歳ひとり旅🇨🇾欧州屈指の絶景ビーチに行ってみた【ヨーロッパ#34 】2022年9月16日〜19日",
+    "published_at": "2022-10-13T11:00:06Z",
+    "duration": "PT11M56S",
+    "series_id": "europe",
+    "episode": 34,
+    "countries": [
+      "196"
+    ],
+    "cities": [
+      "アヤナパ"
+    ],
+    "filmed_at": {
+      "from": "2022-09-16",
+      "to": "2022-09-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/BtiJ1DqVnrQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "uk7jkvNMdLo",
+    "title": "アヤナパ33歳ひとり旅🇨🇾居心地良すぎてキプロスに沈没【ヨーロッパ#35 】2022年9月19日〜10月1日",
+    "published_at": "2022-10-16T11:00:34Z",
+    "duration": "PT30M1S",
+    "series_id": "europe",
+    "episode": 35,
+    "countries": [
+      "196"
+    ],
+    "cities": [
+      "アヤナパ"
+    ],
+    "filmed_at": {
+      "from": "2022-09-19",
+      "to": "2022-10-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/uk7jkvNMdLo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "AbFEqZcFl9M",
+    "title": "ニコシア33歳ひとり旅🇨🇾紛争で50年間2カ国に分断された首都に行ってみた【ヨーロッパ#36 】2022年10月1日〜4日",
+    "published_at": "2022-10-20T08:00:04Z",
+    "duration": "PT23M6S",
+    "series_id": "europe",
+    "episode": 36,
+    "countries": [
+      "196"
+    ],
+    "cities": [
+      "ニコシア"
+    ],
+    "filmed_at": {
+      "from": "2022-10-01",
+      "to": "2022-10-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/AbFEqZcFl9M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4_2CWOGM81U",
+    "title": "ニコシア33歳ひとり旅🇨🇾謎の未承認国家、北キプロス・トルコ共和国に行ってみた【ヨーロッパ#37 】2022年10月4日〜8日",
+    "published_at": "2022-10-23T11:00:02Z",
+    "duration": "PT22M9S",
+    "series_id": "europe",
+    "episode": 37,
+    "countries": [
+      "196"
+    ],
+    "cities": [
+      "ニコシア"
+    ],
+    "filmed_at": {
+      "from": "2022-10-04",
+      "to": "2022-10-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4_2CWOGM81U/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QmWDpqLTGd0",
+    "title": "キシナウ33歳ひとり旅🇲🇩欧州最貧国モルドバで安旨ワイン呑みまくる【ヨーロッパ#38 】2022年10月8日〜12日",
+    "published_at": "2022-10-27T00:00:13Z",
+    "duration": "PT29M31S",
+    "series_id": "europe",
+    "episode": 38,
+    "countries": [
+      "498"
+    ],
+    "cities": [
+      "キシナウ"
+    ],
+    "filmed_at": {
+      "from": "2022-10-08",
+      "to": "2022-10-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/QmWDpqLTGd0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "e3ggxAvGcNQ",
+    "title": "ブカレスト33歳ひとり旅🇷🇴治安悪いと噂の共産主義後の東欧のパリ【ヨーロッパ#39 】2022年10月12日〜15日",
+    "published_at": "2022-10-30T12:00:22Z",
+    "duration": "PT24M38S",
+    "series_id": "europe",
+    "episode": 39,
+    "countries": [
+      "642"
+    ],
+    "cities": [
+      "ブカレスト"
     ],
     "filmed_at": {
       "from": "2022-10-12",
       "to": "2022-10-15"
     },
+    "thumbnail": "https://i.ytimg.com/vi/e3ggxAvGcNQ/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00012",
-    "title": "バンクーバー33歳ひとり旅🇨🇦カナダの港町で海鮮三昧【北米#03】2022年10月16日〜20日",
-    "published_at": "2022-12-29T10:00:00Z",
-    "duration": "PT26M36S",
-    "series_id": "north-america",
-    "episode": 3,
+    "video_id": "UiWh7olT1v4",
+    "title": "ベオグラード33歳ひとり旅🇷🇸安くて何でも旨いセルビア料理【ヨーロッパ#40】2022年10月15日〜18日",
+    "published_at": "2022-11-02T12:20:56Z",
+    "duration": "PT29M14S",
+    "series_id": "europe",
+    "episode": 40,
     "countries": [
-      "124"
+      "688"
     ],
     "cities": [
-      "バンクーバー"
+      "ベオグラード"
     ],
     "filmed_at": {
-      "from": "2022-10-16",
-      "to": "2022-10-20"
+      "from": "2022-10-15",
+      "to": "2022-10-18"
     },
+    "thumbnail": "https://i.ytimg.com/vi/UiWh7olT1v4/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00013",
-    "title": "ロサンゼルス33歳ひとり旅🇺🇸ハリウッドからサンタモニカまで【北米#04】2022年10月21日〜25日",
-    "published_at": "2023-01-06T10:00:00Z",
-    "duration": "PT33M49S",
-    "series_id": "north-america",
-    "episode": 4,
+    "video_id": "zaEKuUYsPdQ",
+    "title": "リュブリャナ33歳ひとり旅🇸🇮スロベニアで肉とトリュフと赤ワイン【ヨーロッパ#41】2022年10月18日〜19日",
+    "published_at": "2022-11-05T11:00:43Z",
+    "duration": "PT21M30S",
+    "series_id": "europe",
+    "episode": 41,
     "countries": [
-      "840"
+      "705"
     ],
     "cities": [
-      "ロサンゼルス"
+      "リュブリャナ"
     ],
     "filmed_at": {
-      "from": "2022-10-21",
+      "from": "2022-10-18",
+      "to": "2022-10-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zaEKuUYsPdQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gBKCoUGmEB0",
+    "title": "ザグレブ33歳ひとり旅🇭🇷クロアチア秋のトリュフ祭り【ヨーロッパ#42】2022年10月19日〜22日",
+    "published_at": "2022-11-08T11:00:28Z",
+    "duration": "PT21M55S",
+    "series_id": "europe",
+    "episode": 42,
+    "countries": [
+      "191"
+    ],
+    "cities": [
+      "ザグレブ"
+    ],
+    "filmed_at": {
+      "from": "2022-10-19",
+      "to": "2022-10-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gBKCoUGmEB0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ORjmQM0Fst4",
+    "title": "ドブロブニク33歳ひとり旅🇭🇷アドリア海の旨い魚介で酒を呑む【ヨーロッパ#43】2022年10月22日〜25日",
+    "published_at": "2022-11-11T13:00:17Z",
+    "duration": "PT30M25S",
+    "series_id": "europe",
+    "episode": 43,
+    "countries": [
+      "191"
+    ],
+    "cities": [
+      "ドブロブニク"
+    ],
+    "filmed_at": {
+      "from": "2022-10-22",
       "to": "2022-10-25"
     },
+    "thumbnail": "https://i.ytimg.com/vi/ORjmQM0Fst4/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00014",
-    "title": "メキシコシティ33歳ひとり旅🇲🇽屋台タコスを食べ歩き【中米#01】2022年11月1日〜3日",
-    "published_at": "2023-01-18T10:00:00Z",
-    "duration": "PT21M2S",
-    "series_id": "central-america",
-    "episode": 1,
+    "video_id": "8zwoNsvUonE",
+    "title": "サラエボ33歳ひとり旅🇧🇦紛争の弾痕が残るボスニアの首都【ヨーロッパ#44】2022年10月25日〜28日",
+    "published_at": "2022-11-16T11:00:07Z",
+    "duration": "PT26M15S",
+    "series_id": "europe",
+    "episode": 44,
     "countries": [
-      "484"
+      "070"
     ],
     "cities": [
-      "メキシコシティ"
+      "サラエボ"
     ],
     "filmed_at": {
-      "from": "2022-11-01",
-      "to": "2022-11-03"
+      "from": "2022-10-25",
+      "to": "2022-10-28"
     },
+    "thumbnail": "https://i.ytimg.com/vi/8zwoNsvUonE/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00015",
-    "title": "メキシコシティ33歳ひとり旅🇲🇽死者の日で街がオレンジ色に【中米#02】2022年11月3日〜5日",
-    "published_at": "2023-01-14T10:00:00Z",
-    "duration": "PT28M15S",
-    "series_id": "central-america",
-    "episode": 2,
+    "video_id": "1bZnkA-O1Pw",
+    "title": "ポドゴリツァ33歳ひとり旅🇲🇪欧州一醜いと言われるモンテネグロの首都とは？【ヨーロッパ#45】2022年10月28日〜31日",
+    "published_at": "2022-12-14T13:07:51Z",
+    "duration": "PT23M30S",
+    "series_id": "europe",
+    "episode": 45,
     "countries": [
-      "484"
+      "499"
     ],
     "cities": [
-      "メキシコシティ"
+      "ポドゴリツァ"
+    ],
+    "filmed_at": {
+      "from": "2022-10-28",
+      "to": "2022-10-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1bZnkA-O1Pw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xPM14cBchhU",
+    "title": "ティラナ33歳ひとり旅🇦🇱謎の国アルバニアがなぜか急発展中だった。【ヨーロッパ#46】2022年10月31日〜11月3日",
+    "published_at": "2022-12-19T22:01:30Z",
+    "duration": "PT25M52S",
+    "series_id": "europe",
+    "episode": 46,
+    "countries": [
+      "008"
+    ],
+    "cities": [
+      "ティラナ"
+    ],
+    "filmed_at": {
+      "from": "2022-10-31",
+      "to": "2022-11-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xPM14cBchhU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zzp8m7rg8Hs",
+    "title": "プリシュティナ33歳ひとり旅🇽🇰コソボってどんな国？世界の約半分の国が独立を未承認。【ヨーロッパ#47】2022年11月3日〜6日",
+    "published_at": "2022-12-22T23:30:16Z",
+    "duration": "PT23M54S",
+    "series_id": "europe",
+    "episode": 47,
+    "countries": [
+      "983"
+    ],
+    "cities": [
+      "プリシュティナ"
     ],
     "filmed_at": {
       "from": "2022-11-03",
-      "to": "2022-11-05"
+      "to": "2022-11-06"
     },
+    "thumbnail": "https://i.ytimg.com/vi/zzp8m7rg8Hs/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00016",
-    "title": "アンティグア33歳ひとり旅🇬🇹火山に囲まれた古都【中米#03】2022年11月6日〜9日",
-    "published_at": "2023-01-21T10:00:00Z",
-    "duration": "PT35M28S",
-    "series_id": "central-america",
-    "episode": 3,
+    "video_id": "BMu_pf-q_Lo",
+    "title": "スコピエ33歳ひとり旅🇲🇰北マケドニアは1泊1万円以下で船に泊まれます。【ヨーロッパ#48】2022年11月6日〜9日",
+    "published_at": "2022-12-26T19:23:34Z",
+    "duration": "PT24M22S",
+    "series_id": "europe",
+    "episode": 48,
     "countries": [
-      "320"
+      "807"
     ],
     "cities": [
-      "アンティグア"
+      "スコピエ"
     ],
     "filmed_at": {
       "from": "2022-11-06",
       "to": "2022-11-09"
     },
+    "thumbnail": "https://i.ytimg.com/vi/BMu_pf-q_Lo/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00017",
-    "title": "サンホセ33歳ひとり旅🇨🇷軍隊のない国コスタリカ【中米#04】2022年11月10日〜13日",
-    "published_at": "2023-01-28T10:00:00Z",
-    "duration": "PT23M41S",
-    "series_id": "central-america",
-    "episode": 4,
+    "video_id": "TUFFR_Z4poY",
+    "title": "ソフィア33歳ひとり旅🇧🇬ヨーグルト以外知らないブルガリア【ヨーロッパ#49】2022年11月9日〜12日",
+    "published_at": "2022-12-29T04:06:44Z",
+    "duration": "PT26M17S",
+    "series_id": "europe",
+    "episode": 49,
     "countries": [
-      "188"
+      "100"
     ],
     "cities": [
-      "サンホセ"
+      "ソフィア"
     ],
     "filmed_at": {
-      "from": "2022-11-10",
-      "to": "2022-11-13"
+      "from": "2022-11-09",
+      "to": "2022-11-12"
     },
+    "thumbnail": "https://i.ytimg.com/vi/TUFFR_Z4poY/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00018",
-    "title": "パナマシティ33歳ひとり旅🇵🇦パナマ運河を船が通る瞬間【中米#05】2022年11月14日〜17日",
-    "published_at": "2023-01-26T10:00:00Z",
-    "duration": "PT30M54S",
-    "series_id": "central-america",
-    "episode": 5,
+    "video_id": "W1jK-Rq5J9M",
+    "title": "チューリッヒ33歳ひとり旅🇨🇭日本人には絶望的なスイスの物価【ヨーロッパ#50】2022年11月12日〜14日",
+    "published_at": "2022-12-31T06:00:10Z",
+    "duration": "PT23M",
+    "series_id": "europe",
+    "episode": 50,
     "countries": [
-      "591"
+      "756"
     ],
     "cities": [
-      "パナマシティ"
+      "チューリッヒ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-12",
+      "to": "2022-11-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/W1jK-Rq5J9M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "z74Bh3TUz88",
+    "title": "ファドゥーツ33歳ひとり旅🇱🇮世界で6番目に小さい国リヒテンシュタイン【ヨーロッパ#51】2022年11月14日〜15日",
+    "published_at": "2023-01-01T13:00:46Z",
+    "duration": "PT19M55S",
+    "series_id": "europe",
+    "episode": 51,
+    "countries": [
+      "438"
+    ],
+    "cities": [
+      "ファドゥーツ"
     ],
     "filmed_at": {
       "from": "2022-11-14",
-      "to": "2022-11-17"
+      "to": "2022-11-15"
     },
+    "thumbnail": "https://i.ytimg.com/vi/z74Bh3TUz88/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00019",
-    "title": "ボゴタ34歳ひとり旅🇨🇴コロンビアの首都に行ってみた【南米#01】2023年2月3日〜8日",
-    "published_at": "2023-04-22T10:00:00Z",
-    "duration": "PT18M7S",
+    "video_id": "T0Rvh9KtbQs",
+    "title": "バレッタ33歳ひとり旅🇲🇹地中海の小さな島国マルタ【ヨーロッパ#52】2022年11月15日〜18日",
+    "published_at": "2023-01-03T13:49:55Z",
+    "duration": "PT30M20S",
+    "series_id": "europe",
+    "episode": 52,
+    "countries": [
+      "470"
+    ],
+    "cities": [
+      "バレッタ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-15",
+      "to": "2022-11-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/T0Rvh9KtbQs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "TvDtW8mf11Q",
+    "title": "アテネ33歳ひとり旅🇬🇷古代ギリシャの遺跡だらけ【ヨーロッパ#53】2022年11月18日〜20日",
+    "published_at": "2023-01-06T11:00:15Z",
+    "duration": "PT16M28S",
+    "series_id": "europe",
+    "episode": 53,
+    "countries": [
+      "300"
+    ],
+    "cities": [
+      "アテネ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-18",
+      "to": "2022-11-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/TvDtW8mf11Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "v6twyrNreCc",
+    "title": "サンマリノ33歳ひとり旅🇸🇲イタリアの中にある天空の小国【ヨーロッパ#54】2022年12月8日〜10日",
+    "published_at": "2023-01-09T11:00:36Z",
+    "duration": "PT32M23S",
+    "series_id": "europe",
+    "episode": 54,
+    "countries": [
+      "674"
+    ],
+    "cities": [
+      "サンマリノ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-08",
+      "to": "2022-12-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/v6twyrNreCc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Wjp0yg7kABo",
+    "title": "ローマ33歳ひとり旅🇮🇹イタリアは定番だけどやっぱり良い【ヨーロッパ#55】2022年12月10日〜11日",
+    "published_at": "2023-01-12T11:00:15Z",
+    "duration": "PT22M",
+    "series_id": "europe",
+    "episode": 55,
+    "countries": [
+      "380"
+    ],
+    "cities": [
+      "ローマ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-10",
+      "to": "2022-12-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Wjp0yg7kABo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "958zp8sYPnU",
+    "title": "バチカン33歳ひとり旅🇻🇦世界で一番小さい国【ヨーロッパ#56】2022年12月12日〜13日",
+    "published_at": "2023-01-15T11:00:04Z",
+    "duration": "PT21M33S",
+    "series_id": "europe",
+    "episode": 56,
+    "countries": [
+      "336"
+    ],
+    "cities": [
+      "バチカン"
+    ],
+    "filmed_at": {
+      "from": "2022-12-12",
+      "to": "2022-12-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/958zp8sYPnU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "P05uvLWZbJQ",
+    "title": "モナコ33歳ひとり旅🇲🇨セレブが集まる世界で2番目に小さい国【ヨーロッパ#57】2022年12月13日〜15日",
+    "published_at": "2023-01-18T11:00:25Z",
+    "duration": "PT26M49S",
+    "series_id": "europe",
+    "episode": 57,
+    "countries": [
+      "492"
+    ],
+    "cities": [
+      "モナコ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-13",
+      "to": "2022-12-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/P05uvLWZbJQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "P7ufnd6oni8",
+    "title": "アンドラ33歳ひとり旅🇦🇩フランスとスペインの間に国があるって知ってた？！【ヨーロッパ#58】2022年12月15日〜17日",
+    "published_at": "2023-01-21T11:00:17Z",
+    "duration": "PT22M36S",
+    "series_id": "europe",
+    "episode": 58,
+    "countries": [
+      "020"
+    ],
+    "cities": [
+      "アンドラ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-15",
+      "to": "2022-12-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/P7ufnd6oni8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "XzsdXLNLvhw",
+    "title": "バルセロナ33歳ひとり旅🇪🇸ガウディとスペインバルに酔いしれる。【ヨーロッパ#59】2022年12月17日〜19日",
+    "published_at": "2023-01-24T11:00:32Z",
+    "duration": "PT28M2S",
+    "series_id": "europe",
+    "episode": 59,
+    "countries": [
+      "724"
+    ],
+    "cities": [
+      "バルセロナ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-17",
+      "to": "2022-12-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/XzsdXLNLvhw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "KHtL6Cb3zC4",
+    "title": "サンセバスチャン33歳ひとり旅🇪🇸美食の街でスペインバル7軒はしご酒。【ヨーロッパ#60】2022年12月19日〜21日",
+    "published_at": "2023-01-27T11:00:23Z",
+    "duration": "PT28M44S",
+    "series_id": "europe",
+    "episode": 60,
+    "countries": [
+      "724"
+    ],
+    "cities": [
+      "サンセバスチャン"
+    ],
+    "filmed_at": {
+      "from": "2022-12-19",
+      "to": "2022-12-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/KHtL6Cb3zC4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Tg8DMvGhozc",
+    "title": "マドリード33歳ひとり旅🇪🇸都会なのに酒安めで最高なスペインの首都【ヨーロッパ#61】2022年12月21日〜23日",
+    "published_at": "2023-01-30T11:00:18Z",
+    "duration": "PT26M5S",
+    "series_id": "europe",
+    "episode": 61,
+    "countries": [
+      "724"
+    ],
+    "cities": [
+      "マドリード"
+    ],
+    "filmed_at": {
+      "from": "2022-12-21",
+      "to": "2022-12-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Tg8DMvGhozc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "jKz4JPeQyqY",
+    "title": "リスボン33歳ひとり旅🇵🇹ポルトガル一人で過ごすクリスマス。【ヨーロッパ#62 】2022年12月23日〜26日",
+    "published_at": "2023-02-03T11:00:35Z",
+    "duration": "PT34M18S",
+    "series_id": "europe",
+    "episode": 62,
+    "countries": [
+      "620"
+    ],
+    "cities": [
+      "リスボン"
+    ],
+    "filmed_at": {
+      "from": "2022-12-23",
+      "to": "2022-12-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/jKz4JPeQyqY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ce-dfyUoyCw",
+    "title": "ANAビジネスクラス33歳ひとり旅。リスボンからフランクフルト経由で半年ぶりの帰国。【ヨーロッパ#63（完結） 】2022年12月26日〜27日",
+    "published_at": "2023-02-07T11:00:07Z",
+    "duration": "PT23M38S",
+    "series_id": "europe",
+    "episode": null,
+    "countries": [],
+    "cities": [],
+    "filmed_at": {
+      "from": "2022-12-26",
+      "to": "2022-12-27"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/Ce-dfyUoyCw/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dg1L_-2-ouM",
+    "title": "羽田ニューヨーク34歳ひとり旅。ANA新ビジネスクラスTHE Roomが快適すぎた【南米#00 】2023年2月2日〜3日",
+    "published_at": "2023-02-12T11:00:34Z",
+    "duration": "PT20M41S",
+    "series_id": "south-america",
+    "episode": 0,
+    "countries": [],
+    "cities": [],
+    "filmed_at": {
+      "from": "2023-02-02",
+      "to": "2023-02-03"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/dg1L_-2-ouM/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "57T9OGC35jk",
+    "title": "ボゴタ34歳ひとり旅🇨🇴コロンビアの首都に行ってみた。【南米#01】2023年2月3日〜8日",
+    "published_at": "2023-02-16T11:00:03Z",
+    "duration": "PT33M54S",
     "series_id": "south-america",
     "episode": 1,
     "countries": [
@@ -430,19 +1943,68 @@
       "from": "2023-02-03",
       "to": "2023-02-08"
     },
+    "thumbnail": "https://i.ytimg.com/vi/57T9OGC35jk/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00020",
-    "title": "キト34歳ひとり旅🇪🇨赤道の不思議な現象を体験してみた【南米#02】2023年2月16日〜20日",
-    "published_at": "2023-05-07T10:00:00Z",
-    "duration": "PT25M20S",
+    "video_id": "c_hCh-9NduY",
+    "title": "メデジン34歳ひとり旅🇨🇴伝説の麻薬王の本拠地に行ってみた。【南米#02】2023年2月8日〜11日",
+    "published_at": "2023-02-19T11:00:32Z",
+    "duration": "PT30M58S",
     "series_id": "south-america",
     "episode": 2,
+    "countries": [
+      "170"
+    ],
+    "cities": [
+      "メデジン"
+    ],
+    "filmed_at": {
+      "from": "2023-02-08",
+      "to": "2023-02-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/c_hCh-9NduY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "t9l-TvRTaIs",
+    "title": "カリ34歳ひとり旅🇨🇴コロンビアでOri and Kaitoと再会【南米#03】2023年2月11日〜16日",
+    "published_at": "2023-02-27T11:00:38Z",
+    "duration": "PT35M14S",
+    "series_id": "south-america",
+    "episode": 3,
+    "countries": [
+      "170"
+    ],
+    "cities": [
+      "カリ"
+    ],
+    "filmed_at": {
+      "from": "2023-02-11",
+      "to": "2023-02-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/t9l-TvRTaIs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GdN6QM9kzYI",
+    "title": "キト34歳ひとり旅🇪🇨赤道の不思議な現象を体験してみた【南米#04】2023年2月16日〜20日",
+    "published_at": "2023-03-02T11:00:16Z",
+    "duration": "PT29M13S",
+    "series_id": "south-america",
+    "episode": 4,
     "countries": [
       "218"
     ],
@@ -453,42 +2015,164 @@
       "from": "2023-02-16",
       "to": "2023-02-20"
     },
+    "thumbnail": "https://i.ytimg.com/vi/GdN6QM9kzYI/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00021",
-    "title": "クスコ34歳ひとり旅🇵🇪マチュピチュのワイナピチュに登ってみた【南米#03】2023年3月6日〜8日",
-    "published_at": "2023-05-17T10:00:00Z",
-    "duration": "PT32M33S",
+    "video_id": "eiqDHDeKBbQ",
+    "title": "ガラパゴス諸島34歳ひとり旅🇪🇨街の中にも野生動物だらけでまさにダーウィンの進化論【南米#05】2023年2月20日〜22日",
+    "published_at": "2023-03-05T11:00:25Z",
+    "duration": "PT33M9S",
     "series_id": "south-america",
-    "episode": 3,
+    "episode": 5,
+    "countries": [
+      "218"
+    ],
+    "cities": [
+      "ガラパゴス諸島"
+    ],
+    "filmed_at": {
+      "from": "2023-02-20",
+      "to": "2023-02-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/eiqDHDeKBbQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ZDWH6nAd2Po",
+    "title": "ガラパゴス諸島34歳ひとり旅🇪🇨アシカだらけのサンクリストバル島へ行ってみた【南米#06】2023年2月23日〜25日",
+    "published_at": "2023-03-08T11:00:22Z",
+    "duration": "PT23M42S",
+    "series_id": "south-america",
+    "episode": 6,
+    "countries": [
+      "218"
+    ],
+    "cities": [
+      "ガラパゴス諸島"
+    ],
+    "filmed_at": {
+      "from": "2023-02-23",
+      "to": "2023-02-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ZDWH6nAd2Po/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "F6aVKKG_8LE",
+    "title": "ガラパゴス諸島34歳ひとり旅🇪🇨野生動物の宝庫バルトロメ島とノースセイモア島へ行ってみた【南米#07】2023年2月25日〜28日",
+    "published_at": "2023-03-11T11:00:19Z",
+    "duration": "PT23M49S",
+    "series_id": "south-america",
+    "episode": 7,
+    "countries": [
+      "218"
+    ],
+    "cities": [
+      "ガラパゴス諸島"
+    ],
+    "filmed_at": {
+      "from": "2023-02-25",
+      "to": "2023-02-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/F6aVKKG_8LE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "aNiyHZ0RL74",
+    "title": "グアヤキル34歳ひとり旅🇪🇨2013年に強盗で日本人が亡くなったエクアドル最恐都市の現在【南米#08】2023年2月28日〜3月3日",
+    "published_at": "2023-03-14T11:00:01Z",
+    "duration": "PT22M1S",
+    "series_id": "south-america",
+    "episode": 8,
+    "countries": [
+      "218"
+    ],
+    "cities": [
+      "グアヤキル"
+    ],
+    "filmed_at": {
+      "from": "2023-02-28",
+      "to": "2023-03-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/aNiyHZ0RL74/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "vuVp2lr0K68",
+    "title": "リマ34歳ひとり旅🇵🇪美食大国ペルーの首都は大都会【南米#09】2023年3月3日〜3月6日",
+    "published_at": "2023-03-17T11:00:46Z",
+    "duration": "PT22M2S",
+    "series_id": "south-america",
+    "episode": 9,
     "countries": [
       "604"
     ],
     "cities": [
-      "クスコ"
+      "リマ"
+    ],
+    "filmed_at": {
+      "from": "2023-03-03",
+      "to": "2023-03-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/vuVp2lr0K68/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "YG1KtqhGPMc",
+    "title": "マチュピチュ34歳ひとり旅🇵🇪ワイナピチュに登ってみた。【南米#10】2023年3月6日〜3月9日",
+    "published_at": "2023-03-21T11:00:23Z",
+    "duration": "PT31M58S",
+    "series_id": "south-america",
+    "episode": 10,
+    "countries": [
+      "604"
+    ],
+    "cities": [
+      "マチュピチュ"
     ],
     "filmed_at": {
       "from": "2023-03-06",
-      "to": "2023-03-08"
+      "to": "2023-03-09"
     },
+    "thumbnail": "https://i.ytimg.com/vi/YG1KtqhGPMc/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00022",
-    "title": "クスコ34歳ひとり旅🇵🇪高山病の危険があるインカ帝国の首都【南米#04】2023年3月8日〜11日",
-    "published_at": "2023-05-23T10:00:00Z",
-    "duration": "PT20M46S",
+    "video_id": "wj90_SB-0M8",
+    "title": "クスコ34歳ひとり旅🇵🇪高山病の危険があるインカ帝国の首都【南米#11】2023年3月9日〜3月11日",
+    "published_at": "2023-03-24T11:00:48Z",
+    "duration": "PT23M5S",
     "series_id": "south-america",
-    "episode": 4,
+    "episode": 11,
     "countries": [
       "604"
     ],
@@ -496,22 +2180,47 @@
       "クスコ"
     ],
     "filmed_at": {
-      "from": "2023-03-08",
+      "from": "2023-03-09",
       "to": "2023-03-11"
     },
+    "thumbnail": "https://i.ytimg.com/vi/wj90_SB-0M8/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00023",
-    "title": "ウユニ塩湖34歳ひとり旅🇧🇴天空の鏡張りに行ってみた【南米#05】2023年3月15日〜19日",
-    "published_at": "2023-06-03T10:00:00Z",
-    "duration": "PT27M59S",
+    "video_id": "Jim2HPhV9fY",
+    "title": "レインボーマウンテン34歳ひとり旅🇵🇪虹色の山に行ってみた。【南米#12】2023年3月12日〜15日",
+    "published_at": "2023-03-27T11:00:11Z",
+    "duration": "PT24M33S",
     "series_id": "south-america",
-    "episode": 5,
+    "episode": 12,
+    "countries": [
+      "604"
+    ],
+    "cities": [
+      "レインボーマウンテン"
+    ],
+    "filmed_at": {
+      "from": "2023-03-12",
+      "to": "2023-03-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Jim2HPhV9fY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ABkUnNPVAck",
+    "title": "ウユニ塩湖34歳ひとり旅🇧🇴天空の鏡張りに行ってみた。【南米#13】2023年3月15日〜19日",
+    "published_at": "2023-03-30T11:00:08Z",
+    "duration": "PT29M44S",
+    "series_id": "south-america",
+    "episode": 13,
     "countries": [
       "068"
     ],
@@ -522,19 +2231,68 @@
       "from": "2023-03-15",
       "to": "2023-03-19"
     },
+    "thumbnail": "https://i.ytimg.com/vi/ABkUnNPVAck/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00024",
-    "title": "サンティアゴ34歳ひとり旅🇨🇱チリのイメージが180度変わります【南米#06】2023年3月27日〜30日",
-    "published_at": "2023-06-08T10:00:00Z",
-    "duration": "PT34M12S",
+    "video_id": "cLOJsTs1VFI",
+    "title": "ラパス34歳ひとり旅🇧🇴世界一標高が高い首都に行ってみた。【南米#14】2023年3月19日〜23日",
+    "published_at": "2023-04-02T11:00:31Z",
+    "duration": "PT32M6S",
     "series_id": "south-america",
-    "episode": 6,
+    "episode": 14,
+    "countries": [
+      "068"
+    ],
+    "cities": [
+      "ラパス"
+    ],
+    "filmed_at": {
+      "from": "2023-03-19",
+      "to": "2023-03-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/cLOJsTs1VFI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "iDlOaOXR8nU",
+    "title": "イースター島34歳ひとり旅🇨🇱本場のモアイ像まで行ってみた。【南米#15】2023年3月23日〜27日",
+    "published_at": "2023-04-06T11:00:33Z",
+    "duration": "PT36M34S",
+    "series_id": "south-america",
+    "episode": 15,
+    "countries": [
+      "152"
+    ],
+    "cities": [
+      "イースター島"
+    ],
+    "filmed_at": {
+      "from": "2023-03-23",
+      "to": "2023-03-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/iDlOaOXR8nU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "KtSsfu6COy4",
+    "title": "サンティアゴ34歳ひとり旅🇨🇱チリのイメージが180度変わります。【南米#16】2023年3月27日〜30日",
+    "published_at": "2023-04-12T11:00:13Z",
+    "duration": "PT27M23S",
+    "series_id": "south-america",
+    "episode": 16,
     "countries": [
       "152"
     ],
@@ -545,19 +2303,164 @@
       "from": "2023-03-27",
       "to": "2023-03-30"
     },
+    "thumbnail": "https://i.ytimg.com/vi/KtSsfu6COy4/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00025",
-    "title": "ブエノスアイレス34歳ひとり旅🇦🇷ハイパーインフレ中の物価が予想外だった【南米#07】2023年4月15日〜18日",
-    "published_at": "2023-06-30T10:00:00Z",
-    "duration": "PT22M25S",
+    "video_id": "stYvz_loJ4A",
+    "title": "パタゴニア34歳ひとり旅🇨🇱世界最南端都市まで船に30時間乗ってみた。【南米#17】2023年3月30日〜4月1日",
+    "published_at": "2023-04-15T11:00:37Z",
+    "duration": "PT22M24S",
     "series_id": "south-america",
-    "episode": 7,
+    "episode": 17,
+    "countries": [
+      "152"
+    ],
+    "cities": [
+      "パタゴニア"
+    ],
+    "filmed_at": {
+      "from": "2023-03-30",
+      "to": "2023-04-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/stYvz_loJ4A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sqsgZTsc2Kg",
+    "title": "プエルトウィリアムズ34歳ひとり旅🇨🇱世界最南端の都市に行ってみた。【南米#18】2023年4月1日〜3日",
+    "published_at": "2023-04-18T11:00:39Z",
+    "duration": "PT21M1S",
+    "series_id": "south-america",
+    "episode": 18,
+    "countries": [
+      "152"
+    ],
+    "cities": [
+      "プエルトウィリアムズ"
+    ],
+    "filmed_at": {
+      "from": "2023-04-01",
+      "to": "2023-04-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sqsgZTsc2Kg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "BGxddlQczvQ",
+    "title": "プンタアレナス34歳ひとり旅🇨🇱南極まで飛行機で旅行できる街【南米#19】2023年4月3日〜6日",
+    "published_at": "2023-04-22T11:00:06Z",
+    "duration": "PT20M8S",
+    "series_id": "south-america",
+    "episode": 19,
+    "countries": [
+      "152"
+    ],
+    "cities": [
+      "プンタアレナス"
+    ],
+    "filmed_at": {
+      "from": "2023-04-03",
+      "to": "2023-04-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/BGxddlQczvQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "mH5eiYttYY8",
+    "title": "エルチャルテン34歳ひとり旅🇦🇷パタゴニアの燃える山に行ってみた。【南米#20】2023年4月6日〜9日",
+    "published_at": "2023-04-25T11:00:26Z",
+    "duration": "PT26M34S",
+    "series_id": "south-america",
+    "episode": 20,
+    "countries": [
+      "032"
+    ],
+    "cities": [
+      "エルチャルテン"
+    ],
+    "filmed_at": {
+      "from": "2023-04-06",
+      "to": "2023-04-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/mH5eiYttYY8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NzhnrVAM6t8",
+    "title": "エルカラファテ34歳ひとり旅🇦🇷氷河の上を歩いてみた。【南米#21】2023年4月9日〜11日",
+    "published_at": "2023-04-28T11:00:14Z",
+    "duration": "PT24M54S",
+    "series_id": "south-america",
+    "episode": 21,
+    "countries": [
+      "032"
+    ],
+    "cities": [
+      "エルカラファテ"
+    ],
+    "filmed_at": {
+      "from": "2023-04-09",
+      "to": "2023-04-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NzhnrVAM6t8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "mMHmPxwDWOI",
+    "title": "ウシュアイア34歳ひとり旅🇦🇷世界の果てまで行ってみた。【南米#22】2023年4月11日〜15日",
+    "published_at": "2023-05-03T11:00:34Z",
+    "duration": "PT40M59S",
+    "series_id": "south-america",
+    "episode": 22,
+    "countries": [
+      "032"
+    ],
+    "cities": [
+      "ウシュアイア"
+    ],
+    "filmed_at": {
+      "from": "2023-04-11",
+      "to": "2023-04-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/mMHmPxwDWOI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ykxSv45FTBc",
+    "title": "ブエノスアイレス34歳ひとり旅🇦🇷ハイパーインフレ中の物価が予想外だった。【南米#23】2023年4月15日〜17日",
+    "published_at": "2023-05-06T11:00:45Z",
+    "duration": "PT21M49S",
+    "series_id": "south-america",
+    "episode": 23,
     "countries": [
       "032"
     ],
@@ -566,21 +2469,22 @@
     ],
     "filmed_at": {
       "from": "2023-04-15",
-      "to": "2023-04-18"
+      "to": "2023-04-17"
     },
+    "thumbnail": "https://i.ytimg.com/vi/ykxSv45FTBc/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00026",
-    "title": "ブエノスアイレス34歳ひとり旅🇦🇷アルゼンチン絶対行ったほうが良い【南米#08】2023年4月18日〜21日",
-    "published_at": "2023-07-06T10:00:00Z",
-    "duration": "PT29M38S",
+    "video_id": "TVRVd_mxweE",
+    "title": "ブエノスアイレス34歳ひとり旅🇦🇷アルゼンチン絶対行ったほうが良い。【南米#24】2023年4月18日〜21日",
+    "published_at": "2023-05-09T11:00:19Z",
+    "duration": "PT26M30S",
     "series_id": "south-america",
-    "episode": 8,
+    "episode": 24,
     "countries": [
       "032"
     ],
@@ -591,40 +2495,1336 @@
       "from": "2023-04-18",
       "to": "2023-04-21"
     },
+    "thumbnail": "https://i.ytimg.com/vi/TVRVd_mxweE/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00027",
-    "title": "ハバナ34歳ひとり旅🇨🇺クラシックカーに乗ってみた【カリブ海#01】2023年10月2日〜4日",
-    "published_at": "2023-12-13T10:00:00Z",
-    "duration": "PT36M51S",
+    "video_id": "5Ht9KmPWffU",
+    "title": "モンテビデオ34歳ひとり旅🇺🇾肉王国ウルグアイでステーキ3軒食いまくる。【南米#25】2023年4月21日〜24日",
+    "published_at": "2023-05-12T11:00:09Z",
+    "duration": "PT25M2S",
+    "series_id": "south-america",
+    "episode": 25,
+    "countries": [
+      "858"
+    ],
+    "cities": [
+      "モンテビデオ"
+    ],
+    "filmed_at": {
+      "from": "2023-04-21",
+      "to": "2023-04-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/5Ht9KmPWffU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "22WU1nFUd9s",
+    "title": "アスンシオン34歳ひとり旅🇵🇾意外と快適なパラグアイで旨い肉を食いまくる。【南米#26】2023年4月24日〜29日",
+    "published_at": "2023-05-15T11:00:02Z",
+    "duration": "PT25M4S",
+    "series_id": "south-america",
+    "episode": 26,
+    "countries": [
+      "600"
+    ],
+    "cities": [
+      "アスンシオン"
+    ],
+    "filmed_at": {
+      "from": "2023-04-24",
+      "to": "2023-04-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/22WU1nFUd9s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2Eud1TKfWBc",
+    "title": "プエルトイグアス34歳ひとり旅🇦🇷イグアスの滝アルゼンチン側に行ってみた。【南米#27】2023年4月29日〜5月2日",
+    "published_at": "2023-05-18T11:00:01Z",
+    "duration": "PT29M18S",
+    "series_id": "south-america",
+    "episode": 27,
+    "countries": [
+      "032"
+    ],
+    "cities": [
+      "プエルトイグアス"
+    ],
+    "filmed_at": {
+      "from": "2023-04-29",
+      "to": "2023-05-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2Eud1TKfWBc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GvXlSV0LsT8",
+    "title": "フォスドイグアス34歳ひとり旅🇧🇷イグアスの滝ブラジル側に行ってみた。【南米#28】2023年5月2日〜6日",
+    "published_at": "2023-05-21T11:00:09Z",
+    "duration": "PT25M3S",
+    "series_id": "south-america",
+    "episode": 28,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "フォスドイグアス"
+    ],
+    "filmed_at": {
+      "from": "2023-05-02",
+      "to": "2023-05-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GvXlSV0LsT8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Qk4n1JWnqCQ",
+    "title": "リオデジャネイロ34歳ひとり旅🇧🇷危険な香り漂う中心街を歩く。【南米#29】2023年5月6日〜9日",
+    "published_at": "2023-05-24T11:00:20Z",
+    "duration": "PT25M33S",
+    "series_id": "south-america",
+    "episode": 29,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "リオデジャネイロ"
+    ],
+    "filmed_at": {
+      "from": "2023-05-06",
+      "to": "2023-05-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Qk4n1JWnqCQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "SjoIBTSDVRs",
+    "title": "リオデジャネイロ34歳ひとり旅🇧🇷コパカバーナビーチと高級食べ放題2軒。【南米#30】2023年5月9日〜13日",
+    "published_at": "2023-05-27T11:00:31Z",
+    "duration": "PT32M2S",
+    "series_id": "south-america",
+    "episode": 30,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "リオデジャネイロ"
+    ],
+    "filmed_at": {
+      "from": "2023-05-09",
+      "to": "2023-05-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SjoIBTSDVRs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-J0ZGb_OCDw",
+    "title": "サンパウロ34歳ひとり旅🇧🇷禁断の日本食に手を出してしまいました。【南米#31】2023年5月13日〜18日",
+    "published_at": "2023-05-30T14:00:00Z",
+    "duration": "PT36M3S",
+    "series_id": "south-america",
+    "episode": 31,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "サンパウロ"
+    ],
+    "filmed_at": {
+      "from": "2023-05-13",
+      "to": "2023-05-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-J0ZGb_OCDw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Zm93lKIr0Ys",
+    "title": "ブラジリア34歳ひとり旅🇧🇷リオでもサンパウロでもないブラジルの首都。【南米#32】2023年5月18日〜21日",
+    "published_at": "2023-06-02T11:00:33Z",
+    "duration": "PT22M18S",
+    "series_id": "south-america",
+    "episode": 32,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "ブラジリア"
+    ],
+    "filmed_at": {
+      "from": "2023-05-18",
+      "to": "2023-05-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Zm93lKIr0Ys/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4Rx8lQ3aM-Y",
+    "title": "マナウス34歳ひとり旅🇧🇷アマゾンど真ん中が都会すぎて拍子抜け。【南米#33】2023年5月21日〜27日",
+    "published_at": "2023-06-06T11:00:02Z",
+    "duration": "PT23M14S",
+    "series_id": "south-america",
+    "episode": 33,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "マナウス"
+    ],
+    "filmed_at": {
+      "from": "2023-05-21",
+      "to": "2023-05-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4Rx8lQ3aM-Y/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "G1sK5LcmTHU",
+    "title": "マナウス34歳ひとり旅🇧🇷アマゾンの2泊3日ツアーに行ってみた。【南米#34】2023年5月27日〜31日",
+    "published_at": "2023-06-10T11:00:11Z",
+    "duration": "PT36M34S",
+    "series_id": "south-america",
+    "episode": 34,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "マナウス"
+    ],
+    "filmed_at": {
+      "from": "2023-05-27",
+      "to": "2023-05-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/G1sK5LcmTHU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "R0z8eztzdv8",
+    "title": "ベレン34歳ひとり旅🇧🇷アマゾン河口の大都市。【南米#35】2023年5月31日〜6月3日",
+    "published_at": "2023-06-13T11:15:02Z",
+    "duration": "PT27M44S",
+    "series_id": "south-america",
+    "episode": 35,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "ベレン"
+    ],
+    "filmed_at": {
+      "from": "2023-05-31",
+      "to": "2023-06-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/R0z8eztzdv8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "BhrGPyEbU1s",
+    "title": "カイエンヌ34歳ひとり旅🇫🇷南米に残るフランス領ギアナが難易度高すぎた。【南米#36】2023年6月3日〜6日",
+    "published_at": "2023-06-17T08:00:04Z",
+    "duration": "PT33M32S",
+    "series_id": "south-america",
+    "episode": 36,
+    "countries": [
+      "250"
+    ],
+    "cities": [
+      "カイエンヌ"
+    ],
+    "filmed_at": {
+      "from": "2023-06-03",
+      "to": "2023-06-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/BhrGPyEbU1s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "mHVqcndLSZE",
+    "title": "パラマリボ34歳ひとり旅🇸🇷旧オランダ領の面影が残るスリナムの首都【南米#37】2023年6月6日〜9日",
+    "published_at": "2023-06-21T11:00:41Z",
+    "duration": "PT26M6S",
+    "series_id": "south-america",
+    "episode": 37,
+    "countries": [
+      "740"
+    ],
+    "cities": [
+      "パラマリボ"
+    ],
+    "filmed_at": {
+      "from": "2023-06-06",
+      "to": "2023-06-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/mHVqcndLSZE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "oMbkg6LgPPg",
+    "title": "ジョージタウン34歳ひとり旅🇬🇾急成長で意味不明な物価高のガイアナ【南米#38】2023年6月9日〜13日",
+    "published_at": "2023-06-24T11:00:40Z",
+    "duration": "PT30M51S",
+    "series_id": "south-america",
+    "episode": 38,
+    "countries": [
+      "328"
+    ],
+    "cities": [
+      "ジョージタウン"
+    ],
+    "filmed_at": {
+      "from": "2023-06-09",
+      "to": "2023-06-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/oMbkg6LgPPg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "PMQqPmdc-ZE",
+    "title": "カラカス34歳ひとり旅🇻🇪経済破綻で崩壊したベネズエラに行ってみた。【南米#39】2023年6月13日〜16日",
+    "published_at": "2023-06-30T09:01:14Z",
+    "duration": "PT37M9S",
+    "series_id": "south-america",
+    "episode": 39,
+    "countries": [
+      "862"
+    ],
+    "cities": [
+      "カラカス"
+    ],
+    "filmed_at": {
+      "from": "2023-06-13",
+      "to": "2023-06-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/PMQqPmdc-ZE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NdECp3Zgzlk",
+    "title": "パナマシティ34歳ひとり旅🇵🇦パナマ運河で潤う高層ビルの大都会【中米#01】2023年6月16日〜20日",
+    "published_at": "2023-07-04T11:00:18Z",
+    "duration": "PT29M2S",
+    "series_id": "central-america",
+    "episode": 1,
+    "countries": [
+      "591"
+    ],
+    "cities": [
+      "パナマシティ"
+    ],
+    "filmed_at": {
+      "from": "2023-06-16",
+      "to": "2023-06-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NdECp3Zgzlk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Hqv59NJQx60",
+    "title": "サンホセ34歳ひとり旅🇨🇷中米の楽園コスタリカの首都【中米#02】2023年6月20日〜23日",
+    "published_at": "2023-07-08T11:00:19Z",
+    "duration": "PT18M18S",
+    "series_id": "central-america",
+    "episode": 2,
+    "countries": [
+      "188"
+    ],
+    "cities": [
+      "サンホセ"
+    ],
+    "filmed_at": {
+      "from": "2023-06-20",
+      "to": "2023-06-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Hqv59NJQx60/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-Gx-GEvZuqg",
+    "title": "コスタリカ34歳ひとり旅🇨🇷大自然を楽しむエコツーリズム【中米#03】2023年6月23日〜27日",
+    "published_at": "2023-07-12T11:00:00Z",
+    "duration": "PT33M19S",
+    "series_id": "central-america",
+    "episode": 3,
+    "countries": [
+      "188"
+    ],
+    "cities": [
+      "コスタリカ"
+    ],
+    "filmed_at": {
+      "from": "2023-06-23",
+      "to": "2023-06-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-Gx-GEvZuqg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "5XrjueZA7cQ",
+    "title": "マナグア34歳ひとり旅🇳🇮中米一の貧困国ニカラグアの首都【中米#04】2023年6月27日〜7月1日",
+    "published_at": "2023-07-15T11:00:07Z",
+    "duration": "PT32M18S",
+    "series_id": "central-america",
+    "episode": 4,
+    "countries": [
+      "558"
+    ],
+    "cities": [
+      "マナグア"
+    ],
+    "filmed_at": {
+      "from": "2023-06-27",
+      "to": "2023-07-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/5XrjueZA7cQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "219Tt7rsjWw",
+    "title": "テグシガルパ34歳ひとり旅🇭🇳殺人率世界4位ホンジュラスの首都を歩く。【中米#05】2023年7月1日〜4日",
+    "published_at": "2023-07-18T11:00:05Z",
+    "duration": "PT25M57S",
+    "series_id": "central-america",
+    "episode": 5,
+    "countries": [
+      "340"
+    ],
+    "cities": [
+      "テグシガルパ"
+    ],
+    "filmed_at": {
+      "from": "2023-07-01",
+      "to": "2023-07-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/219Tt7rsjWw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "puDBf3OXUFo",
+    "title": "ロアタン島34歳ひとり旅🇭🇳殺人率世界4位ホンジュラスのリゾート【中米#06】2023年7月4日〜7日",
+    "published_at": "2023-07-21T11:00:47Z",
+    "duration": "PT25M28S",
+    "series_id": "central-america",
+    "episode": 6,
+    "countries": [
+      "340"
+    ],
+    "cities": [
+      "ロアタン島"
+    ],
+    "filmed_at": {
+      "from": "2023-07-04",
+      "to": "2023-07-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/puDBf3OXUFo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Go7Zv1Y_vdk",
+    "title": "サンサルバドル34歳ひとり旅🇸🇻2018年まで殺人率世界一エルサルバドルの首都【中米#07】2023年7月7日〜10日",
+    "published_at": "2023-07-24T11:00:11Z",
+    "duration": "PT28M36S",
+    "series_id": "central-america",
+    "episode": 7,
+    "countries": [
+      "222"
+    ],
+    "cities": [
+      "サンサルバドル"
+    ],
+    "filmed_at": {
+      "from": "2023-07-07",
+      "to": "2023-07-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Go7Zv1Y_vdk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ja_Vd7uKV6s",
+    "title": "グアテマラシティ34歳ひとり旅🇬🇹コーヒー以外に何がある？【中米#08】2023年7月10日〜14日",
+    "published_at": "2023-07-28T11:00:12Z",
+    "duration": "PT27M30S",
+    "series_id": "central-america",
+    "episode": 8,
+    "countries": [
+      "320"
+    ],
+    "cities": [
+      "グアテマラシティ"
+    ],
+    "filmed_at": {
+      "from": "2023-07-10",
+      "to": "2023-07-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ja_Vd7uKV6s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "PBHc2lreb7w",
+    "title": "フローレス34歳ひとり旅🇬🇹マヤ文明のティカル遺跡に行ってみた【中米#09】2023年7月14日〜17日",
+    "published_at": "2023-07-31T11:00:16Z",
+    "duration": "PT29M11S",
+    "series_id": "central-america",
+    "episode": 9,
+    "countries": [
+      "320"
+    ],
+    "cities": [
+      "フローレス"
+    ],
+    "filmed_at": {
+      "from": "2023-07-14",
+      "to": "2023-07-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/PBHc2lreb7w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "eCzdEiFfEnY",
+    "title": "サンペドロ34歳ひとり旅🇧🇿ベリーズ名物ロブスター4軒食いまくる。【中米#10】2023年7月17日〜20日",
+    "published_at": "2023-08-03T11:00:23Z",
+    "duration": "PT24M45S",
+    "series_id": "central-america",
+    "episode": 10,
+    "countries": [
+      "084"
+    ],
+    "cities": [
+      "サンペドロ"
+    ],
+    "filmed_at": {
+      "from": "2023-07-17",
+      "to": "2023-07-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/eCzdEiFfEnY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3N5RD3zsLus",
+    "title": "キーカーカー34歳ひとり旅🇧🇿青すぎるカリブ海でシュノーケリングしてみた。【中米#11】2023年7月20日〜23日",
+    "published_at": "2023-08-06T11:00:01Z",
+    "duration": "PT34M51S",
+    "series_id": "central-america",
+    "episode": 11,
+    "countries": [
+      "084"
+    ],
+    "cities": [
+      "キーカーカー"
+    ],
+    "filmed_at": {
+      "from": "2023-07-20",
+      "to": "2023-07-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3N5RD3zsLus/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0qsbPi_hnSQ",
+    "title": "ベリーズシティ34歳ひとり旅🇧🇿カリブ海のブルーホールに行ってみた。【中米#12】2023年7月23日〜26日",
+    "published_at": "2023-08-10T11:00:00Z",
+    "duration": "PT34M33S",
+    "series_id": "central-america",
+    "episode": 12,
+    "countries": [
+      "084"
+    ],
+    "cities": [
+      "ベリーズシティ"
+    ],
+    "filmed_at": {
+      "from": "2023-07-23",
+      "to": "2023-07-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0qsbPi_hnSQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ink1Q-v4K6E",
+    "title": "カンクン34歳ひとり旅🇲🇽リゾートなのに見どころ多過ぎて忙しい。【中米#13】2023年7月26日〜8月5日",
+    "published_at": "2023-08-16T11:00:17Z",
+    "duration": "PT36M17S",
+    "series_id": "central-america",
+    "episode": 13,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "カンクン"
+    ],
+    "filmed_at": {
+      "from": "2023-07-26",
+      "to": "2023-08-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ink1Q-v4K6E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GaooIrkNsxY",
+    "title": "プラヤデルカルメン34歳ひとり旅🇲🇽ビーチと遺跡にセノーテまで何でもありの観光地。【中米#14】2023年8月5日〜8日",
+    "published_at": "2023-08-21T11:00:12Z",
+    "duration": "PT37M18S",
+    "series_id": "central-america",
+    "episode": 14,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "プラヤデルカルメン"
+    ],
+    "filmed_at": {
+      "from": "2023-08-05",
+      "to": "2023-08-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GaooIrkNsxY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "RNQyPlLvhfI",
+    "title": "カンクン34歳ひとり旅🇲🇽呑み食い放題の5つ星リゾート、ハイアットジラーラカンクン。【中米#15】2023年8月8日〜13日",
+    "published_at": "2023-08-26T11:00:21Z",
+    "duration": "PT21M6S",
+    "series_id": "central-america",
+    "episode": 15,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "カンクン"
+    ],
+    "filmed_at": {
+      "from": "2023-08-08",
+      "to": "2023-08-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/RNQyPlLvhfI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "TQNjBkAfgks",
+    "title": "オアハカ34歳ひとり旅🇲🇽メキシコ感あふれる美食の街。【中米#16】2023年8月13日〜16日",
+    "published_at": "2023-08-29T11:00:22Z",
+    "duration": "PT26M1S",
+    "series_id": "central-america",
+    "episode": 16,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "オアハカ"
+    ],
+    "filmed_at": {
+      "from": "2023-08-13",
+      "to": "2023-08-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/TQNjBkAfgks/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "E8Rmxt4QS58",
+    "title": "グアダラハラ34歳ひとり旅🇲🇽さすがメキシコ三大都市の一つ。【中米#17】2023年8月16日〜20日",
+    "published_at": "2023-09-01T11:00:10Z",
+    "duration": "PT18M3S",
+    "series_id": "central-america",
+    "episode": 17,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "グアダラハラ"
+    ],
+    "filmed_at": {
+      "from": "2023-08-16",
+      "to": "2023-08-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/E8Rmxt4QS58/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "pNMo7x9GVb4",
+    "title": "グアナファト34歳ひとり旅🇲🇽銀山で栄華を極めたメキシコで最も美しい街。【中米#18】2023年8月20日〜22日",
+    "published_at": "2023-09-04T11:00:40Z",
+    "duration": "PT17M28S",
+    "series_id": "central-america",
+    "episode": 18,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "グアナファト"
+    ],
+    "filmed_at": {
+      "from": "2023-08-20",
+      "to": "2023-08-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/pNMo7x9GVb4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ykj6XWOf2rc",
+    "title": "サンミゲルデアジェンデ34歳ひとり旅🇲🇽旅人が選ぶ世界一の街。【中米#19】2023年8月22日〜24日",
+    "published_at": "2023-09-07T11:43:34Z",
+    "duration": "PT20M34S",
+    "series_id": "central-america",
+    "episode": 19,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "サンミゲルデアジェンデ"
+    ],
+    "filmed_at": {
+      "from": "2023-08-22",
+      "to": "2023-08-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ykj6XWOf2rc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "hIYhItVFJMw",
+    "title": "メキシコシティ34歳ひとり旅🇲🇽中米一の圧倒的大都会。【中米#20】2023年8月24日〜26日",
+    "published_at": "2023-09-10T10:31:47Z",
+    "duration": "PT20M56S",
+    "series_id": "central-america",
+    "episode": 20,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "メキシコシティ"
+    ],
+    "filmed_at": {
+      "from": "2023-08-24",
+      "to": "2023-08-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/hIYhItVFJMw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_iAJcJ05DSo",
+    "title": "メキシコシティ34歳ひとり旅🇲🇽テオティワカンからのタコス3軒はしご食いで中米編完結。【中米#21】2023年8月27日〜29日",
+    "published_at": "2023-09-13T11:00:29Z",
+    "duration": "PT23M30S",
+    "series_id": "central-america",
+    "episode": 21,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "メキシコシティ"
+    ],
+    "filmed_at": {
+      "from": "2023-08-27",
+      "to": "2023-08-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_iAJcJ05DSo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ZPDLcZUYwAI",
+    "title": "ラスベガス34歳ひとり旅🇺🇸物価激高でもカジノで勝てば良いんだろ？【北米#1】2023年8月29日〜9月1日",
+    "published_at": "2023-09-18T14:35:02Z",
+    "duration": "PT28M20S",
+    "series_id": "north-america",
+    "episode": 1,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ラスベガス"
+    ],
+    "filmed_at": {
+      "from": "2023-08-29",
+      "to": "2023-09-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ZPDLcZUYwAI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NIMnjvPiKTA",
+    "title": "ロサンゼルス34歳ひとり旅🇺🇸全米第二の都市は想像よりイカれてた。【北米#2】2023年9月1日〜9月3日",
+    "published_at": "2023-09-22T09:07:11Z",
+    "duration": "PT32M47S",
+    "series_id": "north-america",
+    "episode": 2,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ロサンゼルス"
+    ],
+    "filmed_at": {
+      "from": "2023-09-01",
+      "to": "2023-09-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NIMnjvPiKTA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "iJ5txvWl4AQ",
+    "title": "ロサンゼルス34歳ひとり旅🇺🇸大谷翔平スタジアム観戦からのヤケ酒。【北米#3】2023年9月4日〜6日",
+    "published_at": "2023-09-27T10:38:02Z",
+    "duration": "PT26M30S",
+    "series_id": "north-america",
+    "episode": 3,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ロサンゼルス"
+    ],
+    "filmed_at": {
+      "from": "2023-09-04",
+      "to": "2023-09-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/iJ5txvWl4AQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "e6eeCvW6Q7w",
+    "title": "シリコンバレー34歳ひとり旅🇺🇸世界中の富と頭脳が集まるIT企業の聖地。【北米#4】2023年9月6日〜8日",
+    "published_at": "2023-10-03T11:00:27Z",
+    "duration": "PT25M31S",
+    "series_id": "north-america",
+    "episode": 4,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "シリコンバレー"
+    ],
+    "filmed_at": {
+      "from": "2023-09-06",
+      "to": "2023-09-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/e6eeCvW6Q7w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "TIwtF7-teJI",
+    "title": "サンフランシスコ34歳ひとり旅🇺🇸ナパバレーでワイン呑み歩き。【北米#5】2023年9月9日〜12日",
+    "published_at": "2023-10-07T12:00:24Z",
+    "duration": "PT41M7S",
+    "series_id": "north-america",
+    "episode": 5,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "サンフランシスコ"
+    ],
+    "filmed_at": {
+      "from": "2023-09-09",
+      "to": "2023-09-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/TIwtF7-teJI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "t5DXq3cGmBw",
+    "title": "シアトル34歳ひとり旅🇺🇸大谷翔平を追いかけてエンゼルス戦を見に来たら。【北米#6】2023年9月12日〜15日",
+    "published_at": "2023-10-10T11:19:34Z",
+    "duration": "PT31M43S",
+    "series_id": "north-america",
+    "episode": 6,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "シアトル"
+    ],
+    "filmed_at": {
+      "from": "2023-09-12",
+      "to": "2023-09-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/t5DXq3cGmBw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WUKErHOD8MU",
+    "title": "フェアバンクス34歳ひとり旅🇺🇸9月のアラスカってオーロラ見れるのかい？【北米#7】2023年9月15日〜18日",
+    "published_at": "2023-10-13T11:00:26Z",
+    "duration": "PT33M26S",
+    "series_id": "north-america",
+    "episode": 7,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "フェアバンクス"
+    ],
+    "filmed_at": {
+      "from": "2023-09-15",
+      "to": "2023-09-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WUKErHOD8MU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "jibHUpzLBgA",
+    "title": "アンカレッジ34歳ひとり旅🇺🇸片道6万円超のアラスカ鉄道に乗ってみた。【北米#8】2023年9月18日〜20日",
+    "published_at": "2023-10-19T11:00:38Z",
+    "duration": "PT33M22S",
+    "series_id": "north-america",
+    "episode": 8,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "アンカレッジ"
+    ],
+    "filmed_at": {
+      "from": "2023-09-18",
+      "to": "2023-09-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/jibHUpzLBgA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ib_AnzbZkoQ",
+    "title": "バンクーバー34歳ひとり旅🇨🇦異次元の宿代で絶望の空港泊…【北米#9】2023年9月20日〜23日",
+    "published_at": "2023-10-24T11:00:13Z",
+    "duration": "PT33M25S",
+    "series_id": "north-america",
+    "episode": 9,
+    "countries": [
+      "124"
+    ],
+    "cities": [
+      "バンクーバー"
+    ],
+    "filmed_at": {
+      "from": "2023-09-20",
+      "to": "2023-09-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ib_AnzbZkoQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gwcDVjY0Xa0",
+    "title": "モントリオール34歳ひとり旅🇨🇦カナダなのにフランス語圏「北米のパリ」でB級グルメ食いまくる。【北米#10】2023年9月23日〜25日",
+    "published_at": "2023-10-28T11:00:36Z",
+    "duration": "PT29M21S",
+    "series_id": "north-america",
+    "episode": 10,
+    "countries": [
+      "124"
+    ],
+    "cities": [
+      "モントリオール"
+    ],
+    "filmed_at": {
+      "from": "2023-09-23",
+      "to": "2023-09-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gwcDVjY0Xa0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-VCn_A2-rUE",
+    "title": "トロント34歳ひとり旅🇨🇦カナダ最大都市が大都会過ぎた。【北米#11】2023年9月25日〜28日",
+    "published_at": "2023-10-31T11:00:00Z",
+    "duration": "PT32M43S",
+    "series_id": "north-america",
+    "episode": 11,
+    "countries": [
+      "124"
+    ],
+    "cities": [
+      "トロント"
+    ],
+    "filmed_at": {
+      "from": "2023-09-25",
+      "to": "2023-09-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-VCn_A2-rUE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0cjyYaSpRPw",
+    "title": "ナイアガラの滝34歳ひとり旅🇨🇦大迫力の世界三大瀑布。【北米#12】2023年9月28日〜30日",
+    "published_at": "2023-11-03T11:00:02Z",
+    "duration": "PT34M47S",
+    "series_id": "north-america",
+    "episode": 12,
+    "countries": [
+      "124"
+    ],
+    "cities": [
+      "ナイアガラの滝"
+    ],
+    "filmed_at": {
+      "from": "2023-09-28",
+      "to": "2023-09-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0cjyYaSpRPw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "g7UPjfdwb_w",
+    "title": "ANAファーストクラス34歳ひとり旅🇺🇸ニューヨークから東京まで14時間のTHE Suite【北米#13】2023年10月1日〜2日",
+    "published_at": "2023-11-06T11:00:37Z",
+    "duration": "PT26M18S",
+    "series_id": "north-america",
+    "episode": 13,
+    "countries": [
+      "840"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2023-10-01",
+      "to": "2023-10-02"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/g7UPjfdwb_w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "U6bZm1_nUkY",
+    "title": "ANAビジネスクラス34歳ひとり旅🇺🇸東京からニューヨークまで13時間の深夜便THE Room【北米#14】2023年10月13日〜14日",
+    "published_at": "2023-11-14T11:00:20Z",
+    "duration": "PT19M25S",
+    "series_id": "north-america",
+    "episode": 14,
+    "countries": [
+      "840"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2023-10-13",
+      "to": "2023-10-14"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/U6bZm1_nUkY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "pRowy60C-vw",
+    "title": "ニューヨーク34歳ひとり旅🇺🇸何もかも異次元な世界一の大都市【北米#15】2023年10月14日〜16日",
+    "published_at": "2023-11-18T11:00:50Z",
+    "duration": "PT26M24S",
+    "series_id": "north-america",
+    "episode": 15,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ニューヨーク"
+    ],
+    "filmed_at": {
+      "from": "2023-10-14",
+      "to": "2023-10-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/pRowy60C-vw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "yuBTnQdJ4Zg",
+    "title": "ニューヨーク34歳ひとり旅🇺🇸ブルックリンに自由の女神、NY南部を回る。【北米#16】2023年10月17日〜20日",
+    "published_at": "2023-11-23T11:00:49Z",
+    "duration": "PT35M29S",
+    "series_id": "north-america",
+    "episode": 16,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ニューヨーク"
+    ],
+    "filmed_at": {
+      "from": "2023-10-17",
+      "to": "2023-10-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/yuBTnQdJ4Zg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "OvcMYPtf9r4",
+    "title": "ワシントンD.C.34歳ひとり旅🇺🇸意外と知らないアメリカの首都に行ってみた。【北米#17】2023年10月20日〜23日",
+    "published_at": "2023-11-27T11:00:17Z",
+    "duration": "PT26M15S",
+    "series_id": "north-america",
+    "episode": 17,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ワシントンD.C."
+    ],
+    "filmed_at": {
+      "from": "2023-10-20",
+      "to": "2023-10-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/OvcMYPtf9r4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "SJth4tQSZTM",
+    "title": "マイアミ34歳ひとり旅🇺🇸宿は安いが飯高いアメリカ屈指のリゾート地。【北米#18】2023年10月20日〜11月3日",
+    "published_at": "2023-12-01T11:00:32Z",
+    "duration": "PT41M16S",
+    "series_id": "north-america",
+    "episode": 18,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "マイアミ"
+    ],
+    "filmed_at": {
+      "from": "2023-10-20",
+      "to": "2023-11-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SJth4tQSZTM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "w5IAujuRjWw",
+    "title": "ナッソー34歳ひとり旅🇧🇸バハマからカリブ海編スタート。【カリブ#1】2023年11月3日〜7日",
+    "published_at": "2023-12-05T11:00:48Z",
+    "duration": "PT29M38S",
     "series_id": "caribbean",
     "episode": 1,
     "countries": [
-      "192"
+      "044"
     ],
     "cities": [
-      "ハバナ"
+      "ナッソー"
     ],
     "filmed_at": {
-      "from": "2023-10-02",
-      "to": "2023-10-04"
+      "from": "2023-11-03",
+      "to": "2023-11-07"
     },
+    "thumbnail": "https://i.ytimg.com/vi/w5IAujuRjWw/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00028",
-    "title": "ハバナ34歳ひとり旅🇨🇺民泊カサ・パルティクラール【カリブ海#02】2023年10月4日〜7日",
-    "published_at": "2023-12-19T10:00:00Z",
-    "duration": "PT24M4S",
+    "video_id": "RlwavTVCSbg",
+    "title": "ハバナ34歳ひとり旅🇨🇺社会主義国キューバの変わりゆく現在。【カリブ#2】2023年11月7日〜10日",
+    "published_at": "2023-12-11T11:00:20Z",
+    "duration": "PT40M32S",
     "series_id": "caribbean",
     "episode": 2,
     "countries": [
@@ -634,43 +3834,45 @@
       "ハバナ"
     ],
     "filmed_at": {
-      "from": "2023-10-04",
-      "to": "2023-10-07"
+      "from": "2023-11-07",
+      "to": "2023-11-10"
     },
+    "thumbnail": "https://i.ytimg.com/vi/RlwavTVCSbg/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00029",
-    "title": "キングストン34歳ひとり旅🇯🇲レゲエの夜【カリブ海#03】2023年10月8日〜11日",
-    "published_at": "2023-12-26T10:00:00Z",
-    "duration": "PT31M17S",
+    "video_id": "2m5W5mBnNVA",
+    "title": "バラデロ34歳ひとり旅🇨🇺社会主義国キューバの激安リゾートに泊まってみた。【カリブ#3】2023年11月10日〜14日",
+    "published_at": "2023-12-15T11:00:02Z",
+    "duration": "PT35M31S",
     "series_id": "caribbean",
     "episode": 3,
     "countries": [
-      "388"
+      "192"
     ],
     "cities": [
-      "キングストン"
+      "バラデロ"
     ],
     "filmed_at": {
-      "from": "2023-10-08",
-      "to": "2023-10-11"
+      "from": "2023-11-10",
+      "to": "2023-11-14"
     },
+    "thumbnail": "https://i.ytimg.com/vi/2m5W5mBnNVA/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00030",
-    "title": "サントドミンゴ34歳ひとり旅🇩🇴カリブ最古の旧市街【カリブ海#04】2023年10月12日〜15日",
-    "published_at": "2023-12-24T10:00:00Z",
-    "duration": "PT19M30S",
+    "video_id": "OJzMdr7FEb8",
+    "title": "サントドミンゴ34歳ひとり旅🇩🇴ドミニカ共和国の日本食で爆呑みした。【カリブ#4】2023年11月14日〜17日",
+    "published_at": "2023-12-22T11:00:18Z",
+    "duration": "PT38M17S",
     "series_id": "caribbean",
     "episode": 4,
     "countries": [
@@ -680,68 +3882,381 @@
       "サントドミンゴ"
     ],
     "filmed_at": {
-      "from": "2023-10-12",
-      "to": "2023-10-15"
+      "from": "2023-11-14",
+      "to": "2023-11-17"
     },
+    "thumbnail": "https://i.ytimg.com/vi/OJzMdr7FEb8/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00031",
-    "title": "バンコク35歳ひとり旅🇹🇭屋台で朝ごはん【アジア#01】2024年1月10日〜14日",
-    "published_at": "2024-03-27T10:00:00Z",
-    "duration": "PT26M43S",
+    "video_id": "R_uruAjo280",
+    "title": "キングストン34歳ひとり旅🇯🇲殺人率世界一ジャマイカが怖すぎて酒しか呑めない。【カリブ#5】2023年11月17日〜21日",
+    "published_at": "2023-12-27T15:00:17Z",
+    "duration": "PT29M46S",
+    "series_id": "caribbean",
+    "episode": 5,
+    "countries": [
+      "388"
+    ],
+    "cities": [
+      "キングストン"
+    ],
+    "filmed_at": {
+      "from": "2023-11-17",
+      "to": "2023-11-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/R_uruAjo280/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "DDy36DAWtKA",
+    "title": "セントマーチン34歳ひとり旅🇸🇽世界一危険なビーチに行ってみた。【カリブ#6】2023年11月21日〜24日",
+    "published_at": "2023-12-31T10:19:47Z",
+    "duration": "PT36M52S",
+    "series_id": "caribbean",
+    "episode": 6,
+    "countries": [
+      "534"
+    ],
+    "cities": [
+      "セントマーチン"
+    ],
+    "filmed_at": {
+      "from": "2023-11-21",
+      "to": "2023-11-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/DDy36DAWtKA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sGlNLpZSUCA",
+    "title": "セントクリストファーネイビス34歳ひとり旅🇰🇳カリブ海の小さな島国に行ってみた。【カリブ#7】2023年11月24日〜27日",
+    "published_at": "2024-01-03T11:46:04Z",
+    "duration": "PT26M36S",
+    "series_id": "caribbean",
+    "episode": 7,
+    "countries": [
+      "659"
+    ],
+    "cities": [
+      "セントクリストファーネイビス"
+    ],
+    "filmed_at": {
+      "from": "2023-11-24",
+      "to": "2023-11-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sGlNLpZSUCA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kx5Ay2ZlOHc",
+    "title": "アンティグアバーブーダ34歳ひとり旅🇦🇬ビーチ沿いの宿でまったり酒飲むだけ。【カリブ#8】2023年11月27日〜30日",
+    "published_at": "2024-01-05T11:01:12Z",
+    "duration": "PT30M19S",
+    "series_id": "caribbean",
+    "episode": 8,
+    "countries": [
+      "028"
+    ],
+    "cities": [
+      "アンティグアバーブーダ"
+    ],
+    "filmed_at": {
+      "from": "2023-11-27",
+      "to": "2023-11-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kx5Ay2ZlOHc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xe1aoKuFo78",
+    "title": "バルバドス34歳ひとり旅🇧🇧行ってビビったカリブ海の天国。【カリブ#9】2023年11月30日〜12月3日",
+    "published_at": "2024-01-08T08:01:30Z",
+    "duration": "PT32M19S",
+    "series_id": "caribbean",
+    "episode": 9,
+    "countries": [
+      "052"
+    ],
+    "cities": [
+      "バルバドス"
+    ],
+    "filmed_at": {
+      "from": "2023-11-30",
+      "to": "2023-12-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xe1aoKuFo78/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qx5PTQfqo3A",
+    "title": "ロゾー34歳ひとり旅🇩🇲ドミニカ共和国じゃないドミニカ国で呑み歩き。【カリブ#10】2023年12月3日〜6日",
+    "published_at": "2024-01-10T12:31:08Z",
+    "duration": "PT33M45S",
+    "series_id": "caribbean",
+    "episode": 10,
+    "countries": [
+      "212"
+    ],
+    "cities": [
+      "ロゾー"
+    ],
+    "filmed_at": {
+      "from": "2023-12-03",
+      "to": "2023-12-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qx5PTQfqo3A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "CWOZWe3TU4o",
+    "title": "セントルシア34歳ひとり旅🇱🇨自然豊かな火山島国で呑み歩き。【カリブ#11】2023年12月6日〜9日",
+    "published_at": "2024-02-10T13:06:24Z",
+    "duration": "PT34M55S",
+    "series_id": "caribbean",
+    "episode": 11,
+    "countries": [
+      "662"
+    ],
+    "cities": [
+      "セントルシア"
+    ],
+    "filmed_at": {
+      "from": "2023-12-06",
+      "to": "2023-12-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/CWOZWe3TU4o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "LjVjIZF9v9M",
+    "title": "セントビンセント及びグレナディーン諸島34歳ひとり旅🇻🇨3泊4日呑み歩き。【カリブ#12】2023年12月9日〜12日",
+    "published_at": "2024-02-14T11:48:12Z",
+    "duration": "PT30M43S",
+    "series_id": "caribbean",
+    "episode": 12,
+    "countries": [
+      "670"
+    ],
+    "cities": [
+      "セントビンセント及びグレナディーン諸島"
+    ],
+    "filmed_at": {
+      "from": "2023-12-09",
+      "to": "2023-12-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/LjVjIZF9v9M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "iCdty2hxTcc",
+    "title": "グレナダ34歳ひとり旅🇬🇩知られざる超穴場絶景ビーチ4泊5日呑み歩き。【カリブ#13】2023年12月12日〜16日",
+    "published_at": "2024-02-20T12:53:43Z",
+    "duration": "PT28M54S",
+    "series_id": "caribbean",
+    "episode": 13,
+    "countries": [
+      "308"
+    ],
+    "cities": [
+      "グレナダ"
+    ],
+    "filmed_at": {
+      "from": "2023-12-12",
+      "to": "2023-12-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/iCdty2hxTcc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "8a2rmETooZo",
+    "title": "ポートオブスペイン34歳ひとり旅🇹🇹殺人率世界8位トリニダードトバゴ3泊4日呑み歩き。【カリブ#14】2023年12月16日〜19日",
+    "published_at": "2024-02-25T20:14:31Z",
+    "duration": "PT22M44S",
+    "series_id": "caribbean",
+    "episode": 14,
+    "countries": [
+      "780"
+    ],
+    "cities": [
+      "ポートオブスペイン"
+    ],
+    "filmed_at": {
+      "from": "2023-12-16",
+      "to": "2023-12-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/8a2rmETooZo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1rcw1YQ7e0E",
+    "title": "ANAビジネスクラス34歳ひとり旅🇨🇼オランダ領キュラソーから帰国【カリブ#15】2023年12月19日〜23日",
+    "published_at": "2024-02-28T12:32:50Z",
+    "duration": "PT26M20S",
+    "series_id": "caribbean",
+    "episode": 15,
+    "countries": [
+      "531"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2023-12-19",
+      "to": "2023-12-23"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/1rcw1YQ7e0E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xRRzb0DRdx0",
+    "title": "ANAビジネスクラス旅🇮🇳羽田からデリーへ出発。【アジア#1】2024年3月14日",
+    "published_at": "2024-03-30T11:30:26Z",
+    "duration": "PT19M14S",
     "series_id": "asia",
     "episode": 1,
     "countries": [
-      "764"
+      "356"
     ],
-    "cities": [
-      "バンコク"
-    ],
+    "cities": [],
     "filmed_at": {
-      "from": "2024-01-10",
-      "to": "2024-01-14"
+      "from": "2024-03-14",
+      "to": "2024-03-14"
     },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/xRRzb0DRdx0/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00032",
-    "title": "バラナシ35歳ひとり旅🇮🇳ガンジス川で朝を迎える【アジア#02】2024年1月20日〜22日",
-    "published_at": "2024-04-07T10:00:00Z",
-    "duration": "PT33M56S",
+    "video_id": "MPAfkcrNS6M",
+    "title": "デリー旅🇮🇳インドの首都はやっぱり超カオス。【アジア#2】2024年3月14日〜18日",
+    "published_at": "2024-04-05T17:43:53Z",
+    "duration": "PT41M53S",
     "series_id": "asia",
     "episode": 2,
     "countries": [
       "356"
     ],
     "cities": [
-      "バラナシ"
+      "デリー"
     ],
     "filmed_at": {
-      "from": "2024-01-20",
-      "to": "2024-01-22"
+      "from": "2024-03-14",
+      "to": "2024-03-18"
     },
+    "thumbnail": "https://i.ytimg.com/vi/MPAfkcrNS6M/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00033",
-    "title": "バラナシ35歳ひとり旅🇮🇳寝台列車に24時間【アジア#03】2024年1月22日〜24日",
-    "published_at": "2024-04-03T10:00:00Z",
-    "duration": "PT21M9S",
+    "video_id": "ATea0LVJ4OI",
+    "title": "ジャイプール旅🇮🇳少し贅沢すればインドも快適。【アジア#3】2024年3月18日〜22日",
+    "published_at": "2024-04-15T15:07:10Z",
+    "duration": "PT36M35S",
     "series_id": "asia",
     "episode": 3,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "ジャイプール"
+    ],
+    "filmed_at": {
+      "from": "2024-03-18",
+      "to": "2024-03-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ATea0LVJ4OI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1ySQXpFZNTw",
+    "title": "アグラ旅🇮🇳ついにインドの洗礼。インドやっぱ無理かも。【アジア#4】2024年3月22日〜26日",
+    "published_at": "2024-04-23T10:49:59Z",
+    "duration": "PT29M9S",
+    "series_id": "asia",
+    "episode": 4,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "アグラ"
+    ],
+    "filmed_at": {
+      "from": "2024-03-22",
+      "to": "2024-03-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1ySQXpFZNTw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "56Ju1accedk",
+    "title": "バラナシ旅🇮🇳これぞインドの聖地ガンジス川。【アジア#5】2024年3月26日〜29日",
+    "published_at": "2024-04-27T10:25:57Z",
+    "duration": "PT33M21S",
+    "series_id": "asia",
+    "episode": 5,
     "countries": [
       "356"
     ],
@@ -749,22 +4264,71 @@
       "バラナシ"
     ],
     "filmed_at": {
-      "from": "2024-01-22",
-      "to": "2024-01-24"
+      "from": "2024-03-26",
+      "to": "2024-03-29"
     },
+    "thumbnail": "https://i.ytimg.com/vi/56Ju1accedk/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00034",
-    "title": "カトマンズ35歳ひとり旅🇳🇵ヒマラヤが見える村まで歩く【アジア#04】2024年1月25日〜29日",
-    "published_at": "2024-04-11T10:00:00Z",
-    "duration": "PT28M22S",
+    "video_id": "OgSW7yY1nsk",
+    "title": "コルカタ旅🇮🇳イギリス領インド帝国時代の首都カルカッタ。【アジア#6】2024年3月29日〜4月1日",
+    "published_at": "2024-05-01T12:10:28Z",
+    "duration": "PT29M43S",
     "series_id": "asia",
-    "episode": 4,
+    "episode": 6,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "コルカタ"
+    ],
+    "filmed_at": {
+      "from": "2024-03-29",
+      "to": "2024-04-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/OgSW7yY1nsk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2FJkRULnwGU",
+    "title": "ダッカ旅🇧🇩人口密度世界一のバングラデシュこそ真のカオス。【アジア#7】2024年4月1日〜5日",
+    "published_at": "2024-05-06T01:20:20Z",
+    "duration": "PT43M35S",
+    "series_id": "asia",
+    "episode": 7,
+    "countries": [
+      "050"
+    ],
+    "cities": [
+      "ダッカ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-01",
+      "to": "2024-04-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2FJkRULnwGU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "V4F397R8pmQ",
+    "title": "カトマンズ旅🇳🇵インド後のネパール飯が旨すぎた。【アジア#8】2024年4月5日〜9日",
+    "published_at": "2024-05-12T00:32:45Z",
+    "duration": "PT42M46S",
+    "series_id": "asia",
+    "episode": 8,
     "countries": [
       "524"
     ],
@@ -772,22 +4336,839 @@
       "カトマンズ"
     ],
     "filmed_at": {
-      "from": "2024-01-25",
-      "to": "2024-01-29"
+      "from": "2024-04-05",
+      "to": "2024-04-09"
     },
+    "thumbnail": "https://i.ytimg.com/vi/V4F397R8pmQ/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00035",
-    "title": "ラホール35歳ひとり旅🇵🇰出会った家族の家に泊まる【アジア#05】2024年2月3日〜7日",
-    "published_at": "2024-04-23T10:00:00Z",
-    "duration": "PT35M35S",
+    "video_id": "aBV7_9lPHag",
+    "title": "コロンボ旅🇱🇰インド洋に浮かぶ島国スリランカ【アジア#9】2024年4月9日〜13日",
+    "published_at": "2024-05-19T12:09:21Z",
+    "duration": "PT37M25S",
     "series_id": "asia",
-    "episode": 5,
+    "episode": 9,
+    "countries": [
+      "144"
+    ],
+    "cities": [
+      "コロンボ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-09",
+      "to": "2024-04-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/aBV7_9lPHag/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xcjS4hus908",
+    "title": "モルディブ旅🇲🇻飲み放題の水上ヴィラに泊まってみた。【アジア#10】2024年4月13日〜16日",
+    "published_at": "2024-05-24T23:23:10Z",
+    "duration": "PT36M55S",
+    "series_id": "asia",
+    "episode": 10,
+    "countries": [
+      "462"
+    ],
+    "cities": [
+      "モルディブ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-13",
+      "to": "2024-04-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xcjS4hus908/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QsCRQTs9ZLM",
+    "title": "モルディブ旅🇲🇻水上飛行機で行く高級リゾートがヤバすぎた。【アジア#11】2024年4月16日〜19日",
+    "published_at": "2024-06-02T04:54:23Z",
+    "duration": "PT46M36S",
+    "series_id": "asia",
+    "episode": 11,
+    "countries": [
+      "462"
+    ],
+    "cities": [
+      "モルディブ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-16",
+      "to": "2024-04-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/QsCRQTs9ZLM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "EanQz831mAQ",
+    "title": "モルディブ旅🇲🇻3泊100万円超えの超高級リゾートに泊まってみた。【アジア#12】2024年4月19日〜22日",
+    "published_at": "2024-06-11T02:31:31Z",
+    "duration": "PT42M7S",
+    "series_id": "asia",
+    "episode": 12,
+    "countries": [
+      "462"
+    ],
+    "cities": [
+      "モルディブ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-19",
+      "to": "2024-04-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/EanQz831mAQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_UY3hr76BrQ",
+    "title": "ベンガルール旅🇮🇳インドに禁酒日があるなんて。【アジア#13】2024年4月22日〜26日",
+    "published_at": "2024-06-16T06:00:23Z",
+    "duration": "PT24M49S",
+    "series_id": "asia",
+    "episode": 13,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "ベンガルール"
+    ],
+    "filmed_at": {
+      "from": "2024-04-22",
+      "to": "2024-04-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_UY3hr76BrQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NeaalI2lGn0",
+    "title": "ムンバイ旅🇮🇳インド最大都市で広がる格差を感じる呑み歩き。【アジア#14】2024年4月26日〜30日",
+    "published_at": "2024-06-24T00:59:53Z",
+    "duration": "PT38M4S",
+    "series_id": "asia",
+    "episode": 14,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "ムンバイ"
+    ],
+    "filmed_at": {
+      "from": "2024-04-26",
+      "to": "2024-04-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NeaalI2lGn0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "rCOkYvOSeR0",
+    "title": "マスカット旅🇴🇲なぜか聞いたことあるオマーン国。【アジア#15】2024年4月30日〜5月4日",
+    "published_at": "2024-06-30T08:00:33Z",
+    "duration": "PT31M34S",
+    "series_id": "asia",
+    "episode": 15,
+    "countries": [
+      "512"
+    ],
+    "cities": [
+      "マスカット"
+    ],
+    "filmed_at": {
+      "from": "2024-04-30",
+      "to": "2024-05-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/rCOkYvOSeR0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WYWi4sVN5ug",
+    "title": "アブダビ旅🇦🇪UAEの首都で思い知る石油の力。【アジア#16】2024年5月4日〜8日",
+    "published_at": "2024-07-06T02:11:40Z",
+    "duration": "PT36M59S",
+    "series_id": "asia",
+    "episode": 16,
+    "countries": [
+      "784"
+    ],
+    "cities": [
+      "アブダビ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-04",
+      "to": "2024-05-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WYWi4sVN5ug/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-eTQBmBlCH4",
+    "title": "ドバイ旅🇦🇪何もかも世界一でスゴすぎた。【アジア#17】2024年5月8日〜12日",
+    "published_at": "2024-07-11T13:51:45Z",
+    "duration": "PT37M11S",
+    "series_id": "asia",
+    "episode": 17,
+    "countries": [
+      "784"
+    ],
+    "cities": [
+      "ドバイ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-08",
+      "to": "2024-05-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-eTQBmBlCH4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NQwUtKoVtNU",
+    "title": "ドバイ旅🇦🇪究極の7つ星ホテルに泊まってみた。【アジア#18】2024年5月12日〜14日",
+    "published_at": "2024-07-19T11:00:30Z",
+    "duration": "PT54M33S",
+    "series_id": "asia",
+    "episode": 18,
+    "countries": [
+      "784"
+    ],
+    "cities": [
+      "ドバイ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-12",
+      "to": "2024-05-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NQwUtKoVtNU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "SKvrkqHy5yk",
+    "title": "カラチ旅🇵🇰怖過ぎて何も出来なかったパキスタン【アジア#19】2024年5月14日〜17日",
+    "published_at": "2024-07-30T13:08:48Z",
+    "duration": "PT24M50S",
+    "series_id": "asia",
+    "episode": 19,
+    "countries": [
+      "586"
+    ],
+    "cities": [
+      "カラチ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-14",
+      "to": "2024-05-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SKvrkqHy5yk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "HEo7xP99RIs",
+    "title": "ドーハ旅🇶🇦世界一退屈とも言われるW杯開催国カタール【アジア#20】2024年5月17日〜21日",
+    "published_at": "2024-08-03T14:11:25Z",
+    "duration": "PT32M48S",
+    "series_id": "asia",
+    "episode": 20,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-17",
+      "to": "2024-05-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/HEo7xP99RIs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "aveUuf6cQa0",
+    "title": "クウェート旅🇰🇼人生で一番想像と違う国【アジア#21】2024年5月21日〜24日",
+    "published_at": "2024-08-07T23:55:39Z",
+    "duration": "PT39M52S",
+    "series_id": "asia",
+    "episode": 21,
+    "countries": [
+      "414"
+    ],
+    "cities": [
+      "クウェート"
+    ],
+    "filmed_at": {
+      "from": "2024-05-21",
+      "to": "2024-05-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/aveUuf6cQa0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6zc7FCPMX64",
+    "title": "マナーマ旅🇧🇭サウジ人が週末に通う中東の楽園バーレーン【アジア#22】2024年5月24日〜28日",
+    "published_at": "2024-08-11T11:31:31Z",
+    "duration": "PT31M39S",
+    "series_id": "asia",
+    "episode": 22,
+    "countries": [
+      "048"
+    ],
+    "cities": [
+      "マナーマ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-24",
+      "to": "2024-05-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6zc7FCPMX64/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "JOB_segMt0g",
+    "title": "リヤド旅🇸🇦2019年に観光解禁した謎の王国サウジアラビア【アジア#23】2024年5月28日〜31日",
+    "published_at": "2024-08-15T00:42:13Z",
+    "duration": "PT22M21S",
+    "series_id": "asia",
+    "episode": 23,
+    "countries": [
+      "682"
+    ],
+    "cities": [
+      "リヤド"
+    ],
+    "filmed_at": {
+      "from": "2024-05-28",
+      "to": "2024-05-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/JOB_segMt0g/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kGupWwPZVTc",
+    "title": "メディナ旅🇸🇦2022年解禁のイスラム教第二の聖地【アジア#24】2024年5月31日〜6月3日",
+    "published_at": "2024-08-19T10:30:45Z",
+    "duration": "PT23M40S",
+    "series_id": "asia",
+    "episode": 24,
+    "countries": [
+      "682"
+    ],
+    "cities": [
+      "メディナ"
+    ],
+    "filmed_at": {
+      "from": "2024-05-31",
+      "to": "2024-06-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kGupWwPZVTc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "YMT7HKYhgbY",
+    "title": "ジェッダ旅🇸🇦オイルマネーが強すぎる聖地メッカの玄関口【アジア#25】2024年6月3日〜6日",
+    "published_at": "2024-08-24T10:52:46Z",
+    "duration": "PT21M45S",
+    "series_id": "asia",
+    "episode": 25,
+    "countries": [
+      "682"
+    ],
+    "cities": [
+      "ジェッダ"
+    ],
+    "filmed_at": {
+      "from": "2024-06-03",
+      "to": "2024-06-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/YMT7HKYhgbY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "EkVtpmZfCVQ",
+    "title": "アンマン旅🇯🇴ヨルダンの死海に入ってみた。【アジア#26】2024年6月6日〜10日",
+    "published_at": "2024-08-28T14:45:17Z",
+    "duration": "PT35M31S",
+    "series_id": "asia",
+    "episode": 26,
+    "countries": [
+      "400"
+    ],
+    "cities": [
+      "アンマン"
+    ],
+    "filmed_at": {
+      "from": "2024-06-06",
+      "to": "2024-06-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/EkVtpmZfCVQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "5YyqML-lB4A",
+    "title": "ペトラ旅🇯🇴インディジョーンズの舞台、入場料が世界一高い世界遺産ペトラ遺跡。【アジア#27】2024年6月10日〜14日",
+    "published_at": "2024-09-01T22:07:36Z",
+    "duration": "PT42M31S",
+    "series_id": "asia",
+    "episode": 27,
+    "countries": [
+      "400"
+    ],
+    "cities": [
+      "ペトラ"
+    ],
+    "filmed_at": {
+      "from": "2024-06-10",
+      "to": "2024-06-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/5YyqML-lB4A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9PhkHYJSr3I",
+    "title": "イスタンブール旅🇹🇷通貨暴落で物価激安かとウキウキで来たけれど。【アジア#28】2024年6月14日〜18日",
+    "published_at": "2024-09-06T13:38:06Z",
+    "duration": "PT41M35S",
+    "series_id": "asia",
+    "episode": 28,
+    "countries": [
+      "792"
+    ],
+    "cities": [
+      "イスタンブール"
+    ],
+    "filmed_at": {
+      "from": "2024-06-14",
+      "to": "2024-06-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9PhkHYJSr3I/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_HBRyLN__Lo",
+    "title": "カッパドキア旅🇹🇷奇岩の絶景に感動する気球おじさん。【アジア#29】2024年6月18日〜23日",
+    "published_at": "2024-09-13T14:21:38Z",
+    "duration": "PT46M58S",
+    "series_id": "asia",
+    "episode": 29,
+    "countries": [
+      "792"
+    ],
+    "cities": [
+      "カッパドキア"
+    ],
+    "filmed_at": {
+      "from": "2024-06-18",
+      "to": "2024-06-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_HBRyLN__Lo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4oYFm-uIP6Y",
+    "title": "エレバン旅🇦🇲位置はアジアなのに超ヨーロッパな街アルメニア【アジア#30】2024年6月23日〜27日",
+    "published_at": "2024-09-19T03:42:46Z",
+    "duration": "PT37M3S",
+    "series_id": "asia",
+    "episode": 30,
+    "countries": [
+      "051"
+    ],
+    "cities": [
+      "エレバン"
+    ],
+    "filmed_at": {
+      "from": "2024-06-23",
+      "to": "2024-06-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4oYFm-uIP6Y/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "fE4XYgAQX3c",
+    "title": "バトゥミ旅🇬🇪ジョージアのリゾート地で暮らす様に酒を飲むおじさんの1週間【アジア#31】2024年6月27日〜7月4日",
+    "published_at": "2024-10-01T19:21:32Z",
+    "duration": "PT38M16S",
+    "series_id": "asia",
+    "episode": 31,
+    "countries": [
+      "268"
+    ],
+    "cities": [
+      "バトゥミ"
+    ],
+    "filmed_at": {
+      "from": "2024-06-27",
+      "to": "2024-07-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/fE4XYgAQX3c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "tpRk0qfyQsc",
+    "title": "トビリシ旅🇬🇪激安ワインの誘惑に負けてジョージアで3週間沈没するおじさん【アジア#32】2024年7月4日〜25日",
+    "published_at": "2024-10-06T11:40:15Z",
+    "duration": "PT31M8S",
+    "series_id": "asia",
+    "episode": 32,
+    "countries": [
+      "268"
+    ],
+    "cities": [
+      "トビリシ"
+    ],
+    "filmed_at": {
+      "from": "2024-07-04",
+      "to": "2024-07-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/tpRk0qfyQsc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GfjpZQFxK7Q",
+    "title": "バクー旅🇦🇿石油で急成長した「第二のドバイ」アゼルバイジャンが超バブリー。【アジア#33】2024年7月25日〜28日",
+    "published_at": "2024-10-09T11:00:15Z",
+    "duration": "PT33M12S",
+    "series_id": "asia",
+    "episode": 33,
+    "countries": [
+      "031"
+    ],
+    "cities": [
+      "バクー"
+    ],
+    "filmed_at": {
+      "from": "2024-07-25",
+      "to": "2024-07-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GfjpZQFxK7Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kj79P6djjs4",
+    "title": "テルアビブ旅🇮🇱渡航中止勧告直前のイスラエルはこんな感じでした。【アジア#34】2024年7月28日〜8月1日",
+    "published_at": "2024-10-12T13:36:20Z",
+    "duration": "PT43M7S",
+    "series_id": "asia",
+    "episode": 34,
+    "countries": [
+      "376"
+    ],
+    "cities": [
+      "テルアビブ"
+    ],
+    "filmed_at": {
+      "from": "2024-07-28",
+      "to": "2024-08-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kj79P6djjs4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "pMk5d27oDgQ",
+    "title": "エルサレム旅🇮🇱3宗教の聖地へ渡航中止勧告直前に行ってきた。【アジア#35】2024年8月1日〜13日",
+    "published_at": "2024-10-21T11:00:56Z",
+    "duration": "PT58M8S",
+    "series_id": "asia",
+    "episode": 35,
+    "countries": [
+      "376"
+    ],
+    "cities": [
+      "エルサレム"
+    ],
+    "filmed_at": {
+      "from": "2024-08-01",
+      "to": "2024-08-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/pMk5d27oDgQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zCdpH-WhfA8",
+    "title": "アスタナ旅🇰🇿カザフスタンの首都がなぜか超絶未来都市。【アジア#36】2024年8月13日〜17日",
+    "published_at": "2024-10-27T15:31:54Z",
+    "duration": "PT45M13S",
+    "series_id": "asia",
+    "episode": 36,
+    "countries": [
+      "398"
+    ],
+    "cities": [
+      "アスタナ"
+    ],
+    "filmed_at": {
+      "from": "2024-08-13",
+      "to": "2024-08-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zCdpH-WhfA8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "K33bREAskfs",
+    "title": "アルマティ旅🇰🇿ソ連の面影残るカザフスタン最大都市の旧首都。【アジア#37】2024年8月18日〜23日",
+    "published_at": "2024-11-04T14:06:38Z",
+    "duration": "PT43M48S",
+    "series_id": "asia",
+    "episode": 37,
+    "countries": [
+      "398"
+    ],
+    "cities": [
+      "アルマティ"
+    ],
+    "filmed_at": {
+      "from": "2024-08-18",
+      "to": "2024-08-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/K33bREAskfs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_ORrkIqDT1E",
+    "title": "ビシュケク旅🇰🇬キルギスは物価安い中央アジアのスイス。【アジア#38】2024年8月23日〜27日",
+    "published_at": "2024-11-09T10:40:13Z",
+    "duration": "PT50M22S",
+    "series_id": "asia",
+    "episode": 38,
+    "countries": [
+      "417"
+    ],
+    "cities": [
+      "ビシュケク"
+    ],
+    "filmed_at": {
+      "from": "2024-08-23",
+      "to": "2024-08-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_ORrkIqDT1E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "W6VYoANjUNY",
+    "title": "タシケント旅🇺🇿中央アジアは円安物価高でも行ける最後の楽園かも。【アジア#39】2024年8月27日〜30日",
+    "published_at": "2024-11-15T09:22:24Z",
+    "duration": "PT38M46S",
+    "series_id": "asia",
+    "episode": 39,
+    "countries": [
+      "860"
+    ],
+    "cities": [
+      "タシケント"
+    ],
+    "filmed_at": {
+      "from": "2024-08-27",
+      "to": "2024-08-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/W6VYoANjUNY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "cmahibV_L7Q",
+    "title": "ブハラ旅🇺🇿ウズベキスタンのイスラム建築が美しい聖なる古都。【アジア#40】2024年8月30日〜31日",
+    "published_at": "2024-11-21T14:37:14Z",
+    "duration": "PT20M15S",
+    "series_id": "asia",
+    "episode": 40,
+    "countries": [
+      "860"
+    ],
+    "cities": [
+      "ブハラ"
+    ],
+    "filmed_at": {
+      "from": "2024-08-30",
+      "to": "2024-08-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/cmahibV_L7Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Uk_vTorGLLA",
+    "title": "サマルカンド旅🇺🇿ウズベキスタン世界遺産「青の都」が青すぎる。【アジア#41】2024年8月31日〜9月3日",
+    "published_at": "2024-11-26T08:50:33Z",
+    "duration": "PT44M26S",
+    "series_id": "asia",
+    "episode": 41,
+    "countries": [
+      "860"
+    ],
+    "cities": [
+      "サマルカンド"
+    ],
+    "filmed_at": {
+      "from": "2024-08-31",
+      "to": "2024-09-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Uk_vTorGLLA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ok2RoXvctew",
+    "title": "ドゥシャンベ旅🇹🇯中央アジア最貧国タジキスタンの首都が不気味。【アジア#42】2024年9月3日〜8日",
+    "published_at": "2024-12-05T13:21:12Z",
+    "duration": "PT53M38S",
+    "series_id": "asia",
+    "episode": 42,
+    "countries": [
+      "762"
+    ],
+    "cities": [
+      "ドゥシャンベ"
+    ],
+    "filmed_at": {
+      "from": "2024-09-03",
+      "to": "2024-09-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ok2RoXvctew/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1ax2bvgZEWI",
+    "title": "ラホール旅🇵🇰飲酒厳禁パキスタン秘密のバーで幻のビール呑んでみた。【アジア#43】2024年9月8日〜12日",
+    "published_at": "2024-12-17T14:04:23Z",
+    "duration": "PT52M58S",
+    "series_id": "asia",
+    "episode": 43,
     "countries": [
       "586"
     ],
@@ -795,22 +5176,1701 @@
       "ラホール"
     ],
     "filmed_at": {
-      "from": "2024-02-03",
-      "to": "2024-02-07"
+      "from": "2024-09-08",
+      "to": "2024-09-12"
     },
+    "thumbnail": "https://i.ytimg.com/vi/1ax2bvgZEWI/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00036",
-    "title": "ゴールドコースト旅🇦🇺オーストラリアNo.1のビーチリゾート【オセアニア#01】2026年2月18日〜23日",
-    "published_at": "2026-05-04T10:00:00Z",
-    "duration": "PT23M48S",
+    "video_id": "-RVNMEELH1o",
+    "title": "フンザ旅🇵🇰世界一予想外な旅先パキスタン【アジア#44】2024年9月16日〜19日",
+    "published_at": "2025-01-02T14:17:03Z",
+    "duration": "PT1H1M19S",
+    "series_id": "asia",
+    "episode": 44,
+    "countries": [
+      "586"
+    ],
+    "cities": [
+      "フンザ"
+    ],
+    "filmed_at": {
+      "from": "2024-09-16",
+      "to": "2024-09-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-RVNMEELH1o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "IKEaaudwfMY",
+    "title": "フンザ旅🇵🇰今まで行った115ヵ国でトップ3に入る旅先【アジア#45】2024年9月20日〜22日",
+    "published_at": "2025-01-09T11:49:28Z",
+    "duration": "PT55M3S",
+    "series_id": "asia",
+    "episode": 45,
+    "countries": [
+      "586"
+    ],
+    "cities": [
+      "フンザ"
+    ],
+    "filmed_at": {
+      "from": "2024-09-20",
+      "to": "2024-09-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/IKEaaudwfMY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dun6tpXEpRQ",
+    "title": "アシガバット旅🇹🇲「中央アジアの北朝鮮」独裁国家トルクメニスタン【アジア#46】2024年9月23日〜25日",
+    "published_at": "2025-01-23T10:55:38Z",
+    "duration": "PT41M23S",
+    "series_id": "asia",
+    "episode": 46,
+    "countries": [
+      "795"
+    ],
+    "cities": [
+      "アシガバット"
+    ],
+    "filmed_at": {
+      "from": "2024-09-23",
+      "to": "2024-09-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/dun6tpXEpRQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kr4G96JIKgY",
+    "title": "地獄の門旅🇹🇲トルクメニスタンで50年間燃え続ける大穴【アジア#47】2024年9月25日〜28日",
+    "published_at": "2025-02-01T12:05:49Z",
+    "duration": "PT54M17S",
+    "series_id": "asia",
+    "episode": 47,
+    "countries": [
+      "795"
+    ],
+    "cities": [
+      "地獄の門"
+    ],
+    "filmed_at": {
+      "from": "2024-09-25",
+      "to": "2024-09-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kr4G96JIKgY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "PKYWznXpeyc",
+    "title": "ANAビジネスクラス旅🇮🇳デリーから羽田へ半年ぶりの帰国【アジア#48】2024年9月28日〜30日",
+    "published_at": "2025-02-04T11:00:27Z",
+    "duration": "PT25M54S",
+    "series_id": "asia",
+    "episode": 48,
+    "countries": [
+      "356"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2024-09-28",
+      "to": "2024-09-30"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/PKYWznXpeyc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "odmCwzdI8JM",
+    "title": "北京旅🇨🇳中国が独自の進化で異世界だった。【アジア#49】2024年10月14日〜16日",
+    "published_at": "2025-02-08T11:01:03Z",
+    "duration": "PT40M27S",
+    "series_id": "asia",
+    "episode": 49,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "北京"
+    ],
+    "filmed_at": {
+      "from": "2024-10-14",
+      "to": "2024-10-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/odmCwzdI8JM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "nRfO0tfE-co",
+    "title": "北京旅🇨🇳中国は物価安くて飯も旨くて意外と良いぞ。【アジア#50】2024年10月16日〜18日",
+    "published_at": "2025-02-11T11:01:09Z",
+    "duration": "PT35M40S",
+    "series_id": "asia",
+    "episode": 50,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "北京"
+    ],
+    "filmed_at": {
+      "from": "2024-10-16",
+      "to": "2024-10-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/nRfO0tfE-co/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "TzYO0EDZBD4",
+    "title": "ウランバートル旅🇲🇳モンゴルの首都が想定外すぎた。【アジア#51】2024年10月18日〜20日",
+    "published_at": "2025-02-15T11:06:20Z",
+    "duration": "PT36M28S",
+    "series_id": "asia",
+    "episode": 51,
+    "countries": [
+      "496"
+    ],
+    "cities": [
+      "ウランバートル"
+    ],
+    "filmed_at": {
+      "from": "2024-10-18",
+      "to": "2024-10-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/TzYO0EDZBD4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "idBKqU1-ZGk",
+    "title": "モンゴル旅🇲🇳ゲルに泊まったら想像とだいぶ違った。【アジア#52】2024年10月21日〜22日",
+    "published_at": "2025-02-18T12:15:50Z",
+    "duration": "PT36M32S",
+    "series_id": "asia",
+    "episode": 52,
+    "countries": [
+      "496"
+    ],
+    "cities": [
+      "モンゴル"
+    ],
+    "filmed_at": {
+      "from": "2024-10-21",
+      "to": "2024-10-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/idBKqU1-ZGk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0RCH31aKIqI",
+    "title": "ソウル旅🇰🇷観光せず韓国グルメ20軒。【アジア#53】2024年10月22日〜11月5日",
+    "published_at": "2025-02-23T12:25:30Z",
+    "duration": "PT1H6M38S",
+    "series_id": "asia",
+    "episode": 53,
+    "countries": [
+      "410"
+    ],
+    "cities": [
+      "ソウル"
+    ],
+    "filmed_at": {
+      "from": "2024-10-22",
+      "to": "2024-11-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0RCH31aKIqI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "OPkMdI8INJ8",
+    "title": "ソウル旅🇰🇷観光少し韓国グルメ17軒。【アジア#54】2024年11月5日〜12日",
+    "published_at": "2025-02-26T11:55:15Z",
+    "duration": "PT56M6S",
+    "series_id": "asia",
+    "episode": 54,
+    "countries": [
+      "410"
+    ],
+    "cities": [
+      "ソウル"
+    ],
+    "filmed_at": {
+      "from": "2024-11-05",
+      "to": "2024-11-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/OPkMdI8INJ8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "drrwFOlkfrI",
+    "title": "釜山旅🇰🇷韓国第二の都市プサンで海鮮グルメ呑み歩き。【アジア#55】2024年11月12日〜16日",
+    "published_at": "2025-03-01T11:38:48Z",
+    "duration": "PT57M17S",
+    "series_id": "asia",
+    "episode": 55,
+    "countries": [
+      "410"
+    ],
+    "cities": [
+      "釜山"
+    ],
+    "filmed_at": {
+      "from": "2024-11-12",
+      "to": "2024-11-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/drrwFOlkfrI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4qBOl46UytY",
+    "title": "チェジュ旅🇰🇷韓国のハワイ済州島で観光せず島グルメ9軒呑み歩き。【アジア#56】2024年11月16日〜20日",
+    "published_at": "2025-03-05T11:00:08Z",
+    "duration": "PT37M41S",
+    "series_id": "asia",
+    "episode": 56,
+    "countries": [
+      "410"
+    ],
+    "cities": [
+      "チェジュ"
+    ],
+    "filmed_at": {
+      "from": "2024-11-16",
+      "to": "2024-11-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4qBOl46UytY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "MTdfLlP00Mo",
+    "title": "上海旅🇨🇳これが中国一の経済都市の現実です。【アジア#57】2024年11月20日〜22日",
+    "published_at": "2025-03-08T11:00:22Z",
+    "duration": "PT47M28S",
+    "series_id": "asia",
+    "episode": 57,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "上海"
+    ],
+    "filmed_at": {
+      "from": "2024-11-20",
+      "to": "2024-11-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/MTdfLlP00Mo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "oF7kKmGmoj8",
+    "title": "上海旅🇨🇳規模では敵わないと悟る世界一の摩天楼。【アジア#58】2024年11月22日〜24日",
+    "published_at": "2025-03-12T11:01:15Z",
+    "duration": "PT44M45S",
+    "series_id": "asia",
+    "episode": 58,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "上海"
+    ],
+    "filmed_at": {
+      "from": "2024-11-22",
+      "to": "2024-11-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/oF7kKmGmoj8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3wqX1d3v7o0",
+    "title": "高雄旅🇹🇼台湾第二の都市で2泊3日夜市飲み歩き【アジア#59】2024年11月24日〜26日",
+    "published_at": "2025-03-15T14:07:35Z",
+    "duration": "PT47M36S",
+    "series_id": "asia",
+    "episode": 59,
+    "countries": [
+      "158"
+    ],
+    "cities": [
+      "高雄"
+    ],
+    "filmed_at": {
+      "from": "2024-11-24",
+      "to": "2024-11-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3wqX1d3v7o0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "rzYhVHs4XlU",
+    "title": "台南旅🇹🇼日本の面影残る台湾の古都でB級グルメ12軒食べ歩き【アジア#60】2024年11月26日〜28日",
+    "published_at": "2025-03-19T11:01:15Z",
+    "duration": "PT40M4S",
+    "series_id": "asia",
+    "episode": 60,
+    "countries": [
+      "158"
+    ],
+    "cities": [
+      "台南"
+    ],
+    "filmed_at": {
+      "from": "2024-11-26",
+      "to": "2024-11-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/rzYhVHs4XlU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2Dke9lDwW3o",
+    "title": "台北旅🇹🇼初海外にも超オススメな安定感抜群の台湾【アジア#61】2024年11月28日〜30日",
+    "published_at": "2025-03-22T11:00:05Z",
+    "duration": "PT30M59S",
+    "series_id": "asia",
+    "episode": 61,
+    "countries": [
+      "158"
+    ],
+    "cities": [
+      "台北"
+    ],
+    "filmed_at": {
+      "from": "2024-11-28",
+      "to": "2024-11-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2Dke9lDwW3o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dkpwCzuEBgg",
+    "title": "台北旅🇹🇼台湾人と台湾式居酒屋で飲みまくり。【アジア#62】2024年11月30日〜12月2日",
+    "published_at": "2025-03-31T11:00:46Z",
+    "duration": "PT28M49S",
+    "series_id": "asia",
+    "episode": 62,
+    "countries": [
+      "158"
+    ],
+    "cities": [
+      "台北"
+    ],
+    "filmed_at": {
+      "from": "2024-11-30",
+      "to": "2024-12-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/dkpwCzuEBgg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Xjpgg1GZUrg",
+    "title": "マカオ旅🇲🇴世界一のカジノ街で宿代をタダに…【アジア#63】2024年12月2日〜7日",
+    "published_at": "2025-04-14T12:49:58Z",
+    "duration": "PT46M37S",
+    "series_id": "asia",
+    "episode": 63,
+    "countries": [
+      "446"
+    ],
+    "cities": [
+      "マカオ"
+    ],
+    "filmed_at": {
+      "from": "2024-12-02",
+      "to": "2024-12-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Xjpgg1GZUrg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "EfVt8YUroJw",
+    "title": "香港旅🇭🇰中国化が進む変わりゆく香港の現在【アジア#64】2024年12月7日〜12日",
+    "published_at": "2025-04-20T13:07:49Z",
+    "duration": "PT1H1M17S",
+    "series_id": "asia",
+    "episode": 64,
+    "countries": [
+      "344"
+    ],
+    "cities": [
+      "香港"
+    ],
+    "filmed_at": {
+      "from": "2024-12-07",
+      "to": "2024-12-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/EfVt8YUroJw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "500DzWuE9Kc",
+    "title": "成都旅🇨🇳本場中国の四川料理がヤバすぎた【アジア#65】2025年3月23日〜26日",
+    "published_at": "2025-04-26T11:29:47Z",
+    "duration": "PT50M58S",
+    "series_id": "asia",
+    "episode": 65,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "成都"
+    ],
+    "filmed_at": {
+      "from": "2025-03-23",
+      "to": "2025-03-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/500DzWuE9Kc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6CwJuwrWtxU",
+    "title": "重慶旅🇨🇳中国の人口世界最多都市に行ってみた【アジア#66】2025年3月26日〜29日",
+    "published_at": "2025-05-01T09:00:07Z",
+    "duration": "PT42M15S",
+    "series_id": "asia",
+    "episode": 66,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "重慶"
+    ],
+    "filmed_at": {
+      "from": "2025-03-26",
+      "to": "2025-03-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6CwJuwrWtxU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0qhT6EaRJBI",
+    "title": "広州旅🇨🇳中国第三の都市に行ってみた【アジア#67】2025年3月29日〜4月1日",
+    "published_at": "2025-05-03T14:04:42Z",
+    "duration": "PT51M6S",
+    "series_id": "asia",
+    "episode": 67,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "広州"
+    ],
+    "filmed_at": {
+      "from": "2025-03-29",
+      "to": "2025-04-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0qhT6EaRJBI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "wCsbemvQvBM",
+    "title": "深圳旅🇨🇳中国版シリコンバレーの最先端ハイテク都市に行ってみた【アジア#68】2025年4月1日〜4日",
+    "published_at": "2025-05-08T13:44:45Z",
+    "duration": "PT47M10S",
+    "series_id": "asia",
+    "episode": 68,
+    "countries": [
+      "156"
+    ],
+    "cities": [
+      "深圳"
+    ],
+    "filmed_at": {
+      "from": "2025-04-01",
+      "to": "2025-04-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/wCsbemvQvBM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Hpi1ASBWuew",
+    "title": "モルディブ旅🇲🇻結婚40周年の両親をリッツカールトンに連れていった。【アジア#69】2025年4月5日〜10日",
+    "published_at": "2025-05-24T16:57:48Z",
+    "duration": "PT1H6M46S",
+    "series_id": "asia",
+    "episode": 69,
+    "countries": [
+      "462"
+    ],
+    "cities": [
+      "モルディブ"
+    ],
+    "filmed_at": {
+      "from": "2025-04-05",
+      "to": "2025-04-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Hpi1ASBWuew/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "DMJs5F9PIg4",
+    "title": "シンガポール旅🇸🇬世界一物価が高い国に12泊してみた【アジア#70】2025年4月10日〜22日",
+    "published_at": "2025-05-31T11:04:03Z",
+    "duration": "PT1H47S",
+    "series_id": "asia",
+    "episode": 70,
+    "countries": [
+      "702"
+    ],
+    "cities": [
+      "シンガポール"
+    ],
+    "filmed_at": {
+      "from": "2025-04-10",
+      "to": "2025-04-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/DMJs5F9PIg4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WcNC2DBhYcY",
+    "title": "クアラルンプール旅🇲🇾日本人が世界一住みたい国マレーシアで3週間過ごしてみた。【アジア#71】2025年4月22日〜5月15日",
+    "published_at": "2025-06-10T07:48:24Z",
+    "duration": "PT55M50S",
+    "series_id": "asia",
+    "episode": 71,
+    "countries": [
+      "458"
+    ],
+    "cities": [
+      "クアラルンプール"
+    ],
+    "filmed_at": {
+      "from": "2025-04-22",
+      "to": "2025-05-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WcNC2DBhYcY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3kQd3nvjgX0",
+    "title": "プーケット旅🇹🇭タイが誇る世界屈指のビーチリゾート。【アジア#72】2025年5月15日〜22日",
+    "published_at": "2025-06-20T20:38:15Z",
+    "duration": "PT57M17S",
+    "series_id": "asia",
+    "episode": 72,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "プーケット"
+    ],
+    "filmed_at": {
+      "from": "2025-05-15",
+      "to": "2025-05-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3kQd3nvjgX0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2hgiJqq9XWc",
+    "title": "バンコク旅🇹🇭タイで3週間暮らす様にまったりしてみた。【アジア#73】2025年5月22日〜6月11日",
+    "published_at": "2025-07-02T11:44:46Z",
+    "duration": "PT55M4S",
+    "series_id": "asia",
+    "episode": 73,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "バンコク"
+    ],
+    "filmed_at": {
+      "from": "2025-05-22",
+      "to": "2025-06-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2hgiJqq9XWc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "XjCbz7uCDFk",
+    "title": "ティンプー・プナカ旅🇧🇹世界一入国料が高い国ブータンに行ってみた。【アジア#74】2025年6月12日〜13日",
+    "published_at": "2025-07-09T12:33:49Z",
+    "duration": "PT53M19S",
+    "series_id": "asia",
+    "episode": 74,
+    "countries": [
+      "064"
+    ],
+    "cities": [
+      "ティンプー"
+    ],
+    "filmed_at": {
+      "from": "2025-06-12",
+      "to": "2025-06-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/XjCbz7uCDFk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "FGn-KDPC62U",
+    "title": "パロ旅🇧🇹世界一幸せな国ブータンに行ったら色々考えさせられた。【アジア#75】2025年6月14日〜16日",
+    "published_at": "2025-07-14T17:59:36Z",
+    "duration": "PT46M21S",
+    "series_id": "asia",
+    "episode": 75,
+    "countries": [
+      "064"
+    ],
+    "cities": [
+      "パロ"
+    ],
+    "filmed_at": {
+      "from": "2025-06-14",
+      "to": "2025-06-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/FGn-KDPC62U/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ks0iYaXiXTs",
+    "title": "ヤンゴン旅🇲🇲クーデター4年後のミャンマーに行ってみた【アジア#76】2025年6月19日〜23日",
+    "published_at": "2025-07-18T17:58:31Z",
+    "duration": "PT1H3M8S",
+    "series_id": "asia",
+    "episode": 76,
+    "countries": [
+      "104"
+    ],
+    "cities": [
+      "ヤンゴン"
+    ],
+    "filmed_at": {
+      "from": "2025-06-19",
+      "to": "2025-06-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ks0iYaXiXTs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "CvsS4UdhMEA",
+    "title": "ヴィエンチャン旅🇱🇦ラオスの世界一何もない首都で飲み歩き【アジア#77】2025年7月3日〜7日",
+    "published_at": "2025-07-25T13:21:56Z",
+    "duration": "PT46M47S",
+    "series_id": "asia",
+    "episode": 77,
+    "countries": [
+      "418"
+    ],
+    "cities": [
+      "ヴィエンチャン"
+    ],
+    "filmed_at": {
+      "from": "2025-07-03",
+      "to": "2025-07-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/CvsS4UdhMEA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "mrl95lnXkT4",
+    "title": "ルアンパバーン旅🇱🇦街全体が世界遺産のラオスの古都【アジア#78】2025年7月7日〜11日",
+    "published_at": "2025-07-30T10:48:11Z",
+    "duration": "PT45M13S",
+    "series_id": "asia",
+    "episode": 78,
+    "countries": [
+      "418"
+    ],
+    "cities": [
+      "ルアンパバーン"
+    ],
+    "filmed_at": {
+      "from": "2025-07-07",
+      "to": "2025-07-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/mrl95lnXkT4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ClCPoJL-q6U",
+    "title": "ハノイ旅🇻🇳激安ベトナムグルメで泥酔飲み歩き【アジア#79】2025年7月11日〜16日",
+    "published_at": "2025-08-04T12:36:58Z",
+    "duration": "PT54M27S",
+    "series_id": "asia",
+    "episode": 79,
+    "countries": [
+      "704"
+    ],
+    "cities": [
+      "ハノイ"
+    ],
+    "filmed_at": {
+      "from": "2025-07-11",
+      "to": "2025-07-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ClCPoJL-q6U/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "yhruvkGHAy4",
+    "title": "シェムリアップ旅🇰🇭アンコールワット以外安すぎるカンボジア【アジア#80】2025年7月16日〜20日",
+    "published_at": "2025-08-11T12:48:20Z",
+    "duration": "PT50M36S",
+    "series_id": "asia",
+    "episode": 80,
+    "countries": [
+      "116"
+    ],
+    "cities": [
+      "シェムリアップ"
+    ],
+    "filmed_at": {
+      "from": "2025-07-16",
+      "to": "2025-07-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/yhruvkGHAy4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "vqMxJTZcB6o",
+    "title": "プノンペン旅🇰🇭カンボジア激安5つ星カジノ泊まってみた【アジア#81】2025年7月20日〜24日",
+    "published_at": "2025-08-18T03:44:48Z",
+    "duration": "PT44M51S",
+    "series_id": "asia",
+    "episode": 81,
+    "countries": [
+      "116"
+    ],
+    "cities": [
+      "プノンペン"
+    ],
+    "filmed_at": {
+      "from": "2025-07-20",
+      "to": "2025-07-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/vqMxJTZcB6o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "jSzQ0xt5t4A",
+    "title": "ホーチミン旅🇻🇳円安でもコスパ最高なベトナム飲み食い13軒【アジア#82】2025年7月24日〜29日",
+    "published_at": "2025-08-29T11:03:11Z",
+    "duration": "PT48M32S",
+    "series_id": "asia",
+    "episode": 82,
+    "countries": [
+      "704"
+    ],
+    "cities": [
+      "ホーチミン"
+    ],
+    "filmed_at": {
+      "from": "2025-07-24",
+      "to": "2025-07-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/jSzQ0xt5t4A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0mzkDgHRZbc",
+    "title": "ブルネイ旅🇧🇳世界で二つしかない7つ星ホテル泊まってみた【アジア#83】2025年7月29日〜8月2日",
+    "published_at": "2025-09-04T10:57:17Z",
+    "duration": "PT54M38S",
+    "series_id": "asia",
+    "episode": 83,
+    "countries": [
+      "096"
+    ],
+    "cities": [
+      "ブルネイ"
+    ],
+    "filmed_at": {
+      "from": "2025-07-29",
+      "to": "2025-08-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0mzkDgHRZbc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "nspyFAB8Jr0",
+    "title": "マニラ旅🇵🇭日本人の被害件数が世界で最も多い国フィリピンの首都【アジア#84】2025年8月2日〜5日",
+    "published_at": "2025-09-08T11:01:24Z",
+    "duration": "PT32M50S",
+    "series_id": "asia",
+    "episode": 84,
+    "countries": [
+      "608"
+    ],
+    "cities": [
+      "マニラ"
+    ],
+    "filmed_at": {
+      "from": "2025-08-02",
+      "to": "2025-08-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/nspyFAB8Jr0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "j2jRfmJywqM",
+    "title": "セブ旅🇵🇭フィリピンの定番リゾート【アジア#85】2025年8月5日〜9日",
+    "published_at": "2025-09-12T12:33:48Z",
+    "duration": "PT41M58S",
+    "series_id": "asia",
+    "episode": 85,
+    "countries": [
+      "608"
+    ],
+    "cities": [
+      "セブ"
+    ],
+    "filmed_at": {
+      "from": "2025-08-05",
+      "to": "2025-08-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/j2jRfmJywqM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "T0Zb8CinMJo",
+    "title": "ジャカルタ旅🇮🇩インドネシアの首都は格差がヤバい超大都会【アジア#86】2025年8月9日〜13日",
+    "published_at": "2025-09-16T11:15:58Z",
+    "duration": "PT43M9S",
+    "series_id": "asia",
+    "episode": 86,
+    "countries": [
+      "360"
+    ],
+    "cities": [
+      "ジャカルタ"
+    ],
+    "filmed_at": {
+      "from": "2025-08-09",
+      "to": "2025-08-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/T0Zb8CinMJo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4yq0LiglA4g",
+    "title": "ディリ旅🇹🇱21世紀初の独立国家、未知の国、東ティモール。【アジア#87】2025年8月13日〜16日",
+    "published_at": "2025-09-20T14:13:06Z",
+    "duration": "PT56M6S",
+    "series_id": "asia",
+    "episode": 87,
+    "countries": [
+      "626"
+    ],
+    "cities": [
+      "ディリ"
+    ],
+    "filmed_at": {
+      "from": "2025-08-13",
+      "to": "2025-08-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4yq0LiglA4g/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "LyiDS7Cdwzk",
+    "title": "バリ島旅🇮🇩人生で一度は行くべきリゾート島【アジア#88】2025年8月16日〜21日",
+    "published_at": "2025-09-26T09:28:25Z",
+    "duration": "PT55M5S",
+    "series_id": "asia",
+    "episode": 88,
+    "countries": [
+      "360"
+    ],
+    "cities": [
+      "バリ島"
+    ],
+    "filmed_at": {
+      "from": "2025-08-16",
+      "to": "2025-08-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/LyiDS7Cdwzk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "93_Gx2AycYQ",
+    "title": "ANAビジネスクラス旅🇸🇬シンガポールから5ヶ月ぶりの帰国【アジア#89】2025年8月21日〜25日",
+    "published_at": "2025-10-04T13:38:33Z",
+    "duration": "PT29M47S",
+    "series_id": "asia",
+    "episode": 89,
+    "countries": [
+      "702"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2025-08-21",
+      "to": "2025-08-25"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/93_Gx2AycYQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GA1kFmF7ThU",
+    "title": "サイパン旅🇺🇸観光客が消えた日本人の元楽園【オセアニア#1】2025年9月21日〜25日",
+    "published_at": "2025-10-10T20:46:37Z",
+    "duration": "PT57M25S",
     "series_id": "oceania",
     "episode": 1,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "サイパン"
+    ],
+    "filmed_at": {
+      "from": "2025-09-21",
+      "to": "2025-09-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GA1kFmF7ThU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zflrjbFMTp4",
+    "title": "グアム旅🇺🇸韓国人だらけ？日本人が消えた噂の実態【オセアニア#2】2025年9月25日〜29日",
+    "published_at": "2025-10-19T01:19:30Z",
+    "duration": "PT58M59S",
+    "series_id": "oceania",
+    "episode": 2,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "グアム"
+    ],
+    "filmed_at": {
+      "from": "2025-09-25",
+      "to": "2025-09-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zflrjbFMTp4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4TUbZW2h4-M",
+    "title": "パラオ旅🇵🇼太平洋戦争の最激戦地ペリリュー島【オセアニア#3】2025年9月30日〜10月1日",
+    "published_at": "2025-10-27T00:28:13Z",
+    "duration": "PT43M55S",
+    "series_id": "oceania",
+    "episode": 3,
+    "countries": [
+      "585"
+    ],
+    "cities": [
+      "パラオ"
+    ],
+    "filmed_at": {
+      "from": "2025-09-30",
+      "to": "2025-10-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4TUbZW2h4-M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "MrO4a9Al0Ao",
+    "title": "パラオ旅後編🇵🇼直行便が復活した世界一の親日国【オセアニア#4】2025年10月2日〜6日",
+    "published_at": "2025-11-02T08:10:54Z",
+    "duration": "PT44M43S",
+    "series_id": "oceania",
+    "episode": 4,
+    "countries": [
+      "585"
+    ],
+    "cities": [
+      "パラオ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-02",
+      "to": "2025-10-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/MrO4a9Al0Ao/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Pcv-EZVMa0k",
+    "title": "チューク旅🇫🇲空襲で日本軍艦が沈没したミクロネシア連邦トラック諸島【オセアニア#5】2025年10月6日〜9日",
+    "published_at": "2025-11-11T10:30:49Z",
+    "duration": "PT1H12M19S",
+    "series_id": "oceania",
+    "episode": 5,
+    "countries": [
+      "583"
+    ],
+    "cities": [
+      "チューク"
+    ],
+    "filmed_at": {
+      "from": "2025-10-06",
+      "to": "2025-10-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Pcv-EZVMa0k/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "PgfjmzC21vI",
+    "title": "ポンペイ旅🇫🇲穴場すぎる国ミクロネシア連邦【オセアニア#6】2025年10月9日〜13日",
+    "published_at": "2025-11-17T22:06:08Z",
+    "duration": "PT1H3M34S",
+    "series_id": "oceania",
+    "episode": 6,
+    "countries": [
+      "583"
+    ],
+    "cities": [
+      "ポンペイ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-09",
+      "to": "2025-10-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/PgfjmzC21vI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gtlM7sMuO08",
+    "title": "マジュロ旅🇲🇭実はハワイから直行便飛んでる謎の国マーシャル諸島【オセアニア#7】2025年10月13日〜16日",
+    "published_at": "2025-11-25T14:39:23Z",
+    "duration": "PT53M17S",
+    "series_id": "oceania",
+    "episode": 7,
+    "countries": [
+      "584"
+    ],
+    "cities": [
+      "マジュロ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-13",
+      "to": "2025-10-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gtlM7sMuO08/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ziomjrIViyc",
+    "title": "タラワ旅🇰🇮2100年には住めない国キリバスの今【オセアニア#8】2025年10月16日〜18日",
+    "published_at": "2025-11-30T13:18:37Z",
+    "duration": "PT46M16S",
+    "series_id": "oceania",
+    "episode": 8,
+    "countries": [
+      "296"
+    ],
+    "cities": [
+      "タラワ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-16",
+      "to": "2025-10-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ziomjrIViyc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1ThiLlRlzPw",
+    "title": "ナウル旅🇳🇷誰も行かない国へ行ってみた【オセアニア#9】2025年10月18日〜23日",
+    "published_at": "2025-12-09T11:51:02Z",
+    "duration": "PT1H11M53S",
+    "series_id": "oceania",
+    "episode": 9,
+    "countries": [
+      "520"
+    ],
+    "cities": [
+      "ナウル"
+    ],
+    "filmed_at": {
+      "from": "2025-10-18",
+      "to": "2025-10-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1ThiLlRlzPw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "lXbS8ai-i0E",
+    "title": "スバ旅🇫🇯南国リゾート客から完全に無視されるフィジーの首都【オセアニア#10】2025年10月23日〜28日",
+    "published_at": "2025-12-14T09:33:00Z",
+    "duration": "PT36M27S",
+    "series_id": "oceania",
+    "episode": 10,
+    "countries": [
+      "242"
+    ],
+    "cities": [
+      "スバ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-23",
+      "to": "2025-10-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/lXbS8ai-i0E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6WpJknTh8tw",
+    "title": "フナフティ旅🇹🇻世界で最初に沈む国ツバルに行ってみた【オセアニア#11】2025年10月28日〜11月1日",
+    "published_at": "2025-12-19T18:31:58Z",
+    "duration": "PT1H16M27S",
+    "series_id": "oceania",
+    "episode": 11,
+    "countries": [
+      "798"
+    ],
+    "cities": [
+      "フナフティ"
+    ],
+    "filmed_at": {
+      "from": "2025-10-28",
+      "to": "2025-11-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6WpJknTh8tw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "l7rP9GwYY2c",
+    "title": "ナンディ旅🇫🇯フィジーの高級リゾート4軒泊まってみた【オセアニア#12】2025年11月1日〜9日",
+    "published_at": "2025-12-24T12:10:24Z",
+    "duration": "PT42M41S",
+    "series_id": "oceania",
+    "episode": 12,
+    "countries": [
+      "242"
+    ],
+    "cities": [
+      "ナンディ"
+    ],
+    "filmed_at": {
+      "from": "2025-11-01",
+      "to": "2025-11-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/l7rP9GwYY2c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "UVKFPs5BI6c",
+    "title": "アピア旅🇼🇸サモアの伝統が残る親切で愉快な島国【オセアニア#13】2025年11月9日〜14日",
+    "published_at": "2026-01-06T11:09:52Z",
+    "duration": "PT54M51S",
+    "series_id": "oceania",
+    "episode": 13,
+    "countries": [
+      "882"
+    ],
+    "cities": [
+      "アピア"
+    ],
+    "filmed_at": {
+      "from": "2025-11-09",
+      "to": "2025-11-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/UVKFPs5BI6c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "U5wZYEJ9q3U",
+    "title": "ヌクアロファ旅🇹🇴ポリネシア唯一の王国トンガ【オセアニア#14】2025年11月14日〜19日",
+    "published_at": "2026-01-12T13:36:13Z",
+    "duration": "PT54M",
+    "series_id": "oceania",
+    "episode": 14,
+    "countries": [
+      "776"
+    ],
+    "cities": [
+      "ヌクアロファ"
+    ],
+    "filmed_at": {
+      "from": "2025-11-14",
+      "to": "2025-11-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/U5wZYEJ9q3U/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "SWs8nI2xpRQ",
+    "title": "ニュージーランド南島旅🇳🇿クライストチャーチからクイーンズタウンまで絶景ドライブ【オセアニア#15】2025年11月19日〜25日",
+    "published_at": "2026-01-17T13:12:14Z",
+    "duration": "PT1H15M",
+    "series_id": "oceania",
+    "episode": 15,
+    "countries": [
+      "554"
+    ],
+    "cities": [
+      "ニュージーランド南島"
+    ],
+    "filmed_at": {
+      "from": "2025-11-19",
+      "to": "2025-11-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SWs8nI2xpRQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ggh10soYKhU",
+    "title": "ニュージーランド北島旅🇳🇿ロトルアとオークランドで牡蠣とラムとビールとワイン【オセアニア#16】2025年11月25日〜11月29日",
+    "published_at": "2026-01-22T09:00:21Z",
+    "duration": "PT58M15S",
+    "series_id": "oceania",
+    "episode": 16,
+    "countries": [
+      "554"
+    ],
+    "cities": [
+      "ニュージーランド北島"
+    ],
+    "filmed_at": {
+      "from": "2025-11-25",
+      "to": "2025-11-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ggh10soYKhU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "A_cEfHBvuU0",
+    "title": "ラロトンガ島旅🇨🇰クック諸島がニュージーランド人のハワイだった。【オセアニア#17】2025年12月3日〜6日",
+    "published_at": "2026-01-29T18:32:21Z",
+    "duration": "PT43M37S",
+    "series_id": "oceania",
+    "episode": 17,
+    "countries": [
+      "184"
+    ],
+    "cities": [
+      "ラロトンガ島"
+    ],
+    "filmed_at": {
+      "from": "2025-12-03",
+      "to": "2025-12-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/A_cEfHBvuU0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6WaHMKp0EsU",
+    "title": "ボラボラ旅🇵🇫高すぎヤバすぎフランス領ポリネシア【オセアニア#18】2025年12月6日〜12日",
+    "published_at": "2026-02-12T15:56:52Z",
+    "duration": "PT1H3M5S",
+    "series_id": "oceania",
+    "episode": 18,
+    "countries": [
+      "258"
+    ],
+    "cities": [
+      "ボラボラ"
+    ],
+    "filmed_at": {
+      "from": "2025-12-06",
+      "to": "2025-12-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6WaHMKp0EsU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "n3H5YHqXZcQ",
+    "title": "ヌメア旅🇳🇨天国に一番近い島ニューカレドニアから帰国【オセアニア#19】2025年12月12日〜16日",
+    "published_at": "2026-02-17T12:48:34Z",
+    "duration": "PT35M9S",
+    "series_id": "oceania",
+    "episode": 19,
+    "countries": [
+      "540"
+    ],
+    "cities": [
+      "ヌメア"
+    ],
+    "filmed_at": {
+      "from": "2025-12-12",
+      "to": "2025-12-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/n3H5YHqXZcQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "HG2grAeuPXM",
+    "title": "パース旅🇦🇺西オーストラリアのビールとワイン呑み歩き【オセアニア#20】2026年1月25日〜29日",
+    "published_at": "2026-02-24T10:06:26Z",
+    "duration": "PT1H1M4S",
+    "series_id": "oceania",
+    "episode": 20,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "パース"
+    ],
+    "filmed_at": {
+      "from": "2026-01-25",
+      "to": "2026-01-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/HG2grAeuPXM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "h1eWeP73Ylo",
+    "title": "メルボルン旅🇦🇺ビールとワイン呑み過ぎ危険なオーストラリア【オセアニア#21】2026年1月29日〜2月2日",
+    "published_at": "2026-03-09T11:53:26Z",
+    "duration": "PT54M3S",
+    "series_id": "oceania",
+    "episode": 21,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "メルボルン"
+    ],
+    "filmed_at": {
+      "from": "2026-01-29",
+      "to": "2026-02-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/h1eWeP73Ylo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "p9xbhCg8Om4",
+    "title": "ウルル旅🇦🇺セカチューの舞台エアーズロックに行ってみた【オセアニア#22】2026年2月2日〜6日",
+    "published_at": "2026-03-16T08:30:56Z",
+    "duration": "PT43M17S",
+    "series_id": "oceania",
+    "episode": 22,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "ウルル"
+    ],
+    "filmed_at": {
+      "from": "2026-02-02",
+      "to": "2026-02-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/p9xbhCg8Om4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "oKse7ct5TUw",
+    "title": "ケアンズ旅🇦🇺マジで日本人だらけのオーストラリア人気観光地【オセアニア#23】2026年2月6日〜13日",
+    "published_at": "2026-03-25T12:01:31Z",
+    "duration": "PT49M26S",
+    "series_id": "oceania",
+    "episode": 23,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "ケアンズ"
+    ],
+    "filmed_at": {
+      "from": "2026-02-06",
+      "to": "2026-02-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/oKse7ct5TUw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2Gk5Ia5Wflg",
+    "title": "ブリスベン旅🇦🇺全てが丁度良すぎるオーストラリア第三の都市で飲み歩き【オセアニア#24】2026年2月13日〜18日",
+    "published_at": "2026-03-29T10:13:39Z",
+    "duration": "PT55M17S",
+    "series_id": "oceania",
+    "episode": 24,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "ブリスベン"
+    ],
+    "filmed_at": {
+      "from": "2026-02-13",
+      "to": "2026-02-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2Gk5Ia5Wflg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QdjpvI6ZplI",
+    "title": "ゴールドコースト旅🇦🇺オーストラリアNo.1のビーチリゾート【オセアニア#25】2026年2月18日〜23日",
+    "published_at": "2026-04-08T12:42:07Z",
+    "duration": "PT49M44S",
+    "series_id": "oceania",
+    "episode": 25,
     "countries": [
       "036"
     ],
@@ -821,19 +6881,44 @@
       "from": "2026-02-18",
       "to": "2026-02-23"
     },
+    "thumbnail": "https://i.ytimg.com/vi/QdjpvI6ZplI/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00037",
-    "title": "ポートモレスビー旅🇵🇬危険すぎて外を歩けない首都【オセアニア#02】2026年3月13日〜23日",
-    "published_at": "2026-06-04T10:00:00Z",
-    "duration": "PT30M1S",
+    "video_id": "GX_ZJ4obwbE",
+    "title": "タスマニア旅🇦🇺オーストラリアの北海道で海鮮と酒を飲み歩く【オセアニア#26】2026年2月23日〜28日",
+    "published_at": "2026-04-22T09:02:48Z",
+    "duration": "PT1H2M37S",
     "series_id": "oceania",
-    "episode": 2,
+    "episode": 26,
+    "countries": [
+      "036"
+    ],
+    "cities": [
+      "タスマニア"
+    ],
+    "filmed_at": {
+      "from": "2026-02-23",
+      "to": "2026-02-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GX_ZJ4obwbE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "bSNUxKlc74g",
+    "title": "ポートモレスビー旅🇵🇬危険すぎて外を歩けないパプアニューギニア【オセアニア#27】2026年3月13日〜23日",
+    "published_at": "2026-05-15T17:43:39Z",
+    "duration": "PT1H5M11S",
+    "series_id": "oceania",
+    "episode": 27,
     "countries": [
       "598"
     ],
@@ -844,19 +6929,20 @@
       "from": "2026-03-13",
       "to": "2026-03-23"
     },
+    "thumbnail": "https://i.ytimg.com/vi/bSNUxKlc74g/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00038",
-    "title": "ホニアラ旅🇸🇧第二次世界大戦の激戦地ガダルカナル島【オセアニア#03】2026年3月23日〜28日",
-    "published_at": "2026-06-12T10:00:00Z",
-    "duration": "PT18M14S",
+    "video_id": "rvsIz6qmhXo",
+    "title": "ホニアラ旅🇸🇧第二次世界大戦の激戦地ソロモン諸島のガダルカナル島【オセアニア#28】2026年3月23日〜28日",
+    "published_at": "2026-05-28T12:38:29Z",
+    "duration": "PT1H1M52S",
     "series_id": "oceania",
-    "episode": 3,
+    "episode": 28,
     "countries": [
       "090"
     ],
@@ -867,19 +6953,20 @@
       "from": "2026-03-23",
       "to": "2026-03-28"
     },
+    "thumbnail": "https://i.ytimg.com/vi/rvsIz6qmhXo/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00039",
-    "title": "ポートビラ旅🇻🇺バヌアツ牛が旨い美食の国【オセアニア#04】2026年3月28日〜31日",
-    "published_at": "2026-06-09T10:00:00Z",
-    "duration": "PT25M27S",
+    "video_id": "u8GLU88lDF0",
+    "title": "ポートビラ旅🇻🇺バヌアツ牛が旨いオセアニアの美食大国【オセアニア#29】2026年3月28日〜31日",
+    "published_at": "2026-06-07T12:42:37Z",
+    "duration": "PT51M24S",
     "series_id": "oceania",
-    "episode": 4,
+    "episode": 29,
     "countries": [
       "548"
     ],
@@ -890,42 +6977,44 @@
       "from": "2026-03-28",
       "to": "2026-03-31"
     },
+    "thumbnail": "https://i.ytimg.com/vi/u8GLU88lDF0/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00040",
-    "title": "ポートビラ旅🇻🇺世界一近付ける活火山【オセアニア#05】2026年3月31日〜4月4日",
-    "published_at": "2026-06-16T10:00:00Z",
-    "duration": "PT32M40S",
+    "video_id": "7pYe7GHroNU",
+    "title": "タンナ島旅🇻🇺バヌアツの世界一近付ける活火山がヤバすぎた。【オセアニア#30】2026年4月1日〜4日",
+    "published_at": "2026-07-10T08:28:41Z",
+    "duration": "PT40M38S",
     "series_id": "oceania",
-    "episode": 5,
+    "episode": 30,
     "countries": [
       "548"
     ],
     "cities": [
-      "ポートビラ"
+      "タンナ島"
     ],
     "filmed_at": {
-      "from": "2026-03-31",
+      "from": "2026-04-01",
       "to": "2026-04-04"
     },
+    "thumbnail": "https://i.ytimg.com/vi/7pYe7GHroNU/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00041",
-    "title": "シドニー旅🇦🇺3泊4日飲み歩き【オセアニア#06】2026年4月10日〜13日",
-    "published_at": "2026-06-28T10:00:00Z",
-    "duration": "PT20M53S",
+    "video_id": "siC6hbV96gM",
+    "title": "シドニー旅🇦🇺オーストラリア3泊4日飲み歩き。【オセアニア#31】2026年4月10日〜13日",
+    "published_at": "2026-07-18T10:54:39Z",
+    "duration": "PT1H13S",
     "series_id": "oceania",
-    "episode": 6,
+    "episode": 31,
     "countries": [
       "036"
     ],
@@ -936,19 +7025,92 @@
       "from": "2026-04-10",
       "to": "2026-04-13"
     },
+    "thumbnail": "https://i.ytimg.com/vi/siC6hbV96gM/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00042",
-    "title": "チュニス旅🇹🇳物価安めで意外と良いぞ【アフリカ#01】2026年5月14日〜17日",
-    "published_at": "2026-07-26T10:00:00Z",
-    "duration": "PT27M6S",
+    "video_id": "M84b9559lq4",
+    "title": "ニウエ旅🇳🇺独立国か微妙な人口1700人の謎の国【オセアニア#32】2026年4月13日〜18日",
+    "published_at": "2026-07-25T11:40:04Z",
+    "duration": "PT1H12M3S",
+    "series_id": "oceania",
+    "episode": 32,
+    "countries": [
+      "570"
+    ],
+    "cities": [
+      "ニウエ"
+    ],
+    "filmed_at": {
+      "from": "2026-04-13",
+      "to": "2026-04-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/M84b9559lq4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GXgiA0ymUmw",
+    "title": "ニュージーランド航空旅🇳🇿オークランド発成田行きビジネスクラスで帰国【オセアニア#33】2026年4月18日〜20日",
+    "published_at": "2026-07-30T09:00:29Z",
+    "duration": "PT24M49S",
+    "series_id": "oceania",
+    "episode": 33,
+    "countries": [
+      "554"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2026-04-18",
+      "to": "2026-04-20"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/GXgiA0ymUmw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "bNoUVCfUjFQ",
+    "title": "フランクフルト乗継旅🇩🇪ドイツ経由でアフリカのチュニジアへ【アフリカ#1】2026年5月13日〜14日",
+    "published_at": "2026-08-04T09:00:17Z",
+    "duration": "PT31M58S",
     "series_id": "africa",
     "episode": 1,
+    "countries": [
+      "276"
+    ],
+    "cities": [
+      "フランクフルト"
+    ],
+    "filmed_at": {
+      "from": "2026-05-13",
+      "to": "2026-05-14"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/bNoUVCfUjFQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QnNhhc8LYPk",
+    "title": "チュニス旅🇹🇳北アフリカのチュニジアが物価安めで意外と良いぞ！【アフリカ#2】2026年5月14日〜17日",
+    "published_at": "2026-08-09T09:00:12Z",
+    "duration": "PT1H7M44S",
+    "series_id": "africa",
+    "episode": 2,
     "countries": [
       "788"
     ],
@@ -959,65 +7121,68 @@
       "from": "2026-05-14",
       "to": "2026-05-17"
     },
+    "thumbnail": "https://i.ytimg.com/vi/QnNhhc8LYPk/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00043",
-    "title": "チュニス旅🇹🇳穴場リゾートで大事件発生【アフリカ#02】2026年5月17日〜21日",
-    "published_at": "2026-08-02T10:00:00Z",
-    "duration": "PT34M19S",
+    "video_id": "1h0Q3SvUjDw",
+    "title": "スース旅🇹🇳チュニジアの穴場お手頃リゾートからの大事件発生。【アフリカ#3】2026年5月17日〜21日",
+    "published_at": "2026-08-14T09:00:01Z",
+    "duration": "PT47M51S",
     "series_id": "africa",
-    "episode": 2,
+    "episode": 3,
     "countries": [
       "788"
     ],
     "cities": [
-      "チュニス"
+      "スース"
     ],
     "filmed_at": {
       "from": "2026-05-17",
       "to": "2026-05-21"
     },
+    "thumbnail": "https://i.ytimg.com/vi/1h0Q3SvUjDw/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00044",
-    "title": "カイロ旅🇪🇬ナイル川クルーズに乗ってみた【アフリカ#03】2026年5月27日〜6月2日",
-    "published_at": "2026-08-17T10:00:00Z",
-    "duration": "PT22M32S",
+    "video_id": "KIBCauQKEzM",
+    "title": "エジプト旅🇪🇬アスワンからルクソールへ3泊4日の5つ星ナイル川クルーズ乗ってみた。【アフリカ#4】2026年5月27日〜6月2日",
+    "published_at": "2026-08-20T12:15:22Z",
+    "duration": "PT1H51M12S",
     "series_id": "africa",
-    "episode": 3,
+    "episode": 4,
     "countries": [
       "818"
     ],
     "cities": [
-      "カイロ"
+      "エジプト"
     ],
     "filmed_at": {
       "from": "2026-05-27",
       "to": "2026-06-02"
     },
+    "thumbnail": "https://i.ytimg.com/vi/KIBCauQKEzM/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00045",
-    "title": "カイロ旅🇪🇬ピラミッドまで地下鉄とバス【アフリカ#04】2026年6月2日〜9日",
-    "published_at": "2026-08-18T10:00:00Z",
-    "duration": "PT29M45S",
+    "video_id": "0kjDsnhDAt0",
+    "title": "カイロ旅🇪🇬世界三大ウザい国エジプトは確かにウザい。【アフリカ#5】2026年6月2日〜6月9日",
+    "published_at": "2026-08-27T09:50:35Z",
+    "duration": "PT1H36M54S",
     "series_id": "africa",
-    "episode": 4,
+    "episode": 5,
     "countries": [
       "818"
     ],
@@ -1028,19 +7193,20 @@
       "from": "2026-06-02",
       "to": "2026-06-09"
     },
+    "thumbnail": "https://i.ytimg.com/vi/0kjDsnhDAt0/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   },
   {
-    "video_id": "sample00046",
-    "title": "ミラノ旅🇮🇹イタリア第二の都市で飲み歩き【ヨーロッパ#10】2026年8月12日〜18日",
-    "published_at": "2026-10-30T10:00:00Z",
-    "duration": "PT36M58S",
+    "video_id": "fcMUggXMTaA",
+    "title": "ミラノ旅🇮🇹イタリア第二の都市で飲み歩き【ヨーロッパ#64】2026年8月12日〜18日",
+    "published_at": "2026-10-28T11:36:30Z",
+    "duration": "PT58M58S",
     "series_id": "europe",
-    "episode": 10,
+    "episode": 64,
     "countries": [
       "380"
     ],
@@ -1051,10 +7217,11 @@
       "from": "2026-08-12",
       "to": "2026-08-18"
     },
+    "thumbnail": "https://i.ytimg.com/vi/fcMUggXMTaA/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
-      "reviewed": true
+      "reviewed": false
     }
   }
 ]

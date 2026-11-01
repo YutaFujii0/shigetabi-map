@@ -1,74 +1,83 @@
 [
   {
+    "id": "southeast-asia",
+    "name": "東南アジア一周編",
+    "playlist_title": "東南アジア一周",
+    "order": 1,
+    "started": "2020-03",
+    "ended": "2020-07",
+    "playlist_id": "PL_zqfBigax6tMD6Cuf21BTKlE-lws5xwe"
+  },
+  {
     "id": "europe",
     "name": "ヨーロッパ編",
     "playlist_title": "ヨーロッパ",
-    "order": 1,
+    "order": 2,
     "started": "2022-06",
     "ended": null,
-    "playlist_id": "PL_SAMPLE_europe"
-  },
-  {
-    "id": "north-america",
-    "name": "北米編",
-    "playlist_title": "北米",
-    "order": 2,
-    "started": "2022-10",
-    "ended": "2022-10",
-    "playlist_id": "PL_SAMPLE_north-america"
-  },
-  {
-    "id": "central-america",
-    "name": "中米編",
-    "playlist_title": "中米",
-    "order": 3,
-    "started": "2022-11",
-    "ended": "2022-11",
-    "playlist_id": "PL_SAMPLE_central-america"
+    "playlist_id": "PL_zqfBigax6v9isyw4yZ4EL61rpFwyc-2"
   },
   {
     "id": "south-america",
     "name": "南米編",
     "playlist_title": "南米",
-    "order": 4,
+    "order": 3,
     "started": "2023-02",
-    "ended": "2023-04",
-    "playlist_id": "PL_SAMPLE_south-america"
+    "ended": "2023-06",
+    "playlist_id": "PL_zqfBigax6sT_MXqxjHze_mo3RmFLSVq"
+  },
+  {
+    "id": "central-america",
+    "name": "中米編",
+    "playlist_title": "中米",
+    "order": 4,
+    "started": "2023-06",
+    "ended": "2023-08",
+    "playlist_id": "PL_zqfBigax6sL4o58ShgJGLk67fxEnT6k"
+  },
+  {
+    "id": "north-america",
+    "name": "北米編",
+    "playlist_title": "北米",
+    "order": 5,
+    "started": "2023-08",
+    "ended": "2023-10",
+    "playlist_id": "PL_zqfBigax6ucNks4ZAGGrHliQb00kmMD"
   },
   {
     "id": "caribbean",
     "name": "カリブ海編",
     "playlist_title": "カリブ海",
-    "order": 5,
-    "started": "2023-10",
-    "ended": "2023-10",
-    "playlist_id": "PL_SAMPLE_caribbean"
+    "order": 6,
+    "started": "2023-11",
+    "ended": "2023-12",
+    "playlist_id": "PL_zqfBigax6uQe8P4AGCyHwvrcytBLEnj"
   },
   {
     "id": "asia",
     "name": "アジア編",
     "playlist_title": "アジア",
-    "order": 6,
-    "started": "2024-01",
-    "ended": "2024-02",
-    "playlist_id": "PL_SAMPLE_asia"
+    "order": 7,
+    "started": "2024-03",
+    "ended": "2025-08",
+    "playlist_id": "PL_zqfBigax6vvUds8pBzGa-JvsEuCFSbP"
   },
   {
     "id": "oceania",
     "name": "オセアニア編",
     "playlist_title": "オセアニア",
-    "order": 7,
-    "started": "2026-02",
+    "order": 8,
+    "started": "2025-09",
     "ended": "2026-04",
-    "playlist_id": "PL_SAMPLE_oceania"
+    "playlist_id": "PL_zqfBigax6uscPmG0v5pu1KQEQXosxm_"
   },
   {
     "id": "africa",
     "name": "アフリカ編",
     "playlist_title": "アフリカ",
-    "order": 8,
+    "order": 9,
     "started": "2026-05",
     "ended": "2026-06",
-    "playlist_id": "PL_SAMPLE_africa"
+    "playlist_id": "PLWduGuFZu8K0"
   }
 ]
