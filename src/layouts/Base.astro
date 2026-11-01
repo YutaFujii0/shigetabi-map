@@ -75,7 +75,7 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
         <div class="count" title={officialTally ? `最新の動画の概要欄に書かれた「しげ旅通算${officialTally}/${RECOGNIZED.size}ヶ国」` : `日本を除く${RECOGNIZED.size}か国のうち、動画が公開されている国の数`}>
           <div class="count-n"><b>{visitedCountryCount}</b><span class="of">/{RECOGNIZED.size}</span>か国 訪問</div>
           <a class="count-src" href={site.youtube_channel_url} target="_blank" rel="noopener">
-            <svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" rx="4" fill="#FF0000"></rect><path d="M8 4 L13.5 7 L8 10Z" fill="#fff"></path></svg>YouTube の動画より
+            <svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" rx="4" fill="#FF0000"></rect><path d="M8 4 L13.5 7 L8 10Z" fill="#fff"></path></svg>YouTube の動画ベース
           </a>
         </div>
       </header>
