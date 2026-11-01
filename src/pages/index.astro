@@ -96,7 +96,7 @@ const jsonLd = [
   </section>
 
   <section class="sec">
-    <div class="sec-h"><h2>旅のシリーズ</h2><span class="sub">各シリーズのルートと全動画はこちら</span></div>
+    <div class="sec-h"><h2>旅のシリーズ</h2></div>
     <div class="series">
       {allSeries.slice().reverse().map((se) => {
         const sm = seriesSummary(se);
@@ -104,7 +104,7 @@ const jsonLd = [
           <a class="scard" href={seriesUrl(se.id)}>
             <MiniMap stops={sm.stops} seriesId={se.id} />
             <div class="bd">
-              <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
+              <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}<span class="season">シーズン{se.order}</span>{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
               <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
               <div class="cs">{sm.countryNames.join(' → ')}</div>
             </div>
