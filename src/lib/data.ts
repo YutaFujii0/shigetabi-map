@@ -96,7 +96,7 @@ export const recentStops = (() => {
 })();
 
 /* ---------- 国の数え方 ---------- */
-// 「○か国」は日本が国家として承認している国（日本を含む196か国）だけを数える。台湾・香港などの地域は地図には色を付けるが数えない
+// 「○か国」は日本が国家として承認している国から日本を除いた195か国だけを数える（しげ旅の「通算○/195ヶ国」と同じ）。台湾・香港などの地域は地図には色を付けるが数えない
 export const RECOGNIZED = new Set(recognizedJson.alpha2.map((a2) => countries.alpha2ToNumeric(a2)!));
 export const UNRECOGNIZED_STATES = new Set(recognizedJson.unrecognized_states.iso_n3);
 export const isCountry = (iso: string) => RECOGNIZED.has(iso);
