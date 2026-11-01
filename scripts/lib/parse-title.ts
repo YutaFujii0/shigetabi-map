@@ -21,6 +21,8 @@ const FLIGHT_RE = /(航空|エアライン|ファーストクラス|ビジネス
 const SUBDIVISION_RE = /\u{1F3F4}((?:[\u{E0061}-\u{E007A}])+)\u{E007F}/gu;
 
 export function flagsToA2(title: string): string[] {
+  // 「日本vsイラン🇮🇷」のような試合の対戦相手の国旗は、訪問国ではないので外す
+  title = title.replace(/vs[^\u{1F1E6}-\u{1F1FF}【】]{1,12}[\u{1F1E6}-\u{1F1FF}]{2}/gu, '');
   const found: { i: number; a2: string }[] = [];
   for (const m of title.matchAll(FLAG_RE)) {
     found.push({ i: m.index, a2: [m[1], m[2]].map((c) => String.fromCharCode(c.codePointAt(0)! - 0x1f1e6 + 65)).join('') });
@@ -90,4 +92,10 @@ export function parseCity(title: string): { city: string | null; flight: boolean
 export function parseTitle(title: string): ParsedTitle {
   const { city, flight } = parseCity(title);
   return { a2: flagsToA2(title), city, flight, episode: parseEpisode(title), filmed: parseFilmed(title) };
+}
+
+/** 概要欄の「しげ旅通算　138/195ヶ国」を読む */
+export function parseTally(description: string): number | null {
+  const m = description.match(/通算\s*(\d+)\s*[\/／]\s*\d+\s*[ヶヵか箇カケ]?国/);
+  return m ? Number(m[1]) : null;
 }

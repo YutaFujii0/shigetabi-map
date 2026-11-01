@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseTitle, namesToA2 } from './parse-title.ts';
+import { parseTitle, namesToA2, parseTally } from './parse-title.ts';
 
 // チャンネルで実際に使われている形式のタイトル
 const cases: [string, Partial<ReturnType<typeof parseTitle>>][] = [
@@ -14,6 +14,9 @@ const cases: [string, Partial<ReturnType<typeof parseTitle>>][] = [
   ['サッカーW杯2026総集編前半🇺🇸ダラス🇲🇽モンテレイ2026年6月10日〜21日', { a2: ['US', 'MX'], city: null, episode: null, filmed: { from: '2026-06-10', to: '2026-06-21' } }],
   ['W杯ブラジル戦、現地スタジアムの天国と地獄。【北中米W杯#10】2026年6月29日', { a2: [], episode: 10, filmed: { from: '2026-06-29', to: '2026-06-29' } }],
   ['年越し旅🇹🇭テスト【アジア#9】2025年12月30日〜1月3日', { filmed: { from: '2025-12-30', to: '2026-01-03' } }],
+  ['日本vsイラン🇮🇷準々決勝で敗退した地獄の現地スタジアム。【アジア杯#10】2024年2月3日', { a2: [] }],
+  ['【W杯#4】日本vsドイツ🇩🇪現地観戦で勝利するとこうなります！2022年11月23日', { a2: [] }],
+  ['W杯チュニジア戦🇲🇽メキシコ人の大応援で完全に日本のホーム！ in モンテレイ【北中米W杯#6】2026年6月20日', { a2: ['MX'] }],
   ['エディンバラ33歳ひとり旅🏴\u{E0067}\u{E0062}\u{E0073}\u{E0063}\u{E0074}\u{E007F}USJよりハリーポッターな魔法の街【ヨーロッパ#28 】2022年8月31日〜9月1日', { a2: ['GB'], city: 'エディンバラ' }],
   ['バンコクからビエンチャン30歳ひとり旅。14時間の陸路国境越え。【東南アジア一周#1】', { a2: [], city: 'ビエンチャン', filmed: null, episode: 1 }],
   ['ダナン、ホイアン30歳ひとり旅。ベトナムはフォーだけじゃない。【東南アジア一周#8】', { city: 'ダナン' }],
@@ -31,4 +34,10 @@ test('国旗が無いタイトルは国名で判定する', () => {
   const dict = new Map([['タイ', 'TH'], ['ラオス', 'LA'], ['インド', 'IN'], ['インドネシア', 'ID']]);
   assert.deepEqual(namesToA2('バンコクからビエンチャン30歳ひとり旅。タイから寝台列車とバスを乗り継ぎラオスへ【東南アジア一周#1】', dict), ['TH', 'LA']);
   assert.deepEqual(namesToA2('ジャカルタ30歳ひとり旅。インドネシアの首都は格差がカオス', dict), ['ID']);
+});
+
+test('概要欄の通算国数', () => {
+  assert.equal(parseTally('アフリカ編第4話　エジプト／アスワン\nしげ旅通算　138/195ヶ国\n撮影日：2026/5/27'), 138);
+  assert.equal(parseTally('しげ旅通算141／195ヵ国'), 141);
+  assert.equal(parseTally('撮影日：2026/5/27'), null);
 });

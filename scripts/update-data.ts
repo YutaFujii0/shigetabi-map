@@ -16,7 +16,7 @@ import { feature } from 'topojson-client';
 import type { FeatureCollection } from 'geojson';
 import type { Topology, GeometryCollection } from 'topojson-specification';
 import world from 'world-atlas/countries-50m.json' with { type: 'json' };
-import { parseTitle, namesToA2 } from './lib/parse-title.ts';
+import { parseTitle, namesToA2, parseTally } from './lib/parse-title.ts';
 
 countries.registerLocale(ja);
 
@@ -37,6 +37,8 @@ type Video = {
   series_id: string | null;
   /** 3分以下の短い動画（ショート） */
   short?: boolean;
+  /** 概要欄の「しげ旅通算○/195ヶ国」の○（その動画の時点での通算訪問国数。しげさん本人の数え方） */
+  tally?: number;
   episode: number | null; countries: string[]; cities: string[]; filmed_at: { from: string; to: string } | null;
   flight?: boolean; thumbnail?: string; extract: Extract;
 };
@@ -72,7 +74,7 @@ async function playlistVideoIds(playlistId: string): Promise<string[]> {
 type VideoItems = {
   items: {
     id: string;
-    snippet: { title: string; publishedAt: string; thumbnails: Record<string, { url: string }> };
+    snippet: { title: string; description: string; publishedAt: string; thumbnails: Record<string, { url: string }> };
     contentDetails: { duration: string };
     status: { privacyStatus: string };
   }[];
@@ -233,6 +235,7 @@ async function main() {
       filmed_at: p.filmed,
       ...(p.flight ? { flight: true } : {}),
       ...(isoSeconds(d.contentDetails.duration) <= 180 ? { short: true } : {}),
+      ...(parseTally(d.snippet.description ?? '') != null ? { tally: parseTally(d.snippet.description)! } : {}),
       thumbnail: (d.snippet.thumbnails.medium ?? d.snippet.thumbnails.default)?.url,
       extract: n3.length
         ? { method: 'title', confidence: byName ? 0.6 : p.city || p.flight ? 1 : 0.7, reviewed: false }
@@ -304,12 +307,28 @@ async function main() {
 
   // 6. レポート
   const visited = new Set(videos.flatMap((v) => v.countries));
-  // 訪問国の通し番号（日本が承認している国を、初めて動画に出た撮影時期の順に並べる）。しげさんの「通算○/195ヶ国」との照合用
   const recognized = new Set(read<{ alpha2: string[] }>('recognized_countries.json').alpha2.map((a2) => toN3(a2)));
+  // 訪問国の通し番号（日本が承認している国を、初めて動画に出た撮影時期の順に並べる）。しげさんの「通算○/195ヶ国」との照合用
   const first = new Map<string, Video>();
   for (const v of videos.slice().sort((a, b) => when(a).localeCompare(when(b)))) for (const n of v.countries) if (recognized.has(n) && !first.has(n)) first.set(n, v);
   const ranking = [...first.entries()].map(([n, v], i) => `${i + 1}. ${countries.getName(toA2(n) ?? '', 'ja')}（${when(v)}）${v.series_id ? '' : ' ※シリーズ外'} ${v.title}`);
   const seriesCountries = new Set(videos.filter((v) => v.series_id).flatMap((v) => v.countries));
+  // 概要欄の通算国数との照合：撮影順に、その動画までにこちらで数えた国数と比べ、食い違いが変わる所だけ出す
+  const tallyRows: string[] = [];
+  {
+    const seen = new Set<string>();
+    let lastDiff: number | null = null;
+    for (const v of videos.slice().sort((a, b) => when(a).localeCompare(when(b)) || (a.episode ?? 0) - (b.episode ?? 0))) {
+      const added = v.countries.filter((n) => recognized.has(n) && !seen.has(n));
+      added.forEach((n) => seen.add(n));
+      if (v.tally == null) continue;
+      const diff = v.tally - seen.size;
+      if (diff !== lastDiff) {
+        tallyRows.push(`- ${when(v)} 通算 ${v.tally}／こちら ${seen.size}（差 ${diff > 0 ? '+' : ''}${diff}）${added.length ? ` 新規: ${added.map((n) => countries.getName(toA2(n) ?? '', 'ja')).join('・')}` : ''} ${v.title}`);
+        lastDiff = diff;
+      }
+    }
+  }
   const extraOnly = [...first.keys()].filter((n) => !seriesCountries.has(n));
   const lines = [
     `## データ更新`,
@@ -326,6 +345,7 @@ async function main() {
     ...(report.unknownFlags.length ? [`### 国コードに変換できなかった国旗`, ...report.unknownFlags.map((c) => `- ${c}`), ``] : []),
     ...(report.dup.length ? [`### 複数のシリーズに入っている動画（先のシリーズを採用）`, ...report.dup.map((c) => `- ${c}`), ``] : []),
     ...(report.removed.length ? [`### 取得できなくなった動画（削除・非公開）`, ...report.removed.map((c) => `- ${c}`), ``] : []),
+    ...(tallyRows.length ? [`### 概要欄の「しげ旅通算○/195ヶ国」との照合（食い違いが変わった所）`, ...tallyRows, ``] : []),
     `<details><summary>訪問国の通し番号（撮影順）</summary>`,
     ``,
     ...ranking,
