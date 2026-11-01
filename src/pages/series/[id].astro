@@ -21,9 +21,16 @@ const group = seriesInGroup(se);
 const gi = group.findIndex((s) => s.id === se.id);
 const prev = group[gi - 1], next = group[gi + 1];
 const season = seasonOf(se.id);
+// 日本国内編は旅の順序・ルートを出さない
+const japan = se.group === 'japan';
 const names = [...new Set(sm.stops.map((x) => x.name))];
-const title = `しげ旅 ${se.name}のルートと動画リスト（${sm.countryCount}か国・${sm.videoCount}本）`;
-const description = `しげ旅（シゲタビ）「${se.name}」の旅のルートを世界地図で、全${sm.videoCount}本の動画リストを訪問順にまとめています。訪れた国：${names.slice(0, 12).join('・')}${names.length > 12 ? 'ほか' : ''}。`;
+const places = [...new Set(sm.stops.map((x) => x.city).filter((c): c is string => !!c))];
+const title = se.group === 'japan'
+  ? `しげ旅 ${se.name}の動画リスト（${sm.stops.length}か所・${sm.videoCount}本）`
+  : `しげ旅 ${se.name}のルートと動画リスト（${sm.countryCount}か国・${sm.videoCount}本）`;
+const description = se.group === 'japan'
+  ? `しげ旅（シゲタビ）日本国内編「${se.name}」の全${sm.videoCount}本の動画リストと、訪れた場所を地図でまとめています。訪れた場所：${places.slice(0, 12).join('・')}${places.length > 12 ? 'ほか' : ''}。`
+  : `しげ旅（シゲタビ）「${se.name}」の旅のルートを世界地図で、全${sm.videoCount}本の動画リストを訪問順にまとめています。訪れた国：${names.slice(0, 12).join('・')}${names.length > 12 ? 'ほか' : ''}。`;
 const site_url = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const jsonLd = [
   {
@@ -69,15 +76,15 @@ const bubbles = [...visited].map((iso) => {
   </div>
 
   <div class="seriesmap">
-    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} routeLabel="ルート（番号は訪問順）" numbered fit={fitBox(unwrap(sm.stops), 0.25, 6)} fitNarrow={fitBox(unwrap(sm.stops), 0.2, 4)} />
+    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} routeLabel={japan ? undefined : 'ルート（番号は訪問順）'} numbered={!japan} noRoute={japan} fit={fitBox(unwrap(sm.stops), 0.25, 6)} fitNarrow={fitBox(unwrap(sm.stops), 0.2, 4)} />
   </div>
 
   <section class="box" style={`--focus:${seriesColor(se.id)}`}>
-    <h2>動画リスト（訪問順）</h2>
+    <h2>{japan ? '動画リスト' : '動画リスト（訪問順）'}</h2>
     {sm.stops.map((s, k) => (
       <div class="vgroup" id={groupId(s, k)} data-iso={s.iso_n3}>
         <h3>
-          <span class="cn"><span class="seq">{s.seq}</span><Flag iso={s.iso_n3} />{s.name}</span>
+          <span class="cn">{!japan && <span class="seq">{s.seq}</span>}<Flag iso={s.iso_n3} />{s.name}</span>
           <small>{s.city && <span class="city">{s.city} ・ </span>}{range(s.arrived, s.departed)} ・ {s.videos.length}本</small>
         </h3>
         <ul class="vlist">{s.videos.map((v) => <VideoItem video={v} />)}</ul>

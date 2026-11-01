@@ -24,15 +24,17 @@ interface Props {
   focusSeries?: string;
   /** PC で枠が縦長になっても世界の横幅全体を見せる（ホーム） */
   fillWidth?: boolean;
+  /** ルートの線を引かず、滞在地を点だけで示す（日本国内編） */
+  noRoute?: boolean;
 }
-const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries, fillWidth = false } = Astro.props;
+const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries, fillWidth = false, noRoute = false } = Astro.props;
 const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
 // 凡例の「行った国」は、シリーズの色を全部入れた四角1つで表す
 const cols = allSeries.map((x) => seriesColor(x.id));
 const multiColor = `conic-gradient(${cols.map((c, i) => `${c} ${(i * 100) / cols.length}% ${((i + 1) * 100) / cols.length}%`).join(', ')})`;
 // 地図は左右に複製してあり、横に何周でも回せる（src/scripts/map.ts）。
 // シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描く
-const route = numbered ? unwrap(rawRoute) : rawRoute;
+const route = numbered || noRoute ? unwrap(rawRoute) : rawRoute;
 
 // 小さな国（島国など）は形に加えて丸い点を重ね、世界全体の表示でもタップできるようにする。
 // 地図データに形が無い国（ツバルなど）は、滞在地の座標に点だけ置く
@@ -93,7 +95,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
       {dots.map((d) => <circle class={`${cls(d.id)} dot`} data-id={d.id} data-size={d.size.toFixed(2)} cx={d.at.x} cy={d.at.y} r="1.5"></circle>)}
     </g>
     <g class="gR">
-      {route.slice(1).map((s, i) => connected(route[i], s) && <path class="rt" d={arc(route[i], s)}></path>)}
+      {!noRoute && route.slice(1).map((s, i) => connected(route[i], s) && <path class="rt" d={arc(route[i], s)}></path>)}
       {route.map((s) => (
         <g class="st" data-sx={s.x} data-sy={s.y} transform={`translate(${s.x},${s.y})`}>
           <circle r={numbered ? 5 : 3}></circle>
