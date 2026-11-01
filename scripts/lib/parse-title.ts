@@ -12,6 +12,8 @@ export type ParsedTitle = {
   episode: number | null;
   /** タイトル末尾の撮影期間 */
   filmed: { from: string; to: string } | null;
+  /** 先頭の「3/9」（年なし。北海道1ヶ月生活など）。年は呼び出し側で公開日から補う */
+  monthDay: { m: number; d: number } | null;
 };
 
 const FLAG_RE = /([\u{1F1E6}-\u{1F1FF}])([\u{1F1E6}-\u{1F1FF}])/gu;
@@ -68,21 +70,28 @@ export function parseFilmed(title: string): { from: string; to: string } | null 
 }
 
 export function parseEpisode(title: string): number | null {
-  const m = title.match(/【[^】]*#\s*(\d+)\s*】/);
+  const m = title.match(/【[^】]*#\s*(\d+)\s*】/) ?? title.match(/【[^】]*?(\d+)日目】/);
   return m ? Number(m[1]) : null;
+}
+
+const MONTH_DAY_RE = /^(\d{1,2})\/(\d{1,2})/;
+export function parseMonthDay(title: string): { m: number; d: number } | null {
+  const m = title.replace(/^(【[^】]*】\s*)+/, '').match(MONTH_DAY_RE);
+  return m ? { m: Number(m[1]), d: Number(m[2]) } : null;
 }
 
 export function parseCity(title: string): { city: string | null; flight: boolean } {
   // 先頭の【悲報】などを外し、最初の「旅」までを見る
-  const head = title.replace(/^(【[^】]*】\s*)+/, '');
+  const head = title.replace(/^(【[^】]*】\s*)+/, '').replace(MONTH_DAY_RE, '');
   const m = head.match(/^(.+?)旅/);
   if (!m) return { city: null, flight: FLIGHT_RE.test(head) };
   let city = m[1]
     .replace(/\d+歳(ひとり|一人)?$/, '')
+    .replace(/(ひとり|一人)$/, '')
     .replace(/乗(り)?継(ぎ)?$/, '')
     .trim();
   // 「バンコクからビエンチャン」は行き先、「ダナン、ホイアン」「ティンプー・プナカ」は最初の都市を採る
-  city = city.split(/から|→/).at(-1)!.split(/[、・,]/)[0].trim();
+  city = city.split(/から|→|〜|～|~/).at(-1)!.split(/[、・,]/)[0].trim();
   const flight = FLIGHT_RE.test(city) || /乗(り)?継(ぎ)?/.test(m[1]);
   // 「成田ロンドン」「羽田ニューヨーク」のような移動回は都市として扱わない
   if (FLIGHT_RE.test(city) || /^(成田|羽田|関空|中部|福岡)/.test(city) || /[A-Za-z]{3,}/.test(city)) return { city: null, flight: true };
@@ -91,7 +100,7 @@ export function parseCity(title: string): { city: string | null; flight: boolean
 
 export function parseTitle(title: string): ParsedTitle {
   const { city, flight } = parseCity(title);
-  return { a2: flagsToA2(title), city, flight, episode: parseEpisode(title), filmed: parseFilmed(title) };
+  return { a2: flagsToA2(title), city, flight, episode: parseEpisode(title), filmed: parseFilmed(title), monthDay: parseMonthDay(title) };
 }
 
 /** 概要欄の「しげ旅通算　138/195ヶ国」を読む */

@@ -182,6 +182,14 @@ function nameDictionary(): Map<string, string> {
 }
 
 const toN3 = (a2: string) => countries.alpha2ToNumeric(a2);
+/** 「3/9」のような年の無い撮影日に、公開日から年を補う（公開日より後の月なら前の年） */
+function monthDayToFilmed(md: { m: number; d: number } | null, publishedAt: string) {
+  if (!md) return null;
+  const pub = new Date(publishedAt);
+  const y = md.m > pub.getUTCMonth() + 1 ? pub.getUTCFullYear() - 1 : pub.getUTCFullYear();
+  const day = `${y}-${String(md.m).padStart(2, '0')}-${String(md.d).padStart(2, '0')}`;
+  return { from: day, to: day };
+}
 function isoSeconds(d: string): number {
   const m = d.match(/P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   return m ? (+(m[1] ?? 0) * 86400 + +(m[2] ?? 0) * 3600 + +(m[3] ?? 0) * 60 + +(m[4] ?? 0)) : 0;
@@ -245,7 +253,7 @@ async function main() {
       episode: p.episode,
       countries: n3,
       cities: p.city ? [p.city] : [],
-      filmed_at: p.filmed,
+      filmed_at: p.filmed ?? monthDayToFilmed(p.monthDay, d.snippet.publishedAt),
       ...(p.flight ? { flight: true } : {}),
       ...(isoSeconds(d.contentDetails.duration) <= 180 ? { short: true } : {}),
       ...(parseTally(d.snippet.description ?? '') != null ? { tally: parseTally(d.snippet.description)! } : {}),
