@@ -9,7 +9,7 @@
     "arrived": "2022-06-20",
     "departed": "2022-06-23",
     "video_ids": [
-      "sample00001"
+      "js-xFxZPgA8"
     ]
   },
   {
@@ -17,12 +17,12 @@
     "seq": 2,
     "iso_n3": "372",
     "city": "ダブリン",
-    "lat": 53.35,
-    "lng": -6.26,
+    "lat": 53.34,
+    "lng": -6.27,
     "arrived": "2022-06-23",
     "departed": "2022-06-25",
     "video_ids": [
-      "sample00002"
+      "wHjx3xlvuvI"
     ]
   },
   {
@@ -35,12 +35,38 @@
     "arrived": "2022-06-25",
     "departed": "2022-06-28",
     "video_ids": [
-      "sample00003"
+      "_hj-f1X89C4"
     ]
   },
   {
     "series_id": "europe",
     "seq": 4,
+    "iso_n3": "442",
+    "city": "ルクセンブルク",
+    "lat": 49.77,
+    "lng": 6.13,
+    "arrived": "2022-06-28",
+    "departed": "2022-06-30",
+    "video_ids": [
+      "RZ3i1O4jXTQ"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 5,
+    "iso_n3": "056",
+    "city": "ブリュッセル",
+    "lat": 50.85,
+    "lng": 4.35,
+    "arrived": "2022-06-30",
+    "departed": "2022-07-03",
+    "video_ids": [
+      "5ByMGCE8rE4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 6,
     "iso_n3": "528",
     "city": "アムステルダム",
     "lat": 52.37,
@@ -48,25 +74,51 @@
     "arrived": "2022-07-03",
     "departed": "2022-07-06",
     "video_ids": [
-      "sample00004"
+      "nfia5ep3bIo"
     ]
   },
   {
     "series_id": "europe",
-    "seq": 5,
+    "seq": 7,
     "iso_n3": "276",
     "city": "ベルリン",
     "lat": 52.52,
-    "lng": 13.4,
+    "lng": 13.38,
     "arrived": "2022-07-06",
     "departed": "2022-07-09",
     "video_ids": [
-      "sample00005"
+      "cM-zweiLMOg"
     ]
   },
   {
     "series_id": "europe",
-    "seq": 6,
+    "seq": 8,
+    "iso_n3": "208",
+    "city": "コペンハーゲン",
+    "lat": 55.68,
+    "lng": 12.57,
+    "arrived": "2022-07-09",
+    "departed": "2022-07-12",
+    "video_ids": [
+      "sS99_xnIn9M"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 9,
+    "iso_n3": "578",
+    "city": "オスロ",
+    "lat": 59.91,
+    "lng": 10.74,
+    "arrived": "2022-07-12",
+    "departed": "2022-07-15",
+    "video_ids": [
+      "iH6BjUI1cSU"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 10,
     "iso_n3": "752",
     "city": "ストックホルム",
     "lat": 59.33,
@@ -74,12 +126,77 @@
     "arrived": "2022-07-15",
     "departed": "2022-07-18",
     "video_ids": [
-      "sample00006"
+      "1pBKT9gtWko"
     ]
   },
   {
     "series_id": "europe",
-    "seq": 7,
+    "seq": 11,
+    "iso_n3": "246",
+    "city": "ヘルシンキ",
+    "lat": 60.17,
+    "lng": 24.94,
+    "arrived": "2022-07-18",
+    "departed": "2022-07-21",
+    "video_ids": [
+      "SRW6Bl6j4xQ"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 12,
+    "iso_n3": "233",
+    "city": "タリン",
+    "lat": 59.44,
+    "lng": 24.75,
+    "arrived": "2022-07-21",
+    "departed": "2022-07-24",
+    "video_ids": [
+      "jzLxMGexKQI"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 13,
+    "iso_n3": "428",
+    "city": "リガ",
+    "lat": 56.95,
+    "lng": 24.11,
+    "arrived": "2022-07-24",
+    "departed": "2022-07-27",
+    "video_ids": [
+      "NVKz8pUU7FA"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 14,
+    "iso_n3": "440",
+    "city": "ビリニュス",
+    "lat": 54.69,
+    "lng": 25.28,
+    "arrived": "2022-07-27",
+    "departed": "2022-07-30",
+    "video_ids": [
+      "fP_g3XmTl0Q"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 15,
+    "iso_n3": "616",
+    "city": "ワルシャワ",
+    "lat": 52.23,
+    "lng": 21.01,
+    "arrived": "2022-07-30",
+    "departed": "2022-08-02",
+    "video_ids": [
+      "WaweQjf_PB4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 16,
     "iso_n3": "616",
     "city": "クラクフ",
     "lat": 50.06,
@@ -87,114 +204,990 @@
     "arrived": "2022-08-02",
     "departed": "2022-08-04",
     "video_ids": [
-      "sample00007"
+      "V9j5L5uh47M"
     ]
   },
   {
     "series_id": "europe",
-    "seq": 8,
+    "seq": 17,
+    "iso_n3": "203",
+    "city": "プラハ",
+    "lat": 50.08,
+    "lng": 14.42,
+    "arrived": "2022-08-04",
+    "departed": "2022-08-06",
+    "video_ids": [
+      "0fPTSg9bf-I"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 18,
+    "iso_n3": "040",
+    "city": "ウィーン",
+    "lat": 48.21,
+    "lng": 16.37,
+    "arrived": "2022-08-06",
+    "departed": "2022-08-09",
+    "video_ids": [
+      "YwpwfGV07pc"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 19,
+    "iso_n3": "703",
+    "city": "ブラチスラバ",
+    "lat": 48.15,
+    "lng": 17.11,
+    "arrived": "2022-08-09",
+    "departed": "2022-08-11",
+    "video_ids": [
+      "RynpqUu-aLo"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 20,
+    "iso_n3": "348",
+    "city": "ブダペスト",
+    "lat": 47.49,
+    "lng": 19.05,
+    "arrived": "2022-08-11",
+    "departed": "2022-08-13",
+    "video_ids": [
+      "S9ihZa25x74"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 21,
     "iso_n3": "352",
     "city": "レイキャビク",
     "lat": 64.15,
-    "lng": -21.94,
+    "lng": -21.93,
+    "arrived": "2022-08-13",
+    "departed": "2022-08-16",
+    "video_ids": [
+      "k0ET1z9BFdI"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 22,
+    "iso_n3": "304",
+    "city": "ヌーク",
+    "lat": 64.18,
+    "lng": -51.73,
+    "arrived": "2022-08-16",
+    "departed": "2022-08-21",
+    "video_ids": [
+      "phYC5f9OwyI",
+      "_1Z84pw5YVA"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 23,
+    "iso_n3": "352",
+    "city": "レイキャビク",
+    "lat": 64.15,
+    "lng": -21.93,
     "arrived": "2022-08-21",
     "departed": "2022-08-24",
     "video_ids": [
-      "sample00008",
-      "sample00009"
+      "fK0_J6mXz-c"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 24,
+    "iso_n3": "826",
+    "city": "カーディフ",
+    "lat": 51.48,
+    "lng": -3.18,
+    "arrived": "2022-08-24",
+    "departed": "2022-08-28",
+    "video_ids": [
+      "aWFYUASM_2c"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 25,
+    "iso_n3": "826",
+    "city": "ベルファスト",
+    "lat": 54.6,
+    "lng": -5.93,
+    "arrived": "2022-08-28",
+    "departed": "2022-08-31",
+    "video_ids": [
+      "JDp45rXnnSw"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 26,
+    "iso_n3": "826",
+    "city": "エディンバラ",
+    "lat": 55.95,
+    "lng": -3.19,
+    "arrived": "2022-08-31",
+    "departed": "2022-09-03",
+    "video_ids": [
+      "1AA0LDFhViE",
+      "D9qxxF0JwPs"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 27,
+    "iso_n3": "826",
+    "city": "グラスゴー",
+    "lat": 55.86,
+    "lng": -4.25,
+    "arrived": "2022-09-03",
+    "departed": "2022-09-06",
+    "video_ids": [
+      "33yq7ydWRUg"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 28,
+    "iso_n3": "826",
+    "city": "リバプール",
+    "lat": 53.41,
+    "lng": -2.99,
+    "arrived": "2022-09-06",
+    "departed": "2022-09-09",
+    "video_ids": [
+      "AhXNNn6IJ74"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 29,
+    "iso_n3": "826",
+    "city": "マンチェスター",
+    "lat": 53.48,
+    "lng": -2.25,
+    "arrived": "2022-09-09",
+    "departed": "2022-09-12",
+    "video_ids": [
+      "kfVQH3P3Qc4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 30,
+    "iso_n3": "196",
+    "city": "アヤナパ",
+    "lat": 34.99,
+    "lng": 34,
+    "arrived": "2022-09-12",
+    "departed": "2022-10-01",
+    "video_ids": [
+      "KWAfH7TqGbg",
+      "BtiJ1DqVnrQ",
+      "uk7jkvNMdLo"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 31,
+    "iso_n3": "196",
+    "city": "ニコシア",
+    "lat": 35.17,
+    "lng": 33.37,
+    "arrived": "2022-10-01",
+    "departed": "2022-10-08",
+    "video_ids": [
+      "AbFEqZcFl9M",
+      "4_2CWOGM81U"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 32,
+    "iso_n3": "498",
+    "city": "キシナウ",
+    "lat": 47.02,
+    "lng": 28.84,
+    "arrived": "2022-10-08",
+    "departed": "2022-10-12",
+    "video_ids": [
+      "QmWDpqLTGd0"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 33,
+    "iso_n3": "642",
+    "city": "ブカレスト",
+    "lat": 44.41,
+    "lng": 26.1,
+    "arrived": "2022-10-12",
+    "departed": "2022-10-15",
+    "video_ids": [
+      "e3ggxAvGcNQ"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 34,
+    "iso_n3": "688",
+    "city": "ベオグラード",
+    "lat": 44.82,
+    "lng": 20.48,
+    "arrived": "2022-10-15",
+    "departed": "2022-10-18",
+    "video_ids": [
+      "UiWh7olT1v4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 35,
+    "iso_n3": "705",
+    "city": "リュブリャナ",
+    "lat": 46.05,
+    "lng": 14.51,
+    "arrived": "2022-10-18",
+    "departed": "2022-10-19",
+    "video_ids": [
+      "zaEKuUYsPdQ"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 36,
+    "iso_n3": "191",
+    "city": "ザグレブ",
+    "lat": 45.82,
+    "lng": 15.98,
+    "arrived": "2022-10-19",
+    "departed": "2022-10-22",
+    "video_ids": [
+      "gBKCoUGmEB0"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 37,
+    "iso_n3": "191",
+    "city": "ドブロブニク",
+    "lat": 42.65,
+    "lng": 18.09,
+    "arrived": "2022-10-22",
+    "departed": "2022-10-25",
+    "video_ids": [
+      "ORjmQM0Fst4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 38,
+    "iso_n3": "070",
+    "city": "サラエボ",
+    "lat": 43.86,
+    "lng": 18.41,
+    "arrived": "2022-10-25",
+    "departed": "2022-10-28",
+    "video_ids": [
+      "8zwoNsvUonE"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 39,
+    "iso_n3": "499",
+    "city": "ポドゴリツァ",
+    "lat": 42.44,
+    "lng": 19.26,
+    "arrived": "2022-10-28",
+    "departed": "2022-10-31",
+    "video_ids": [
+      "1bZnkA-O1Pw"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 40,
+    "iso_n3": "008",
+    "city": "ティラナ",
+    "lat": 41.33,
+    "lng": 19.82,
+    "arrived": "2022-10-31",
+    "departed": "2022-11-03",
+    "video_ids": [
+      "xPM14cBchhU"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 41,
+    "iso_n3": "983",
+    "city": "プリシュティナ",
+    "lat": 42.67,
+    "lng": 21.17,
+    "arrived": "2022-11-03",
+    "departed": "2022-11-06",
+    "video_ids": [
+      "zzp8m7rg8Hs"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 42,
+    "iso_n3": "807",
+    "city": "スコピエ",
+    "lat": 42,
+    "lng": 21.43,
+    "arrived": "2022-11-06",
+    "departed": "2022-11-09",
+    "video_ids": [
+      "BMu_pf-q_Lo"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 43,
+    "iso_n3": "100",
+    "city": "ソフィア",
+    "lat": 42.7,
+    "lng": 23.32,
+    "arrived": "2022-11-09",
+    "departed": "2022-11-12",
+    "video_ids": [
+      "TUFFR_Z4poY"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 44,
+    "iso_n3": "756",
+    "city": "チューリッヒ",
+    "lat": 47.37,
+    "lng": 8.54,
+    "arrived": "2022-11-12",
+    "departed": "2022-11-14",
+    "video_ids": [
+      "W1jK-Rq5J9M"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 45,
+    "iso_n3": "438",
+    "city": "ファドゥーツ",
+    "lat": 47.14,
+    "lng": 9.52,
+    "arrived": "2022-11-14",
+    "departed": "2022-11-15",
+    "video_ids": [
+      "z74Bh3TUz88"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 46,
+    "iso_n3": "470",
+    "city": "バレッタ",
+    "lat": 35.9,
+    "lng": 14.51,
+    "arrived": "2022-11-15",
+    "departed": "2022-11-18",
+    "video_ids": [
+      "T0Rvh9KtbQs"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 47,
+    "iso_n3": "300",
+    "city": "アテネ",
+    "lat": 37.98,
+    "lng": 23.73,
+    "arrived": "2022-11-18",
+    "departed": "2022-11-20",
+    "video_ids": [
+      "TvDtW8mf11Q"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 48,
+    "iso_n3": "674",
+    "city": "サンマリノ",
+    "lat": 43.93,
+    "lng": 12.47,
+    "arrived": "2022-12-08",
+    "departed": "2022-12-10",
+    "video_ids": [
+      "v6twyrNreCc"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 49,
+    "iso_n3": "380",
+    "city": "ローマ",
+    "lat": 41.89,
+    "lng": 12.48,
+    "arrived": "2022-12-10",
+    "departed": "2022-12-11",
+    "video_ids": [
+      "Wjp0yg7kABo"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 50,
+    "iso_n3": "336",
+    "city": "バチカン",
+    "lat": 41.9,
+    "lng": 12.45,
+    "arrived": "2022-12-12",
+    "departed": "2022-12-13",
+    "video_ids": [
+      "958zp8sYPnU"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 51,
+    "iso_n3": "492",
+    "city": "モナコ",
+    "lat": 43.73,
+    "lng": 7.42,
+    "arrived": "2022-12-13",
+    "departed": "2022-12-15",
+    "video_ids": [
+      "P05uvLWZbJQ"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 52,
+    "iso_n3": "020",
+    "city": "アンドラ",
+    "lat": 42.54,
+    "lng": 1.6,
+    "arrived": "2022-12-15",
+    "departed": "2022-12-17",
+    "video_ids": [
+      "P7ufnd6oni8"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 53,
+    "iso_n3": "724",
+    "city": "バルセロナ",
+    "lat": 41.38,
+    "lng": 2.18,
+    "arrived": "2022-12-17",
+    "departed": "2022-12-19",
+    "video_ids": [
+      "XzsdXLNLvhw"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 54,
+    "iso_n3": "724",
+    "city": "サンセバスチャン",
+    "lat": 43.32,
+    "lng": -1.99,
+    "arrived": "2022-12-19",
+    "departed": "2022-12-21",
+    "video_ids": [
+      "KHtL6Cb3zC4"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 55,
+    "iso_n3": "724",
+    "city": "マドリード",
+    "lat": 40.42,
+    "lng": -3.69,
+    "arrived": "2022-12-21",
+    "departed": "2022-12-23",
+    "video_ids": [
+      "Tg8DMvGhozc"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 56,
+    "iso_n3": "620",
+    "city": "リスボン",
+    "lat": 38.73,
+    "lng": -9.15,
+    "arrived": "2022-12-23",
+    "departed": "2022-12-26",
+    "video_ids": [
+      "jKz4JPeQyqY"
+    ]
+  },
+  {
+    "series_id": "europe",
+    "seq": 57,
+    "iso_n3": "380",
+    "city": "ミラノ",
+    "lat": 45.47,
+    "lng": 9.19,
+    "arrived": "2026-08-12",
+    "departed": "2026-08-18",
+    "video_ids": [
+      "fcMUggXMTaA"
     ]
   },
   {
     "series_id": "north-america",
     "seq": 1,
     "iso_n3": "840",
-    "city": "ニューヨーク",
-    "lat": 40.71,
-    "lng": -74.01,
-    "arrived": "2022-10-10",
-    "departed": "2022-10-15",
+    "city": "ラスベガス",
+    "lat": 36.17,
+    "lng": -115.15,
+    "arrived": "2023-08-29",
+    "departed": "2023-09-01",
     "video_ids": [
-      "sample00010",
-      "sample00011"
+      "ZPDLcZUYwAI"
     ]
   },
   {
     "series_id": "north-america",
     "seq": 2,
-    "iso_n3": "124",
-    "city": "バンクーバー",
-    "lat": 49.28,
-    "lng": -123.12,
-    "arrived": "2022-10-16",
-    "departed": "2022-10-20",
+    "iso_n3": "840",
+    "city": "ロサンゼルス",
+    "lat": 34.05,
+    "lng": -118.24,
+    "arrived": "2023-09-01",
+    "departed": "2023-09-06",
     "video_ids": [
-      "sample00012"
+      "NIMnjvPiKTA",
+      "iJ5txvWl4AQ"
     ]
   },
   {
     "series_id": "north-america",
     "seq": 3,
     "iso_n3": "840",
-    "city": "ロサンゼルス",
-    "lat": 34.05,
-    "lng": -118.24,
-    "arrived": "2022-10-21",
-    "departed": "2022-10-25",
+    "city": "シリコンバレー",
+    "lat": 37.38,
+    "lng": -122.07,
+    "arrived": "2023-09-06",
+    "departed": "2023-09-08",
     "video_ids": [
-      "sample00013"
+      "e6eeCvW6Q7w"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 4,
+    "iso_n3": "840",
+    "city": "サンフランシスコ",
+    "lat": 37.78,
+    "lng": -122.42,
+    "arrived": "2023-09-09",
+    "departed": "2023-09-12",
+    "video_ids": [
+      "TIwtF7-teJI"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 5,
+    "iso_n3": "840",
+    "city": "シアトル",
+    "lat": 47.61,
+    "lng": -122.33,
+    "arrived": "2023-09-12",
+    "departed": "2023-09-15",
+    "video_ids": [
+      "t5DXq3cGmBw"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 6,
+    "iso_n3": "840",
+    "city": "フェアバンクス",
+    "lat": 64.84,
+    "lng": -147.72,
+    "arrived": "2023-09-15",
+    "departed": "2023-09-18",
+    "video_ids": [
+      "WUKErHOD8MU"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 7,
+    "iso_n3": "840",
+    "city": "アンカレッジ",
+    "lat": 61.22,
+    "lng": -149.89,
+    "arrived": "2023-09-18",
+    "departed": "2023-09-20",
+    "video_ids": [
+      "jibHUpzLBgA"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 8,
+    "iso_n3": "124",
+    "city": "バンクーバー",
+    "lat": 49.26,
+    "lng": -123.11,
+    "arrived": "2023-09-20",
+    "departed": "2023-09-23",
+    "video_ids": [
+      "Ib_AnzbZkoQ"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 9,
+    "iso_n3": "124",
+    "city": "モントリオール",
+    "lat": 45.5,
+    "lng": -73.59,
+    "arrived": "2023-09-23",
+    "departed": "2023-09-25",
+    "video_ids": [
+      "gwcDVjY0Xa0"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 10,
+    "iso_n3": "124",
+    "city": "トロント",
+    "lat": 43.67,
+    "lng": -79.39,
+    "arrived": "2023-09-25",
+    "departed": "2023-09-28",
+    "video_ids": [
+      "-VCn_A2-rUE"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 11,
+    "iso_n3": "124",
+    "city": "ナイアガラの滝",
+    "lat": 43.08,
+    "lng": -79.07,
+    "arrived": "2023-09-28",
+    "departed": "2023-09-30",
+    "video_ids": [
+      "0cjyYaSpRPw"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 12,
+    "iso_n3": "840",
+    "city": "ニューヨーク",
+    "lat": 40.71,
+    "lng": -74.01,
+    "arrived": "2023-10-14",
+    "departed": "2023-10-20",
+    "video_ids": [
+      "pRowy60C-vw",
+      "yuBTnQdJ4Zg"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 13,
+    "iso_n3": "840",
+    "city": "ワシントンD.C.",
+    "lat": 38.9,
+    "lng": -77.04,
+    "arrived": "2023-10-20",
+    "departed": "2023-10-23",
+    "video_ids": [
+      "OvcMYPtf9r4"
+    ]
+  },
+  {
+    "series_id": "north-america",
+    "seq": 14,
+    "iso_n3": "840",
+    "city": "マイアミ",
+    "lat": 25.77,
+    "lng": -80.19,
+    "arrived": "2023-10-20",
+    "departed": "2023-11-03",
+    "video_ids": [
+      "SJth4tQSZTM"
     ]
   },
   {
     "series_id": "central-america",
     "seq": 1,
-    "iso_n3": "484",
-    "city": "メキシコシティ",
-    "lat": 19.43,
-    "lng": -99.13,
-    "arrived": "2022-11-01",
-    "departed": "2022-11-05",
+    "iso_n3": "591",
+    "city": "パナマシティ",
+    "lat": 8.97,
+    "lng": -79.53,
+    "arrived": "2023-06-16",
+    "departed": "2023-06-20",
     "video_ids": [
-      "sample00014",
-      "sample00015"
+      "NdECp3Zgzlk"
     ]
   },
   {
     "series_id": "central-america",
     "seq": 2,
-    "iso_n3": "320",
-    "city": "アンティグア",
-    "lat": 14.56,
-    "lng": -90.73,
-    "arrived": "2022-11-06",
-    "departed": "2022-11-09",
+    "iso_n3": "188",
+    "city": "サンホセ",
+    "lat": 9.93,
+    "lng": -84.08,
+    "arrived": "2023-06-20",
+    "departed": "2023-06-23",
     "video_ids": [
-      "sample00016"
+      "Hqv59NJQx60"
     ]
   },
   {
     "series_id": "central-america",
     "seq": 3,
     "iso_n3": "188",
-    "city": "サンホセ",
+    "city": "コスタリカ",
     "lat": 9.93,
     "lng": -84.08,
-    "arrived": "2022-11-10",
-    "departed": "2022-11-13",
+    "arrived": "2023-06-23",
+    "departed": "2023-06-27",
     "video_ids": [
-      "sample00017"
+      "-Gx-GEvZuqg"
     ]
   },
   {
     "series_id": "central-america",
     "seq": 4,
-    "iso_n3": "591",
-    "city": "パナマシティ",
-    "lat": 8.98,
-    "lng": -79.52,
-    "arrived": "2022-11-14",
-    "departed": "2022-11-17",
+    "iso_n3": "558",
+    "city": "マナグア",
+    "lat": 12.15,
+    "lng": -86.27,
+    "arrived": "2023-06-27",
+    "departed": "2023-07-01",
     "video_ids": [
-      "sample00018"
+      "5XrjueZA7cQ"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 5,
+    "iso_n3": "340",
+    "city": "テグシガルパ",
+    "lat": 14.11,
+    "lng": -87.2,
+    "arrived": "2023-07-01",
+    "departed": "2023-07-04",
+    "video_ids": [
+      "219Tt7rsjWw"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 6,
+    "iso_n3": "340",
+    "city": "ロアタン島",
+    "lat": 16.38,
+    "lng": -86.4,
+    "arrived": "2023-07-04",
+    "departed": "2023-07-07",
+    "video_ids": [
+      "puDBf3OXUFo"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 7,
+    "iso_n3": "222",
+    "city": "サンサルバドル",
+    "lat": 13.7,
+    "lng": -89.19,
+    "arrived": "2023-07-07",
+    "departed": "2023-07-10",
+    "video_ids": [
+      "Go7Zv1Y_vdk"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 8,
+    "iso_n3": "320",
+    "city": "グアテマラシティ",
+    "lat": 14.64,
+    "lng": -90.51,
+    "arrived": "2023-07-10",
+    "departed": "2023-07-14",
+    "video_ids": [
+      "Ja_Vd7uKV6s"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 9,
+    "iso_n3": "320",
+    "city": "フローレス",
+    "lat": 16.93,
+    "lng": -89.89,
+    "arrived": "2023-07-14",
+    "departed": "2023-07-17",
+    "video_ids": [
+      "PBHc2lreb7w"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 10,
+    "iso_n3": "084",
+    "city": "サンペドロ",
+    "lat": 17.92,
+    "lng": -87.96,
+    "arrived": "2023-07-17",
+    "departed": "2023-07-20",
+    "video_ids": [
+      "eCzdEiFfEnY"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 11,
+    "iso_n3": "084",
+    "city": "キーカーカー",
+    "lat": 17.74,
+    "lng": -88.02,
+    "arrived": "2023-07-20",
+    "departed": "2023-07-23",
+    "video_ids": [
+      "3N5RD3zsLus"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 12,
+    "iso_n3": "084",
+    "city": "ベリーズシティ",
+    "lat": 17.5,
+    "lng": -88.19,
+    "arrived": "2023-07-23",
+    "departed": "2023-07-26",
+    "video_ids": [
+      "0qsbPi_hnSQ"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 13,
+    "iso_n3": "484",
+    "city": "カンクン",
+    "lat": 21.16,
+    "lng": -86.82,
+    "arrived": "2023-07-26",
+    "departed": "2023-08-05",
+    "video_ids": [
+      "Ink1Q-v4K6E"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 14,
+    "iso_n3": "484",
+    "city": "プラヤデルカルメン",
+    "lat": 20.63,
+    "lng": -87.08,
+    "arrived": "2023-08-05",
+    "departed": "2023-08-08",
+    "video_ids": [
+      "GaooIrkNsxY"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 15,
+    "iso_n3": "484",
+    "city": "カンクン",
+    "lat": 21.16,
+    "lng": -86.82,
+    "arrived": "2023-08-08",
+    "departed": "2023-08-13",
+    "video_ids": [
+      "RNQyPlLvhfI"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 16,
+    "iso_n3": "484",
+    "city": "オアハカ",
+    "lat": 17.06,
+    "lng": -96.73,
+    "arrived": "2023-08-13",
+    "departed": "2023-08-16",
+    "video_ids": [
+      "TQNjBkAfgks"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 17,
+    "iso_n3": "484",
+    "city": "グアダラハラ",
+    "lat": 20.67,
+    "lng": -103.34,
+    "arrived": "2023-08-16",
+    "departed": "2023-08-20",
+    "video_ids": [
+      "E8Rmxt4QS58"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 18,
+    "iso_n3": "484",
+    "city": "グアナファト",
+    "lat": 21.02,
+    "lng": -101.26,
+    "arrived": "2023-08-20",
+    "departed": "2023-08-22",
+    "video_ids": [
+      "pNMo7x9GVb4"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 19,
+    "iso_n3": "484",
+    "city": "サンミゲルデアジェンデ",
+    "lat": 20.91,
+    "lng": -100.74,
+    "arrived": "2023-08-22",
+    "departed": "2023-08-24",
+    "video_ids": [
+      "ykj6XWOf2rc"
+    ]
+  },
+  {
+    "series_id": "central-america",
+    "seq": 20,
+    "iso_n3": "484",
+    "city": "メキシコシティ",
+    "lat": 19.43,
+    "lng": -99.13,
+    "arrived": "2023-08-24",
+    "departed": "2023-08-29",
+    "video_ids": [
+      "hIYhItVFJMw",
+      "_iAJcJ05DSo"
     ]
   },
   {
@@ -202,70 +1195,266 @@
     "seq": 1,
     "iso_n3": "170",
     "city": "ボゴタ",
-    "lat": 4.71,
-    "lng": -74.07,
+    "lat": 4.61,
+    "lng": -74.08,
     "arrived": "2023-02-03",
     "departed": "2023-02-08",
     "video_ids": [
-      "sample00019"
+      "57T9OGC35jk"
     ]
   },
   {
     "series_id": "south-america",
     "seq": 2,
-    "iso_n3": "218",
-    "city": "キト",
-    "lat": -0.18,
-    "lng": -78.47,
-    "arrived": "2023-02-16",
-    "departed": "2023-02-20",
+    "iso_n3": "170",
+    "city": "メデジン",
+    "lat": 6.25,
+    "lng": -75.57,
+    "arrived": "2023-02-08",
+    "departed": "2023-02-11",
     "video_ids": [
-      "sample00020"
+      "c_hCh-9NduY"
     ]
   },
   {
     "series_id": "south-america",
     "seq": 3,
-    "iso_n3": "604",
-    "city": "クスコ",
-    "lat": -13.53,
-    "lng": -71.97,
-    "arrived": "2023-03-06",
-    "departed": "2023-03-11",
+    "iso_n3": "170",
+    "city": "カリ",
+    "lat": 3.45,
+    "lng": -76.53,
+    "arrived": "2023-02-11",
+    "departed": "2023-02-16",
     "video_ids": [
-      "sample00021",
-      "sample00022"
+      "t9l-TvRTaIs"
     ]
   },
   {
     "series_id": "south-america",
     "seq": 4,
-    "iso_n3": "068",
-    "city": "ウユニ塩湖",
-    "lat": -20.46,
-    "lng": -66.82,
-    "arrived": "2023-03-15",
-    "departed": "2023-03-19",
+    "iso_n3": "218",
+    "city": "キト",
+    "lat": -0.22,
+    "lng": -78.51,
+    "arrived": "2023-02-16",
+    "departed": "2023-02-20",
     "video_ids": [
-      "sample00023"
+      "GdN6QM9kzYI"
     ]
   },
   {
     "series_id": "south-america",
     "seq": 5,
-    "iso_n3": "152",
-    "city": "サンティアゴ",
-    "lat": -33.45,
-    "lng": -70.67,
-    "arrived": "2023-03-27",
-    "departed": "2023-03-30",
+    "iso_n3": "218",
+    "city": "ガラパゴス諸島",
+    "lat": -0.67,
+    "lng": -90.55,
+    "arrived": "2023-02-20",
+    "departed": "2023-02-28",
     "video_ids": [
-      "sample00024"
+      "eiqDHDeKBbQ",
+      "ZDWH6nAd2Po",
+      "F6aVKKG_8LE"
     ]
   },
   {
     "series_id": "south-america",
     "seq": 6,
+    "iso_n3": "218",
+    "city": "グアヤキル",
+    "lat": -2.19,
+    "lng": -79.89,
+    "arrived": "2023-02-28",
+    "departed": "2023-03-03",
+    "video_ids": [
+      "aNiyHZ0RL74"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 7,
+    "iso_n3": "604",
+    "city": "リマ",
+    "lat": -12.09,
+    "lng": -77.05,
+    "arrived": "2023-03-03",
+    "departed": "2023-03-06",
+    "video_ids": [
+      "vuVp2lr0K68"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 8,
+    "iso_n3": "604",
+    "city": "マチュピチュ",
+    "lat": -13.16,
+    "lng": -72.55,
+    "arrived": "2023-03-06",
+    "departed": "2023-03-09",
+    "video_ids": [
+      "YG1KtqhGPMc"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 9,
+    "iso_n3": "604",
+    "city": "クスコ",
+    "lat": -13.52,
+    "lng": -71.97,
+    "arrived": "2023-03-09",
+    "departed": "2023-03-11",
+    "video_ids": [
+      "wj90_SB-0M8"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 10,
+    "iso_n3": "604",
+    "city": "レインボーマウンテン",
+    "lat": -13.87,
+    "lng": -71.3,
+    "arrived": "2023-03-12",
+    "departed": "2023-03-15",
+    "video_ids": [
+      "Jim2HPhV9fY"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 11,
+    "iso_n3": "068",
+    "city": "ウユニ塩湖",
+    "lat": -20.33,
+    "lng": -67.7,
+    "arrived": "2023-03-15",
+    "departed": "2023-03-19",
+    "video_ids": [
+      "ABkUnNPVAck"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 12,
+    "iso_n3": "068",
+    "city": "ラパス",
+    "lat": -16.5,
+    "lng": -68.13,
+    "arrived": "2023-03-19",
+    "departed": "2023-03-23",
+    "video_ids": [
+      "cLOJsTs1VFI"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 13,
+    "iso_n3": "152",
+    "city": "イースター島",
+    "lat": -27.12,
+    "lng": -109.37,
+    "arrived": "2023-03-23",
+    "departed": "2023-03-27",
+    "video_ids": [
+      "iDlOaOXR8nU"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 14,
+    "iso_n3": "152",
+    "city": "サンティアゴ",
+    "lat": -33.44,
+    "lng": -70.65,
+    "arrived": "2023-03-27",
+    "departed": "2023-03-30",
+    "video_ids": [
+      "KtSsfu6COy4"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 15,
+    "iso_n3": "152",
+    "city": "パタゴニア",
+    "lat": -41.81,
+    "lng": -68.91,
+    "arrived": "2023-03-30",
+    "departed": "2023-04-01",
+    "video_ids": [
+      "stYvz_loJ4A"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 16,
+    "iso_n3": "152",
+    "city": "プエルトウィリアムズ",
+    "lat": -54.93,
+    "lng": -67.62,
+    "arrived": "2023-04-01",
+    "departed": "2023-04-03",
+    "video_ids": [
+      "sqsgZTsc2Kg"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 17,
+    "iso_n3": "152",
+    "city": "プンタアレナス",
+    "lat": -53.16,
+    "lng": -70.91,
+    "arrived": "2023-04-03",
+    "departed": "2023-04-06",
+    "video_ids": [
+      "BGxddlQczvQ"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 18,
+    "iso_n3": "032",
+    "city": "エルチャルテン",
+    "lat": -49.33,
+    "lng": -72.89,
+    "arrived": "2023-04-06",
+    "departed": "2023-04-09",
+    "video_ids": [
+      "mH5eiYttYY8"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 19,
+    "iso_n3": "032",
+    "city": "エルカラファテ",
+    "lat": -50.34,
+    "lng": -72.27,
+    "arrived": "2023-04-09",
+    "departed": "2023-04-11",
+    "video_ids": [
+      "NzhnrVAM6t8"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 20,
+    "iso_n3": "032",
+    "city": "ウシュアイア",
+    "lat": -54.8,
+    "lng": -68.3,
+    "arrived": "2023-04-11",
+    "departed": "2023-04-15",
+    "video_ids": [
+      "mMHmPxwDWOI"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 21,
     "iso_n3": "032",
     "city": "ブエノスアイレス",
     "lat": -34.6,
@@ -273,132 +1462,1937 @@
     "arrived": "2023-04-15",
     "departed": "2023-04-21",
     "video_ids": [
-      "sample00025",
-      "sample00026"
+      "ykxSv45FTBc",
+      "TVRVd_mxweE"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 22,
+    "iso_n3": "858",
+    "city": "モンテビデオ",
+    "lat": -34.88,
+    "lng": -56.17,
+    "arrived": "2023-04-21",
+    "departed": "2023-04-24",
+    "video_ids": [
+      "5Ht9KmPWffU"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 23,
+    "iso_n3": "600",
+    "city": "アスンシオン",
+    "lat": -25.28,
+    "lng": -57.63,
+    "arrived": "2023-04-24",
+    "departed": "2023-04-29",
+    "video_ids": [
+      "22WU1nFUd9s"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 24,
+    "iso_n3": "032",
+    "city": "プエルトイグアス",
+    "lat": -25.61,
+    "lng": -54.58,
+    "arrived": "2023-04-29",
+    "departed": "2023-05-02",
+    "video_ids": [
+      "2Eud1TKfWBc"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 25,
+    "iso_n3": "076",
+    "city": "フォスドイグアス",
+    "lat": -25.54,
+    "lng": -54.59,
+    "arrived": "2023-05-02",
+    "departed": "2023-05-06",
+    "video_ids": [
+      "GvXlSV0LsT8"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 26,
+    "iso_n3": "076",
+    "city": "リオデジャネイロ",
+    "lat": -22.91,
+    "lng": -43.2,
+    "arrived": "2023-05-06",
+    "departed": "2023-05-13",
+    "video_ids": [
+      "Qk4n1JWnqCQ",
+      "SjoIBTSDVRs"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 27,
+    "iso_n3": "076",
+    "city": "サンパウロ",
+    "lat": -23.54,
+    "lng": -46.63,
+    "arrived": "2023-05-13",
+    "departed": "2023-05-18",
+    "video_ids": [
+      "-J0ZGb_OCDw"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 28,
+    "iso_n3": "076",
+    "city": "ブラジリア",
+    "lat": -15.8,
+    "lng": -47.86,
+    "arrived": "2023-05-18",
+    "departed": "2023-05-21",
+    "video_ids": [
+      "Zm93lKIr0Ys"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 29,
+    "iso_n3": "076",
+    "city": "マナウス",
+    "lat": -3.12,
+    "lng": -60.02,
+    "arrived": "2023-05-21",
+    "departed": "2023-05-31",
+    "video_ids": [
+      "4Rx8lQ3aM-Y",
+      "G1sK5LcmTHU"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 30,
+    "iso_n3": "076",
+    "city": "ベレン",
+    "lat": -1.45,
+    "lng": -48.47,
+    "arrived": "2023-05-31",
+    "departed": "2023-06-03",
+    "video_ids": [
+      "R0z8eztzdv8"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 31,
+    "iso_n3": "250",
+    "city": "カイエンヌ",
+    "lat": 4.93,
+    "lng": -52.33,
+    "arrived": "2023-06-03",
+    "departed": "2023-06-06",
+    "video_ids": [
+      "BhrGPyEbU1s"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 32,
+    "iso_n3": "740",
+    "city": "パラマリボ",
+    "lat": 5.87,
+    "lng": -55.17,
+    "arrived": "2023-06-06",
+    "departed": "2023-06-09",
+    "video_ids": [
+      "mHVqcndLSZE"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 33,
+    "iso_n3": "328",
+    "city": "ジョージタウン",
+    "lat": 6.8,
+    "lng": -58.15,
+    "arrived": "2023-06-09",
+    "departed": "2023-06-13",
+    "video_ids": [
+      "oMbkg6LgPPg"
+    ]
+  },
+  {
+    "series_id": "south-america",
+    "seq": 34,
+    "iso_n3": "862",
+    "city": "カラカス",
+    "lat": 10.51,
+    "lng": -66.91,
+    "arrived": "2023-06-13",
+    "departed": "2023-06-16",
+    "video_ids": [
+      "PMQqPmdc-ZE"
     ]
   },
   {
     "series_id": "caribbean",
     "seq": 1,
-    "iso_n3": "192",
-    "city": "ハバナ",
-    "lat": 23.11,
-    "lng": -82.37,
-    "arrived": "2023-10-02",
-    "departed": "2023-10-07",
+    "iso_n3": "044",
+    "city": "ナッソー",
+    "lat": 25.08,
+    "lng": -77.34,
+    "arrived": "2023-11-03",
+    "departed": "2023-11-07",
     "video_ids": [
-      "sample00027",
-      "sample00028"
+      "w5IAujuRjWw"
     ]
   },
   {
     "series_id": "caribbean",
     "seq": 2,
-    "iso_n3": "388",
-    "city": "キングストン",
-    "lat": 18,
-    "lng": -76.79,
-    "arrived": "2023-10-08",
-    "departed": "2023-10-11",
+    "iso_n3": "192",
+    "city": "ハバナ",
+    "lat": 23.14,
+    "lng": -82.36,
+    "arrived": "2023-11-07",
+    "departed": "2023-11-10",
     "video_ids": [
-      "sample00029"
+      "RlwavTVCSbg"
     ]
   },
   {
     "series_id": "caribbean",
     "seq": 3,
+    "iso_n3": "192",
+    "city": "バラデロ",
+    "lat": 23.15,
+    "lng": -81.26,
+    "arrived": "2023-11-10",
+    "departed": "2023-11-14",
+    "video_ids": [
+      "2m5W5mBnNVA"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 4,
     "iso_n3": "214",
     "city": "サントドミンゴ",
-    "lat": 18.47,
-    "lng": -69.9,
-    "arrived": "2023-10-12",
-    "departed": "2023-10-15",
+    "lat": 18.46,
+    "lng": -69.94,
+    "arrived": "2023-11-14",
+    "departed": "2023-11-17",
     "video_ids": [
-      "sample00030"
+      "OJzMdr7FEb8"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 5,
+    "iso_n3": "388",
+    "city": "キングストン",
+    "lat": 17.97,
+    "lng": -76.79,
+    "arrived": "2023-11-17",
+    "departed": "2023-11-21",
+    "video_ids": [
+      "R_uruAjo280"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 6,
+    "iso_n3": "534",
+    "city": "セントマーチン",
+    "lat": 18.07,
+    "lng": -63.05,
+    "arrived": "2023-11-21",
+    "departed": "2023-11-24",
+    "video_ids": [
+      "DDy36DAWtKA"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 7,
+    "iso_n3": "659",
+    "city": "セントクリストファーネイビス",
+    "lat": 17.27,
+    "lng": -62.67,
+    "arrived": "2023-11-24",
+    "departed": "2023-11-27",
+    "video_ids": [
+      "sGlNLpZSUCA"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 8,
+    "iso_n3": "028",
+    "city": "アンティグアバーブーダ",
+    "lat": 17.12,
+    "lng": -61.85,
+    "arrived": "2023-11-27",
+    "departed": "2023-11-30",
+    "video_ids": [
+      "kx5Ay2ZlOHc"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 9,
+    "iso_n3": "052",
+    "city": "バルバドス",
+    "lat": 13.17,
+    "lng": -59.55,
+    "arrived": "2023-11-30",
+    "departed": "2023-12-03",
+    "video_ids": [
+      "xe1aoKuFo78"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 10,
+    "iso_n3": "212",
+    "city": "ロゾー",
+    "lat": 15.3,
+    "lng": -61.38,
+    "arrived": "2023-12-03",
+    "departed": "2023-12-06",
+    "video_ids": [
+      "qx5PTQfqo3A"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 11,
+    "iso_n3": "662",
+    "city": "セントルシア",
+    "lat": 13.88,
+    "lng": -60.97,
+    "arrived": "2023-12-06",
+    "departed": "2023-12-09",
+    "video_ids": [
+      "CWOZWe3TU4o"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 12,
+    "iso_n3": "670",
+    "city": "セントビンセント及びグレナディーン諸島",
+    "lat": 13.25,
+    "lng": -61.2,
+    "arrived": "2023-12-09",
+    "departed": "2023-12-12",
+    "video_ids": [
+      "LjVjIZF9v9M"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 13,
+    "iso_n3": "308",
+    "city": "グレナダ",
+    "lat": 12.1,
+    "lng": -61.7,
+    "arrived": "2023-12-12",
+    "departed": "2023-12-16",
+    "video_ids": [
+      "iCdty2hxTcc"
+    ]
+  },
+  {
+    "series_id": "caribbean",
+    "seq": 14,
+    "iso_n3": "780",
+    "city": "ポートオブスペイン",
+    "lat": 10.67,
+    "lng": -61.52,
+    "arrived": "2023-12-16",
+    "departed": "2023-12-19",
+    "video_ids": [
+      "8a2rmETooZo"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 1,
+    "iso_n3": "418",
+    "city": "ビエンチャン",
+    "lat": 17.97,
+    "lng": 102.6,
+    "arrived": "2020-03-22",
+    "departed": "2020-03-22",
+    "video_ids": [
+      "uniUFcdmqXQ"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 2,
+    "iso_n3": "418",
+    "city": "バンビエン",
+    "lat": 18.93,
+    "lng": 102.45,
+    "arrived": "2020-03-25",
+    "departed": "2020-03-25",
+    "video_ids": [
+      "hB4feyAW5Vk"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 3,
+    "iso_n3": "418",
+    "city": "ルアンパバーン",
+    "lat": 19.88,
+    "lng": 102.13,
+    "arrived": "2020-03-28",
+    "departed": "2020-03-28",
+    "video_ids": [
+      "JKhogq0hkTQ"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 4,
+    "iso_n3": "116",
+    "city": "シェムリアップ",
+    "lat": 13.36,
+    "lng": 103.86,
+    "arrived": "2020-04-01",
+    "departed": "2020-04-01",
+    "video_ids": [
+      "MHUjhwAHSG8"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 5,
+    "iso_n3": "116",
+    "city": "プノンペン",
+    "lat": 11.55,
+    "lng": 104.92,
+    "arrived": "2020-04-04",
+    "departed": "2020-04-04",
+    "video_ids": [
+      "EYK0dDdNp5s"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 6,
+    "iso_n3": "704",
+    "city": "ホーチミン",
+    "lat": 10.77,
+    "lng": 106.72,
+    "arrived": "2020-04-09",
+    "departed": "2020-04-09",
+    "video_ids": [
+      "qbVuucMZhho"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 7,
+    "iso_n3": "704",
+    "city": "ダナン",
+    "lat": 16.07,
+    "lng": 108.23,
+    "arrived": "2020-04-18",
+    "departed": "2020-04-18",
+    "video_ids": [
+      "KoDCdh8PWs8"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 8,
+    "iso_n3": "704",
+    "city": "ハノイ",
+    "lat": 21.03,
+    "lng": 105.85,
+    "arrived": "2020-04-25",
+    "departed": "2020-04-25",
+    "video_ids": [
+      "UVQTEY1Hl_Y"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 9,
+    "iso_n3": "608",
+    "city": "マニラ",
+    "lat": 14.58,
+    "lng": 120.97,
+    "arrived": "2020-05-05",
+    "departed": "2020-05-05",
+    "video_ids": [
+      "PEeoz5S7oWo"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 10,
+    "iso_n3": "096",
+    "city": "バンダルスリブガワン",
+    "lat": 4.92,
+    "lng": 114.92,
+    "arrived": "2020-05-10",
+    "departed": "2020-05-10",
+    "video_ids": [
+      "Sw6X0Wouv9E"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 11,
+    "iso_n3": "702",
+    "city": "シンガポール",
+    "lat": 1.3,
+    "lng": 103.8,
+    "arrived": "2020-05-17",
+    "departed": "2020-05-17",
+    "video_ids": [
+      "ae8mmgO-hAk"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 12,
+    "iso_n3": "360",
+    "city": "ジャカルタ",
+    "lat": -6.2,
+    "lng": 106.8,
+    "arrived": "2020-05-24",
+    "departed": "2020-05-24",
+    "video_ids": [
+      "HSsUlxUjT4Y"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 13,
+    "iso_n3": "458",
+    "city": "クアラルンプール",
+    "lat": 3.13,
+    "lng": 101.7,
+    "arrived": "2020-06-06",
+    "departed": "2020-06-06",
+    "video_ids": [
+      "zH2qWVNMeTY"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 14,
+    "iso_n3": "104",
+    "city": "ヤンゴン",
+    "lat": 16.8,
+    "lng": 96.16,
+    "arrived": "2020-06-28",
+    "departed": "2020-06-28",
+    "video_ids": [
+      "NIzxO-ia5OI",
+      "ZdnuYrdwJ5I"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 15,
+    "iso_n3": "764",
+    "city": "パンガン島",
+    "lat": 9.73,
+    "lng": 100.01,
+    "arrived": "2020-07-11",
+    "departed": "2020-07-11",
+    "video_ids": [
+      "jlKvY3F5Pcw",
+      "sJVTuNIjkMo"
+    ]
+  },
+  {
+    "series_id": "southeast-asia",
+    "seq": 16,
+    "iso_n3": "764",
+    "city": "スラタニ",
+    "lat": 9.14,
+    "lng": 99.32,
+    "arrived": "2020-07-29",
+    "departed": "2020-07-29",
+    "video_ids": [
+      "x1i53Ztn9bM"
     ]
   },
   {
     "series_id": "asia",
     "seq": 1,
-    "iso_n3": "764",
-    "city": "バンコク",
-    "lat": 13.75,
-    "lng": 100.5,
-    "arrived": "2024-01-10",
-    "departed": "2024-01-14",
+    "iso_n3": "356",
+    "city": "デリー",
+    "lat": 28.7,
+    "lng": 77.2,
+    "arrived": "2024-03-14",
+    "departed": "2024-03-18",
     "video_ids": [
-      "sample00031"
+      "MPAfkcrNS6M"
     ]
   },
   {
     "series_id": "asia",
     "seq": 2,
     "iso_n3": "356",
-    "city": "バラナシ",
-    "lat": 25.32,
-    "lng": 82.97,
-    "arrived": "2024-01-20",
-    "departed": "2024-01-24",
+    "city": "ジャイプール",
+    "lat": 26.92,
+    "lng": 75.82,
+    "arrived": "2024-03-18",
+    "departed": "2024-03-22",
     "video_ids": [
-      "sample00032",
-      "sample00033"
+      "ATea0LVJ4OI"
     ]
   },
   {
     "series_id": "asia",
     "seq": 3,
-    "iso_n3": "524",
-    "city": "カトマンズ",
-    "lat": 27.7,
-    "lng": 85.3,
-    "arrived": "2024-01-25",
-    "departed": "2024-01-29",
+    "iso_n3": "356",
+    "city": "アグラ",
+    "lat": 27.18,
+    "lng": 78.01,
+    "arrived": "2024-03-22",
+    "departed": "2024-03-26",
     "video_ids": [
-      "sample00034"
+      "1ySQXpFZNTw"
     ]
   },
   {
     "series_id": "asia",
     "seq": 4,
+    "iso_n3": "356",
+    "city": "バラナシ",
+    "lat": 25.32,
+    "lng": 83.01,
+    "arrived": "2024-03-26",
+    "departed": "2024-03-29",
+    "video_ids": [
+      "56Ju1accedk"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 5,
+    "iso_n3": "356",
+    "city": "コルカタ",
+    "lat": 22.57,
+    "lng": 88.36,
+    "arrived": "2024-03-29",
+    "departed": "2024-04-01",
+    "video_ids": [
+      "OgSW7yY1nsk"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 6,
+    "iso_n3": "050",
+    "city": "ダッカ",
+    "lat": 23.73,
+    "lng": 90.39,
+    "arrived": "2024-04-01",
+    "departed": "2024-04-05",
+    "video_ids": [
+      "2FJkRULnwGU"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 7,
+    "iso_n3": "524",
+    "city": "カトマンズ",
+    "lat": 27.7,
+    "lng": 85.33,
+    "arrived": "2024-04-05",
+    "departed": "2024-04-09",
+    "video_ids": [
+      "V4F397R8pmQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 8,
+    "iso_n3": "144",
+    "city": "コロンボ",
+    "lat": 6.93,
+    "lng": 79.86,
+    "arrived": "2024-04-09",
+    "departed": "2024-04-13",
+    "video_ids": [
+      "aBV7_9lPHag"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 9,
+    "iso_n3": "462",
+    "city": "モルディブ",
+    "lat": 4.18,
+    "lng": 73.51,
+    "arrived": "2024-04-13",
+    "departed": "2024-04-22",
+    "video_ids": [
+      "xcjS4hus908",
+      "QsCRQTs9ZLM",
+      "EanQz831mAQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 10,
+    "iso_n3": "356",
+    "city": "ベンガルール",
+    "lat": 12.97,
+    "lng": 77.56,
+    "arrived": "2024-04-22",
+    "departed": "2024-04-26",
+    "video_ids": [
+      "_UY3hr76BrQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 11,
+    "iso_n3": "356",
+    "city": "ムンバイ",
+    "lat": 18.96,
+    "lng": 72.83,
+    "arrived": "2024-04-26",
+    "departed": "2024-04-30",
+    "video_ids": [
+      "NeaalI2lGn0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 12,
+    "iso_n3": "512",
+    "city": "マスカット",
+    "lat": 23.61,
+    "lng": 58.59,
+    "arrived": "2024-04-30",
+    "departed": "2024-05-04",
+    "video_ids": [
+      "rCOkYvOSeR0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 13,
+    "iso_n3": "784",
+    "city": "アブダビ",
+    "lat": 24.45,
+    "lng": 54.4,
+    "arrived": "2024-05-04",
+    "departed": "2024-05-08",
+    "video_ids": [
+      "WYWi4sVN5ug"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 14,
+    "iso_n3": "784",
+    "city": "ドバイ",
+    "lat": 25.14,
+    "lng": 55.33,
+    "arrived": "2024-05-08",
+    "departed": "2024-05-14",
+    "video_ids": [
+      "-eTQBmBlCH4",
+      "NQwUtKoVtNU"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 15,
+    "iso_n3": "586",
+    "city": "カラチ",
+    "lat": 24.86,
+    "lng": 67.01,
+    "arrived": "2024-05-14",
+    "departed": "2024-05-17",
+    "video_ids": [
+      "SKvrkqHy5yk"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 16,
+    "iso_n3": "634",
+    "city": "ドーハ",
+    "lat": 25.29,
+    "lng": 51.53,
+    "arrived": "2024-05-17",
+    "departed": "2024-05-21",
+    "video_ids": [
+      "HEo7xP99RIs"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 17,
+    "iso_n3": "414",
+    "city": "クウェート",
+    "lat": 29.17,
+    "lng": 47.6,
+    "arrived": "2024-05-21",
+    "departed": "2024-05-24",
+    "video_ids": [
+      "aveUuf6cQa0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 18,
+    "iso_n3": "048",
+    "city": "マナーマ",
+    "lat": 26.22,
+    "lng": 50.58,
+    "arrived": "2024-05-24",
+    "departed": "2024-05-28",
+    "video_ids": [
+      "6zc7FCPMX64"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 19,
+    "iso_n3": "682",
+    "city": "リヤド",
+    "lat": 24.64,
+    "lng": 46.72,
+    "arrived": "2024-05-28",
+    "departed": "2024-05-31",
+    "video_ids": [
+      "JOB_segMt0g"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 20,
+    "iso_n3": "682",
+    "city": "メディナ",
+    "lat": 24.47,
+    "lng": 39.6,
+    "arrived": "2024-05-31",
+    "departed": "2024-06-03",
+    "video_ids": [
+      "kGupWwPZVTc"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 21,
+    "iso_n3": "682",
+    "city": "ジェッダ",
+    "lat": 21.53,
+    "lng": 39.16,
+    "arrived": "2024-06-03",
+    "departed": "2024-06-06",
+    "video_ids": [
+      "YMT7HKYhgbY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 22,
+    "iso_n3": "400",
+    "city": "アンマン",
+    "lat": 31.95,
+    "lng": 35.94,
+    "arrived": "2024-06-06",
+    "departed": "2024-06-10",
+    "video_ids": [
+      "EkVtpmZfCVQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 23,
+    "iso_n3": "400",
+    "city": "ペトラ",
+    "lat": 30.33,
+    "lng": 35.44,
+    "arrived": "2024-06-10",
+    "departed": "2024-06-14",
+    "video_ids": [
+      "5YyqML-lB4A"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 24,
+    "iso_n3": "792",
+    "city": "イスタンブール",
+    "lat": 41.01,
+    "lng": 28.96,
+    "arrived": "2024-06-14",
+    "departed": "2024-06-18",
+    "video_ids": [
+      "9PhkHYJSr3I"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 25,
+    "iso_n3": "792",
+    "city": "カッパドキア",
+    "lat": 38.67,
+    "lng": 34.84,
+    "arrived": "2024-06-18",
+    "departed": "2024-06-23",
+    "video_ids": [
+      "_HBRyLN__Lo"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 26,
+    "iso_n3": "051",
+    "city": "エレバン",
+    "lat": 40.18,
+    "lng": 44.51,
+    "arrived": "2024-06-23",
+    "departed": "2024-06-27",
+    "video_ids": [
+      "4oYFm-uIP6Y"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 27,
+    "iso_n3": "268",
+    "city": "バトゥミ",
+    "lat": 41.65,
+    "lng": 41.64,
+    "arrived": "2024-06-27",
+    "departed": "2024-07-04",
+    "video_ids": [
+      "fE4XYgAQX3c"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 28,
+    "iso_n3": "268",
+    "city": "トビリシ",
+    "lat": 41.69,
+    "lng": 44.81,
+    "arrived": "2024-07-04",
+    "departed": "2024-07-25",
+    "video_ids": [
+      "tpRk0qfyQsc"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 29,
+    "iso_n3": "031",
+    "city": "バクー",
+    "lat": 40.37,
+    "lng": 49.84,
+    "arrived": "2024-07-25",
+    "departed": "2024-07-28",
+    "video_ids": [
+      "GfjpZQFxK7Q"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 30,
+    "iso_n3": "376",
+    "city": "テルアビブ",
+    "lat": 32.08,
+    "lng": 34.78,
+    "arrived": "2024-07-28",
+    "departed": "2024-08-01",
+    "video_ids": [
+      "kj79P6djjs4"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 31,
+    "iso_n3": "376",
+    "city": "エルサレム",
+    "lat": 31.78,
+    "lng": 35.22,
+    "arrived": "2024-08-01",
+    "departed": "2024-08-13",
+    "video_ids": [
+      "pMk5d27oDgQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 32,
+    "iso_n3": "398",
+    "city": "アスタナ",
+    "lat": 51.13,
+    "lng": 71.43,
+    "arrived": "2024-08-13",
+    "departed": "2024-08-17",
+    "video_ids": [
+      "zCdpH-WhfA8"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 33,
+    "iso_n3": "398",
+    "city": "アルマティ",
+    "lat": 43.24,
+    "lng": 76.92,
+    "arrived": "2024-08-18",
+    "departed": "2024-08-23",
+    "video_ids": [
+      "K33bREAskfs"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 34,
+    "iso_n3": "417",
+    "city": "ビシュケク",
+    "lat": 42.87,
+    "lng": 74.57,
+    "arrived": "2024-08-23",
+    "departed": "2024-08-27",
+    "video_ids": [
+      "_ORrkIqDT1E"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 35,
+    "iso_n3": "860",
+    "city": "タシケント",
+    "lat": 41.31,
+    "lng": 69.28,
+    "arrived": "2024-08-27",
+    "departed": "2024-08-30",
+    "video_ids": [
+      "W6VYoANjUNY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 36,
+    "iso_n3": "860",
+    "city": "ブハラ",
+    "lat": 39.77,
+    "lng": 64.43,
+    "arrived": "2024-08-30",
+    "departed": "2024-08-31",
+    "video_ids": [
+      "cmahibV_L7Q"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 37,
+    "iso_n3": "860",
+    "city": "サマルカンド",
+    "lat": 39.65,
+    "lng": 66.98,
+    "arrived": "2024-08-31",
+    "departed": "2024-09-03",
+    "video_ids": [
+      "Uk_vTorGLLA"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 38,
+    "iso_n3": "762",
+    "city": "ドゥシャンベ",
+    "lat": 38.57,
+    "lng": 68.79,
+    "arrived": "2024-09-03",
+    "departed": "2024-09-08",
+    "video_ids": [
+      "ok2RoXvctew"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 39,
     "iso_n3": "586",
     "city": "ラホール",
     "lat": 31.55,
-    "lng": 74.34,
-    "arrived": "2024-02-03",
-    "departed": "2024-02-07",
+    "lng": 70.41,
+    "arrived": "2024-09-08",
+    "departed": "2024-09-12",
     "video_ids": [
-      "sample00035"
+      "1ax2bvgZEWI"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 40,
+    "iso_n3": "586",
+    "city": "フンザ",
+    "lat": 36.32,
+    "lng": 74.65,
+    "arrived": "2024-09-16",
+    "departed": "2024-09-22",
+    "video_ids": [
+      "-RVNMEELH1o",
+      "IKEaaudwfMY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 41,
+    "iso_n3": "795",
+    "city": "アシガバット",
+    "lat": 37.95,
+    "lng": 58.38,
+    "arrived": "2024-09-23",
+    "departed": "2024-09-25",
+    "video_ids": [
+      "dun6tpXEpRQ"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 42,
+    "iso_n3": "795",
+    "city": "地獄の門",
+    "lat": 40.21,
+    "lng": 58.41,
+    "arrived": "2024-09-25",
+    "departed": "2024-09-28",
+    "video_ids": [
+      "kr4G96JIKgY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 43,
+    "iso_n3": "156",
+    "city": "北京",
+    "lat": 39.9,
+    "lng": 116.41,
+    "arrived": "2024-10-14",
+    "departed": "2024-10-18",
+    "video_ids": [
+      "odmCwzdI8JM",
+      "nRfO0tfE-co"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 44,
+    "iso_n3": "496",
+    "city": "ウランバートル",
+    "lat": 47.92,
+    "lng": 106.92,
+    "arrived": "2024-10-18",
+    "departed": "2024-10-20",
+    "video_ids": [
+      "TzYO0EDZBD4"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 45,
+    "iso_n3": "496",
+    "city": "モンゴル",
+    "lat": 46,
+    "lng": 105,
+    "arrived": "2024-10-21",
+    "departed": "2024-10-22",
+    "video_ids": [
+      "idBKqU1-ZGk"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 46,
+    "iso_n3": "410",
+    "city": "ソウル",
+    "lat": 37.57,
+    "lng": 126.97,
+    "arrived": "2024-10-22",
+    "departed": "2024-11-12",
+    "video_ids": [
+      "0RCH31aKIqI",
+      "OPkMdI8INJ8"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 47,
+    "iso_n3": "410",
+    "city": "釜山",
+    "lat": 35.1,
+    "lng": 129.03,
+    "arrived": "2024-11-12",
+    "departed": "2024-11-16",
+    "video_ids": [
+      "drrwFOlkfrI"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 48,
+    "iso_n3": "410",
+    "city": "チェジュ",
+    "lat": 33.49,
+    "lng": 126.5,
+    "arrived": "2024-11-16",
+    "departed": "2024-11-20",
+    "video_ids": [
+      "4qBOl46UytY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 49,
+    "iso_n3": "156",
+    "city": "上海",
+    "lat": 31.17,
+    "lng": 121.48,
+    "arrived": "2024-11-20",
+    "departed": "2024-11-24",
+    "video_ids": [
+      "MTdfLlP00Mo",
+      "oF7kKmGmoj8"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 50,
+    "iso_n3": "158",
+    "city": "高雄",
+    "lat": 22.64,
+    "lng": 120.3,
+    "arrived": "2024-11-24",
+    "departed": "2024-11-26",
+    "video_ids": [
+      "3wqX1d3v7o0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 51,
+    "iso_n3": "158",
+    "city": "台南",
+    "lat": 22.98,
+    "lng": 120.18,
+    "arrived": "2024-11-26",
+    "departed": "2024-11-28",
+    "video_ids": [
+      "rzYhVHs4XlU"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 52,
+    "iso_n3": "158",
+    "city": "台北",
+    "lat": 25.09,
+    "lng": 121.56,
+    "arrived": "2024-11-28",
+    "departed": "2024-12-02",
+    "video_ids": [
+      "2Dke9lDwW3o",
+      "dkpwCzuEBgg"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 53,
+    "iso_n3": "446",
+    "city": "マカオ",
+    "lat": 22.19,
+    "lng": 113.54,
+    "arrived": "2024-12-02",
+    "departed": "2024-12-07",
+    "video_ids": [
+      "Xjpgg1GZUrg"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 54,
+    "iso_n3": "344",
+    "city": "香港",
+    "lat": 22.27,
+    "lng": 114.19,
+    "arrived": "2024-12-07",
+    "departed": "2024-12-12",
+    "video_ids": [
+      "EfVt8YUroJw"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 55,
+    "iso_n3": "156",
+    "city": "成都",
+    "lat": 30.66,
+    "lng": 104.07,
+    "arrived": "2025-03-23",
+    "departed": "2025-03-26",
+    "video_ids": [
+      "500DzWuE9Kc"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 56,
+    "iso_n3": "156",
+    "city": "重慶",
+    "lat": 29.57,
+    "lng": 106.55,
+    "arrived": "2025-03-26",
+    "departed": "2025-03-29",
+    "video_ids": [
+      "6CwJuwrWtxU"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 57,
+    "iso_n3": "156",
+    "city": "広州",
+    "lat": 23.13,
+    "lng": 113.26,
+    "arrived": "2025-03-29",
+    "departed": "2025-04-01",
+    "video_ids": [
+      "0qhT6EaRJBI"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 58,
+    "iso_n3": "156",
+    "city": "深圳",
+    "lat": 22.55,
+    "lng": 114.1,
+    "arrived": "2025-04-01",
+    "departed": "2025-04-04",
+    "video_ids": [
+      "wCsbemvQvBM"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 59,
+    "iso_n3": "462",
+    "city": "モルディブ",
+    "lat": 4.18,
+    "lng": 73.51,
+    "arrived": "2025-04-05",
+    "departed": "2025-04-10",
+    "video_ids": [
+      "Hpi1ASBWuew"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 60,
+    "iso_n3": "702",
+    "city": "シンガポール",
+    "lat": 1.3,
+    "lng": 103.8,
+    "arrived": "2025-04-10",
+    "departed": "2025-04-22",
+    "video_ids": [
+      "DMJs5F9PIg4"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 61,
+    "iso_n3": "458",
+    "city": "クアラルンプール",
+    "lat": 3.13,
+    "lng": 101.7,
+    "arrived": "2025-04-22",
+    "departed": "2025-05-15",
+    "video_ids": [
+      "WcNC2DBhYcY"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 62,
+    "iso_n3": "764",
+    "city": "プーケット",
+    "lat": 7.98,
+    "lng": 98.33,
+    "arrived": "2025-05-15",
+    "departed": "2025-05-22",
+    "video_ids": [
+      "3kQd3nvjgX0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 63,
+    "iso_n3": "764",
+    "city": "バンコク",
+    "lat": 13.75,
+    "lng": 100.49,
+    "arrived": "2025-05-22",
+    "departed": "2025-06-11",
+    "video_ids": [
+      "2hgiJqq9XWc"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 64,
+    "iso_n3": "064",
+    "city": "ティンプー",
+    "lat": 27.47,
+    "lng": 89.63,
+    "arrived": "2025-06-12",
+    "departed": "2025-06-13",
+    "video_ids": [
+      "XjCbz7uCDFk"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 65,
+    "iso_n3": "064",
+    "city": "パロ",
+    "lat": 27.46,
+    "lng": 89.32,
+    "arrived": "2025-06-14",
+    "departed": "2025-06-16",
+    "video_ids": [
+      "FGn-KDPC62U"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 66,
+    "iso_n3": "104",
+    "city": "ヤンゴン",
+    "lat": 16.8,
+    "lng": 96.16,
+    "arrived": "2025-06-19",
+    "departed": "2025-06-23",
+    "video_ids": [
+      "Ks0iYaXiXTs"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 67,
+    "iso_n3": "418",
+    "city": "ヴィエンチャン",
+    "lat": 17.97,
+    "lng": 102.6,
+    "arrived": "2025-07-03",
+    "departed": "2025-07-07",
+    "video_ids": [
+      "CvsS4UdhMEA"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 68,
+    "iso_n3": "418",
+    "city": "ルアンパバーン",
+    "lat": 19.88,
+    "lng": 102.13,
+    "arrived": "2025-07-07",
+    "departed": "2025-07-11",
+    "video_ids": [
+      "mrl95lnXkT4"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 69,
+    "iso_n3": "704",
+    "city": "ハノイ",
+    "lat": 21.03,
+    "lng": 105.85,
+    "arrived": "2025-07-11",
+    "departed": "2025-07-16",
+    "video_ids": [
+      "ClCPoJL-q6U"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 70,
+    "iso_n3": "116",
+    "city": "シェムリアップ",
+    "lat": 13.36,
+    "lng": 103.86,
+    "arrived": "2025-07-16",
+    "departed": "2025-07-20",
+    "video_ids": [
+      "yhruvkGHAy4"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 71,
+    "iso_n3": "116",
+    "city": "プノンペン",
+    "lat": 11.55,
+    "lng": 104.92,
+    "arrived": "2025-07-20",
+    "departed": "2025-07-24",
+    "video_ids": [
+      "vqMxJTZcB6o"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 72,
+    "iso_n3": "704",
+    "city": "ホーチミン",
+    "lat": 10.77,
+    "lng": 106.72,
+    "arrived": "2025-07-24",
+    "departed": "2025-07-29",
+    "video_ids": [
+      "jSzQ0xt5t4A"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 73,
+    "iso_n3": "096",
+    "city": "ブルネイ",
+    "lat": 4.4,
+    "lng": 114.57,
+    "arrived": "2025-07-29",
+    "departed": "2025-08-02",
+    "video_ids": [
+      "0mzkDgHRZbc"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 74,
+    "iso_n3": "608",
+    "city": "マニラ",
+    "lat": 14.58,
+    "lng": 120.97,
+    "arrived": "2025-08-02",
+    "departed": "2025-08-05",
+    "video_ids": [
+      "nspyFAB8Jr0"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 75,
+    "iso_n3": "608",
+    "city": "セブ",
+    "lat": 10.29,
+    "lng": 123.9,
+    "arrived": "2025-08-05",
+    "departed": "2025-08-09",
+    "video_ids": [
+      "j2jRfmJywqM"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 76,
+    "iso_n3": "360",
+    "city": "ジャカルタ",
+    "lat": -6.2,
+    "lng": 106.8,
+    "arrived": "2025-08-09",
+    "departed": "2025-08-13",
+    "video_ids": [
+      "T0Zb8CinMJo"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 77,
+    "iso_n3": "626",
+    "city": "ディリ",
+    "lat": -8.55,
+    "lng": 125.58,
+    "arrived": "2025-08-13",
+    "departed": "2025-08-16",
+    "video_ids": [
+      "4yq0LiglA4g"
+    ]
+  },
+  {
+    "series_id": "asia",
+    "seq": 78,
+    "iso_n3": "360",
+    "city": "バリ島",
+    "lat": -8.37,
+    "lng": 115.14,
+    "arrived": "2025-08-16",
+    "departed": "2025-08-21",
+    "video_ids": [
+      "LyiDS7Cdwzk"
     ]
   },
   {
     "series_id": "oceania",
     "seq": 1,
-    "iso_n3": "036",
-    "city": "ゴールドコースト",
-    "lat": -28.02,
-    "lng": 153.4,
-    "arrived": "2026-02-18",
-    "departed": "2026-02-23",
+    "iso_n3": "840",
+    "city": "サイパン",
+    "lat": 15.18,
+    "lng": 145.76,
+    "arrived": "2025-09-21",
+    "departed": "2025-09-25",
     "video_ids": [
-      "sample00036"
+      "GA1kFmF7ThU"
     ]
   },
   {
     "series_id": "oceania",
     "seq": 2,
-    "iso_n3": "598",
-    "city": "ポートモレスビー",
-    "lat": -9.44,
-    "lng": 147.18,
-    "arrived": "2026-03-13",
-    "departed": "2026-03-23",
+    "iso_n3": "840",
+    "city": "グアム",
+    "lat": 13.45,
+    "lng": 144.78,
+    "arrived": "2025-09-25",
+    "departed": "2025-09-29",
     "video_ids": [
-      "sample00037"
+      "zflrjbFMTp4"
     ]
   },
   {
     "series_id": "oceania",
     "seq": 3,
+    "iso_n3": "585",
+    "city": "パラオ",
+    "lat": 7.35,
+    "lng": 134.51,
+    "arrived": "2025-09-30",
+    "departed": "2025-10-06",
+    "video_ids": [
+      "4TUbZW2h4-M",
+      "MrO4a9Al0Ao"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 4,
+    "iso_n3": "583",
+    "city": "チューク",
+    "lat": 7.42,
+    "lng": 151.78,
+    "arrived": "2025-10-06",
+    "departed": "2025-10-09",
+    "video_ids": [
+      "Pcv-EZVMa0k"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 5,
+    "iso_n3": "583",
+    "city": "ポンペイ",
+    "lat": 6.91,
+    "lng": 158.1,
+    "arrived": "2025-10-09",
+    "departed": "2025-10-13",
+    "video_ids": [
+      "PgfjmzC21vI"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 6,
+    "iso_n3": "584",
+    "city": "マジュロ",
+    "lat": 7.08,
+    "lng": 171.12,
+    "arrived": "2025-10-13",
+    "departed": "2025-10-16",
+    "video_ids": [
+      "gtlM7sMuO08"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 7,
+    "iso_n3": "296",
+    "city": "タラワ",
+    "lat": 1.42,
+    "lng": 173.03,
+    "arrived": "2025-10-16",
+    "departed": "2025-10-18",
+    "video_ids": [
+      "ziomjrIViyc"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 8,
+    "iso_n3": "520",
+    "city": "ナウル",
+    "lat": -0.53,
+    "lng": 166.93,
+    "arrived": "2025-10-18",
+    "departed": "2025-10-23",
+    "video_ids": [
+      "1ThiLlRlzPw"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 9,
+    "iso_n3": "242",
+    "city": "スバ",
+    "lat": -18.13,
+    "lng": 178.43,
+    "arrived": "2025-10-23",
+    "departed": "2025-10-28",
+    "video_ids": [
+      "lXbS8ai-i0E"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 10,
+    "iso_n3": "798",
+    "city": "フナフティ",
+    "lat": -8.5,
+    "lng": 179.12,
+    "arrived": "2025-10-28",
+    "departed": "2025-11-01",
+    "video_ids": [
+      "6WpJknTh8tw"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 11,
+    "iso_n3": "242",
+    "city": "ナンディ",
+    "lat": -17.8,
+    "lng": 177.42,
+    "arrived": "2025-11-01",
+    "departed": "2025-11-09",
+    "video_ids": [
+      "l7rP9GwYY2c"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 12,
+    "iso_n3": "882",
+    "city": "アピア",
+    "lat": -13.83,
+    "lng": -171.75,
+    "arrived": "2025-11-09",
+    "departed": "2025-11-14",
+    "video_ids": [
+      "UVKFPs5BI6c"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 13,
+    "iso_n3": "776",
+    "city": "ヌクアロファ",
+    "lat": -21.13,
+    "lng": -175.2,
+    "arrived": "2025-11-14",
+    "departed": "2025-11-19",
+    "video_ids": [
+      "U5wZYEJ9q3U"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 14,
+    "iso_n3": "554",
+    "city": "ニュージーランド南島",
+    "lat": -43.98,
+    "lng": 170.45,
+    "arrived": "2025-11-19",
+    "departed": "2025-11-25",
+    "video_ids": [
+      "SWs8nI2xpRQ"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 15,
+    "iso_n3": "554",
+    "city": "ニュージーランド北島",
+    "lat": -38.4,
+    "lng": 175.72,
+    "arrived": "2025-11-25",
+    "departed": "2025-11-29",
+    "video_ids": [
+      "Ggh10soYKhU"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 16,
+    "iso_n3": "184",
+    "city": "ラロトンガ島",
+    "lat": -21.23,
+    "lng": -159.78,
+    "arrived": "2025-12-03",
+    "departed": "2025-12-06",
+    "video_ids": [
+      "A_cEfHBvuU0"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 17,
+    "iso_n3": "258",
+    "city": "ボラボラ",
+    "lat": -16.49,
+    "lng": -151.74,
+    "arrived": "2025-12-06",
+    "departed": "2025-12-12",
+    "video_ids": [
+      "6WaHMKp0EsU"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 18,
+    "iso_n3": "540",
+    "city": "ヌメア",
+    "lat": -22.28,
+    "lng": 166.46,
+    "arrived": "2025-12-12",
+    "departed": "2025-12-16",
+    "video_ids": [
+      "n3H5YHqXZcQ"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 19,
+    "iso_n3": "036",
+    "city": "パース",
+    "lat": -31.96,
+    "lng": 115.86,
+    "arrived": "2026-01-25",
+    "departed": "2026-01-29",
+    "video_ids": [
+      "HG2grAeuPXM"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 20,
+    "iso_n3": "036",
+    "city": "メルボルン",
+    "lat": -37.82,
+    "lng": 144.96,
+    "arrived": "2026-01-29",
+    "departed": "2026-02-02",
+    "video_ids": [
+      "h1eWeP73Ylo"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 21,
+    "iso_n3": "036",
+    "city": "ウルル",
+    "lat": -25.34,
+    "lng": 131.04,
+    "arrived": "2026-02-02",
+    "departed": "2026-02-06",
+    "video_ids": [
+      "p9xbhCg8Om4"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 22,
+    "iso_n3": "036",
+    "city": "ケアンズ",
+    "lat": -16.93,
+    "lng": 145.78,
+    "arrived": "2026-02-06",
+    "departed": "2026-02-13",
+    "video_ids": [
+      "oKse7ct5TUw"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 23,
+    "iso_n3": "036",
+    "city": "ブリスベン",
+    "lat": -27.47,
+    "lng": 153.03,
+    "arrived": "2026-02-13",
+    "departed": "2026-02-18",
+    "video_ids": [
+      "2Gk5Ia5Wflg"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 24,
+    "iso_n3": "036",
+    "city": "ゴールドコースト",
+    "lat": -28.17,
+    "lng": 153.55,
+    "arrived": "2026-02-18",
+    "departed": "2026-02-23",
+    "video_ids": [
+      "QdjpvI6ZplI"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 25,
+    "iso_n3": "036",
+    "city": "タスマニア",
+    "lat": -42,
+    "lng": 147,
+    "arrived": "2026-02-23",
+    "departed": "2026-02-28",
+    "video_ids": [
+      "GX_ZJ4obwbE"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 26,
+    "iso_n3": "598",
+    "city": "ポートモレスビー",
+    "lat": -9.48,
+    "lng": 147.15,
+    "arrived": "2026-03-13",
+    "departed": "2026-03-23",
+    "video_ids": [
+      "bSNUxKlc74g"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 27,
     "iso_n3": "090",
     "city": "ホニアラ",
     "lat": -9.43,
@@ -406,26 +3400,38 @@
     "arrived": "2026-03-23",
     "departed": "2026-03-28",
     "video_ids": [
-      "sample00038"
+      "rvsIz6qmhXo"
     ]
   },
   {
     "series_id": "oceania",
-    "seq": 4,
+    "seq": 28,
     "iso_n3": "548",
     "city": "ポートビラ",
     "lat": -17.73,
     "lng": 168.32,
     "arrived": "2026-03-28",
-    "departed": "2026-04-04",
+    "departed": "2026-03-31",
     "video_ids": [
-      "sample00039",
-      "sample00040"
+      "u8GLU88lDF0"
     ]
   },
   {
     "series_id": "oceania",
-    "seq": 5,
+    "seq": 29,
+    "iso_n3": "548",
+    "city": "タンナ島",
+    "lat": -19.5,
+    "lng": 169.33,
+    "arrived": "2026-04-01",
+    "departed": "2026-04-04",
+    "video_ids": [
+      "7pYe7GHroNU"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 30,
     "iso_n3": "036",
     "city": "シドニー",
     "lat": -33.87,
@@ -433,7 +3439,20 @@
     "arrived": "2026-04-10",
     "departed": "2026-04-13",
     "video_ids": [
-      "sample00041"
+      "siC6hbV96gM"
+    ]
+  },
+  {
+    "series_id": "oceania",
+    "seq": 31,
+    "iso_n3": "570",
+    "city": "ニウエ",
+    "lat": -19.07,
+    "lng": -169.87,
+    "arrived": "2026-04-13",
+    "departed": "2026-04-18",
+    "video_ids": [
+      "M84b9559lq4"
     ]
   },
   {
@@ -441,40 +3460,51 @@
     "seq": 1,
     "iso_n3": "788",
     "city": "チュニス",
-    "lat": 36.81,
+    "lat": 36.8,
     "lng": 10.18,
     "arrived": "2026-05-14",
-    "departed": "2026-05-21",
+    "departed": "2026-05-17",
     "video_ids": [
-      "sample00042",
-      "sample00043"
+      "QnNhhc8LYPk"
     ]
   },
   {
     "series_id": "africa",
     "seq": 2,
-    "iso_n3": "818",
-    "city": "カイロ",
-    "lat": 30.04,
-    "lng": 31.24,
-    "arrived": "2026-05-27",
-    "departed": "2026-06-09",
+    "iso_n3": "788",
+    "city": "スース",
+    "lat": 35.83,
+    "lng": 10.63,
+    "arrived": "2026-05-17",
+    "departed": "2026-05-21",
     "video_ids": [
-      "sample00044",
-      "sample00045"
+      "1h0Q3SvUjDw"
     ]
   },
   {
-    "series_id": "europe",
-    "seq": 9,
-    "iso_n3": "380",
-    "city": "ミラノ",
-    "lat": 45.46,
-    "lng": 9.19,
-    "arrived": "2026-08-12",
-    "departed": "2026-08-18",
+    "series_id": "africa",
+    "seq": 3,
+    "iso_n3": "818",
+    "city": "エジプト",
+    "lat": 30.03,
+    "lng": 31.22,
+    "arrived": "2026-05-27",
+    "departed": "2026-06-02",
     "video_ids": [
-      "sample00046"
+      "KIBCauQKEzM"
+    ]
+  },
+  {
+    "series_id": "africa",
+    "seq": 4,
+    "iso_n3": "818",
+    "city": "カイロ",
+    "lat": 30.03,
+    "lng": 31.23,
+    "arrived": "2026-06-02",
+    "departed": "2026-06-09",
+    "video_ids": [
+      "0kjDsnhDAt0"
     ]
   }
 ]
