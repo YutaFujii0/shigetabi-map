@@ -39,6 +39,7 @@ const jsonLd = [
       <button type="button" class="pickchip" hidden></button>
     </WorldMap>
 
+    <div class="side">
     <aside class="panel" id="panel" aria-live="polite">
       <!-- 初期表示：最新の動画1本。現在地とは混ぜない -->
       <div data-panel="latest">
@@ -82,18 +83,16 @@ const jsonLd = [
         <p class="empty">この国の動画はまだありません。</p>
       </div>
     </aside>
-  </div>
-
-  <section class="sec">
-    <div class="sec-h"><h2>最新の投稿</h2><span class="sub">Instagram @{site.instagram_account}</span></div>
-    <!-- プロフィールの公式埋め込み。直近の投稿が Instagram 側で自動的に更新される -->
+    <!-- Instagram プロフィールの公式埋め込み（PC は地図の右、最新の動画の下）。直近の投稿が Instagram 側で自動的に更新される -->
     <div class="igwrap">
       <blockquote class="instagram-media" data-instgrm-permalink={site.instagram_url} data-instgrm-version="14">
         <a href={site.instagram_url} target="_blank" rel="noopener">Instagram で @{site.instagram_account} を見る</a>
       </blockquote>
       <script is:inline async src="https://www.instagram.com/embed.js"></script>
     </div>
-  </section>
+    </div>
+  </div>
+
 
   <section class="sec">
     <div class="sec-h"><h2>旅のシリーズ</h2></div>
