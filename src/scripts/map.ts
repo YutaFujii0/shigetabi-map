@@ -23,6 +23,7 @@ export function initMap(card: HTMLElement): MapController {
   const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
   const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
   const dots = [...gC.querySelectorAll<SVGCircleElement>('circle.dot')];
+  const fillWidth = card.hasAttribute('data-fill-width');
   const routes = [...gR.querySelectorAll<SVGPathElement>('.rt')];
   let view = { cx: W / 2, cy: H / 2, k: 1 };
 
@@ -34,7 +35,8 @@ export function initMap(card: HTMLElement): MapController {
     const asp = aspect();
     let w = W / view.k,
       h = w * asp;
-    if (h > H) {
+    // 縦長の枠では普通は高さに合わせる（左右は回して見る）。PC のホーム（data-fill-width）は横幅全体を見せ、上下は海にする
+    if (h > H && !(fillWidth && !isNarrow())) {
       h = H / view.k;
       w = h / asp;
     }

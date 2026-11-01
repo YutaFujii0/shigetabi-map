@@ -79,7 +79,8 @@
     "color": "#CA8A04",
     "group": "worldcup",
     "default_country": "634",
-    "name_fallback": false
+    "name_fallback": false,
+    "default_city": "ドーハ"
   },
   {
     "playlist_id": "PL_zqfBigax6tR7MuaXsPfhH5KfhxaEHmx",
@@ -89,7 +90,8 @@
     "color": "#CA8A04",
     "group": "worldcup",
     "default_country": "634",
-    "name_fallback": false
+    "name_fallback": false,
+    "default_city": "ドーハ"
   },
   {
     "playlist_id": "PLAGFyMdxh2vk",

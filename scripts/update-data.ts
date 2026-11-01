@@ -37,6 +37,8 @@ type Playlist = {
   default_country?: string;
   /** 国旗の無い動画を本文の国名から推定するか（W杯は対戦相手の国名が入るので false） */
   name_fallback?: boolean;
+  /** default_country の動画で都市が取れないときの都市（例：ドーハ） */
+  default_city?: string;
 };
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
@@ -228,6 +230,7 @@ async function main() {
     const byName = inSeries && !p.a2.length && !p.flight && pl?.name_fallback !== false;
     if (byName) p.a2 = namesToA2(d.snippet.title, names);
     if (!p.a2.length && !p.flight && pl?.default_country) p.a2 = [toA2(pl.default_country)!];
+    if (pl?.default_city && p.a2.length === 1 && toN3(p.a2[0]) === pl.default_country) p.city = pl.default_city;
     const n3 = p.a2.map((a2) => {
       const n = toN3(a2);
       if (!n) report.unknownFlags.push(`${a2}（${d.snippet.title}）`);

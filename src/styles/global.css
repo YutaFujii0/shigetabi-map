@@ -225,10 +225,12 @@ img { max-width: 100%; display: block; }
 /* ===== responsive ===== */
 /* PC：ホームの地図と最新の動画は画面の横幅いっぱいに広げる。地図の高さは画面に収まるよう上限を付ける（はみ出た分は南北を切る） */
 @media (min-width: 1021px) {
-  .main { margin-inline: calc(50% - 50vw + 24px); grid-template-columns: minmax(0, 1fr) 380px; }
-  /* 右の列（最新の動画＋Instagram）の方が長いときは、地図を画面上部にとどめる */
-  .main > .mapcard { position: sticky; top: 12px; }
-  .main .mapcard > svg { aspect-ratio: auto; height: clamp(440px, calc((100vw - 48px - 380px - 16px) * 0.52), calc(100vh - 110px)); }
+  .main { margin-inline: calc(50% - 50vw + 24px); grid-template-columns: minmax(0, 1fr) 380px; align-items: stretch; }
+  /* 地図の高さは右の列（最新の動画＋Instagram）に合わせる。国を選んで右が長くなったときは画面の高さで止め、上部にとどめる */
+  .main > .side { align-content: start; }
+  /* 地図は自分の大きさを持たず（SVG を絶対配置）、行の高さ＝右の列の高さに合わせる */
+  .main > .mapcard { min-height: 440px; max-height: max(calc(100vh - 24px), 900px); position: sticky; top: 12px; }
+  .main .mapcard > svg { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; }
 }
 @media (min-width: 761px) and (max-width: 1020px) {
   .main { grid-template-columns: minmax(0, 1fr) 300px; }

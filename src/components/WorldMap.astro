@@ -22,8 +22,10 @@ interface Props {
   fitNarrow?: Box;
   /** シリーズページ：このシリーズの国だけシリーズの色で塗り、ほかのシリーズで行った国は薄くする */
   focusSeries?: string;
+  /** PC で枠が縦長になっても世界の横幅全体を見せる（ホーム） */
+  fillWidth?: boolean;
 }
-const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries } = Astro.props;
+const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries, fillWidth = false } = Astro.props;
 const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
 // 凡例の「行った国」は、シリーズの色を全部入れた四角1つで表す
 const cols = allSeries.map((x) => seriesColor(x.id));
@@ -76,6 +78,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
   data-map
   data-fit={box(fit)}
   data-fit-narrow={box(fitNarrow)}
+  data-fill-width={fillWidth ? '' : undefined}
 >
   <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="世界地図">
     <rect x="-3000" y="-3000" width="7000" height="7000" fill="transparent"></rect>
