@@ -269,5 +269,12 @@
     "group": "japan",
     "default_country": "392",
     "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tLcDAay6zTKypoCmo4GNNi",
+    "id": "lcc-world",
+    "name": "LCC世界一周",
+    "playlist_title": "LCC世界一周",
+    "series": false
   }
 ]

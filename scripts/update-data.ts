@@ -39,6 +39,8 @@ type Playlist = {
   name_fallback?: boolean;
   /** default_country の動画で都市が取れないときの都市（例：ドーハ） */
   default_city?: string;
+  /** false ならシリーズにせず、動画は訪問国（地図の色）の判定にだけ使う（LCC世界一周など） */
+  series?: boolean;
 };
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
@@ -208,11 +210,15 @@ async function main() {
 
   // 1. 再生リスト → 動画ID（複数の再生リストに入っている動画は先に書いたシリーズを優先）
   const seriesOf = new Map<string, string>();
+  // series: false の再生リスト（シリーズにしない）の動画
+  const mapOnlyOf = new Map<string, string>();
   for (const pl of playlists) {
     const ids = await playlistVideoIds(pl.playlist_id);
-    console.log(`${pl.playlist_title}: ${ids.length} 本`);
+    console.log(`${pl.playlist_title}: ${ids.length} 本${pl.series === false ? '（地図の色だけ）' : ''}`);
     for (const id of ids) {
-      if (seriesOf.has(id)) report.dup.push(`${id}（${seriesOf.get(id)} / ${pl.id}）`);
+      if (pl.series === false) {
+        if (!seriesOf.has(id)) mapOnlyOf.set(id, pl.id);
+      } else if (seriesOf.has(id)) report.dup.push(`${id}（${seriesOf.get(id)} / ${pl.id}）`);
       else seriesOf.set(id, pl.id);
     }
   }
@@ -241,12 +247,14 @@ async function main() {
     if (ov?.exclude) continue;
     const old = prev.get(d.id);
     const inSeries = seriesOf.has(d.id);
+    // シリーズ、または地図の色だけに使う再生リストに入っている動画
+    const plId = seriesOf.get(d.id) ?? mapOnlyOf.get(d.id);
     const p = parseTitle(d.snippet.title);
     // シリーズ外の動画は国旗のあるものだけ使う（国内・企画ものなどは数えない）。日本だけの回も除く
-    if (!inSeries && !ov && p.a2.every((a2) => a2 === 'JP')) continue;
+    if (!plId && !ov && p.a2.every((a2) => a2 === 'JP')) continue;
     // 国旗が無い回（古い動画など）は本文の国名から推定する。移動回は除く
-    const pl = playlists.find((x) => x.id === seriesOf.get(d.id));
-    const byName = inSeries && !p.a2.length && !p.flight && pl?.name_fallback !== false;
+    const pl = playlists.find((x) => x.id === plId);
+    const byName = !!plId && !p.a2.length && !p.flight && pl?.name_fallback !== false;
     if (byName) p.a2 = namesToA2(d.snippet.title, names);
     if (!p.a2.length && !p.flight && pl?.default_country) p.a2 = [toA2(pl.default_country)!];
     if (pl?.default_city && p.a2.length === 1 && toN3(p.a2[0]) === pl.default_country) p.city = pl.default_city;
