@@ -138,6 +138,12 @@ export function initMap(card: HTMLElement): MapController {
   };
   window.addEventListener('pointerup', end);
   window.addEventListener('pointercancel', end);
+  // ダブルクリックでその位置を中心に拡大（Shift を押しながらで縮小）
+  svg.addEventListener('dblclick', (e) => {
+    e.preventDefault();
+    tip.hidden = true;
+    zoomAt(e.shiftKey ? 1 / 2 : 2, e.clientX, e.clientY);
+  });
   svg.addEventListener(
     'wheel',
     (e) => {

@@ -134,6 +134,8 @@ const bubbles = [...visited].map((iso) => {
       g.classList.add('flash');
     }
   });
+  // ダブルクリックで拡大すると吹き出しの位置がずれるので閉じる
+  card.addEventListener('dblclick', close);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && card.querySelector('.bubble')) close();
   });
