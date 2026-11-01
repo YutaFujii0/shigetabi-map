@@ -3506,5 +3506,2243 @@
     "video_ids": [
       "0kjDsnhDAt0"
     ]
+  },
+  {
+    "series_id": "worldcup-2022",
+    "seq": 1,
+    "iso_n3": "634",
+    "city": "ドーハ",
+    "lat": 25.29,
+    "lng": 51.53,
+    "arrived": "2022-11-20",
+    "departed": "2022-12-08",
+    "video_ids": [
+      "9wtOsi3m_po",
+      "9GkndPrtiUM",
+      "kdsbyTngz68",
+      "H7vhOPJDgMQ",
+      "cvMHF7zo_2o",
+      "9Jm_euCQhDA",
+      "EOFDn1d8Eog",
+      "byMgbAvBvT0",
+      "tKXAlLHub-k",
+      "nXXhcqrzc-4",
+      "WLML2CO85nU",
+      "GR0GH30mLxM",
+      "4DKZpqboMN8",
+      "ucz3aX6Ez8c",
+      "Yo_EPip0YgQ",
+      "6lfumbbmgTM",
+      "9UuEf7a2cgo"
+    ]
+  },
+  {
+    "series_id": "asiancup-2024",
+    "seq": 1,
+    "iso_n3": "634",
+    "city": "ドーハ",
+    "lat": 25.29,
+    "lng": 51.53,
+    "arrived": "2024-01-13",
+    "departed": "2024-02-03",
+    "video_ids": [
+      "_JuICSPUkPs",
+      "ZM2Zq9K44-A",
+      "BOmWQplp8bY",
+      "jokMARokRdk",
+      "b9VksanHr04",
+      "JmnY4mdpkfA",
+      "Tq-VZi4V9nk",
+      "9yzv4bnUEM4",
+      "gCxhaXdDdIA",
+      "xNQ6QeC_2Co"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 1,
+    "iso_n3": "840",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "arrived": "2026-06-10",
+    "departed": "2026-06-11",
+    "video_ids": [
+      "oD4bOu_tCwc"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 2,
+    "iso_n3": "840",
+    "city": "ダラス",
+    "lat": 32.78,
+    "lng": -96.81,
+    "arrived": "2026-06-12",
+    "departed": "2026-06-14",
+    "video_ids": [
+      "CxJgqDnVem8",
+      "vCMWsUNx9xY",
+      "iAk-r8mKqYA"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 3,
+    "iso_n3": "484",
+    "city": "モンテレイ",
+    "lat": 25.68,
+    "lng": -100.32,
+    "arrived": "2026-06-18",
+    "departed": "2026-06-20",
+    "video_ids": [
+      "YiHHNXzm8nA",
+      "GL-iChSS-bE"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 4,
+    "iso_n3": "840",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "arrived": "2026-06-21",
+    "departed": "2026-07-01",
+    "video_ids": [
+      "6flPKjyvOj8"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 5,
+    "iso_n3": "840",
+    "city": "ダラス",
+    "lat": 32.78,
+    "lng": -96.81,
+    "arrived": "2026-06-21",
+    "departed": "2026-06-29",
+    "video_ids": [
+      "UbTkEyU5mJc",
+      "WWfm_QdZSG4",
+      "fcbMnLEr6Uk",
+      "nhsRIWSv5us"
+    ]
+  },
+  {
+    "series_id": "worldcup-2026",
+    "seq": 6,
+    "iso_n3": "840",
+    "city": "シカゴ",
+    "lat": 41.88,
+    "lng": -87.63,
+    "arrived": "2026-07-01",
+    "departed": "2026-07-07",
+    "video_ids": [
+      "moQQx4K1J8Y"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "トカラ列島",
+    "lat": 29.37,
+    "lng": 129.74,
+    "arrived": "2022-05-16",
+    "departed": "2022-05-18",
+    "video_ids": [
+      "MaDTPdczFqs"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "宝島",
+    "lat": 29.14,
+    "lng": 129.21,
+    "arrived": "2022-05-18",
+    "departed": "2022-05-23",
+    "video_ids": [
+      "fQcsNuuz5qw"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "小宝島",
+    "lat": 29.22,
+    "lng": 129.33,
+    "arrived": "2022-05-23",
+    "departed": "2022-05-28",
+    "video_ids": [
+      "E94anwwZLO4"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "悪石島",
+    "lat": 29.45,
+    "lng": 129.6,
+    "arrived": "2022-05-25",
+    "departed": "2022-05-29",
+    "video_ids": [
+      "LH0ZOUr6FYM"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "諏訪之瀬島",
+    "lat": 29.61,
+    "lng": 129.7,
+    "arrived": "2022-05-29",
+    "departed": "2022-06-01",
+    "video_ids": [
+      "80tXNICU2pY"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "中之島",
+    "lat": 34.69,
+    "lng": 135.49,
+    "arrived": "2022-06-01",
+    "departed": "2022-06-05",
+    "video_ids": [
+      "LGDVvFx1S-A"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "口之島",
+    "lat": 29.97,
+    "lng": 129.92,
+    "arrived": "2022-06-05",
+    "departed": "2022-06-07",
+    "video_ids": [
+      "-DIulZdcrEI"
+    ]
+  },
+  {
+    "series_id": "japan-tokara",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "平島",
+    "lat": 29.69,
+    "lng": 129.53,
+    "arrived": "2022-06-07",
+    "departed": "2022-06-09",
+    "video_ids": [
+      "B3mxo37BQC4"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "神津島",
+    "lat": 34.22,
+    "lng": 139.15,
+    "arrived": "2021-10-13",
+    "departed": "2021-10-16",
+    "video_ids": [
+      "Cqt-OOpX6ew"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "式根島",
+    "lat": 34.33,
+    "lng": 139.21,
+    "arrived": "2021-10-16",
+    "departed": "2021-10-17",
+    "video_ids": [
+      "Y2kVJagm0tI"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "新島",
+    "lat": 34.37,
+    "lng": 139.27,
+    "arrived": "2021-10-17",
+    "departed": "2021-10-23",
+    "video_ids": [
+      "w2O0bR9rU3o"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "利島",
+    "lat": 34.52,
+    "lng": 139.28,
+    "arrived": "2021-10-23",
+    "departed": "2021-10-24",
+    "video_ids": [
+      "4HK0bREHL94"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "伊豆大島",
+    "lat": 34.74,
+    "lng": 139.4,
+    "arrived": "2021-10-25",
+    "departed": "2021-10-28",
+    "video_ids": [
+      "7wDJR-xtJDg",
+      "K7BfKlMF6-M"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "青ヶ島",
+    "lat": 32.46,
+    "lng": 139.76,
+    "arrived": "2021-11-04",
+    "departed": "2021-11-09",
+    "video_ids": [
+      "QwFjvZSyRsE",
+      "J_vRR1nnczY"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "八丈島",
+    "lat": 33.11,
+    "lng": 139.79,
+    "arrived": "2021-11-09",
+    "departed": "2021-11-12",
+    "video_ids": [
+      "0ndE0gKmf2c",
+      "d_rlrbdw-2w"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "三宅島",
+    "lat": 34.08,
+    "lng": 139.53,
+    "arrived": "2021-11-12",
+    "departed": "2021-11-15",
+    "video_ids": [
+      "Nb0CaYOj1XQ"
+    ]
+  },
+  {
+    "series_id": "japan-izu-islands",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "御蔵島",
+    "lat": 33.87,
+    "lng": 139.6,
+    "arrived": "2021-11-16",
+    "departed": "2021-11-16",
+    "video_ids": [
+      "b0VCo7Zb8xg"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "波照間島",
+    "lat": 24.06,
+    "lng": 123.78,
+    "arrived": "2020-09-16",
+    "departed": "2020-09-16",
+    "video_ids": [
+      "Qxb9bIU434Q"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "与那国島",
+    "lat": 24.47,
+    "lng": 123,
+    "arrived": "2020-09-27",
+    "departed": "2020-09-27",
+    "video_ids": [
+      "smjVlcZ-nw0"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "竹富島",
+    "lat": 24.33,
+    "lng": 124.09,
+    "arrived": "2020-10-08",
+    "departed": "2020-10-08",
+    "video_ids": [
+      "_EIQorlgYZo"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "小浜島",
+    "lat": 24.34,
+    "lng": 123.98,
+    "arrived": "2020-10-18",
+    "departed": "2020-10-18",
+    "video_ids": [
+      "YYuUuOh6HZ8"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "黒島",
+    "lat": 32.6,
+    "lng": 128.83,
+    "arrived": "2020-10-24",
+    "departed": "2020-10-24",
+    "video_ids": [
+      "_UcImLGI1I0"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "西表島",
+    "lat": 24.29,
+    "lng": 123.86,
+    "arrived": "2020-10-31",
+    "departed": "2020-10-31",
+    "video_ids": [
+      "CIRfh6WZwjw",
+      "Nf6uyP2iEpc"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "鳩間島",
+    "lat": 24.47,
+    "lng": 123.82,
+    "arrived": "2020-11-23",
+    "departed": "2020-11-23",
+    "video_ids": [
+      "lcD699jzaBI"
+    ]
+  },
+  {
+    "series_id": "japan-yaeyama",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "石垣島",
+    "lat": 24.33,
+    "lng": 124.16,
+    "arrived": "2020-12-05",
+    "departed": "2020-12-05",
+    "video_ids": [
+      "yd00qWAvMqs"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "下地島",
+    "lat": 24.82,
+    "lng": 125.16,
+    "arrived": "2020-08-06",
+    "departed": "2020-08-06",
+    "video_ids": [
+      "YeYBW0G3QLg"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "伊良部島",
+    "lat": 24.84,
+    "lng": 125.17,
+    "arrived": "2020-08-24",
+    "departed": "2020-08-24",
+    "video_ids": [
+      "EbdtsYjO760"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "多良間島",
+    "lat": 24.66,
+    "lng": 124.7,
+    "arrived": "2020-08-27",
+    "departed": "2020-08-27",
+    "video_ids": [
+      "AKL2rM5ecrE"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "宮古島",
+    "lat": 24.8,
+    "lng": 125.28,
+    "arrived": "2020-09-06",
+    "departed": "2020-09-06",
+    "video_ids": [
+      "y5IXKMN9P6s"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "池間島",
+    "lat": 24.93,
+    "lng": 125.24,
+    "arrived": "2020-09-10",
+    "departed": "2020-09-10",
+    "video_ids": [
+      "OdCUFfB3pWA"
+    ]
+  },
+  {
+    "series_id": "japan-miyako",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "来間島",
+    "lat": 24.73,
+    "lng": 125.25,
+    "arrived": "2020-09-13",
+    "departed": "2020-09-13",
+    "video_ids": [
+      "duyRekJ-IaY"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "五島列島福江島",
+    "lat": 32.7,
+    "lng": 128.84,
+    "arrived": "2021-08-05",
+    "departed": "2021-08-08",
+    "video_ids": [
+      "ahqTjSWPZd8",
+      "o-Yz_Clbn8o"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "五島列島椛島",
+    "lat": 32.77,
+    "lng": 129,
+    "arrived": "2021-08-09",
+    "departed": "2021-08-09",
+    "video_ids": [
+      "Leb0NlF_qWU"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "五島列島久賀島",
+    "lat": 32.82,
+    "lng": 128.92,
+    "arrived": "2021-08-10",
+    "departed": "2021-08-10",
+    "video_ids": [
+      "-9HP3Wsf98s"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "五島列島奈留島",
+    "lat": 32.84,
+    "lng": 128.93,
+    "arrived": "2021-09-27",
+    "departed": "2021-09-28",
+    "video_ids": [
+      "KxleQpYyzHs"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "五島列島中通島",
+    "lat": 32.98,
+    "lng": 129.07,
+    "arrived": "2021-09-28",
+    "departed": "2021-09-30",
+    "video_ids": [
+      "sMO-xsF5Ocg"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "五島列島若松島",
+    "lat": 32.87,
+    "lng": 129.02,
+    "arrived": "2021-10-01",
+    "departed": "2021-10-02",
+    "video_ids": [
+      "1QP1f4a2-tA"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "五島列島野崎島",
+    "lat": 33.18,
+    "lng": 129.13,
+    "arrived": "2021-10-02",
+    "departed": "2021-10-02",
+    "video_ids": [
+      "jwZJgnsizCQ"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "五島列島小値賀島",
+    "lat": 33.2,
+    "lng": 129.05,
+    "arrived": "2021-10-03",
+    "departed": "2021-10-04",
+    "video_ids": [
+      "zjBDUcsdVwA"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "五島列島宇久島",
+    "lat": 33.27,
+    "lng": 129.12,
+    "arrived": "2021-10-04",
+    "departed": "2021-10-05",
+    "video_ids": [
+      "_Z2FfgXo_jw"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "壱岐",
+    "lat": 33.78,
+    "lng": 129.72,
+    "arrived": "2021-10-06",
+    "departed": "2021-10-08",
+    "video_ids": [
+      "a69xxLyOPDk"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 11,
+    "iso_n3": "392",
+    "city": "対馬",
+    "lat": 34.42,
+    "lng": 129.33,
+    "arrived": "2021-10-08",
+    "departed": "2021-10-11",
+    "video_ids": [
+      "qZwyAZwPLXY",
+      "Hk4he4j-33o"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 12,
+    "iso_n3": "392",
+    "city": "長崎",
+    "lat": 32.75,
+    "lng": 129.87,
+    "arrived": "2022-01-05",
+    "departed": "2022-01-06",
+    "video_ids": [
+      "1hUrYKibvF0"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 13,
+    "iso_n3": "392",
+    "city": "軍艦島",
+    "lat": 32.63,
+    "lng": 129.74,
+    "arrived": "2022-01-06",
+    "departed": "2022-01-07",
+    "video_ids": [
+      "96ki-u86uFM"
+    ]
+  },
+  {
+    "series_id": "japan-nagasaki",
+    "seq": 14,
+    "iso_n3": "392",
+    "city": "佐世保",
+    "lat": 33.16,
+    "lng": 129.73,
+    "arrived": "2022-01-07",
+    "departed": "2022-01-09",
+    "video_ids": [
+      "gOeqUFyIoas"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "鹿児島",
+    "lat": 31.6,
+    "lng": 130.56,
+    "arrived": "2020-12-15",
+    "departed": "2020-12-15",
+    "video_ids": [
+      "VGi3NnU2g6Q"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "屋久島",
+    "lat": 30.36,
+    "lng": 130.53,
+    "arrived": "2020-12-22",
+    "departed": "2020-12-22",
+    "video_ids": [
+      "Mxp9u4hc-KM",
+      "dzWTxMdHOAI"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "種子島",
+    "lat": 30.58,
+    "lng": 130.98,
+    "arrived": "2021-01-03",
+    "departed": "2021-01-03",
+    "video_ids": [
+      "yPX_g5dipq8"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "喜界島",
+    "lat": 28.32,
+    "lng": 129.94,
+    "arrived": "2021-01-08",
+    "departed": "2021-01-08",
+    "video_ids": [
+      "vST6_TIJy4M"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "奄美大島",
+    "lat": 28.33,
+    "lng": 129.37,
+    "arrived": "2021-01-13",
+    "departed": "2021-01-13",
+    "video_ids": [
+      "3xwQARxvIcc"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "加計呂麻島",
+    "lat": 28.12,
+    "lng": 129.24,
+    "arrived": "2021-01-19",
+    "departed": "2021-01-19",
+    "video_ids": [
+      "LB_C1hkJ6G4"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "奄美大島",
+    "lat": 28.33,
+    "lng": 129.37,
+    "arrived": "2021-01-24",
+    "departed": "2021-01-24",
+    "video_ids": [
+      "d0pQkhQriiI"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "徳之島",
+    "lat": 27.82,
+    "lng": 128.93,
+    "arrived": "2021-01-27",
+    "departed": "2021-01-27",
+    "video_ids": [
+      "hH9dJcslqv8"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "沖永良部島",
+    "lat": 27.37,
+    "lng": 128.57,
+    "arrived": "2021-01-30",
+    "departed": "2021-01-30",
+    "video_ids": [
+      "0hJvwL9ChPM"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "与論島",
+    "lat": 27.04,
+    "lng": 128.42,
+    "arrived": "2021-02-05",
+    "departed": "2021-02-05",
+    "video_ids": [
+      "3cJsLSfvd_A"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 11,
+    "iso_n3": "392",
+    "city": "鹿児島",
+    "lat": 31.6,
+    "lng": 130.56,
+    "arrived": "2021-02-19",
+    "departed": "2021-02-19",
+    "video_ids": [
+      "mh-UvrTco5w"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 12,
+    "iso_n3": "392",
+    "city": "薩摩川内",
+    "lat": 31.81,
+    "lng": 130.3,
+    "arrived": "2022-01-15",
+    "departed": "2022-01-17",
+    "video_ids": [
+      "qhjAvXH9YIQ"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 13,
+    "iso_n3": "392",
+    "city": "上甑島",
+    "lat": 31.84,
+    "lng": 129.88,
+    "arrived": "2022-01-17",
+    "departed": "2022-01-19",
+    "video_ids": [
+      "MrNNyH-Mz_Q"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 14,
+    "iso_n3": "392",
+    "city": "下甑島",
+    "lat": 31.72,
+    "lng": 129.74,
+    "arrived": "2022-01-19",
+    "departed": "2022-01-21",
+    "video_ids": [
+      "XLbcJ1-C0Hk"
+    ]
+  },
+  {
+    "series_id": "japan-kagoshima",
+    "seq": 15,
+    "iso_n3": "392",
+    "city": "鹿児島",
+    "lat": 31.6,
+    "lng": 130.56,
+    "arrived": "2022-01-21",
+    "departed": "2022-01-23",
+    "video_ids": [
+      "L0eZaIwOESU"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "北大東島",
+    "lat": 25.94,
+    "lng": 131.31,
+    "arrived": "2021-02-23",
+    "departed": "2021-02-23",
+    "video_ids": [
+      "o9JNruxRlIY"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "南大東島",
+    "lat": 25.85,
+    "lng": 131.24,
+    "arrived": "2021-02-26",
+    "departed": "2021-02-26",
+    "video_ids": [
+      "iBhVPo5UkMY"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "渡嘉敷島",
+    "lat": 26.2,
+    "lng": 127.36,
+    "arrived": "2021-02-28",
+    "departed": "2021-02-28",
+    "video_ids": [
+      "_K0ibPbfFh0"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "座間味島",
+    "lat": 26.23,
+    "lng": 127.3,
+    "arrived": "2021-03-03",
+    "departed": "2021-03-03",
+    "video_ids": [
+      "AUOUktZGMSs"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "阿嘉島",
+    "lat": 26.2,
+    "lng": 127.28,
+    "arrived": "2021-03-06",
+    "departed": "2021-03-06",
+    "video_ids": [
+      "Rv5vRCJzbmo"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "久米島",
+    "lat": 26.35,
+    "lng": 126.77,
+    "arrived": "2022-05-04",
+    "departed": "2022-05-07",
+    "video_ids": [
+      "9-TGBYwaZX4"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "那覇",
+    "lat": 26.21,
+    "lng": 127.68,
+    "arrived": "2022-05-07",
+    "departed": "2022-05-12",
+    "video_ids": [
+      "xQnRU56OAyU"
+    ]
+  },
+  {
+    "series_id": "japan-okinawa",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "沖縄",
+    "lat": 26.33,
+    "lng": 127.81,
+    "arrived": "2022-05-13",
+    "departed": "2022-05-16",
+    "video_ids": [
+      "Is-GTObJZFc"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "熊本",
+    "lat": 32.79,
+    "lng": 130.69,
+    "arrived": "2022-01-11",
+    "departed": "2022-01-13",
+    "video_ids": [
+      "sW1vnE_yDe0"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "天草",
+    "lat": 32.46,
+    "lng": 130.19,
+    "arrived": "2022-01-13",
+    "departed": "2022-01-15",
+    "video_ids": [
+      "U6CZH71Ihio"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "宮崎",
+    "lat": 31.92,
+    "lng": 131.43,
+    "arrived": "2022-01-23",
+    "departed": "2022-01-25",
+    "video_ids": [
+      "25JfHj37wDE"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "延岡",
+    "lat": 32.58,
+    "lng": 131.66,
+    "arrived": "2022-01-25",
+    "departed": "2022-01-27",
+    "video_ids": [
+      "puNH-RBOppE"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "大分",
+    "lat": 33.23,
+    "lng": 131.61,
+    "arrived": "2022-01-27",
+    "departed": "2022-01-29",
+    "video_ids": [
+      "JPNqAjftl5g"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "別府",
+    "lat": 33.28,
+    "lng": 131.5,
+    "arrived": "2022-01-29",
+    "departed": "2022-01-31",
+    "video_ids": [
+      "XqOVYtI5anE"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "北九州",
+    "lat": 33.88,
+    "lng": 130.87,
+    "arrived": "2022-01-31",
+    "departed": "2022-02-02",
+    "video_ids": [
+      "Q2bZyvLy74Q"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "唐津",
+    "lat": 33.45,
+    "lng": 129.97,
+    "arrived": "2022-02-02",
+    "departed": "2022-02-04",
+    "video_ids": [
+      "g1XTZ1GMkn4"
+    ]
+  },
+  {
+    "series_id": "japan-kyushu",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "久留米",
+    "lat": 33.32,
+    "lng": 130.5,
+    "arrived": "2022-02-04",
+    "departed": "2022-02-06",
+    "video_ids": [
+      "-D8miXML9dU"
+    ]
+  },
+  {
+    "series_id": "japan-shikoku",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "高知",
+    "lat": 33.57,
+    "lng": 133.54,
+    "arrived": "2021-11-22",
+    "departed": "2021-11-25",
+    "video_ids": [
+      "q-XpZDed-j8"
+    ]
+  },
+  {
+    "series_id": "japan-shikoku",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "徳島",
+    "lat": 34.07,
+    "lng": 134.55,
+    "arrived": "2021-11-25",
+    "departed": "2021-11-28",
+    "video_ids": [
+      "ZXCwNhblM5M"
+    ]
+  },
+  {
+    "series_id": "japan-shikoku",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "高松",
+    "lat": 34.34,
+    "lng": 134.05,
+    "arrived": "2021-11-28",
+    "departed": "2021-12-03",
+    "video_ids": [
+      "3gq7XkGDGmk"
+    ]
+  },
+  {
+    "series_id": "japan-shikoku",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "松山",
+    "lat": 33.84,
+    "lng": 132.75,
+    "arrived": "2021-12-03",
+    "departed": "2021-12-07",
+    "video_ids": [
+      "pavRuisnKOY"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "鳥取",
+    "lat": 35.49,
+    "lng": 134.23,
+    "arrived": "2022-03-12",
+    "departed": "2022-03-14",
+    "video_ids": [
+      "0l3H35-qL58"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "米子",
+    "lat": 35.42,
+    "lng": 133.34,
+    "arrived": "2022-03-14",
+    "departed": "2022-03-16",
+    "video_ids": [
+      "FVEF-rbT8A0"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "境港",
+    "lat": 35.55,
+    "lng": 133.22,
+    "arrived": "2022-03-16",
+    "departed": "2022-03-18",
+    "video_ids": [
+      "olHq95aRrJQ"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "隠岐の島",
+    "lat": 36.2,
+    "lng": 133.17,
+    "arrived": "2022-03-18",
+    "departed": "2022-03-21",
+    "video_ids": [
+      "FlMSFkfYw7s",
+      "xmLSFANe_9w"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "隠岐諸島海士町",
+    "lat": 36.1,
+    "lng": 133.1,
+    "arrived": "2022-03-21",
+    "departed": "2022-03-23",
+    "video_ids": [
+      "kvFIAUfHUU4"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "隠岐諸島西ノ島",
+    "lat": 36.09,
+    "lng": 133,
+    "arrived": "2022-03-23",
+    "departed": "2022-03-25",
+    "video_ids": [
+      "035V0dNeP9Y"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "隠岐諸島知夫里島",
+    "lat": 36.2,
+    "lng": 133.17,
+    "arrived": "2022-03-25",
+    "departed": "2022-03-26",
+    "video_ids": [
+      "n5hgeNOAdoQ"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "松江",
+    "lat": 35.46,
+    "lng": 133.06,
+    "arrived": "2022-03-27",
+    "departed": "2022-03-29",
+    "video_ids": [
+      "qUFLWwybVe4"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "出雲",
+    "lat": 34.53,
+    "lng": 135.89,
+    "arrived": "2022-03-29",
+    "departed": "2022-03-31",
+    "video_ids": [
+      "SvgG6EJ9vCo"
+    ]
+  },
+  {
+    "series_id": "japan-sanin",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "萩",
+    "lat": 34.39,
+    "lng": 131.4,
+    "arrived": "2022-03-31",
+    "departed": "2022-04-02",
+    "video_ids": [
+      "8gNbaz2rSEA"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "山口",
+    "lat": 34.17,
+    "lng": 131.48,
+    "arrived": "2022-04-02",
+    "departed": "2022-04-06",
+    "video_ids": [
+      "j__KMJ6mMxM",
+      "WguGQwk0VS8"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "下関",
+    "lat": 33.95,
+    "lng": 130.92,
+    "arrived": "2022-04-06",
+    "departed": "2022-04-08",
+    "video_ids": [
+      "Tl7w7tHNVfo"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "浅草ワクチン",
+    "lat": 35.71,
+    "lng": 139.8,
+    "arrived": "2022-04-08",
+    "departed": "2022-04-11",
+    "video_ids": [
+      "NcuCL4NfAEk"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "広島",
+    "lat": 34.4,
+    "lng": 132.48,
+    "arrived": "2022-04-11",
+    "departed": "2022-04-14",
+    "video_ids": [
+      "-sIc425Mg9k"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "尾道",
+    "lat": 34.42,
+    "lng": 133.2,
+    "arrived": "2022-04-14",
+    "departed": "2022-04-17",
+    "video_ids": [
+      "GFavW0m8SqU"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "岡山",
+    "lat": 34.67,
+    "lng": 133.92,
+    "arrived": "2022-04-17",
+    "departed": "2022-04-19",
+    "video_ids": [
+      "gNWGqaWWSuk"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "直島",
+    "lat": 34.46,
+    "lng": 133.98,
+    "arrived": "2022-04-19",
+    "departed": "2022-04-21",
+    "video_ids": [
+      "w-2mMx_PFvg"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "豊島",
+    "lat": 34.48,
+    "lng": 134.07,
+    "arrived": "2022-04-21",
+    "departed": "2022-04-22",
+    "video_ids": [
+      "XPTBCKAT5O4"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "小豆島",
+    "lat": 34.51,
+    "lng": 134.29,
+    "arrived": "2022-04-22",
+    "departed": "2022-04-25",
+    "video_ids": [
+      "HyMsz2Hbw7c"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "姫路",
+    "lat": 34.83,
+    "lng": 134.69,
+    "arrived": "2022-04-25",
+    "departed": "2022-04-28",
+    "video_ids": [
+      "zuUXB_XWwQQ"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 11,
+    "iso_n3": "392",
+    "city": "神戸",
+    "lat": 34.68,
+    "lng": 135.18,
+    "arrived": "2022-04-28",
+    "departed": "2022-05-01",
+    "video_ids": [
+      "lbuon5kFER4"
+    ]
+  },
+  {
+    "series_id": "japan-setouchi",
+    "seq": 12,
+    "iso_n3": "392",
+    "city": "大阪",
+    "lat": 34.69,
+    "lng": 135.5,
+    "arrived": "2022-05-01",
+    "departed": "2022-05-03",
+    "video_ids": [
+      "qheb63wsJg8"
+    ]
+  },
+  {
+    "series_id": "japan-hokuriku",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "富山",
+    "lat": 36.7,
+    "lng": 137.21,
+    "arrived": "2021-12-14",
+    "departed": "2021-12-17",
+    "video_ids": [
+      "sHXwp2S4Tzw"
+    ]
+  },
+  {
+    "series_id": "japan-hokuriku",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "金沢",
+    "lat": 36.56,
+    "lng": 136.66,
+    "arrived": "2021-12-17",
+    "departed": "2021-12-20",
+    "video_ids": [
+      "Mp1CbUcCe2Y"
+    ]
+  },
+  {
+    "series_id": "japan-hokuriku",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "福井",
+    "lat": 36.06,
+    "lng": 136.22,
+    "arrived": "2021-12-20",
+    "departed": "2021-12-23",
+    "video_ids": [
+      "WY1CGhekwFo"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "長岡市",
+    "lat": 37.45,
+    "lng": 138.85,
+    "arrived": "2021-07-21",
+    "departed": "2021-07-23",
+    "video_ids": [
+      "0O0Yz-LPsn8"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "新潟市",
+    "lat": 37.92,
+    "lng": 139.04,
+    "arrived": "2021-07-23",
+    "departed": "2021-07-26",
+    "video_ids": [
+      "470akePB4oQ"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "佐渡島両津",
+    "lat": 38.08,
+    "lng": 138.44,
+    "arrived": "2021-07-26",
+    "departed": "2021-07-28",
+    "video_ids": [
+      "ZUGYXDfnnOU"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "佐渡島相川",
+    "lat": 34.32,
+    "lng": 134.04,
+    "arrived": "2021-07-29",
+    "departed": "2021-07-29",
+    "video_ids": [
+      "QGWqKCAGatc"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "佐渡島佐和田",
+    "lat": 38,
+    "lng": 138.32,
+    "arrived": "2021-07-30",
+    "departed": "2021-08-01",
+    "video_ids": [
+      "4EtuSyG5Lag"
+    ]
+  },
+  {
+    "series_id": "japan-niigata",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "佐渡島小木",
+    "lat": 37.87,
+    "lng": 139,
+    "arrived": "2021-08-01",
+    "departed": "2021-08-03",
+    "video_ids": [
+      "wnnbZ5afwF8"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "福島市",
+    "lat": 37.76,
+    "lng": 140.47,
+    "arrived": "2021-05-21",
+    "departed": "2021-05-21",
+    "video_ids": [
+      "0Wu_YtmgVm0"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "富岡町",
+    "lat": 37.35,
+    "lng": 141.01,
+    "arrived": "2021-05-21",
+    "departed": "2021-05-21",
+    "video_ids": [
+      "1ooik0d_06w"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "双葉町",
+    "lat": 37.45,
+    "lng": 141.01,
+    "arrived": "2021-05-22",
+    "departed": "2021-05-22",
+    "video_ids": [
+      "wrLFxbAOQj8"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "いわき市",
+    "lat": 37.05,
+    "lng": 140.89,
+    "arrived": "2021-05-23",
+    "departed": "2021-05-23",
+    "video_ids": [
+      "MVZsT3w23i8"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "仙台市",
+    "lat": 38.27,
+    "lng": 140.87,
+    "arrived": "2021-05-26",
+    "departed": "2021-05-28",
+    "video_ids": [
+      "WMNzhH2rBWY",
+      "sxXX5oblQ2c"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "松島町",
+    "lat": 38.38,
+    "lng": 141.07,
+    "arrived": "2021-05-29",
+    "departed": "2021-05-29",
+    "video_ids": [
+      "FZA1CvL-Ppc"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "女川町",
+    "lat": 38.45,
+    "lng": 141.44,
+    "arrived": "2021-05-30",
+    "departed": "2021-05-31",
+    "video_ids": [
+      "CiJWOiC4TT4"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "石巻市",
+    "lat": 38.43,
+    "lng": 141.3,
+    "arrived": "2021-05-31",
+    "departed": "2021-06-03",
+    "video_ids": [
+      "o1Ix2tpR21U",
+      "aj6Cr5N8wlY"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "気仙沼市",
+    "lat": 38.91,
+    "lng": 141.57,
+    "arrived": "2021-06-03",
+    "departed": "2021-06-05",
+    "video_ids": [
+      "troTE9_Mk5E"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "陸前高田市",
+    "lat": 39.02,
+    "lng": 141.63,
+    "arrived": "2021-06-06",
+    "departed": "2021-06-06",
+    "video_ids": [
+      "zGWZ1dgmST8"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 11,
+    "iso_n3": "392",
+    "city": "釜石市",
+    "lat": 39.28,
+    "lng": 141.89,
+    "arrived": "2021-06-07",
+    "departed": "2021-06-08",
+    "video_ids": [
+      "dcUDjMUrf5Y"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 12,
+    "iso_n3": "392",
+    "city": "宮古市",
+    "lat": 39.64,
+    "lng": 141.95,
+    "arrived": "2021-06-17",
+    "departed": "2021-06-19",
+    "video_ids": [
+      "lsw4DsxHR-k"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 13,
+    "iso_n3": "392",
+    "city": "八戸市",
+    "lat": 40.51,
+    "lng": 141.49,
+    "arrived": "2021-06-19",
+    "departed": "2021-06-21",
+    "video_ids": [
+      "t60LOGY1QMo"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 14,
+    "iso_n3": "392",
+    "city": "青森市",
+    "lat": 40.82,
+    "lng": 140.75,
+    "arrived": "2021-06-21",
+    "departed": "2021-06-23",
+    "video_ids": [
+      "T3qtgT1O82E"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 15,
+    "iso_n3": "392",
+    "city": "弘前市",
+    "lat": 40.6,
+    "lng": 140.46,
+    "arrived": "2021-06-23",
+    "departed": "2021-06-25",
+    "video_ids": [
+      "JiFQCjKfJ40"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 16,
+    "iso_n3": "392",
+    "city": "秋田市",
+    "lat": 39.72,
+    "lng": 140.1,
+    "arrived": "2021-06-25",
+    "departed": "2021-06-28",
+    "video_ids": [
+      "zFGCnvK1QhY"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 17,
+    "iso_n3": "392",
+    "city": "盛岡市",
+    "lat": 39.7,
+    "lng": 141.15,
+    "arrived": "2021-06-28",
+    "departed": "2021-07-01",
+    "video_ids": [
+      "dtfBNdrMgu4"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 18,
+    "iso_n3": "392",
+    "city": "花巻市",
+    "lat": 39.39,
+    "lng": 141.12,
+    "arrived": "2021-07-01",
+    "departed": "2021-07-03",
+    "video_ids": [
+      "uoerH47Mwk4"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 19,
+    "iso_n3": "392",
+    "city": "石巻市",
+    "lat": 38.43,
+    "lng": 141.3,
+    "arrived": "2021-07-03",
+    "departed": "2021-07-05",
+    "video_ids": [
+      "tWtBTTe-sLg"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 20,
+    "iso_n3": "392",
+    "city": "山形市",
+    "lat": 38.26,
+    "lng": 140.34,
+    "arrived": "2021-07-05",
+    "departed": "2021-07-08",
+    "video_ids": [
+      "2sYg1iG4zKs"
+    ]
+  },
+  {
+    "series_id": "japan-tohoku",
+    "seq": 21,
+    "iso_n3": "392",
+    "city": "郡山市",
+    "lat": 37.4,
+    "lng": 140.36,
+    "arrived": "2021-07-08",
+    "departed": "2021-07-10",
+    "video_ids": [
+      "--dsMzTR3tM"
+    ]
+  },
+  {
+    "series_id": "japan-tokyo",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "小笠原諸島",
+    "lat": 27.08,
+    "lng": 142.22,
+    "arrived": "2021-04-21",
+    "departed": "2021-04-21",
+    "video_ids": [
+      "X3olGb2pAr4"
+    ]
+  },
+  {
+    "series_id": "japan-tokyo",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "小笠原諸島母島",
+    "lat": 36.02,
+    "lng": 139.61,
+    "arrived": "2021-04-25",
+    "departed": "2021-04-25",
+    "video_ids": [
+      "GiQXegHj7h4",
+      "nuhSVfquJ9c"
+    ]
+  },
+  {
+    "series_id": "japan-tokyo",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "小笠原諸島父島",
+    "lat": 34.39,
+    "lng": 132.46,
+    "arrived": "2021-05-05",
+    "departed": "2021-05-05",
+    "video_ids": [
+      "ZkoZk0_auIU",
+      "NE8RqGGS7iE",
+      "Mr1KtKzu9M8"
+    ]
+  },
+  {
+    "series_id": "japan-tokyo",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "小笠原諸島",
+    "lat": 27.08,
+    "lng": 142.22,
+    "arrived": "2021-05-16",
+    "departed": "2021-05-16",
+    "video_ids": [
+      "-tqwaYdY3yY"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 1,
+    "iso_n3": "392",
+    "city": "帯広",
+    "lat": 42.92,
+    "lng": 143.2,
+    "arrived": "2021-03-09",
+    "departed": "2021-03-09",
+    "video_ids": [
+      "dEXSzj1CASA"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 2,
+    "iso_n3": "392",
+    "city": "釧路",
+    "lat": 42.99,
+    "lng": 144.38,
+    "arrived": "2021-03-10",
+    "departed": "2021-03-10",
+    "video_ids": [
+      "2jm381bzBQk"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 3,
+    "iso_n3": "392",
+    "city": "網走",
+    "lat": 44.02,
+    "lng": 144.25,
+    "arrived": "2021-03-11",
+    "departed": "2021-03-11",
+    "video_ids": [
+      "hVTKiRo5y_4"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 4,
+    "iso_n3": "392",
+    "city": "北見",
+    "lat": 43.8,
+    "lng": 143.9,
+    "arrived": "2021-03-12",
+    "departed": "2021-03-12",
+    "video_ids": [
+      "Eaaey2NoAY8"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 5,
+    "iso_n3": "392",
+    "city": "網走",
+    "lat": 44.02,
+    "lng": 144.25,
+    "arrived": "2021-03-13",
+    "departed": "2021-03-13",
+    "video_ids": [
+      "t6gdwZSDQ9s"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 6,
+    "iso_n3": "392",
+    "city": "美瑛",
+    "lat": 43.59,
+    "lng": 142.46,
+    "arrived": "2021-03-14",
+    "departed": "2021-03-14",
+    "video_ids": [
+      "4cO1M6x9viY"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 7,
+    "iso_n3": "392",
+    "city": "旭川",
+    "lat": 43.76,
+    "lng": 142.36,
+    "arrived": "2021-03-15",
+    "departed": "2021-03-16",
+    "video_ids": [
+      "AIwbCne33UQ",
+      "0NVgjux8NE8"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 8,
+    "iso_n3": "392",
+    "city": "稚内",
+    "lat": 45.42,
+    "lng": 141.67,
+    "arrived": "2021-03-17",
+    "departed": "2021-03-17",
+    "video_ids": [
+      "s-Kkn2C-0XI"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 9,
+    "iso_n3": "392",
+    "city": "利尻島",
+    "lat": 45.17,
+    "lng": 141.25,
+    "arrived": "2021-03-18",
+    "departed": "2021-03-19",
+    "video_ids": [
+      "Isf5EFauOPU",
+      "H0pH9W-OoK4"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 10,
+    "iso_n3": "392",
+    "city": "礼文島",
+    "lat": 45.44,
+    "lng": 141.04,
+    "arrived": "2021-03-20",
+    "departed": "2021-03-21",
+    "video_ids": [
+      "__bhFBO6gBs",
+      "Ty7Gze8OCAE"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 11,
+    "iso_n3": "392",
+    "city": "稚内",
+    "lat": 45.42,
+    "lng": 141.67,
+    "arrived": "2021-03-22",
+    "departed": "2021-03-22",
+    "video_ids": [
+      "L-iT3LZBaiE"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 12,
+    "iso_n3": "392",
+    "city": "羽幌",
+    "lat": 43.17,
+    "lng": 141.39,
+    "arrived": "2021-03-23",
+    "departed": "2021-03-23",
+    "video_ids": [
+      "zk1yrKoEe98"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 13,
+    "iso_n3": "392",
+    "city": "焼尻島",
+    "lat": 44.43,
+    "lng": 141.42,
+    "arrived": "2021-03-24",
+    "departed": "2021-03-24",
+    "video_ids": [
+      "PEF-vUgejiw"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 14,
+    "iso_n3": "392",
+    "city": "天売島",
+    "lat": 44.42,
+    "lng": 141.3,
+    "arrived": "2021-03-25",
+    "departed": "2021-03-25",
+    "video_ids": [
+      "HMTl-i-1rh4"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 15,
+    "iso_n3": "392",
+    "city": "留萌",
+    "lat": 43.94,
+    "lng": 141.64,
+    "arrived": "2021-03-26",
+    "departed": "2021-03-26",
+    "video_ids": [
+      "OMAyn9TlbmE"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 16,
+    "iso_n3": "392",
+    "city": "札幌",
+    "lat": 43.07,
+    "lng": 141.35,
+    "arrived": "2021-03-27",
+    "departed": "2021-03-28",
+    "video_ids": [
+      "K320jn0SGBw",
+      "6IOk77u9WWE"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 17,
+    "iso_n3": "392",
+    "city": "小樽",
+    "lat": 43.2,
+    "lng": 140.99,
+    "arrived": "2021-03-29",
+    "departed": "2021-03-30",
+    "video_ids": [
+      "8dNB8hSa1dE",
+      "0No0eKZZDM4"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 18,
+    "iso_n3": "392",
+    "city": "八雲",
+    "lat": 42.25,
+    "lng": 140.27,
+    "arrived": "2021-03-31",
+    "departed": "2021-03-31",
+    "video_ids": [
+      "3Z5MsyV-8nk"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 19,
+    "iso_n3": "392",
+    "city": "奥尻島",
+    "lat": 42.15,
+    "lng": 139.47,
+    "arrived": "2021-04-01",
+    "departed": "2021-04-02",
+    "video_ids": [
+      "QvQoRhR1LPg",
+      "A4x2-snXa8Q"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 20,
+    "iso_n3": "392",
+    "city": "函館",
+    "lat": 41.77,
+    "lng": 140.73,
+    "arrived": "2021-04-03",
+    "departed": "2021-04-05",
+    "video_ids": [
+      "3DtPMdAZFXE",
+      "qQfW5bVBC4I",
+      "cy1FMy2TTxI"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 21,
+    "iso_n3": "392",
+    "city": "えりも",
+    "lat": 42.05,
+    "lng": 143.09,
+    "arrived": "2021-04-06",
+    "departed": "2021-04-07",
+    "video_ids": [
+      "p4brCLJlqrU",
+      "xj9UxQ0W0hI"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 22,
+    "iso_n3": "392",
+    "city": "東京",
+    "lat": 35.68,
+    "lng": 139.77,
+    "arrived": "2021-04-08",
+    "departed": "2021-04-08",
+    "video_ids": [
+      "i3jsO7LB1Us"
+    ]
+  },
+  {
+    "series_id": "japan-hokkaido",
+    "seq": 23,
+    "iso_n3": "392",
+    "city": "北海道",
+    "lat": 43.06,
+    "lng": 141.35,
+    "arrived": "2021-04-15",
+    "departed": "2021-04-15",
+    "video_ids": [
+      "3eBwMKEvYjc"
+    ]
   }
 ]
