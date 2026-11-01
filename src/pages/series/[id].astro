@@ -15,7 +15,7 @@ export function getStaticPaths() {
 interface Props { series: Series }
 const { series: se } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const seriesUrl = (id: string) => `${base}/series/${id}/`;
+const seriesUrl = (id: string, iso?: string) => `${base}/series/${id}/${iso ? `#c-${iso}` : ''}`;
 const sm = seriesSummary(se);
 const i = allSeries.findIndex((s) => s.id === se.id);
 const prev = allSeries[i - 1], next = allSeries[i + 1];
@@ -39,6 +39,8 @@ const jsonLd = [
     itemListElement: [...sm.stops.flatMap((x) => x.videos), ...sm.others].map((v, k) => ({ '@type': 'ListItem', position: k + 1, name: v.title, url: youtubeUrl(v.video_id) })),
   },
 ];
+// 国ごとの最初の滞在は id を c-<国コード> にする（ホームの訪問国一覧などから #c-<国コード> でここへ飛ぶ）
+const groupId = (s: (typeof sm.stops)[number], k: number) => (sm.stops.findIndex((x) => x.iso_n3 === s.iso_n3) === k ? `c-${s.iso_n3}` : `vg-${s.seq}`);
 const range = (a: string | null, b: string | null) => (a ? (ym(a) === ym(b) || !b ? ym(a) : `${ym(a)} – ${ym(b)}`) : '');
 
 // 吹き出しの中身（国ごと）。シリーズ内の国はそのシリーズの動画、別シリーズの国はその国の全動画
@@ -70,8 +72,8 @@ const bubbles = [...visited].map((iso) => {
 
   <section class="box" style={`--focus:${seriesColor(se.id)}`}>
     <h2>動画（訪問順）</h2>
-    {sm.stops.map((s) => (
-      <div class="vgroup" id={`vg-${s.seq}`} data-iso={s.iso_n3}>
+    {sm.stops.map((s, k) => (
+      <div class="vgroup" id={groupId(s, k)} data-iso={s.iso_n3}>
         <h3>
           <span class="cn"><span class="seq">{s.seq}</span><Flag iso={s.iso_n3} />{s.name}</span>
           <small>{s.city && <span class="city">{s.city} ・ </span>}{range(s.arrived, s.departed)} ・ {s.videos.length}本</small>
@@ -107,7 +109,7 @@ const bubbles = [...visited].map((iso) => {
         </ul>
         {b.inSeries
           ? <button type="button" class="bl" data-jump={b.iso}>下の動画リストで見る ↓</button>
-          : b.other && <a class="bl" href={seriesUrl(b.other.id)}>{b.other.name}を見る →</a>}
+          : b.other && <a class="bl" href={seriesUrl(b.other.id, b.iso)}>{b.other.name}を見る →</a>}
       </div>
     </template>
   ))}
@@ -156,6 +158,13 @@ const bubbles = [...visited].map((iso) => {
   });
   // ダブルクリックで拡大すると吹き出しの位置がずれるので閉じる
   card.addEventListener('dblclick', close);
+  // #c-<国コード> 付きで開かれたら、その国の動画を目立たせ、地図でも選ぶ
+  const target = location.hash.startsWith('#c-') ? document.getElementById(location.hash.slice(1)) : null;
+  const group = target?.classList.contains('vgroup') ? target : null;
+  if (group) {
+    map.select(group.dataset.iso!);
+    group.classList.add('flash');
+  }
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && card.querySelector('.bubble')) close();
   });

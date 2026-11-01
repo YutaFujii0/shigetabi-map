@@ -176,7 +176,7 @@ img { max-width: 100%; display: block; }
 .vgroup h3 .cn { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .vgroup h3 small { font: 500 11px var(--f-num); color: var(--muted); }
 .vgroup h3 .city { font-family: var(--f-body); }
-.vgroup.flash { animation: flash 1.2s; }
+.vgroup.flash { animation: flash 2s; }
 @keyframes flash { 0% { background: color-mix(in srgb, var(--visited) 25%, transparent); } 100% { background: transparent; } }
 .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
 .pn a { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 12px; color: var(--muted); text-decoration: none; }

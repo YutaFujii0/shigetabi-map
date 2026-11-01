@@ -14,7 +14,7 @@ import {
 } from '../lib/data';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const seriesUrl = (id: string) => `${base}/series/${id}/`;
+const seriesUrl = (id: string, iso?: string) => `${base}/series/${id}/${iso ? `#c-${iso}` : ''}`;
 const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : null;
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
@@ -69,7 +69,7 @@ const jsonLd = [
               <div>動画 <b>{vs.length}本</b></div>
             </div>
             <ul class="vlist">{vs.map((v) => <VideoItem video={v} />)}</ul>
-            {ss.map((x) => <a class="serieslink" href={seriesUrl(x.id)}>{x.name}のルートと全動画 <span>→</span></a>)}
+            {ss.map((x) => <a class="serieslink" href={seriesUrl(x.id, iso)}>{x.name}のルートと全動画 <span>→</span></a>)}
           </div>
         );
       })}
@@ -118,7 +118,7 @@ const jsonLd = [
     <ol class="countries">
       {visitedList.map((c) => (
         <li>
-          {c.series[0] ? <a href={seriesUrl(c.series.at(-1)!.id)}><Flag iso={c.iso} />{c.name}</a> : <span><Flag iso={c.iso} />{c.name}</span>}
+          {c.series[0] ? <a href={seriesUrl(c.series.at(-1)!.id, c.iso)}><Flag iso={c.iso} />{c.name}</a> : <span><Flag iso={c.iso} />{c.name}</span>}
           <small>{ym(c.since)}{!c.isCountry && '・地域'}</small>
         </li>
       ))}
