@@ -71,6 +71,12 @@ API の消費は 1回あたり「再生リストのページ数＋動画数/50�
 - `sitemap-index.xml` は `@astrojs/sitemap` がビルド時に作る。`public/robots.txt` から参照
 - OGP 画像は地図の見た目を変えたら作り直す（画像に数字は入れていない）
 
+## Lighthouse（CI）
+
+`.github/workflows/lighthouse.yml` が PR と `main` への push のたびに、ビルドしたサイト（ホーム・アジア編・北海道編）を Lighthouse で3回ずつ計測する。基準（`lighthouserc.json`）：パフォーマンス 80・アクセシビリティ 95・SEO 95 を下回ったら失敗、ベストプラクティスは警告のみ（Instagram の埋め込みが Cookie の警告を出すため）。レポートは Actions の Artifacts（lighthouse-report）に保存される。
+
+パフォーマンスのための工夫：シリーズカードのミニ地図はビルド時に SVG 画像（`/minimaps/<id>.svg`）として書き出して遅延読み込み、国旗は使うものだけを画像で遅延読み込み、CSS は HTML に埋め込み、Web フォントと Instagram の埋め込みは描画を止めないよう後から読み込む、最新の動画のサムネイル（LCP）は先読みする。
+
 ## 注意
 
 - 非公式ファンサイトであることをヘッダーとフッターに明記している。公開前に本人（運営）へ一声かけるのが望ましい

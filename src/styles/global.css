@@ -148,8 +148,7 @@ img { max-width: 100%; display: block; }
 .scard { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; min-width: 0; text-decoration: none; transition: transform 0.15s, border-color 0.15s; }
 .scard:hover { transform: translateY(-2px); border-color: var(--muted); }
 @media (prefers-reduced-motion: reduce) { .scard:hover { transform: none; } }
-.scard svg { display: block; width: 100%; aspect-ratio: 16 / 8; background: var(--sea); }
-.mini .c { stroke-width: 0.4; }
+.scard .mini { display: block; width: 100%; height: auto; aspect-ratio: 16 / 8; object-fit: cover; background: var(--sea); }
 .scard .bd { padding: 12px 14px; display: grid; gap: 2px; }
 .scard .nm { font-weight: 700; font-size: 17px; line-height: 1.3; display: flex; align-items: center; gap: 8px; }
 .scard .nm .season { font-size: 12px; font-weight: 500; color: var(--muted); }
@@ -179,7 +178,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* 国旗 */
-.flag { flex: none; width: 1.333em; line-height: 1em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08); vertical-align: -0.1em; }
+.flag { flex: none; display: inline-block; width: 1.333em; height: 1em; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08); vertical-align: -0.1em; }
 .t .flag { margin: 0 0.2em; }
 
 /* ===== series page ===== */
@@ -191,7 +190,7 @@ img { max-width: 100%; display: block; }
 .sp-meta b { display: block; font-family: var(--f-num); font-weight: 700; font-size: 20px; color: var(--ink); font-variant-numeric: tabular-nums; }
 .box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; min-width: 0; margin-top: 16px; }
 .box > h2 { font-size: 12px; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 12px; }
-.seq { width: 22px; height: 22px; border-radius: 50%; background: var(--focus, var(--accent)); color: var(--surface); display: inline-grid; place-items: center; font: 500 10px var(--f-num); flex: none; }
+.seq { width: 22px; height: 22px; border-radius: 50%; /* 白い数字が読めるよう、シリーズの色を暗くする（コントラスト 4.5 以上） */ background: color-mix(in srgb, var(--focus, var(--accent)) 60%, #000); color: var(--surface); display: inline-grid; place-items: center; font: 500 10px var(--f-num); flex: none; }
 .vgroup { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 16px; align-items: start; scroll-margin-top: 12px; border-radius: 8px; }
 .vgroup + .vgroup { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
 .vgroup h3 { font-size: 16px; display: flex; flex-direction: column; gap: 2px; position: sticky; top: 12px; }

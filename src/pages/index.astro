@@ -15,6 +15,8 @@ import {
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const seriesUrl = (id: string, iso?: string) => `${base}/series/${id}/${iso ? `#c-${iso}` : ''}`;
+// 最新の動画のサムネイル（ページで一番大きく表示される画像）は先読みする
+const latestThumb = latestVideo.thumbnail ?? (latestVideo.video_id.startsWith('sample') ? undefined : `https://i.ytimg.com/vi/${latestVideo.video_id}/mqdefault.jpg`);
 const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : null;
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
@@ -33,7 +35,7 @@ const jsonLd = [
   },
 ];
 ---
-<Base home description={description} jsonLd={jsonLd}>
+<Base home description={description} jsonLd={jsonLd} preloadImage={latestThumb}>
   <div class="main">
     <WorldMap id="homemap" route={recentStops} routeLabel="直近5か国のルート" marker fillWidth fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow}>
       <!-- スマホ：国をタップしても自動ではスクロールせず、この案内から動画一覧へ移る -->
@@ -46,7 +48,7 @@ const jsonLd = [
       <div data-panel="latest">
         <div class="eyebrow">最新の動画</div>
         <a class="lv" href={youtubeUrl(latestVideo.video_id)} target="_blank" rel="noopener">
-          <Thumb video={latestVideo} />
+          <Thumb video={latestVideo} priority />
           <div class="bd">
             <div class="sr"><i class="sw outline"></i>{latestNames}{latestSeries && ` ・ ${latestSeries.name}`}</div>
             <div class="t"><Title title={latestVideo.title} /></div>
@@ -103,7 +105,26 @@ const jsonLd = [
       <blockquote class="instagram-media" data-instgrm-permalink={site.instagram_url} data-instgrm-version="14">
         <a href={site.instagram_url} target="_blank" rel="noopener">Instagram で @{site.instagram_account} を見る</a>
       </blockquote>
-      <script is:inline async src="https://www.instagram.com/embed.js"></script>
+      {/* 埋め込みは重い（CSS・画像・JS で 1MB 超）ので、ページの読み込みが終わって手が空いてから読み込む */}
+      <script is:inline>
+        addEventListener('load', () => {
+          const go = () => {
+            const s = document.createElement('script');
+            s.src = 'https://www.instagram.com/embed.js';
+            s.async = true;
+            document.body.appendChild(s);
+          };
+          'requestIdleCallback' in window ? requestIdleCallback(go, { timeout: 3000 }) : setTimeout(go, 1500);
+          // 埋め込みの iframe にタイトルを付ける（アクセシビリティ）
+          new MutationObserver((_, ob) => {
+            const f = document.querySelector('.igwrap iframe');
+            if (f) {
+              f.title = 'Instagram @shigehiroyama';
+              ob.disconnect();
+            }
+          }).observe(document.querySelector('.igwrap'), { childList: true, subtree: true });
+        });
+      </script>
     </div>
     </div>
   </div>
@@ -127,7 +148,7 @@ const jsonLd = [
           const season = seasonOf(se.id);
           return (
             <a class="scard" href={seriesUrl(se.id)}>
-              <MiniMap stops={sm.stops} seriesId={se.id} />
+              <MiniMap seriesId={se.id} />
               <div class="bd">
                 <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}{season && <span class="season">シーズン{season}</span>}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
                 <div class="pd">{seriesPeriod(se)} ・ {se.group === 'japan' ? `${sm.stops.length}か所` : `${sm.countryCount}か国`} ・ 動画{sm.videoCount}本</div>

@@ -8,5 +8,9 @@ export default defineConfig({
   site: process.env.SITE_URL ?? 'https://r-u-all-traveling.com',
   base: process.env.BASE_PATH ?? '/',
   trailingSlash: 'ignore',
+  // CSS は小さいので HTML に埋め込み、描画を止めないようにする
+  build: { inlineStylesheets: 'always' },
   integrations: [sitemap()],
+  // 国旗などの画像を HTML に埋め込まない（同じ国旗が何度も出るので、ファイルにしてキャッシュさせる）
+  vite: { build: { assetsInlineLimit: 0 } },
 });

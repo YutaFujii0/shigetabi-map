@@ -1,7 +1,10 @@
 ---
-// 国旗は SVG（flag-icons）。絵文字は Windows で国旗として表示されないので使わない
+// 国旗は SVG（flag-icons の画像）。絵文字は Windows で国旗として表示されないので使わない。
+// 全部入りの CSS は重いので読み込まず、使う国旗の画像だけを <img> で遅延読み込みする
 import { countryA2 } from '../lib/data';
 interface Props { iso?: string; a2?: string }
+const FLAGS = import.meta.glob<string>('/node_modules/flag-icons/flags/4x3/*.svg', { eager: true, query: '?url', import: 'default' });
 const a2 = (Astro.props.a2 ?? (Astro.props.iso ? countryA2(Astro.props.iso) : undefined))?.toLowerCase();
+const src = a2 ? FLAGS[`/node_modules/flag-icons/flags/4x3/${a2}.svg`] : undefined;
 ---
-{a2 && <span class={`flag fi fi-${a2}`} aria-hidden="true"></span>}
+{src && <img class="flag" src={src} alt="" width="20" height="15" loading="lazy" decoding="async" />}
