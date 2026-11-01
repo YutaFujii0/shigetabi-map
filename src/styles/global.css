@@ -12,7 +12,7 @@
   color-scheme: light;
 }
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.7; }
 h1, h2, h3, h4 { margin: 0; text-wrap: balance; }
 button { font: inherit; color: inherit; cursor: pointer; }
@@ -179,6 +179,11 @@ img { max-width: 100%; display: block; }
 .bubble .bl:hover { background: var(--line); }
 
 /* ===== responsive ===== */
+/* PC：ホームの地図と最新の動画は画面の横幅いっぱいに広げる。地図の高さは画面に収まるよう上限を付ける（はみ出た分は南北を切る） */
+@media (min-width: 1021px) {
+  .main { margin-inline: calc(50% - 50vw + 24px); grid-template-columns: minmax(0, 1fr) 380px; }
+  .main .mapcard > svg { aspect-ratio: auto; height: clamp(440px, calc((100vw - 48px - 380px - 16px) * 0.52), calc(100vh - 110px)); }
+}
 @media (min-width: 761px) and (max-width: 1020px) {
   .main { grid-template-columns: minmax(0, 1fr) 300px; }
   .series { grid-template-columns: repeat(2, minmax(0, 1fr)); }
