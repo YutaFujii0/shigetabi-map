@@ -81,5 +81,14 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
         <p>アクセス解析のため Google アナリティクスを使用しています（Cookie で匿名のアクセス情報を収集します）。</p>
       </footer>
     </div>
+    <script>
+      // スマホ（タッチ操作の端末）では YouTube のリンクを同じタブで開く。
+      // 新しいタブ（target="_blank"）だと iOS Safari でユニバーサルリンクが効かず、YouTube アプリが開かないため。
+      // シリーズページの吹き出しは <template> から複製するので、その中身も書き換える
+      if (matchMedia('(pointer: coarse)').matches) {
+        const roots: ParentNode[] = [document, ...[...document.querySelectorAll('template')].map((t) => t.content)];
+        for (const root of roots) root.querySelectorAll('a[href^="https://www.youtube.com/"]').forEach((a) => a.removeAttribute('target'));
+      }
+    </script>
   </body>
 </html>
