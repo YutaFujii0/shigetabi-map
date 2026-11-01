@@ -57,6 +57,10 @@ export const COUNTRY_SHAPES: CountryShape[] = features.map((f) => {
 
 const byId = new Map(features.map((f) => [String(f.id), f]));
 
+/** 日本だけは 50m の細かい形（沖縄・伊豆諸島・小笠原などの島を含む）。ページに1回だけ定義し、地図からは <use> で参照する */
+const japan50 = load(world50).find((f) => String(f.id) === '392');
+export const JAPAN_FINE_D = japan50 ? (finePath(japan50) ?? '') : '';
+
 export function project(lng: number, lat: number): Pt {
   const p = projection([lng, lat]) ?? [0, 0];
   return { x: Math.round(p[0] * 10) / 10, y: Math.round(p[1] * 10) / 10 };
@@ -117,6 +121,12 @@ export function bbox(pts: Pt[], pad: number): Box {
     y1 = Math.max(y1, p.y);
   }
   return { x: x0 - pad, y: y0 - pad, w: x1 - x0 + 2 * pad, h: y1 - y0 + 2 * pad };
+}
+
+/** 範囲の大きさに比例した余白で囲む（狭い範囲のシリーズほど拡大される） */
+export function fitBox(pts: Pt[], ratio: number, min: number): Box {
+  const b = bbox(pts, 0);
+  return bbox(pts, Math.max(min, Math.max(b.w, b.h) * ratio));
 }
 
 export const intersects = (a: Box, b: Box) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;

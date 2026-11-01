@@ -87,7 +87,9 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     <rect x="-3000" y="-3000" width="7000" height="7000" fill="transparent"></rect>
     <g class="gW" id={`${id}-world`}>
     <g class="gC">
-      {COUNTRY_SHAPES.map((c) => <path class={cls(c.id)} data-id={c.id} d={c.d}></path>)}
+      {COUNTRY_SHAPES.map((c) =>
+        c.id === JAPAN ? <use href="#jp-fine" class={cls(c.id)} data-id={c.id}></use> : <path class={cls(c.id)} data-id={c.id} d={c.d}></path>,
+      )}
       {dots.map((d) => <circle class={`${cls(d.id)} dot`} data-id={d.id} data-size={d.size.toFixed(2)} cx={d.at.x} cy={d.at.y} r="1.5"></circle>)}
     </g>
     <g class="gR">
@@ -119,7 +121,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
   <div class="maplegend">
     {focusSeries ? (
       <>
-        <span><i class="sw" style={`background:${seriesColor(focusSeries)}`}></i>{getSeries(focusSeries).name}の国</span>
+        {getSeries(focusSeries).group !== 'japan' && <span><i class="sw" style={`background:${seriesColor(focusSeries)}`}></i>{getSeries(focusSeries).name}の国</span>}
         <span><i class="sw" style="background:var(--visited-dim)"></i>ほかのシリーズで行った国</span>
       </>
     ) : (

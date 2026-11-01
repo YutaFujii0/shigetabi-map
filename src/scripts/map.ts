@@ -157,7 +157,7 @@ export function initMap(card: HTMLElement): MapController {
   );
 
   /** ポインタ下の国。複製（<use>）の上なら、ずらした分を戻して元の国を探す */
-  const paths = [...gC.querySelectorAll<SVGGeometryElement>('[data-id]')];
+  const paths = [...gC.querySelectorAll('[data-id]')].filter((el): el is SVGGeometryElement => el instanceof SVGGeometryElement);
   function countryAt(e: MouseEvent): string | undefined {
     const t = e.target as SVGElement;
     if (t.dataset?.id) return t.dataset.id;

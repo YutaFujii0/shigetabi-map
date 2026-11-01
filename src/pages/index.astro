@@ -130,8 +130,8 @@ const jsonLd = [
               <MiniMap stops={sm.stops} seriesId={se.id} />
               <div class="bd">
                 <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}{season && <span class="season">シーズン{season}</span>}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
-                <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
-                <div class="cs">{sm.countryNames.join(' → ')}</div>
+                <div class="pd">{seriesPeriod(se)} ・ {se.group === 'japan' ? `${sm.stops.length}か所` : `${sm.countryCount}か国`} ・ 動画{sm.videoCount}本</div>
+                <div class="cs">{(se.group === 'japan' ? sm.stops.map((x) => x.city ?? '').filter((c, i, a) => c && c !== a[i - 1]) : sm.countryNames).join(' → ')}</div>
               </div>
             </a>
           );

@@ -4,7 +4,7 @@ import WorldMap from '../../components/WorldMap.astro';
 import VideoItem from '../../components/VideoItem.astro';
 import Title from '../../components/Title.astro';
 import Flag from '../../components/Flag.astro';
-import { bbox, unwrap } from '../../lib/geo';
+import { fitBox, unwrap } from '../../lib/geo';
 import {
   allSeries, visited, countryName, seriesColor, seriesInGroup, seasonOf, videosByCountry, lastStopIn, seriesSummary, getSeries, ym, youtubeUrl, type Series,
 } from '../../lib/data';
@@ -63,13 +63,13 @@ const bubbles = [...visited].map((iso) => {
     </div>
     <div class="sp-meta">
       <div><b>{ym(se.started)}</b>出発</div>
-      <div><b>{sm.countryCount}</b>か国</div>
+      {se.group === 'japan' ? <div><b>{sm.stops.length}</b>か所</div> : <div><b>{sm.countryCount}</b>か国</div>}
       <div><b>{sm.videoCount}</b>本の動画</div>
     </div>
   </div>
 
   <div class="seriesmap">
-    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} routeLabel="ルート（番号は訪問順）" numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
+    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} routeLabel="ルート（番号は訪問順）" numbered fit={fitBox(unwrap(sm.stops), 0.25, 6)} fitNarrow={fitBox(unwrap(sm.stops), 0.2, 4)} />
   </div>
 
   <section class="box" style={`--focus:${seriesColor(se.id)}`}>

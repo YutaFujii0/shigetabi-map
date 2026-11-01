@@ -2,6 +2,7 @@
 import 'flag-icons/css/flag-icons.min.css';
 import '../styles/global.css';
 import { visitedCountryCount, countriesWithVideos, officialTally, RECOGNIZED, allSeries, seriesColor, site } from '../lib/data';
+import { JAPAN_FINE_D } from '../lib/geo';
 interface Props {
   /** ページの <title>（サイト名は後ろに付ける）。無ければホームのタイトル */
   title?: string;
@@ -68,6 +69,7 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
         <radialGradient id="auraG"><stop offset="0" stop-color="#FF4F8B" stop-opacity=".9"></stop><stop offset=".55" stop-color="#7B5CFF" stop-opacity=".35"></stop><stop offset="1" stop-color="#7B5CFF" stop-opacity="0"></stop></radialGradient>
         <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD34D"></stop><stop offset=".5" stop-color="#FF4F8B"></stop><stop offset="1" stop-color="#7B5CFF"></stop></linearGradient>
         <linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD34D"></stop><stop offset="1" stop-color="#FF4F8B"></stop></linearGradient>
+        <path id="jp-fine" d={JAPAN_FINE_D} vector-effect="non-scaling-stroke"></path>
       </defs>
     </svg>
     <div class="wrap">
