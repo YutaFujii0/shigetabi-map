@@ -154,5 +154,12 @@
       ]
     }
   },
-  "series": {}
+  "series": {
+    "europe": {
+      "ended": "2026-08"
+    },
+    "africa": {
+      "ended": null
+    }
+  }
 }
