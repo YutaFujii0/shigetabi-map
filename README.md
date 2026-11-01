@@ -9,7 +9,7 @@
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321/sigetabi-map/
+npm run dev      # http://localhost:4321/shigetabi-map/
 npm run build    # dist/ に静的ファイルを出力
 npm run preview
 ```
@@ -62,7 +62,7 @@ API の消費は 1回あたり「再生リストのページ数＋動画数/50�
 
 `main` に push すると `.github/workflows/deploy.yml` がビルドして GitHub Pages に公開する。リポジトリの Settings → Pages → Source を **GitHub Actions** にしておくこと。
 
-`astro.config.mjs` の `base` は `/sigetabi-map`。独自ドメインにする場合は `SITE_URL` と `BASE_PATH=/` を設定してビルドする。
+`astro.config.mjs` の `base` は `/shigetabi-map`。独自ドメインにする場合は `SITE_URL` と `BASE_PATH=/` を設定してビルドする。
 
 ## 注意
 

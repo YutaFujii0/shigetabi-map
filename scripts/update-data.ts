@@ -75,7 +75,7 @@ async function videoDetails(ids: string[]) {
 async function geocode(city: string, a2: string): Promise<City | null> {
   const qs = new URLSearchParams({ q: city, countrycodes: a2.toLowerCase(), format: 'json', limit: '1', 'accept-language': 'ja' });
   const res = await fetch(`https://nominatim.openstreetmap.org/search?${qs}`, {
-    headers: { 'User-Agent': 'sigetabi-map data updater (https://github.com/YutaFujii0/sigetabi-map)' },
+    headers: { 'User-Agent': 'shigetabi-map data updater (https://github.com/YutaFujii0/shigetabi-map)' },
   });
   await sleep(1100); // Nominatim の利用規約：1秒に1回まで
   if (!res.ok) return null;
