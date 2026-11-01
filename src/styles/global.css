@@ -151,10 +151,13 @@ img { max-width: 100%; display: block; }
 
 /* シリーズのタブ */
 .tabs { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 1px solid var(--line); }
-.tabs [role="tab"] { border: 0; background: none; padding: 8px 14px 10px; font-size: 18px; font-weight: 700; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.tabs [role="tab"] { display: inline-flex; align-items: center; gap: 8px; border: 0; background: none; padding: 8px 14px 10px; font-size: 18px; font-weight: 700; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.tab-ico { display: inline-flex; align-items: center; font-size: 1.05em; line-height: 1; }
+.tab-ico .flag { width: 1.25em; height: 0.94em; }
 .tabs [role="tab"][aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 .tabs [role="tab"]:hover { color: var(--ink); }
-@media (max-width: 760px) { .tabs [role="tab"] { font-size: 15px; padding: 8px 10px; } }
+@media (max-width: 760px) { .tabs { overflow-x: auto; scrollbar-width: none; } .tabs [role="tab"] { font-size: 13px; padding: 8px 6px; gap: 4px; white-space: nowrap; } .tabs { gap: 2px; } }
+@media (max-width: 380px) { .tabs [role="tab"] { font-size: 12px; padding: 8px 4px; gap: 3px; } }
 
 /* シリーズ一覧 */
 .series { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }

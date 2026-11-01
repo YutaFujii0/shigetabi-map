@@ -141,9 +141,9 @@ const jsonLd = [
   <section class="sec">
     {/* 「旅のシリーズ」と「ワールドカップ編」をタブで切り替える */}
     <div class="tabs" role="tablist" aria-label="シリーズの種類">
-      <button type="button" role="tab" id="tab-travel" aria-controls="tp-travel" aria-selected="true">旅のシリーズ</button>
-      {worldcupSeries.length > 0 && <button type="button" role="tab" id="tab-worldcup" aria-controls="tp-worldcup" aria-selected="false" tabindex="-1">ワールドカップ編 🏆</button>}
-      {japanSeries.length > 0 && <button type="button" role="tab" id="tab-japan" aria-controls="tp-japan" aria-selected="false" tabindex="-1">日本国内編</button>}
+      <button type="button" role="tab" id="tab-travel" aria-controls="tp-travel" aria-selected="true"><span class="tab-ico" aria-hidden="true">🌍</span>旅のシリーズ</button>
+      {worldcupSeries.length > 0 && <button type="button" role="tab" id="tab-worldcup" aria-controls="tp-worldcup" aria-selected="false" tabindex="-1"><span class="tab-ico" aria-hidden="true">🏆</span>ワールドカップ編</button>}
+      {japanSeries.length > 0 && <button type="button" role="tab" id="tab-japan" aria-controls="tp-japan" aria-selected="false" tabindex="-1"><span class="tab-ico"><Flag iso={JAPAN} /></span>日本国内編</button>}
     </div>
     {[
       { key: 'travel', list: travelSeries },
