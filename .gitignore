@@ -6,3 +6,4 @@ dist/
 scripts/out/
 lhci-report/
 .lighthouseci/
+.check-site/

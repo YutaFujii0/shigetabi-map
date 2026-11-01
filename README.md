@@ -12,7 +12,10 @@ npm install
 npm run dev      # http://localhost:4321/
 npm run build    # dist/ に静的ファイルを出力
 npm run preview
+npm run check:site   # ビルド済みサイトを実ブラウザ（Chrome）で開き、表示・操作・レイアウトを確認（.check-site/ にスクリーンショット）
 ```
+
+push 前後の確認手順は `.claude/skills/verify-before-push/SKILL.md` にまとめてある。
 
 Astro（静的出力）＋ d3-geo / world-atlas（Natural Earth 110m）。地図の投影と国境パスはビルド時に計算して SVG に埋め込み、ブラウザ側はズーム・ドラッグ・クリックだけを担当する（`src/scripts/map.ts`）。
 
