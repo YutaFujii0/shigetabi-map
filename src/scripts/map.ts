@@ -2,7 +2,7 @@
 // 国をクリックすると mapcard 要素に `map:pick` イベント（detail: { id, x, y }）を発火する
 const W = 1000,
   H = 520,
-  MAX_K = 8;
+  MAX_K = 40;
 
 export const isNarrow = () => matchMedia('(max-width: 760px)').matches;
 
@@ -22,6 +22,7 @@ export function initMap(card: HTMLElement): MapController {
   const tip = card.querySelector<HTMLElement>('.tip')!;
   const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
   const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
+  const dots = [...gC.querySelectorAll<SVGCircleElement>('circle.dot')];
   const routes = [...gR.querySelectorAll<SVGPathElement>('.rt')];
   let view = { cx: W / 2, cy: H / 2, k: 1 };
 
@@ -41,11 +42,17 @@ export function initMap(card: HTMLElement): MapController {
     view.cx = ((view.cx % W) + W) % W;
     view.cy = h >= H ? H / 2 : Math.min(Math.max(view.cy, h / 2), H - h / 2);
     svg.setAttribute('viewBox', `${view.cx - w / 2} ${view.cy - h / 2} ${w} ${h}`);
-    // ズームしても印や線の見た目の大きさがあまり変わらないようにする
-    const s = Math.min(1, 1.6 / Math.sqrt(view.k));
+    // 印・線・小さな国の点は、拡大しても画面上の大きさがほぼ一定になるようにする
+    const s = Math.min(1, 2.5 / view.k);
     for (const g of scaled) g.setAttribute('transform', `translate(${g.dataset.sx},${g.dataset.sy}) scale(${s})`);
     for (const p of routes) p.style.strokeWidth = String(1.3 * s);
-    gC.style.strokeWidth = String(0.6 / view.k);
+    const px = svg.getBoundingClientRect().width / w || 1; // 地図の 1 単位が何 px か
+    for (const d of dots) {
+      // 形が十分大きく見えるようになったら点は消す。点はタップしやすいよう半径 6px 前後
+      const hide = Number(d.dataset.size) * px > 18;
+      d.style.display = hide ? 'none' : '';
+      d.setAttribute('r', String(6 / px));
+    }
     card.classList.toggle('zoomed', view.k > 1.01);
   }
   function fit(b: { x: number; y: number; w: number; h: number }) {
@@ -142,7 +149,7 @@ export function initMap(card: HTMLElement): MapController {
   );
 
   /** ポインタ下の国。複製（<use>）の上なら、ずらした分を戻して元の国を探す */
-  const paths = [...gC.querySelectorAll<SVGPathElement>('path[data-id]')];
+  const paths = [...gC.querySelectorAll<SVGGeometryElement>('[data-id]')];
   function countryAt(e: MouseEvent): string | undefined {
     const t = e.target as SVGElement;
     if (t.dataset?.id) return t.dataset.id;
@@ -202,11 +209,11 @@ export function initMap(card: HTMLElement): MapController {
     select(id) {
       gC.querySelectorAll('.sel').forEach((p) => p.classList.remove('sel'));
       if (!id) return;
-      const p = gC.querySelector(`[data-id="${CSS.escape(id)}"]`);
-      if (p) {
-        p.classList.add('sel');
-        gC.appendChild(p); // 枠線が隣の国に隠れないよう最前面へ
-      }
+      // 枠線が隣の国に隠れないよう最前面へ。小さな国の点はさらにその上に
+      const els = [...gC.querySelectorAll(`[data-id="${CSS.escape(id)}"]`)];
+      els.forEach((p) => p.classList.add('sel'));
+      els.filter((p) => p.tagName === 'path').forEach((p) => gC.appendChild(p));
+      dots.forEach((d) => gC.appendChild(d));
     },
   };
 }

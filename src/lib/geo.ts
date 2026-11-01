@@ -4,6 +4,7 @@ import { feature } from 'topojson-client';
 import type { Feature, FeatureCollection, Geometry } from 'geojson';
 import type { Topology, GeometryCollection } from 'topojson-specification';
 import world from 'world-atlas/countries-110m.json';
+import world50 from 'world-atlas/countries-50m.json';
 
 export const W = 1000;
 export const H = 520;
@@ -11,28 +12,47 @@ export const H = 520;
 export type Pt = { x: number; y: number };
 export type Box = { x: number; y: number; w: number; h: number };
 
-const topo = world as unknown as Topology<{ countries: GeometryCollection<{ name: string }> }>;
-const fc = feature(topo, topo.objects.countries) as FeatureCollection<Geometry, { name: string }>;
+type Topo = Topology<{ countries: GeometryCollection<{ name: string }> }>;
 // 南極は表示しない。id が無い地域は名前で識別する（コソボだけは ISO の暫定コード 983 を使う）
 const NO_ID: Record<string, string> = { Kosovo: '983' };
-const features = fc.features
-  .filter((f) => f.id !== '010')
-  .map((f) => ({ ...f, id: (f.id as string | undefined) ?? NO_ID[f.properties.name] ?? `x-${f.properties.name}` })) as Feature<Geometry, { name: string }>[];
+const load = (t: unknown) =>
+  (feature(t as Topo, (t as Topo).objects.countries) as FeatureCollection<Geometry, { name: string }>).features
+    .filter((f) => f.id !== '010')
+    .map((f) => ({ ...f, id: (f.id as string | undefined) ?? NO_ID[f.properties.name] ?? `x-${f.properties.name}` })) as Feature<Geometry, { name: string }>[];
+// 基本は軽い 110m。110m に入っていない小さな国（カリブ海・太平洋の島国、マルタ、シンガポールなど）だけ 50m から足す
+const base = load(world);
+const baseIds = new Set(base.map((f) => String(f.id)));
+const extra = load(world50).filter((f) => !baseIds.has(String(f.id)));
+const features = [...base, ...extra];
 
 const projection = geoNaturalEarth1().fitExtent(
   [
     [4, 4],
     [W - 4, H - 4],
   ],
-  { type: 'FeatureCollection', features },
+  { type: 'FeatureCollection', features: base },
 );
 const path = geoPath(projection).digits(1);
+// 小さな島は拡大して見るので細かめに出す
+const finePath = geoPath(projection).digits(2);
 
-export type CountryShape = { id: string; nameEn: string; d: string; bounds: Box };
+/** 世界全体の表示でこれより小さい国（地図の単位）は、タップできるよう丸い点も重ねる */
+export const SMALL = 4;
+
+export type CountryShape = { id: string; nameEn: string; d: string; bounds: Box; center: Pt; size: number };
 
 export const COUNTRY_SHAPES: CountryShape[] = features.map((f) => {
   const [[x0, y0], [x1, y1]] = path.bounds(f);
-  return { id: String(f.id), nameEn: f.properties.name, d: path(f) ?? '', bounds: { x: x0, y: y0, w: x1 - x0, h: y1 - y0 } };
+  const size = Math.max(x1 - x0, y1 - y0);
+  const [cx, cy] = path.centroid(f);
+  return {
+    id: String(f.id),
+    nameEn: f.properties.name,
+    d: (size < SMALL * 4 ? finePath(f) : path(f)) ?? '',
+    bounds: { x: x0, y: y0, w: x1 - x0, h: y1 - y0 },
+    center: { x: Math.round(cx * 10) / 10, y: Math.round(cy * 10) / 10 },
+    size,
+  };
 });
 
 const byId = new Map(features.map((f) => [String(f.id), f]));
