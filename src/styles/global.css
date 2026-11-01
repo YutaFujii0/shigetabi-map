@@ -77,7 +77,6 @@ img { max-width: 100%; display: block; }
 .maplegend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; flex: none; }
 .sw.outline { background: transparent; box-shadow: inset 0 0 0 2.5px var(--ink); }
-.maplegend .lg-h { font-weight: 700; color: var(--muted); }
 .lg-route { width: 22px; height: 8px; flex: none; }
 .lg-route path { fill: none; stroke: var(--route); stroke-width: 1.6; stroke-dasharray: 3 2.4; }
 .tip { position: absolute; z-index: 4; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 4px 8px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -130%); }
@@ -182,7 +181,7 @@ img { max-width: 100%; display: block; }
 .pn a:hover { border-color: var(--muted); }
 
 /* スマホ：タップした国の案内（地図の下端） */
-.pickchip { position: absolute; left: 50%; bottom: 52px; transform: translateX(-50%); max-width: calc(100% - 24px); border: 0; border-radius: 999px; padding: 8px 16px; background: var(--ink); color: var(--surface); font-size: 13px; font-weight: 700; box-shadow: var(--shadow); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pickchip { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); max-width: calc(100% - 24px); border: 0; border-radius: 999px; padding: 8px 16px; background: var(--ink); color: var(--surface); font-size: 13px; font-weight: 700; box-shadow: var(--shadow); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .pickchip:disabled { opacity: 0.85; cursor: default; }
 @media (min-width: 761px) { .pickchip { display: none; } }
 
@@ -221,8 +220,7 @@ img { max-width: 100%; display: block; }
   .a-head .count { grid-area: count; justify-self: end; margin-left: 0; font-size: 11px; gap: 4px; }
   .count b { font-size: 24px; }
   .count .of { font-size: 13px; margin-left: -2px; }
-  /* スマホの凡例は1行にして横にスクロール */
-  .maplegend { bottom: 10px; left: 10px; right: 10px; font-size: 11px; max-width: none; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .maplegend { bottom: 10px; left: 10px; font-size: 11px; max-width: calc(100% - 20px); gap: 2px 10px; padding: 5px 8px; }
   .mapctl { top: 10px; right: 10px; }
   .mapctl button { width: 40px; height: 40px; }
   .panel { position: static; }

@@ -25,6 +25,9 @@ interface Props {
 }
 const { id, route: rawRoute, numbered = false, routeLabel, marker = false, fit, fitNarrow, focusSeries } = Astro.props;
 const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
+// 凡例の「行った国」は、シリーズの色を全部入れた四角1つで表す
+const cols = allSeries.map((x) => seriesColor(x.id));
+const multiColor = `conic-gradient(${cols.map((c, i) => `${c} ${(i * 100) / cols.length}% ${((i + 1) * 100) / cols.length}%`).join(', ')})`;
 // 地図は左右に複製してあり、横に何周でも回せる（src/scripts/map.ts）。
 // シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描く
 const route = numbered ? unwrap(rawRoute) : rawRoute;
@@ -114,10 +117,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
         <span><i class="sw" style="background:var(--visited-dim)"></i>ほかのシリーズで行った国</span>
       </>
     ) : (
-      <>
-        <span class="lg-h">旅のシリーズ</span>
-        {allSeries.map((x) => <span><i class="sw" style={`background:${seriesColor(x.id)}`}></i>{x.name.replace(/編$/, '')}</span>)}
-      </>
+      <span><i class="sw" style={`background:${multiColor}`}></i>行った国（色は旅のシリーズ）</span>
     )}
     {routeLabel && (
       <span><svg class="lg-route" viewBox="0 0 22 8" aria-hidden="true"><path d="M1 6 Q11 0 21 6"></path></svg>{routeLabel}</span>
