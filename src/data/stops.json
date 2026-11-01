@@ -1,5 +1,221 @@
 [
   {
+    "series_id": "business-class-2019",
+    "seq": 1,
+    "iso_n3": "484",
+    "city": "メキシコシティ",
+    "lat": 19.43,
+    "lng": -99.13,
+    "arrived": "2019-09-13",
+    "departed": "2019-09-13",
+    "video_ids": [
+      "dC5Zp46XhIA"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 2,
+    "iso_n3": "591",
+    "city": "パナマ運河",
+    "lat": 9.08,
+    "lng": -79.68,
+    "arrived": "2019-09-13",
+    "departed": "2019-09-13",
+    "video_ids": [
+      "DTQz9LV-Z8A"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 3,
+    "iso_n3": "170",
+    "city": "ボゴタ",
+    "lat": 4.61,
+    "lng": -74.08,
+    "arrived": "2019-09-16",
+    "departed": "2019-09-16",
+    "video_ids": [
+      "Xo3Dr_eUnG8",
+      "i9guRJsjR-M",
+      "M6w8UUL4EPM"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 4,
+    "iso_n3": "604",
+    "city": "ペルー",
+    "lat": -12.04,
+    "lng": -77.03,
+    "arrived": "2019-09-25",
+    "departed": "2019-09-25",
+    "video_ids": [
+      "BcIx9fkl3rQ"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 5,
+    "iso_n3": "604",
+    "city": "マチュピチュ",
+    "lat": -13.16,
+    "lng": -72.55,
+    "arrived": "2019-10-02",
+    "departed": "2019-10-02",
+    "video_ids": [
+      "YoQnINV9glo"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 6,
+    "iso_n3": "068",
+    "city": "ウユニ塩湖",
+    "lat": -20.33,
+    "lng": -67.7,
+    "arrived": "2019-10-17",
+    "departed": "2019-10-17",
+    "video_ids": [
+      "53OKxYLl9Og",
+      "JhXXwLVLzc0",
+      "LIBX15OLt_o"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 7,
+    "iso_n3": "068",
+    "city": "ラパス",
+    "lat": -16.5,
+    "lng": -68.13,
+    "arrived": "2019-11-01",
+    "departed": "2019-11-01",
+    "video_ids": [
+      "LGtn19ImrnY"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 8,
+    "iso_n3": "076",
+    "city": "リオデジャネイロ",
+    "lat": -22.91,
+    "lng": -43.2,
+    "arrived": "2019-11-05",
+    "departed": "2019-11-05",
+    "video_ids": [
+      "YWdmm_gy5GM",
+      "D66Fn4-rDoA"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 9,
+    "iso_n3": "076",
+    "city": "サンパウロ",
+    "lat": -23.54,
+    "lng": -46.63,
+    "arrived": "2019-11-11",
+    "departed": "2019-11-11",
+    "video_ids": [
+      "WdLWl0ySrXg",
+      "CJcGZzKFAQo"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 10,
+    "iso_n3": "072",
+    "city": "ボツワナ",
+    "lat": -22.2,
+    "lng": 23.7,
+    "arrived": "2019-11-24",
+    "departed": "2019-11-24",
+    "video_ids": [
+      "wGwc_dg04Ag",
+      "OlNs70HI4vQ"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 11,
+    "iso_n3": "710",
+    "city": "ヨハネスブルグ",
+    "lat": -26.2,
+    "lng": 28.05,
+    "arrived": "2019-12-22",
+    "departed": "2019-12-22",
+    "video_ids": [
+      "NARoJLoSPO4"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 12,
+    "iso_n3": "710",
+    "city": "テーブルマウンテン",
+    "lat": -33.92,
+    "lng": 18.42,
+    "arrived": "2019-12-28",
+    "departed": "2019-12-28",
+    "video_ids": [
+      "l_p6-4VdI4w"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 13,
+    "iso_n3": "710",
+    "city": "ケープタウン",
+    "lat": -33.92,
+    "lng": 18.42,
+    "arrived": "2019-12-30",
+    "departed": "2019-12-30",
+    "video_ids": [
+      "XW8SZKX8AKk"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 14,
+    "iso_n3": "231",
+    "city": "エチオピア",
+    "lat": 8,
+    "lng": 38,
+    "arrived": "2020-01-08",
+    "departed": "2020-01-08",
+    "video_ids": [
+      "rwDbxutuqO4"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 15,
+    "iso_n3": "356",
+    "city": "デリー",
+    "lat": 28.7,
+    "lng": 77.2,
+    "arrived": "2020-01-11",
+    "departed": "2020-01-11",
+    "video_ids": [
+      "6d_suVQAVr4",
+      "w0yhhK0E_cU"
+    ]
+  },
+  {
+    "series_id": "business-class-2019",
+    "seq": 16,
+    "iso_n3": "356",
+    "city": "タージマハル",
+    "lat": 27.17,
+    "lng": 78.04,
+    "arrived": "2020-01-20",
+    "departed": "2020-01-20",
+    "video_ids": [
+      "SxwAKXNqTOw"
+    ]
+  },
+  {
     "series_id": "europe",
     "seq": 1,
     "iso_n3": "826",
