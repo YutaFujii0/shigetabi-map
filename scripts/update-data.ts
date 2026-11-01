@@ -12,6 +12,8 @@ import countries from 'i18n-iso-countries';
 import ja from 'i18n-iso-countries/langs/ja.json' with { type: 'json' };
 import { geoContains } from 'd3-geo';
 import { feature } from 'topojson-client';
+import type { Feature, FeatureCollection } from 'geojson';
+import type { Topology, GeometryCollection } from 'topojson-specification';
 import world from 'world-atlas/countries-50m.json' with { type: 'json' };
 import { parseTitle, namesToA2 } from './lib/parse-title.ts';
 
@@ -83,9 +85,9 @@ const UA = { 'User-Agent': 'shigetabi-map data updater (https://github.com/YutaF
 const round = (n: number) => Math.round(n * 100) / 100;
 
 // 国境の判定用（50m は小さな島国も含む）
-const shapes = new Map(
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (feature(world as any, (world as any).objects.countries) as any).features.map((f: any) => [String(f.id), f]),
+const topo = world as unknown as Topology<{ countries: GeometryCollection }>;
+const shapes = new Map<string, Feature>(
+  (feature(topo, topo.objects.countries) as FeatureCollection).features.map((f) => [String(f.id), f]),
 );
 /** 座標がその国の範囲内か。地図データに無い国は判定できないので通す */
 function inCountry(c: City, n3: string): boolean {
