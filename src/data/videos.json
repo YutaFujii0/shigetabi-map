@@ -1,5 +1,607 @@
 [
   {
+    "video_id": "M7nQEg_4_cU",
+    "title": "ANAビジネスクラスで世界一周に出発する30歳ひとり旅。成田発メキシコシティ【ビジネスクラス世界一周#1】",
+    "published_at": "2019-09-13T09:20:27Z",
+    "duration": "PT8M27S",
+    "series_id": "business-class-2019",
+    "episode": 1,
+    "countries": [],
+    "cities": [],
+    "filmed_at": null,
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/M7nQEg_4_cU/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dC5Zp46XhIA",
+    "title": "メキシコシティ30歳ひとり旅。タコス天国でタコス難民になる愚か者は私です【ビジネスクラス世界一周#2】",
+    "published_at": "2019-09-13T09:21:02Z",
+    "duration": "PT9M48S",
+    "series_id": "business-class-2019",
+    "episode": 2,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "メキシコシティ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/dC5Zp46XhIA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "DTQz9LV-Z8A",
+    "title": "パナマ運河30歳ひとり旅。教科書でしか見たことない運河はこんな感じです【ビジネスクラス世界一周#3】",
+    "published_at": "2019-09-13T09:24:20Z",
+    "duration": "PT12M55S",
+    "series_id": "business-class-2019",
+    "episode": 3,
+    "countries": [
+      "591"
+    ],
+    "cities": [
+      "パナマ運河"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/DTQz9LV-Z8A/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "Xo3Dr_eUnG8",
+    "title": "ボゴタ30歳ひとり旅。コロンビアは美女大国？治安最悪？あなたなら行きたいですか？【ビジネスクラス世界一周#4】",
+    "published_at": "2019-09-16T08:58:26Z",
+    "duration": "PT11M18S",
+    "series_id": "business-class-2019",
+    "episode": 4,
+    "countries": [
+      "170"
+    ],
+    "cities": [
+      "ボゴタ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Xo3Dr_eUnG8/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "i9guRJsjR-M",
+    "title": "ボゴタ30歳ひとり旅。路上で合コン。これがコロンビア流の出会い方です。【ビジネスクラス世界一周#5】",
+    "published_at": "2019-09-18T14:49:50Z",
+    "duration": "PT6M16S",
+    "series_id": "business-class-2019",
+    "episode": 5,
+    "countries": [
+      "170"
+    ],
+    "cities": [
+      "ボゴタ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/i9guRJsjR-M/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "M6w8UUL4EPM",
+    "title": "ボゴタ30歳ひとり旅。コロンビアで飛行機に乗り遅れるとこうなります…【ビジネスクラス世界一周#6】",
+    "published_at": "2019-09-23T03:44:33Z",
+    "duration": "PT9M33S",
+    "series_id": "business-class-2019",
+    "episode": 6,
+    "countries": [
+      "170"
+    ],
+    "cities": [
+      "ボゴタ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/M6w8UUL4EPM/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "BcIx9fkl3rQ",
+    "title": "ペルー30歳ひとり旅。マチュピチュ村はこうやって行きます【ビジネスクラス世界一周#7】",
+    "published_at": "2019-09-25T15:15:36Z",
+    "duration": "PT10M5S",
+    "series_id": "business-class-2019",
+    "episode": 7,
+    "countries": [
+      "604"
+    ],
+    "cities": [
+      "ペルー"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/BcIx9fkl3rQ/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "YoQnINV9glo",
+    "title": "マチュピチュ30歳ひとり旅。ペルーのこんな奥地にあるなんて…こりゃ見つからないわ【ビジネスクラス世界一周#8】",
+    "published_at": "2019-10-02T11:36:49Z",
+    "duration": "PT11M39S",
+    "series_id": "business-class-2019",
+    "episode": 8,
+    "countries": [
+      "604"
+    ],
+    "cities": [
+      "マチュピチュ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/YoQnINV9glo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "XNSDhCFtOlU",
+    "title": "ペルーのマチュピチュからボリビアのウユニへ30歳ひとり旅【ビジネスクラス世界一周#9】",
+    "published_at": "2019-10-13T00:09:27Z",
+    "duration": "PT12M43S",
+    "series_id": "business-class-2019",
+    "episode": 9,
+    "countries": [
+      "604",
+      "068"
+    ],
+    "cities": [
+      "ボリビアのウユニへ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/XNSDhCFtOlU/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "53OKxYLl9Og",
+    "title": "ウユニ塩湖30歳ひとり旅。これが日本人に人気の穂高ツアー（ホダカ）です【ビジネスクラス世界一周#10】",
+    "published_at": "2019-10-17T10:11:39Z",
+    "duration": "PT6M45S",
+    "series_id": "business-class-2019",
+    "episode": 10,
+    "countries": [
+      "068"
+    ],
+    "cities": [
+      "ウユニ塩湖"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/53OKxYLl9Og/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "JhXXwLVLzc0",
+    "title": "ウユニ塩湖30歳ひとり旅。深夜＆朝日ツアーなら上下左右360度取り囲む奇跡の星空が見れます【ビジネスクラス世界一周#11】",
+    "published_at": "2019-10-18T21:13:21Z",
+    "duration": "PT5M8S",
+    "series_id": "business-class-2019",
+    "episode": 11,
+    "countries": [
+      "068"
+    ],
+    "cities": [
+      "ウユニ塩湖"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/JhXXwLVLzc0/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "LIBX15OLt_o",
+    "title": "ウユニ塩湖30歳ひとり旅。乾季なら塩の大地と鏡張りが両方見れます 【ビジネスクラス世界一周#12】",
+    "published_at": "2019-10-21T09:49:34Z",
+    "duration": "PT7M24S",
+    "series_id": "business-class-2019",
+    "episode": 12,
+    "countries": [
+      "068"
+    ],
+    "cities": [
+      "ウユニ塩湖"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/LIBX15OLt_o/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "LGtn19ImrnY",
+    "title": "ラパス30歳ひとり旅。ボリビアの首都には泥棒市があります【ビジネスクラス世界一周#13】",
+    "published_at": "2019-11-01T11:25:34Z",
+    "duration": "PT10M15S",
+    "series_id": "business-class-2019",
+    "episode": 13,
+    "countries": [
+      "068"
+    ],
+    "cities": [
+      "ラパス"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/LGtn19ImrnY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "YWdmm_gy5GM",
+    "title": "リオデジャネイロ30歳ひとり旅。ブラジルは人も街もカラフルです【ビジネスクラス世界一周#14】",
+    "published_at": "2019-11-05T10:38:01Z",
+    "duration": "PT9M33S",
+    "series_id": "business-class-2019",
+    "episode": 14,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "リオデジャネイロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/YWdmm_gy5GM/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "D66Fn4-rDoA",
+    "title": "リオデジャネイロ30歳ひとり旅。みんな見たことあるブラジルのキリスト像【ビジネスクラス世界一周#15】",
+    "published_at": "2019-11-09T10:35:17Z",
+    "duration": "PT5M7S",
+    "series_id": "business-class-2019",
+    "episode": 15,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "リオデジャネイロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/D66Fn4-rDoA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "WdLWl0ySrXg",
+    "title": "サンパウロ30歳ひとり旅。これがブラジルの日本食です【ビジネスクラス世界一周#16】",
+    "published_at": "2019-11-11T12:06:12Z",
+    "duration": "PT5M45S",
+    "series_id": "business-class-2019",
+    "episode": 16,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "サンパウロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/WdLWl0ySrXg/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "CJcGZzKFAQo",
+    "title": "サンパウロ30歳ひとり旅。これが本場ブラジルのシュラスコです【ビジネスクラス世界一周#17】",
+    "published_at": "2019-11-19T07:27:47Z",
+    "duration": "PT5M5S",
+    "series_id": "business-class-2019",
+    "episode": 17,
+    "countries": [
+      "076"
+    ],
+    "cities": [
+      "サンパウロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/CJcGZzKFAQo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "wGwc_dg04Ag",
+    "title": "ボツワナ30歳ひとり旅。アフリカで3000円テントでソロキャンプ【ビジネスクラス世界一周#18】",
+    "published_at": "2019-11-24T17:40:56Z",
+    "duration": "PT6M19S",
+    "series_id": "business-class-2019",
+    "episode": 18,
+    "countries": [
+      "072"
+    ],
+    "cities": [
+      "ボツワナ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/wGwc_dg04Ag/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "OlNs70HI4vQ",
+    "title": "ボツワナ30歳ひとり旅。1回3000円！本場アフリカの爆安サファリならチョベ国立公園【ビジネスクラス世界一周#19】",
+    "published_at": "2019-12-03T14:54:49Z",
+    "duration": "PT6M49S",
+    "series_id": "business-class-2019",
+    "episode": 19,
+    "countries": [
+      "072"
+    ],
+    "cities": [
+      "ボツワナ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/OlNs70HI4vQ/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "ntlC4mRLPgY",
+    "title": "ビクトリアの滝30歳ひとり旅。ザンビアとジンバブエ両国から見る乾季の世界三大瀑布【ビジネスクラス世界一周#20】",
+    "published_at": "2019-12-11T08:22:22Z",
+    "duration": "PT11M39S",
+    "series_id": "business-class-2019",
+    "episode": 20,
+    "countries": [
+      "894",
+      "716"
+    ],
+    "cities": [
+      "ビクトリアの滝"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/ntlC4mRLPgY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "NARoJLoSPO4",
+    "title": "ヨハネスブルグ30歳ひとり旅。南アフリカの世界最恐都市。あなたなら歩けますか？【ビジネスクラス世界一周#21】",
+    "published_at": "2019-12-22T07:00:00Z",
+    "duration": "PT19M7S",
+    "series_id": "business-class-2019",
+    "episode": 21,
+    "countries": [
+      "710"
+    ],
+    "cities": [
+      "ヨハネスブルグ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/NARoJLoSPO4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "l_p6-4VdI4w",
+    "title": "テーブルマウンテン30歳ひとり旅。南アフリカのケープタウンで遭難か！？【ビジネスクラス世界一周#22】",
+    "published_at": "2019-12-28T08:14:19Z",
+    "duration": "PT10M1S",
+    "series_id": "business-class-2019",
+    "episode": 22,
+    "countries": [
+      "710"
+    ],
+    "cities": [
+      "テーブルマウンテン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/l_p6-4VdI4w/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "XW8SZKX8AKk",
+    "title": "ケープタウン30歳ひとり旅。南アフリカの美しき港街【ビジネスクラス世界一周#23】",
+    "published_at": "2019-12-30T04:02:18Z",
+    "duration": "PT4M48S",
+    "series_id": "business-class-2019",
+    "episode": 23,
+    "countries": [
+      "710"
+    ],
+    "cities": [
+      "ケープタウン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/XW8SZKX8AKk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "zJwENeUsMq4",
+    "title": "エチオピア航空30歳ひとり旅。首都アディスアベバの乗継サービスが激アツ5つ星ホテル【ビジネスクラス世界一周#24】",
+    "published_at": "2020-01-05T16:24:53Z",
+    "duration": "PT5M38S",
+    "series_id": "business-class-2019",
+    "episode": 24,
+    "countries": [],
+    "cities": [],
+    "filmed_at": null,
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/zJwENeUsMq4/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "rwDbxutuqO4",
+    "title": "エチオピア30歳ひとり旅。首都アディスアベバの帰宅ラッシュがヤバすぎた！【ビジネスクラス世界一周#25】",
+    "published_at": "2020-01-08T14:25:42Z",
+    "duration": "PT10M42S",
+    "series_id": "business-class-2019",
+    "episode": 25,
+    "countries": [
+      "231"
+    ],
+    "cities": [
+      "エチオピア"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/rwDbxutuqO4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "6d_suVQAVr4",
+    "title": "デリー30歳ひとり旅。タージマハルへの電車予約。インドの首都は色々カオス！【ビジネスクラス世界一周#26】",
+    "published_at": "2020-01-11T14:15:17Z",
+    "duration": "PT6M",
+    "series_id": "business-class-2019",
+    "episode": 26,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "デリー"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/6d_suVQAVr4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "w0yhhK0E_cU",
+    "title": "インドで騙された30歳ひとり旅。首都デリーで有名な詐欺の手口【ビジネスクラス世界一周#27】",
+    "published_at": "2020-01-17T09:28:03Z",
+    "duration": "PT10M20S",
+    "series_id": "business-class-2019",
+    "episode": 27,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "デリー"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/w0yhhK0E_cU/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "SxwAKXNqTOw",
+    "title": "タージマハル30歳ひとり旅。インドが誇る美しき世界遺産へデリーから日帰り【ビジネスクラス世界一周#28】",
+    "published_at": "2020-01-20T11:16:35Z",
+    "duration": "PT9M22S",
+    "series_id": "business-class-2019",
+    "episode": 28,
+    "countries": [
+      "356"
+    ],
+    "cities": [
+      "タージマハル"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/SxwAKXNqTOw/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "T_UMUflkXLE",
+    "title": "ビジネスクラス世界一周30歳ひとり旅完結。デリー発成田ANAビジネスクラスで帰国【ビジネスクラス世界一周#29】",
+    "published_at": "2020-01-22T15:43:58Z",
+    "duration": "PT4M54S",
+    "series_id": "business-class-2019",
+    "episode": 29,
+    "countries": [],
+    "cities": [],
+    "filmed_at": null,
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/T_UMUflkXLE/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
     "video_id": "aBhAn8VbMww",
     "title": "バンコクからビエンチャン30歳ひとり旅。14時間の陸路国境越え。タイから寝台列車とバスを乗り継ぎラオスへ【東南アジア一周#1】",
     "published_at": "2020-03-19T20:16:14Z",
@@ -2671,6 +3273,44 @@
       "method": "title",
       "confidence": 1,
       "reviewed": false
+    }
+  },
+  {
+    "video_id": "MTtJ_cHqjVA",
+    "title": "世界一周ひとり旅。中南米総集編2019【登録者10万人記念】",
+    "published_at": "2021-09-17T12:30:12Z",
+    "duration": "PT39M11S",
+    "series_id": "business-class-2019",
+    "episode": null,
+    "countries": [],
+    "cities": [
+      "世界一周"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/MTtJ_cHqjVA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "YiJPvGepqyo",
+    "title": "世界一周ひとり旅。アフリカ総集編2019【登録者10万人記念】",
+    "published_at": "2021-09-26T13:00:11Z",
+    "duration": "PT38M16S",
+    "series_id": "business-class-2019",
+    "episode": null,
+    "countries": [],
+    "cities": [
+      "世界一周"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/YiJPvGepqyo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
     }
   },
   {
