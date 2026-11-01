@@ -10,7 +10,7 @@ import { bbox, W, H } from '../lib/geo';
 import {
   allSeries, visited, latestVideo, recentStops, currentPos, site,
   countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
-  visitedCountryCount, visitedList, videos, seriesColor, travelSeries, worldcupSeries, seasonOf,
+  visitedCountryCount, visitedList, videos, seriesColor, travelSeries, worldcupSeries, japanSeries, seasonOf, JAPAN,
 } from '../lib/data';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -18,8 +18,9 @@ const seriesUrl = (id: string, iso?: string) => `${base}/series/${id}/${iso ? `#
 const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : null;
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
-const visitedIsos = [...visited];
-const seriesNames = travelSeries.map((x) => x.name).join('・') + (worldcupSeries.length ? `、ワールドカップ編（${worldcupSeries.map((x) => x.name.replace(/編$/, '')).join('・')}）` : '');
+const visitedIsos = [...visited].filter((iso) => iso !== JAPAN);
+const japanVideoCount = japanSeries.reduce((n, x) => n + seriesSummary(x).videoCount, 0);
+const seriesNames = travelSeries.map((x) => x.name).join('・') + (worldcupSeries.length ? `、ワールドカップ編（${worldcupSeries.map((x) => x.name.replace(/編$/, '')).join('・')}）` : '') + (japanSeries.length ? '、日本国内編' : '');
 const description = `旅系YouTuber「しげ旅（シゲタビ）」の旅のルートと訪問国リスト（${visitedCountryCount}か国）、${seriesNames}の全${allSeries.length}シリーズ・全${videos.length}本の動画リストを世界地図でまとめた非公式ファンサイト。国をクリックするとその国の動画リストが見られます。`;
 const site_url = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const jsonLd = [
@@ -75,6 +76,20 @@ const jsonLd = [
         );
       })}
 
+      {/* 日本は国内の動画を全部並べず、日本国内編のシリーズへのリンクを出す */}
+      <div data-panel={JAPAN} data-count={japanVideoCount} hidden>
+        <button type="button" class="back" data-latest>← 最新の動画に戻る</button>
+        <div class="eyebrow">日本国内編</div>
+        <h3><Flag iso={JAPAN} />日本</h3>
+        <div class="meta">
+          <div>シリーズ <b>{japanSeries.length}</b></div>
+          <div>動画 <b>{japanVideoCount}本</b></div>
+        </div>
+        {japanSeries.length
+          ? japanSeries.map((x) => <a class="serieslink" href={seriesUrl(x.id)}>{x.name}（{seriesSummary(x).videoCount}本） <span>→</span></a>)
+          : <p class="empty">日本国内編の動画はまだ取り込んでいません。</p>}
+      </div>
+
       <div data-panel="none" hidden>
         <button type="button" class="back" data-latest>← 最新の動画に戻る</button>
         <div class="eyebrow">COUNTRY</div>
@@ -99,10 +114,12 @@ const jsonLd = [
     <div class="tabs" role="tablist" aria-label="シリーズの種類">
       <button type="button" role="tab" id="tab-travel" aria-controls="tp-travel" aria-selected="true">旅のシリーズ</button>
       {worldcupSeries.length > 0 && <button type="button" role="tab" id="tab-worldcup" aria-controls="tp-worldcup" aria-selected="false" tabindex="-1">ワールドカップ編 🏆</button>}
+      {japanSeries.length > 0 && <button type="button" role="tab" id="tab-japan" aria-controls="tp-japan" aria-selected="false" tabindex="-1">日本国内編</button>}
     </div>
     {[
       { key: 'travel', list: travelSeries },
       { key: 'worldcup', list: worldcupSeries },
+      { key: 'japan', list: japanSeries },
     ].filter((g) => g.list.length).map((g) => (
       <div class="series" role="tabpanel" id={`tp-${g.key}`} aria-labelledby={`tab-${g.key}`} hidden={g.key !== 'travel'}>
         {g.list.slice().reverse().map((se) => {
@@ -157,7 +174,7 @@ const jsonLd = [
     if (isNarrow()) {
       const p = panel.querySelector<HTMLElement>(`[data-panel="${CSS.escape(id)}"]`);
       const name = p?.querySelector('h3')?.textContent ?? panel.querySelector('[data-panel="none"] [data-name]')!.textContent;
-      const n = p?.querySelectorAll('.vlist > li').length ?? 0;
+      const n = Number(p?.dataset.count ?? p?.querySelectorAll('.vlist > li').length ?? 0);
       chip.textContent = n ? `${name}の動画 ${n}本 ↓` : `${name}：まだ動画はありません`;
       chip.disabled = !n;
       chip.hidden = false;

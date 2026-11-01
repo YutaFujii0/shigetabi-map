@@ -76,7 +76,7 @@
     "id": "worldcup-2022",
     "name": "カタールW杯編",
     "playlist_title": "カタールW杯",
-    "color": "#CA8A04",
+    "color": "#1E3A8A",
     "group": "worldcup",
     "default_country": "634",
     "name_fallback": false,
@@ -87,7 +87,7 @@
     "id": "asiancup-2024",
     "name": "カタールアジア杯編",
     "playlist_title": "カタールアジア杯",
-    "color": "#CA8A04",
+    "color": "#1E3A8A",
     "group": "worldcup",
     "default_country": "634",
     "name_fallback": false,
@@ -98,8 +98,168 @@
     "id": "worldcup-2026",
     "name": "北中米W杯編",
     "playlist_title": "北中米W杯",
-    "color": "#CA8A04",
+    "color": "#1E3A8A",
     "group": "worldcup",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6s3Jy73RmZvPoTmaADbOZWy",
+    "id": "japan-tokara",
+    "name": "トカラ列島編",
+    "playlist_title": "トカラ列島",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6vBo1_UWFY1LHF9_TC5MZY8",
+    "id": "japan-izu-islands",
+    "name": "伊豆諸島編",
+    "playlist_title": "伊豆諸島",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sRu41hiPgFokwanLa72cZM",
+    "id": "japan-yaeyama",
+    "name": "八重山諸島編",
+    "playlist_title": "八重山諸島",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sHMAPHyBnCQIG_PSCXC3__",
+    "id": "japan-miyako",
+    "name": "宮古諸島編",
+    "playlist_title": "宮古諸島",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6soRlzLjKfWYH8t7xeaV9-b",
+    "id": "japan-nagasaki",
+    "name": "長崎編",
+    "playlist_title": "長崎",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tH567u5MO7ImrSk1JvJKUK",
+    "id": "japan-kagoshima",
+    "name": "鹿児島編",
+    "playlist_title": "鹿児島",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6uUW7OU8fsmX3lg4iHdBvn1",
+    "id": "japan-okinawa",
+    "name": "沖縄編",
+    "playlist_title": "沖縄",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sK3re3lM0pctDSZLLeEAhK",
+    "id": "japan-kyushu",
+    "name": "九州編",
+    "playlist_title": "九州",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sYIpKSYnYJ1R99Vi-8SO2C",
+    "id": "japan-shikoku",
+    "name": "四国編",
+    "playlist_title": "四国",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6uvQ8le901dwWFAW62PvOyO",
+    "id": "japan-sanin",
+    "name": "山陰編",
+    "playlist_title": "山陰",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6s2yRo0gCkpdCc3q7gMbTjV",
+    "id": "japan-setouchi",
+    "name": "瀬戸内編",
+    "playlist_title": "瀬戸内",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tFSTKsdcy-gfDehZldNfiU",
+    "id": "japan-hokuriku",
+    "name": "北陸編",
+    "playlist_title": "北陸",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6ukYutd3yTzHZCl6ia2K6m8",
+    "id": "japan-niigata",
+    "name": "新潟編",
+    "playlist_title": "新潟",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tSO76CXLLrC0wQ_C7x7sCc",
+    "id": "japan-tohoku",
+    "name": "東北編",
+    "playlist_title": "東北",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6u3OKN8PAZTqHMRpVUfP9z0",
+    "id": "japan-tokyo",
+    "name": "東京編",
+    "playlist_title": "東京",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tO1PeqxgfqQTA0XtBkqsqR",
+    "id": "japan-hokkaido",
+    "name": "北海道編",
+    "playlist_title": "北海道",
+    "color": "#D4A017",
+    "group": "japan",
+    "default_country": "392",
     "name_fallback": false
   }
 ]

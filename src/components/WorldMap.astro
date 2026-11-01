@@ -3,7 +3,7 @@
 import { COUNTRY_SHAPES, SMALL, W, H, arc, unwrap, type Box, type Pt } from '../lib/geo';
 import {
   visited, latestCountries, isCountry, connected, firstSeriesOf, UNRECOGNIZED_STATES, currentPos, location, countryName, lastStopIn, getSeries, ym,
-  allSeries, seriesColor, countriesOfSeries, type RouteStop,
+  allSeries, seriesColor, countriesOfSeries, JAPAN, type RouteStop,
 } from '../lib/data';
 import Marker from './Marker.astro';
 
@@ -50,7 +50,9 @@ for (const c of [...COUNTRY_SHAPES, ...dots]) {
   const name = countryName(c.id);
   const s = visited.has(c.id) ? lastStopIn(c.id) : undefined;
   const extra = isCountry(c.id) ? '' : '・国数に含まない地域';
-  tips[c.id] = visited.has(c.id)
+  tips[c.id] = c.id === JAPAN
+    ? '日本（日本国内編）'
+    : visited.has(c.id)
     ? `${name}（${s ? `${ym(s.arrived)}・${getSeries(s.series_id).name}` : '動画あり'}${latestCountries.has(c.id) ? '・最新動画' : ''}${extra}）`
     : UNRECOGNIZED_STATES.has(c.id)
       ? `${name}・日本が承認していない国・地域`
@@ -59,6 +61,7 @@ for (const c of [...COUNTRY_SHAPES, ...dots]) {
 const cls = (cid: string) =>
   [
     'c',
+    cid === JAPAN && 'jp',
     visited.has(cid) && 'v',
     visited.has(cid) && firstSeriesOf(cid) && `s-${firstSeriesOf(cid)}`,
     focusIsos.has(cid) && 'in',
@@ -125,6 +128,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     {routeLabel && (
       <span><svg class="lg-route" viewBox="0 0 22 8" aria-hidden="true"><path d="M1 6 Q11 0 21 6"></path></svg>{routeLabel}</span>
     )}
+    <span><i class="sw" style="background:var(--japan)"></i>日本</span>
     <span><i class="sw outline"></i>最新動画の国</span>
     <span><i class="sw" style="background:var(--land)"></i>まだの国</span>
     {marker && (

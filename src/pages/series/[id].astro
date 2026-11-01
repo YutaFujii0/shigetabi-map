@@ -58,7 +58,7 @@ const bubbles = [...visited].map((iso) => {
   <a class="crumb" href={`${base}/`}>← ホーム</a>
   <div class="sp-head">
     <div>
-      <div class="eyebrow">{season ? `シーズン${season}` : 'ワールドカップ編 🏆'}</div>
+      <div class="eyebrow">{season ? `シーズン${season}` : se.group === 'japan' ? '日本国内編' : 'ワールドカップ編 🏆'}</div>
       <h1>{se.name}{!se.ended && <i class="live">旅の途中</i>}</h1>
     </div>
     <div class="sp-meta">

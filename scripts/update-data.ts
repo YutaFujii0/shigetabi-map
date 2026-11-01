@@ -31,8 +31,8 @@ const ONGOING_DAYS = 45;
 
 type Playlist = {
   playlist_id: string; id: string; name: string; playlist_title: string; color?: string;
-  /** travel（旅のシリーズ）か worldcup（ワールドカップ編）。省略時は travel */
-  group?: 'travel' | 'worldcup';
+  /** travel（旅のシリーズ）／worldcup（ワールドカップ編）／japan（日本国内編）。省略時は travel */
+  group?: 'travel' | 'worldcup' | 'japan';
   /** 国旗の無い動画に使う国（ISO 数字コード）。W杯カタール大会など、開催国が1つのとき */
   default_country?: string;
   /** 国旗の無い動画を本文の国名から推定するか（W杯は対戦相手の国名が入るので false） */
@@ -257,7 +257,8 @@ async function main() {
     // 人が確認済みの判定は残す（タイトル・公開日などAPIの値だけ更新）
     if (old?.extract.reviewed) v = { ...v, countries: old.countries, cities: old.cities, filmed_at: old.filmed_at, flight: old.flight, episode: old.episode, extract: old.extract };
     if (ov) v = { ...v, ...ov, extract: { method: 'manual', confidence: 1, reviewed: true } };
-    v.countries = v.countries.filter((n) => n !== '392'); // 日本は訪問国に数えない
+    // 日本は日本国内編の動画だけに付ける（海外の旅の移動回などに出る🇯🇵は除く）。訪問国の数には数えない
+    if (pl?.group !== 'japan') v.countries = v.countries.filter((n) => n !== '392');
     if (!v.flight) delete v.flight;
     if (!inSeries) report.extra.push(v);
     if (v.extract.method === 'unresolved' && !v.flight) report.unresolved.push(v);

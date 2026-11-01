@@ -23,8 +23,8 @@ export type Series = {
   playlist_id: string;
   /** 地図の色（playlists.json で指定） */
   color?: string;
-  /** travel（旅のシリーズ）か worldcup（ワールドカップ編） */
-  group?: 'travel' | 'worldcup';
+  /** travel（旅のシリーズ）／worldcup（ワールドカップ編）／japan（日本国内編） */
+  group?: 'travel' | 'worldcup' | 'japan';
 };
 export type Video = {
   video_id: string;
@@ -69,13 +69,16 @@ const seriesById = new Map(allSeries.map((s) => [s.id, s]));
 export const getSeries = (id: string) => seriesById.get(id)!;
 export const travelSeries = allSeries.filter((s) => (s.group ?? 'travel') === 'travel');
 export const worldcupSeries = allSeries.filter((s) => s.group === 'worldcup');
+export const japanSeries = allSeries.filter((s) => s.group === 'japan');
+/** 日本（ISO 392）。訪問国には数えず、地図では金色で特別扱いする */
+export const JAPAN = '392';
 /** 旅のシリーズのシーズン番号（始まった順）。ワールドカップ編は undefined */
 export const seasonOf = (id: string) => {
   const i = travelSeries.findIndex((s) => s.id === id);
   return i >= 0 ? i + 1 : undefined;
 };
 /** 同じグループ（旅のシリーズ／ワールドカップ編）のシリーズ */
-export const seriesInGroup = (s: Series) => (s.group === 'worldcup' ? worldcupSeries : travelSeries);
+export const seriesInGroup = (s: Series) => (s.group === 'worldcup' ? worldcupSeries : s.group === 'japan' ? japanSeries : travelSeries);
 /** シリーズの色。playlists.json で指定が無ければ順番に割り当てる */
 const FALLBACK = ['#8B5CF6', '#EF4444', '#3B82F6', '#14B8A6', '#EC4899', '#0EA5E9', '#F59E0B', '#7CB518', '#C2410C'];
 export const seriesColor = (id: string) => seriesById.get(id)?.color ?? FALLBACK[allSeries.findIndex((s) => s.id === id) % FALLBACK.length];
@@ -123,10 +126,12 @@ export function connected(a: RouteStop, b: RouteStop): boolean {
 }
 /** 直近5か国ぶんの滞在（同じ国の別の都市は1か国と数える） */
 export const recentStops = (() => {
+  // 日本国内編の滞在は「直近5か国」に入れない
+  const abroad = stops.filter((s) => s.iso_n3 !== JAPAN);
   const isos = new Set<string>();
-  let i = stops.length;
-  while (i > 0 && (isos.size < 5 || isos.has(stops[i - 1].iso_n3))) isos.add(stops[--i].iso_n3);
-  return stops.slice(i);
+  let i = abroad.length;
+  while (i > 0 && (isos.size < 5 || isos.has(abroad[i - 1].iso_n3))) isos.add(abroad[--i].iso_n3);
+  return abroad.slice(i);
 })();
 
 /* ---------- 国の数え方 ---------- */
@@ -208,6 +213,7 @@ export function titleParts(title: string): ({ text: string } | { flag: string })
 export const visitedList = (() => {
   const first = new Map<string, Video>();
   for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b)))) for (const iso of v.countries) if (!first.has(iso)) first.set(iso, v);
+  first.delete(JAPAN);
   return [...first.entries()].map(([iso, v]) => ({ iso, name: countryName(iso), since: filmedAt(v), isCountry: isCountry(iso), series: seriesOfCountry(iso) }));
 })();
 

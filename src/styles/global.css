@@ -4,7 +4,7 @@
   --accent: #0e7c86;
   --sea: #e4f2f6; --land: #e9e6df; --land-hover: #ddd8ce;
   /* 行った国はシリーズごとの色（Base.astro で .s-<id> に色を付ける）。--visited はシリーズ外の動画だけの国、--visited-dim はシリーズページでほかのシリーズの国 */
-  --unrecognized: #80868b; --visited: #5b8c99; --visited-dim: #c3d3d9; --route: #3c4043;
+  --japan: #d4a017; --unrecognized: #80868b; --visited: #5b8c99; --visited-dim: #c3d3d9; --route: #3c4043;
   --aura1: #ffd34d; --aura2: #ff4f8b; --aura3: #7b5cff;
   --f-body: "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
   --f-num: "Roboto", "Noto Sans JP", system-ui, sans-serif;
@@ -48,6 +48,8 @@ img { max-width: 100%; display: block; }
 .c { fill: var(--land); stroke: var(--surface); stroke-width: 0.6; vector-effect: non-scaling-stroke; transition: fill 0.15s; }
 .mapcard .c:not(.v):not(.u):hover { fill: var(--land-hover); }
 .c.u, .mapcard .c.u:hover { fill: var(--unrecognized); }
+/* 日本は金色で特別扱い（訪問国には数えない） */
+.c.jp { fill: var(--japan) !important; }
 :where(.c.v) { fill: var(--visited); }
 .mapcard .c.v:hover { filter: brightness(1.1); }
 /* シリーズページ・シリーズカード：そのシリーズの国だけシリーズの色、ほかのシリーズで行った国は薄く */
