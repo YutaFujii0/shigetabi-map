@@ -13,8 +13,8 @@ interface Props {
 }
 const { title, description, jsonLd = [], home = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const SITE_NAME = 'しげ旅マップ';
-const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜しげ旅の訪問国・ルートを世界地図でまとめ（非公式ファンサイト）`;
+const SITE_NAME = 'しげ旅ルートマップ';
+const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜しげ旅のルート・訪問国リスト・全動画リスト（非公式ファンサイト）`;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(`${base.replace(/\/$/, '')}/og.png`, Astro.site).href;
 const Logo = home ? 'h1' : 'div';
@@ -39,7 +39,7 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="しげ旅マップ：しげ旅の訪問国を塗った世界地図" />
+    <meta property="og:image:alt" content="しげ旅ルートマップ：しげ旅のルートと訪問国を塗った世界地図" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
@@ -70,7 +70,7 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
     </svg>
     <div class="wrap">
       <header class="a-head">
-        <Logo class="logo-wrap"><a class="logo" href={base}>しげ旅<b>マップ</b></a></Logo>
+        <Logo class="logo-wrap"><a class="logo" href={base}>しげ旅<b>ルートマップ</b></a></Logo>
         <span class="pill">非公式ファンサイト</span>
         <div class="count" title={officialTally ? `最新の動画の概要欄に書かれた「しげ旅通算${officialTally}/${RECOGNIZED.size}ヶ国」` : `日本を除く${RECOGNIZED.size}か国のうち、動画が公開されている国の数`}>
           <div class="count-n"><b>{visitedCountryCount}</b><span class="of">/{RECOGNIZED.size}</span>か国 訪問</div>

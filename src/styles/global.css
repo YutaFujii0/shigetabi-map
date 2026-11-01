@@ -148,7 +148,7 @@ img { max-width: 100%; display: block; }
 .scard .cs { font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .live { display: inline-flex; font-style: normal; font-size: 10px; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 1px 7px; line-height: 1.5; vertical-align: middle; }
 
-/* 訪問国一覧 */
+/* 訪問国リスト */
 .countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 12px; counter-reset: c; }
 .countries li { display: flex; align-items: baseline; gap: 6px; font-size: 13px; counter-increment: c; min-width: 0; }
 .countries li::before { content: counter(c); font: 500 10px var(--f-num); color: var(--muted); min-width: 2em; text-align: right; }
@@ -220,6 +220,7 @@ img { max-width: 100%; display: block; }
   /* スマホのヘッダー：1段目にロゴと国数、2段目に「非公式ファンサイト」 */
   .a-head { display: grid; grid-template-columns: auto 1fr; grid-template-areas: 'logo count' 'pill count'; gap: 6px 12px; align-items: center; }
   .a-head .logo-wrap { grid-area: logo; }
+  .logo { font-size: 20px; }
   .a-head .pill { grid-area: pill; justify-self: start; font-size: 10px; padding: 2px 8px; }
   .a-head .count { grid-area: count; justify-self: end; margin-left: 0; }
   .count-n { font-size: 11px; gap: 4px; }

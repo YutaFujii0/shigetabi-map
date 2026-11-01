@@ -20,14 +20,14 @@ const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
 const visitedIsos = [...visited];
 const seriesNames = allSeries.map((x) => x.name).join('・');
-const description = `旅系YouTuber「しげ旅（シゲタビ）」が訪れた${visitedCountryCount}か国と、${seriesNames}の全${allSeries.length}シリーズの旅のルート、全${videos.length}本の動画を世界地図でまとめた非公式ファンサイト。国をクリックするとその国の動画一覧が見られます。`;
+const description = `旅系YouTuber「しげ旅（シゲタビ）」の旅のルートと訪問国リスト（${visitedCountryCount}か国）、${seriesNames}の全${allSeries.length}シリーズ・全${videos.length}本の動画リストを世界地図でまとめた非公式ファンサイト。国をクリックするとその国の動画リストが見られます。`;
 const site_url = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'WebSite', name: 'しげ旅マップ', alternateName: ['しげ旅 世界地図', 'シゲタビマップ'], url: site_url, inLanguage: 'ja', description },
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: 'しげ旅ルートマップ', alternateName: ['しげ旅 ルート', 'しげ旅 リスト', 'しげ旅 訪問国リスト', 'シゲタビ ルート'], url: site_url, inLanguage: 'ja', description },
   {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'しげ旅のシリーズ一覧',
+    name: 'しげ旅のシリーズとルート',
     itemListElement: allSeries.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: `しげ旅 ${x.name}`, url: new URL(`series/${x.id}/`, site_url).href })),
   },
 ];
@@ -114,7 +114,7 @@ const jsonLd = [
     </div>
   </section>
   <section class="sec">
-    <div class="sec-h"><h2>しげ旅の訪問国一覧</h2><span class="sub">動画がある国・地域を、初めて訪れた順に（{visitedList.length}か所）</span></div>
+    <div class="sec-h"><h2>しげ旅の訪問国リスト</h2><span class="sub">動画がある国・地域を、初めて訪れた順に（{visitedList.length}か所）</span></div>
     <ol class="countries">
       {visitedList.map((c) => (
         <li>
