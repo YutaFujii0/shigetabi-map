@@ -127,5 +127,6 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
   </div>
   {routeButton && <button type="button" class="routebtn" aria-pressed="true">{routeButton}</button>}
   <div class="tip" hidden></div>
+  <slot />
   <script type="application/json" data-tips set:html={JSON.stringify(tips)}></script>
 </div>

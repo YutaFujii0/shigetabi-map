@@ -34,7 +34,10 @@ const jsonLd = [
 ---
 <Base home description={description} jsonLd={jsonLd}>
   <div class="main">
-    <WorldMap id="homemap" route={recentStops} routeButton="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow} />
+    <WorldMap id="homemap" route={recentStops} routeButton="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow}>
+      <!-- スマホ：国をタップしても自動ではスクロールせず、この案内から動画一覧へ移る -->
+      <button type="button" class="pickchip" hidden></button>
+    </WorldMap>
 
     <aside class="panel" id="panel" aria-live="polite">
       <!-- 初期表示：最新の動画1本。現在地とは混ぜない -->
@@ -142,12 +145,25 @@ const jsonLd = [
       panel.querySelector('[data-panel="none"] [data-name]')!.textContent = (tips[id] ?? id).replace(/・まだの国$/, '');
       show('none');
     }
-    if (isNarrow()) panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    // スマホでは続けて国をタップできるよう、自動でスクロールせず地図の下端に案内を出す
+    if (isNarrow()) {
+      const p = panel.querySelector<HTMLElement>(`[data-panel="${CSS.escape(id)}"]`);
+      const name = p?.querySelector('h3')?.textContent ?? panel.querySelector('[data-panel="none"] [data-name]')!.textContent;
+      const n = p?.querySelectorAll('.vlist > li').length ?? 0;
+      chip.textContent = n ? `${name}の動画 ${n}本 ↓` : `${name}：まだ動画はありません`;
+      chip.disabled = !n;
+      chip.hidden = false;
+    }
+  });
+  const chip = card.querySelector<HTMLButtonElement>('.pickchip')!;
+  chip.addEventListener('click', () => {
+    panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
   });
   panel.addEventListener('click', (e) => {
     if ((e.target as Element).closest('[data-latest]')) {
       map.select(null);
       show('latest');
+      chip.hidden = true;
     }
   });
 </script>

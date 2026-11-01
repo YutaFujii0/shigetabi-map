@@ -181,6 +181,11 @@ img { max-width: 100%; display: block; }
 .pn a.nx { text-align: right; grid-column: 2; }
 .pn a:hover { border-color: var(--muted); }
 
+/* スマホ：タップした国の案内（地図の下端） */
+.pickchip { position: absolute; left: 50%; bottom: 52px; transform: translateX(-50%); max-width: calc(100% - 24px); border: 0; border-radius: 999px; padding: 8px 16px; background: var(--ink); color: var(--surface); font-size: 13px; font-weight: 700; box-shadow: var(--shadow); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pickchip:disabled { opacity: 0.85; cursor: default; }
+@media (min-width: 761px) { .pickchip { display: none; } }
+
 /* 吹き出し */
 .bubble { position: absolute; z-index: 5; width: 300px; max-width: calc(100% - 16px); max-height: calc(100% - 16px); overflow-y: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.35); padding: 12px 14px; }
 .bubble .x { position: absolute; right: 6px; top: 4px; border: 0; background: none; font-size: 18px; color: var(--muted); width: 32px; height: 32px; }
