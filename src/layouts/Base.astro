@@ -21,6 +21,14 @@ const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ�
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" />
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-9K44ZCRMGB"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9K44ZCRMGB');
+    </script>
   </head>
   <body>
     <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -40,6 +48,7 @@ const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ�
       <footer class="a-foot">
         <p>本サイトは「しげ旅」の非公式ファンサイトです。しげさんの位置は公開済みの投稿から推定した国レベルの情報で、実際の所在とは異なる場合があります。</p>
         <p>訪問国の数は、最新の動画の概要欄に書かれた「しげ旅通算○/195ヶ国」です（日本が国家として承認している国から日本を除いた195か国が基準）。地図で色が付いているのは動画が公開されている国で（{countriesWithVideos}か国）、チャンネル開設前の旅行で訪れた国は含みません。台湾・香港・グリーンランドなどの地域は、地図には色を付けますが数には含めません。日本が承認していない国・地域（北朝鮮など）は濃いグレーで表示しています。</p>
+        <p>アクセス解析のため Google アナリティクスを使用しています（Cookie で匿名のアクセス情報を収集します）。</p>
       </footer>
     </div>
   </body>
