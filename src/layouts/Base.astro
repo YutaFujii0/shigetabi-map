@@ -1,7 +1,7 @@
 ---
 import 'flag-icons/css/flag-icons.min.css';
 import '../styles/global.css';
-import { visitedCountryCount, RECOGNIZED } from '../lib/data';
+import { visitedCountryCount, countriesWithVideos, officialTally, RECOGNIZED } from '../lib/data';
 interface Props { title?: string; description?: string }
 const { title, description = '旅系YouTuber「しげ旅」の訪問国とシリーズのルートを世界地図で見られる非公式ファンサイトです。' } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -34,12 +34,12 @@ const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ�
       <header class="a-head">
         <a class="logo" href={base}>しげ旅<b>マップ</b></a>
         <span class="pill">非公式ファンサイト</span>
-        <div class="count" title={`日本が国家として承認している国（日本を除く${RECOGNIZED.size}か国）のうち、動画が公開されている国の数`}><b>{visitedCountryCount}</b><span class="of">/{RECOGNIZED.size}</span>か国 訪問</div>
+        <div class="count" title={officialTally ? `最新の動画の概要欄に書かれた「しげ旅通算${officialTally}/${RECOGNIZED.size}ヶ国」` : `日本を除く${RECOGNIZED.size}か国のうち、動画が公開されている国の数`}><b>{visitedCountryCount}</b><span class="of">/{RECOGNIZED.size}</span>か国 訪問</div>
       </header>
       <main><slot /></main>
       <footer class="a-foot">
         <p>本サイトは「しげ旅」の非公式ファンサイトです。しげさんの位置は公開済みの投稿から推定した国レベルの情報で、実際の所在とは異なる場合があります。</p>
-        <p>訪問国の数は、日本が国家として承認している国から日本を除いた195か国のうち、動画が公開されている国を数えています（しげ旅の「通算○/195ヶ国」と同じ基準。撮影から公開までの時差があるため、しげさんの最新の数より少なくなります）。台湾・香港・グリーンランドなどの地域は、地図には色を付けますが数には含めません。日本が承認していない国・地域（北朝鮮など）は濃いグレーで表示しています。</p>
+        <p>訪問国の数は、最新の動画の概要欄に書かれた「しげ旅通算○/195ヶ国」です（日本が国家として承認している国から日本を除いた195か国が基準）。地図で色が付いているのは動画が公開されている国で（{countriesWithVideos}か国）、チャンネル開設前の旅行で訪れた国は含みません。台湾・香港・グリーンランドなどの地域は、地図には色を付けますが数には含めません。日本が承認していない国・地域（北朝鮮など）は濃いグレーで表示しています。</p>
       </footer>
     </div>
   </body>

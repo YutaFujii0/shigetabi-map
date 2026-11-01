@@ -25,7 +25,7 @@ Astro（静的出力）＋ d3-geo / world-atlas（Natural Earth 110m）。地図
 | `playlists.json` | 人 | シリーズにする再生リスト（許可リスト）。ルートとシリーズページはここから作る。訪問国はチャンネルの全動画（国旗のあるもの）から数える |
 | `overrides.json` | 人 | 判定の手動修正。`videos.<動画ID>` に `countries`（数字コード）/`cities`/`filmed_at`/`series_id`/`flight`/`exclude`、`series.<id>` に `ended`/`name` |
 | `cities.json` | 自動＋人 | 都市の座標キャッシュ（キーは `数字コード:都市名`）。見つからない都市は手で足す |
-| `videos.json` | 自動 | 動画。`countries` は ISO 3166 数字コード、`episode` は【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間、`flight` は移動回 |
+| `videos.json` | 自動 | 動画。`tally` は概要欄の「しげ旅通算○/195ヶ国」（ヘッダーの国数は最新の動画のこの値。チャンネル開設前の旅行の国も含むので、地図で色が付く国より多い）。`countries` は ISO 3166 数字コード、`episode` は【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間、`flight` は移動回 |
 | `series.json` | 自動 | シリーズ＝再生リスト。期間は撮影時期から。最後の公開から45日以内なら `ended: null`（旅の途中） |
 | `stops.json` | 自動 | ルート上の滞在。同じ国・都市が続く動画を1つにまとめる。座標が無ければ国の代表点に置く |
 | `site.json` | 人 | チャンネル・Instagram のアカウント。Instagram はプロフィールの公式埋め込み（直近の投稿が自動で更新される）で表示 |

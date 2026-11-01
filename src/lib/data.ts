@@ -31,6 +31,8 @@ export type Video = {
   series_id: string | null;
   /** 3分以下の短い動画（ショート） */
   short?: boolean;
+  /** 概要欄の「しげ旅通算○/195ヶ国」の○ */
+  tally?: number;
   episode?: number | null;
   countries: string[];
   cities: string[];
@@ -108,7 +110,15 @@ export const countCountries = (isos: Iterable<string>) => new Set([...isos].filt
 /* ---------- 地図の色 ---------- */
 // 行った国 ＝ 動画が公開されている国・地域
 export const visited = new Set(videos.flatMap((v) => v.countries));
-export const visitedCountryCount = countCountries(visited);
+/** 動画がある国の数（地図で色が付く国） */
+export const countriesWithVideos = countCountries(visited);
+/**
+ * 「○か国 訪問」の数。最新の動画（撮影順）の概要欄に書かれた「しげ旅通算○/195ヶ国」を使う。
+ * チャンネル開設前の旅行で行った国も含むため、動画がある国の数より多い
+ */
+const filmedAt = (v: Video) => v.filmed_at?.from ?? v.published_at.slice(0, 10);
+export const officialTally = videos.filter((v) => v.tally != null).sort((a, b) => filmedAt(a).localeCompare(filmedAt(b))).at(-1)?.tally;
+export const visitedCountryCount = officialTally ?? countriesWithVideos;
 // 最新の動画はショートを除いた中から選ぶ
 export const latestVideo = videos.findLast((v) => !v.short) ?? videos.at(-1)!;
 export const latestCountries = new Set(latestVideo.countries);
