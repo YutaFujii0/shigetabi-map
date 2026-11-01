@@ -602,6 +602,379 @@
     }
   },
   {
+    "video_id": "I_wcKfCgkAA",
+    "title": "12万円以下の世界一周を元旅行会社の31歳が本気で解説！【LCC世界一周#0】",
+    "published_at": "2020-02-01T10:42:07Z",
+    "duration": "PT11M39S",
+    "series_id": null,
+    "episode": 0,
+    "countries": [],
+    "cities": [
+      "12万円以下の世界一周を元"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/I_wcKfCgkAA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "0ueo0_uBpDQ",
+    "title": "LCC世界一周30歳ひとり旅。ジェットスター成田発関空で世界一周スタート！【LCC世界一周#1】",
+    "published_at": "2020-02-02T13:27:21Z",
+    "duration": "PT4M7S",
+    "series_id": null,
+    "episode": 1,
+    "countries": [],
+    "cities": [],
+    "filmed_at": null,
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/0ueo0_uBpDQ/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zUShb08fzfk",
+    "title": "激安ハワイ30歳ひとり旅。エアアジア関空発ホノルルは衝撃の2万円！【LCC世界一周#2】",
+    "published_at": "2020-02-03T18:02:47Z",
+    "duration": "PT5M38S",
+    "series_id": null,
+    "episode": 2,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "激安ハワイ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/zUShb08fzfk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "XImXcy7wnco",
+    "title": "オアフ島30歳ひとり旅。路線バスとB級グルメで激安ハワイ【LCC世界一周#3】",
+    "published_at": "2020-02-08T11:40:28Z",
+    "duration": "PT11M22S",
+    "series_id": null,
+    "episode": 3,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "オアフ島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/XImXcy7wnco/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "muOK7BuY-PY",
+    "title": "ハワイ島30歳ひとり旅。コナからヒロまで路線バスで移動したら野宿を決意する事態に…【LCC世界一周#4】",
+    "published_at": "2020-02-16T09:35:13Z",
+    "duration": "PT13M47S",
+    "series_id": null,
+    "episode": 4,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ハワイ島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/muOK7BuY-PY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "flnObyYwzq4",
+    "title": "ハワイ島ヒロ30歳ひとり旅。ハワイ島最大の街でB級グルメを満喫！【LCC世界一周#5】",
+    "published_at": "2020-02-20T11:26:40Z",
+    "duration": "PT10M17S",
+    "series_id": null,
+    "episode": 5,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ハワイ島ヒロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/flnObyYwzq4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "L7Og8KrRMXI",
+    "title": "ハワイ島コナ30歳ひとり旅。路線バスと自転車だけで節約しながらコナを満喫！【LCC世界一周#6】",
+    "published_at": "2020-02-24T11:39:03Z",
+    "duration": "PT9M55S",
+    "series_id": null,
+    "episode": 6,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ハワイ島コナ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/L7Og8KrRMXI/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "_Aem1q5h8IU",
+    "title": "マウイ島30歳ひとり旅。ハワイの全米NO.1にも輝いたビーチを路線バスだけで満喫！【LCC世界一周#7】",
+    "published_at": "2020-02-27T16:02:01Z",
+    "duration": "PT9M35S",
+    "series_id": null,
+    "episode": 7,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "マウイ島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/_Aem1q5h8IU/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "g11dxW6h7fA",
+    "title": "マウイ島30歳ひとり旅。ハワイの山と海を路線バスだけで満喫！【LCC世界一周#8】",
+    "published_at": "2020-02-29T15:32:39Z",
+    "duration": "PT8M32S",
+    "series_id": null,
+    "episode": 8,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "マウイ島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/g11dxW6h7fA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "pwA49aGR8kk",
+    "title": "シリコンバレー30歳ひとり旅。サンノゼからサンフランシスコまで電車で節約【LCC世界一周#9】",
+    "published_at": "2020-03-02T19:37:36Z",
+    "duration": "PT12M3S",
+    "series_id": null,
+    "episode": 9,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "シリコンバレー"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/pwA49aGR8kk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "L86H_C9kyP0",
+    "title": "ノルウェーエアシャトル30歳ひとり旅。サンフランシスコからコペンハーゲンへLCC10時間超え！【LCC世界一周#10】",
+    "published_at": "2020-03-04T14:47:08Z",
+    "duration": "PT6M29S",
+    "series_id": null,
+    "episode": 10,
+    "countries": [],
+    "cities": [
+      "ノルウェーエアシャトル"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/L86H_C9kyP0/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    },
+    "flight": true
+  },
+  {
+    "video_id": "2GaNkwD72pY",
+    "title": "鉄道でコペンハーゲンからストックホルムへ30歳ひとり旅【LCC世界一周#11】",
+    "published_at": "2020-03-06T17:39:17Z",
+    "duration": "PT5M32S",
+    "series_id": null,
+    "episode": 11,
+    "countries": [
+      "208",
+      "752"
+    ],
+    "cities": [
+      "ストックホルムへ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/2GaNkwD72pY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "_50aBH5LFoY",
+    "title": "ストックホルム30歳ひとり旅。スウェーデンが誇る世界一美しい首都！【LCC世界一周#12】",
+    "published_at": "2020-03-08T20:21:20Z",
+    "duration": "PT9M27S",
+    "series_id": null,
+    "episode": 12,
+    "countries": [
+      "752"
+    ],
+    "cities": [
+      "ストックホルム"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/_50aBH5LFoY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "JWlIAoQD1uo",
+    "title": "ストックホルムからオスロへ鉄道とバスで30歳ひとり旅【LCC世界一周#13】",
+    "published_at": "2020-03-10T15:45:14Z",
+    "duration": "PT7M21S",
+    "series_id": null,
+    "episode": 13,
+    "countries": [
+      "752",
+      "578"
+    ],
+    "cities": [
+      "オスロへ鉄道とバスで"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/JWlIAoQD1uo/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "caPewjw4uHk",
+    "title": "オスロ30歳ひとり旅。ノルウェーの首都はムンクの叫びが生まれた街！【LCC世界一周#14】",
+    "published_at": "2020-03-11T18:25:16Z",
+    "duration": "PT9M17S",
+    "series_id": null,
+    "episode": 14,
+    "countries": [
+      "578"
+    ],
+    "cities": [
+      "オスロ"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/caPewjw4uHk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "CkDGA1djgA4",
+    "title": "コペンハーゲン30歳ひとり旅。デンマークの首都は北欧のパリ！【LCC世界一周#15】",
+    "published_at": "2020-03-13T22:27:58Z",
+    "duration": "PT8M36S",
+    "series_id": null,
+    "episode": 15,
+    "countries": [
+      "208"
+    ],
+    "cities": [
+      "コペンハーゲン"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/CkDGA1djgA4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "jHz8vNp9g7Q",
+    "title": "ノルウェーエアシャトル30歳ひとり旅。従業員半数解雇のニュースが流れた北欧のLCCとは？（コペンハーゲン〜バンコク 10時間超え）【LCC世界一周#16】",
+    "published_at": "2020-03-15T14:36:53Z",
+    "duration": "PT5M4S",
+    "series_id": null,
+    "episode": 16,
+    "countries": [],
+    "cities": [
+      "ノルウェーエアシャトル"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/jHz8vNp9g7Q/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    },
+    "flight": true
+  },
+  {
+    "video_id": "kE8Twz597mA",
+    "title": "バンコク30歳ひとり旅。タイ首都のインスタ映えスポット巡り【LCC世界一周#17】",
+    "published_at": "2020-03-17T23:15:30Z",
+    "duration": "PT12M58S",
+    "series_id": null,
+    "episode": 17,
+    "countries": [
+      "764"
+    ],
+    "cities": [
+      "バンコク"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/kE8Twz597mA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
     "video_id": "aBhAn8VbMww",
     "title": "バンコクからビエンチャン30歳ひとり旅。14時間の陸路国境越え。タイから寝台列車とバスを乗り継ぎラオスへ【東南アジア一周#1】",
     "published_at": "2020-03-19T20:16:14Z",
