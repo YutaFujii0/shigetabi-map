@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { visitedCountryCount, countriesWithVideos, officialTally, RECOGNIZED, allSeries, seriesColor, site } from '../lib/data';
+import { visitedCountryCount, officialTally, RECOGNIZED, allSeries, seriesColor, site } from '../lib/data';
 import { JAPAN_FINE_D } from '../lib/geo';
 interface Props {
   /** ページの <title>（サイト名は後ろに付ける）。無ければホームのタイトル */
@@ -92,8 +92,8 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
       </header>
       <main><slot /></main>
       <footer class="a-foot">
-        <p>本サイトは「しげ旅」の非公式ファンサイトです。しげさんの位置は公開済みの投稿から推定した国レベルの情報で、実際の所在とは異なる場合があります。</p>
-        <p>訪問国の数は、最新の動画の概要欄に書かれた「しげ旅通算○/195ヶ国」です（日本が国家として承認している国から日本を除いた195か国が基準）。地図で色が付いているのは動画が公開されている国で（{countriesWithVideos}か国）、チャンネル開設前の旅行で訪れた国は含みません。台湾・香港・グリーンランドなどの地域は、地図には色を付けますが数には含めません。日本が承認していない国・地域（北朝鮮など）は濃いグレーで表示しています。</p>
+        <p>本サイトは「しげ旅」の非公式ファンサイトです。しげさんの位置は公開済みの投稿から推定した国レベルの情報で、実際の所在とは異なる場合があります。ご本人に承諾を取って運営しているわけではなく、本サイトに関するいかなる事由についてもご本人は無関係です。</p>
+        <p>訪問国の数は、最新の動画の概要欄に書かれた「しげ旅通算○/195ヶ国」です（日本が国家として承認している国から日本を除いた195か国が基準）。台湾・香港・グリーンランドなどの地域は、地図には色を付けますが数には含めません。日本が承認していない国・地域（北朝鮮など）は濃いグレーで表示しています。</p>
         <p>アクセス解析のため Google アナリティクスを使用しています（Cookie で匿名のアクセス情報を収集します）。</p>
       </footer>
     </div>
