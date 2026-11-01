@@ -29,7 +29,7 @@ const GEOCODE = !process.argv.includes('--no-geocode');
 /** 最後の公開からこの日数以内のシリーズは「旅の途中」とみなす */
 const ONGOING_DAYS = 45;
 
-type Playlist = { playlist_id: string; id: string; name: string; playlist_title: string };
+type Playlist = { playlist_id: string; id: string; name: string; playlist_title: string; color?: string };
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
   video_id: string; title: string; published_at: string; duration: string;
@@ -294,7 +294,7 @@ async function main() {
       const lastPub = Math.max(...vs.map((v) => Date.parse(v.published_at)));
       const ov = overrides.series[pl.id] ?? {};
       const ended = 'ended' in ov ? ov.ended! : now - lastPub < ONGOING_DAYS * 864e5 ? null : month(ws.at(-1)!);
-      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id };
+      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id, color: pl.color };
     })
     .filter((s) => !!s)
     .sort((a, b) => a.started.localeCompare(b.started))

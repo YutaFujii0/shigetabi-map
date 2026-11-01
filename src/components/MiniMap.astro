@@ -1,9 +1,11 @@
 ---
 // シリーズカード用の小さな地図。表示範囲にかかる国だけ出力して HTML を軽くする
 import { COUNTRY_SHAPES, W as MAP_W, arc, bbox, intersects, unwrap } from '../lib/geo';
-import { visited, UNRECOGNIZED_STATES, connected, type RouteStop } from '../lib/data';
-interface Props { stops: RouteStop[] }
+import { visited, UNRECOGNIZED_STATES, connected, firstSeriesOf, countriesOfSeries, seriesColor, type RouteStop } from '../lib/data';
+interface Props { stops: RouteStop[]; seriesId: string }
 const st = unwrap(Astro.props.stops);
+// このシリーズの国だけシリーズの色で塗る（ほかのシリーズで行った国は薄く）
+const inSeries = countriesOfSeries(Astro.props.seriesId);
 const b = bbox(st, 40);
 const asp = 8 / 16;
 const w = Math.max(b.w, b.h / asp), h = w * asp;
@@ -13,8 +15,8 @@ const shapes = [0, MAP_W, -MAP_W].flatMap((dx) =>
   COUNTRY_SHAPES.filter((c) => intersects({ ...c.bounds, x: c.bounds.x + dx }, view)).map((c) => ({ ...c, dx })),
 );
 ---
-<svg class="mini" viewBox={`${view.x.toFixed(1)} ${view.y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-  {shapes.map((c) => <path class={visited.has(c.id) ? 'c v' : UNRECOGNIZED_STATES.has(c.id) ? 'c u' : 'c'} d={c.d} transform={c.dx ? `translate(${c.dx},0)` : undefined}></path>)}
+<svg class="mini focus" style={`--focus:${seriesColor(Astro.props.seriesId)}`} viewBox={`${view.x.toFixed(1)} ${view.y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  {shapes.map((c) => <path class={visited.has(c.id) ? `c v s-${firstSeriesOf(c.id) ?? 'none'}${inSeries.has(c.id) ? ' in' : ''}` : UNRECOGNIZED_STATES.has(c.id) ? 'c u' : 'c'} d={c.d} transform={c.dx ? `translate(${c.dx},0)` : undefined}></path>)}
   {st.slice(1).map((s, i) => connected(st[i], s) && <path class="rt" style={`stroke-width:${(w / 400).toFixed(2)}`} d={arc(st[i], s)}></path>)}
   {st.map((s) => <circle cx={s.x} cy={s.y} r={(w / 180).toFixed(2)} fill="var(--surface)" stroke="var(--route)" stroke-width={(w / 600).toFixed(2)}></circle>)}
 </svg>

@@ -6,7 +6,7 @@ import Title from '../../components/Title.astro';
 import Flag from '../../components/Flag.astro';
 import { bbox, unwrap } from '../../lib/geo';
 import {
-  allSeries, visited, countryName, videosByCountry, lastStopIn, seriesSummary, getSeries, ym, youtubeUrl, type Series,
+  allSeries, visited, countryName, seriesColor, videosByCountry, lastStopIn, seriesSummary, getSeries, ym, youtubeUrl, type Series,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -65,10 +65,10 @@ const bubbles = [...visited].map((iso) => {
   </div>
 
   <div class="seriesmap">
-    <WorldMap id="sermap" route={sm.stops} numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
+    <WorldMap id="sermap" route={sm.stops} focusSeries={se.id} numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
   </div>
 
-  <section class="box">
+  <section class="box" style={`--focus:${seriesColor(se.id)}`}>
     <h2>動画（訪問順）</h2>
     {sm.stops.map((s) => (
       <div class="vgroup" id={`vg-${s.seq}`} data-iso={s.iso_n3}>

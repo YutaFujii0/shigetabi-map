@@ -10,7 +10,7 @@ import { bbox, W, H } from '../lib/geo';
 import {
   allSeries, visited, latestVideo, recentStops, currentPos, site,
   countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
-  visitedCountryCount, visitedList, videos,
+  visitedCountryCount, visitedList, videos, seriesColor,
 } from '../lib/data';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -43,13 +43,13 @@ const jsonLd = [
         <a class="lv" href={youtubeUrl(latestVideo.video_id)} target="_blank" rel="noopener">
           <Thumb video={latestVideo} />
           <div class="bd">
-            <div class="sr"><i class="sw" style="background:var(--latest)"></i>{latestNames}{latestSeries && ` ・ ${latestSeries.name}`}</div>
+            <div class="sr"><i class="sw outline"></i>{latestNames}{latestSeries && ` ・ ${latestSeries.name}`}</div>
             <div class="t"><Title title={latestVideo.title} /></div>
             <div class="d">{ymd(latestVideo.published_at)} 公開</div>
             <span class="more">YouTube で見る →</span>
           </div>
         </a>
-        <p class="hint">地図で<b>黄色</b>の国がこの動画の国です。国をクリックすると、その国の動画一覧に切り替わります。</p>
+        <p class="hint">地図で<b>黒い縁取り</b>の国がこの動画の国です。国の色は、最初に行った旅のシリーズを表しています。国をクリックすると、その国の動画一覧に切り替わります。</p>
       </div>
 
       {visitedIsos.map((iso) => {
@@ -100,9 +100,9 @@ const jsonLd = [
         const sm = seriesSummary(se);
         return (
           <a class="scard" href={seriesUrl(se.id)}>
-            <MiniMap stops={sm.stops} />
+            <MiniMap stops={sm.stops} seriesId={se.id} />
             <div class="bd">
-              <div class="nm">{se.name}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
+              <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
               <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
               <div class="cs">{sm.countryNames.join(' → ')}</div>
             </div>

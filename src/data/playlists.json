@@ -1,11 +1,65 @@
 [
-  { "playlist_id": "PL_zqfBigax6v9isyw4yZ4EL61rpFwyc-2", "id": "europe", "name": "ヨーロッパ編", "playlist_title": "ヨーロッパ" },
-  { "playlist_id": "PL_zqfBigax6ucNks4ZAGGrHliQb00kmMD", "id": "north-america", "name": "北米編", "playlist_title": "北米" },
-  { "playlist_id": "PL_zqfBigax6sL4o58ShgJGLk67fxEnT6k", "id": "central-america", "name": "中米編", "playlist_title": "中米" },
-  { "playlist_id": "PL_zqfBigax6sT_MXqxjHze_mo3RmFLSVq", "id": "south-america", "name": "南米編", "playlist_title": "南米" },
-  { "playlist_id": "PL_zqfBigax6uQe8P4AGCyHwvrcytBLEnj", "id": "caribbean", "name": "カリブ海編", "playlist_title": "カリブ海" },
-  { "playlist_id": "PL_zqfBigax6tMD6Cuf21BTKlE-lws5xwe", "id": "southeast-asia", "name": "東南アジア一周編", "playlist_title": "東南アジア一周" },
-  { "playlist_id": "PL_zqfBigax6vvUds8pBzGa-JvsEuCFSbP", "id": "asia", "name": "アジア編", "playlist_title": "アジア" },
-  { "playlist_id": "PL_zqfBigax6uscPmG0v5pu1KQEQXosxm_", "id": "oceania", "name": "オセアニア編", "playlist_title": "オセアニア" },
-  { "playlist_id": "PLWduGuFZu8K0", "id": "africa", "name": "アフリカ編", "playlist_title": "アフリカ" }
+  {
+    "playlist_id": "PL_zqfBigax6v9isyw4yZ4EL61rpFwyc-2",
+    "id": "europe",
+    "name": "ヨーロッパ編",
+    "playlist_title": "ヨーロッパ",
+    "color": "#8B5CF6"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6ucNks4ZAGGrHliQb00kmMD",
+    "id": "north-america",
+    "name": "北米編",
+    "playlist_title": "北米",
+    "color": "#3B82F6"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sL4o58ShgJGLk67fxEnT6k",
+    "id": "central-america",
+    "name": "中米編",
+    "playlist_title": "中米",
+    "color": "#7CB518"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6sT_MXqxjHze_mo3RmFLSVq",
+    "id": "south-america",
+    "name": "南米編",
+    "playlist_title": "南米",
+    "color": "#EF4444"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6uQe8P4AGCyHwvrcytBLEnj",
+    "id": "caribbean",
+    "name": "カリブ海編",
+    "playlist_title": "カリブ海",
+    "color": "#14B8A6"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tMD6Cuf21BTKlE-lws5xwe",
+    "id": "southeast-asia",
+    "name": "東南アジア一周編",
+    "playlist_title": "東南アジア一周",
+    "color": "#F59E0B"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6vvUds8pBzGa-JvsEuCFSbP",
+    "id": "asia",
+    "name": "アジア編",
+    "playlist_title": "アジア",
+    "color": "#EC4899"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6uscPmG0v5pu1KQEQXosxm_",
+    "id": "oceania",
+    "name": "オセアニア編",
+    "playlist_title": "オセアニア",
+    "color": "#0EA5E9"
+  },
+  {
+    "playlist_id": "PLWduGuFZu8K0",
+    "id": "africa",
+    "name": "アフリカ編",
+    "playlist_title": "アフリカ",
+    "color": "#C2410C"
+  }
 ]

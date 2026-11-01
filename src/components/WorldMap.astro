@@ -2,7 +2,8 @@
 // 世界地図。国の塗り分け・ルート・アイコンはビルド時に SVG を出力し、ズーム・ドラッグ・クリックは src/scripts/map.ts が担当する
 import { COUNTRY_SHAPES, SMALL, W, H, arc, unwrap, type Box, type Pt } from '../lib/geo';
 import {
-  visited, latestCountries, isCountry, connected, UNRECOGNIZED_STATES, currentPos, location, countryName, lastStopIn, getSeries, ym, type RouteStop,
+  visited, latestCountries, isCountry, connected, firstSeriesOf, UNRECOGNIZED_STATES, currentPos, location, countryName, lastStopIn, getSeries, ym,
+  allSeries, seriesColor, countriesOfSeries, type RouteStop,
 } from '../lib/data';
 import Marker from './Marker.astro';
 
@@ -19,8 +20,11 @@ interface Props {
   fit?: Box;
   /** 760px 以下での初期表示の範囲 */
   fitNarrow?: Box;
+  /** シリーズページ：このシリーズの国だけシリーズの色で塗り、ほかのシリーズで行った国は薄くする */
+  focusSeries?: string;
 }
-const { id, route: rawRoute, numbered = false, routeButton, marker = false, fit, fitNarrow } = Astro.props;
+const { id, route: rawRoute, numbered = false, routeButton, marker = false, fit, fitNarrow, focusSeries } = Astro.props;
+const focusIsos = focusSeries ? countriesOfSeries(focusSeries) : new Set<string>();
 // 地図は左右に複製してあり、横に何周でも回せる（src/scripts/map.ts）。
 // シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描く
 const route = numbered ? unwrap(rawRoute) : rawRoute;
@@ -48,12 +52,28 @@ for (const c of [...COUNTRY_SHAPES, ...dots]) {
       : `${name}・まだの国`;
 }
 const cls = (cid: string) =>
-  ['c', visited.has(cid) && 'v', latestCountries.has(cid) && 'lat', !visited.has(cid) && UNRECOGNIZED_STATES.has(cid) && 'u'].filter(Boolean).join(' ');
+  [
+    'c',
+    visited.has(cid) && 'v',
+    visited.has(cid) && firstSeriesOf(cid) && `s-${firstSeriesOf(cid)}`,
+    focusIsos.has(cid) && 'in',
+    latestCountries.has(cid) && 'lat',
+    !visited.has(cid) && UNRECOGNIZED_STATES.has(cid) && 'u',
+  ]
+    .filter(Boolean)
+    .join(' ');
 const box = (b?: Box) => (b ? [b.x, b.y, b.w, b.h].map((n) => n.toFixed(1)).join(',') : undefined);
 const asOf = new Date(location.as_of).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}｜根拠：${location.source === 'manual' ? '管理者による設定' : 'Instagram の投稿'}（${asOf} 時点）`;
 ---
-<div class="mapcard" id={id} data-map data-fit={box(fit)} data-fit-narrow={box(fitNarrow)}>
+<div
+  class:list={['mapcard', focusSeries && 'focus']}
+  style={focusSeries ? `--focus:${seriesColor(focusSeries)}` : undefined}
+  id={id}
+  data-map
+  data-fit={box(fit)}
+  data-fit-narrow={box(fitNarrow)}
+>
   <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="世界地図">
     <rect x="-3000" y="-3000" width="7000" height="7000" fill="transparent"></rect>
     <g class="gW" id={`${id}-world`}>
@@ -88,8 +108,18 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     </button>
   </div>
   <div class="maplegend">
-    <span><i class="sw" style="background:var(--visited)"></i>行った国</span>
-    <span><i class="sw" style="background:var(--latest)"></i>最新動画の国</span>
+    {focusSeries ? (
+      <>
+        <span><i class="sw" style={`background:${seriesColor(focusSeries)}`}></i>{getSeries(focusSeries).name}の国</span>
+        <span><i class="sw" style="background:var(--visited-dim)"></i>ほかのシリーズで行った国</span>
+      </>
+    ) : (
+      <>
+        <span class="lg-h">旅のシリーズ</span>
+        {allSeries.map((x) => <span><i class="sw" style={`background:${seriesColor(x.id)}`}></i>{x.name.replace(/編$/, '')}</span>)}
+      </>
+    )}
+    <span><i class="sw outline"></i>最新動画の国</span>
     <span><i class="sw" style="background:var(--land)"></i>まだの国</span>
     {marker && (
       <span><svg class="mk-ico" viewBox="-12 -12 24 24" aria-hidden="true"><g class="legend-mk"><circle class="ring" r="9"></circle><circle class="core" r="5"></circle></g></svg>しげさん（推定）</span>

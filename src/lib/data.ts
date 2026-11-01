@@ -21,6 +21,8 @@ export type Series = {
   started: string;
   ended: string | null;
   playlist_id: string;
+  /** 地図の色（playlists.json で指定） */
+  color?: string;
 };
 export type Video = {
   video_id: string;
@@ -63,6 +65,9 @@ export const location = locationJson as Location;
 
 const seriesById = new Map(allSeries.map((s) => [s.id, s]));
 export const getSeries = (id: string) => seriesById.get(id)!;
+/** シリーズの色。playlists.json で指定が無ければ順番に割り当てる */
+const FALLBACK = ['#8B5CF6', '#EF4444', '#3B82F6', '#14B8A6', '#EC4899', '#0EA5E9', '#F59E0B', '#7CB518', '#C2410C'];
+export const seriesColor = (id: string) => seriesById.get(id)?.color ?? FALLBACK[allSeries.findIndex((s) => s.id === id) % FALLBACK.length];
 const videoById = new Map(videos.map((v) => [v.video_id, v]));
 
 /* ---------- 国 ---------- */
@@ -194,3 +199,11 @@ export const visitedList = (() => {
   for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b)))) for (const iso of v.countries) if (!first.has(iso)) first.set(iso, v);
   return [...first.entries()].map(([iso, v]) => ({ iso, name: countryName(iso), since: filmedAt(v), isCountry: isCountry(iso), series: seriesOfCountry(iso) }));
 })();
+
+/** その国・地域に初めて行ったシリーズ（色分け用）。シリーズ外の動画しか無い国は undefined */
+const firstSeries = new Map<string, string>();
+for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b))))
+  if (v.series_id) for (const iso of v.countries) if (!firstSeries.has(iso)) firstSeries.set(iso, v.series_id);
+export const firstSeriesOf = (iso: string) => firstSeries.get(iso);
+/** そのシリーズの動画に出てくる国・地域 */
+export const countriesOfSeries = (id: string) => new Set(videosOfSeries(id).flatMap((v) => v.countries));
