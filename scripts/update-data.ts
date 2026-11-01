@@ -3,12 +3,19 @@
 // - 対象の再生リストは src/data/playlists.json（許可リスト）
 // - 国・都市・話数・撮影期間はタイトルから判定（scripts/lib/parse-title.ts）
 // - extract.reviewed が true の動画は判定結果を上書きしない。src/data/overrides.json の手動修正が最優先
-// - 都市の座標は src/data/cities.json にキャッシュ。無いものは OpenStreetMap Nominatim で調べる
+// - 都市の座標は src/data/cities.json にキャッシュ。無いものは Wikipedia（日本語版）→ OpenStreetMap Nominatim の順に調べ、
+//   その国の範囲内にあるものだけ採用する
 // - 結果の要約を scripts/out/report.md に書く（PR の本文に使う）
 import fs from 'node:fs';
 import path from 'node:path';
 import countries from 'i18n-iso-countries';
-import { parseTitle } from './lib/parse-title.ts';
+import ja from 'i18n-iso-countries/langs/ja.json' with { type: 'json' };
+import { geoContains } from 'd3-geo';
+import { feature } from 'topojson-client';
+import world from 'world-atlas/countries-50m.json' with { type: 'json' };
+import { parseTitle, namesToA2 } from './lib/parse-title.ts';
+
+countries.registerLocale(ja);
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA = path.join(ROOT, 'src/data');
@@ -30,7 +37,7 @@ type Overrides = {
   videos: Record<string, Partial<Pick<Video, 'countries' | 'cities' | 'filmed_at' | 'series_id' | 'flight'>> & { exclude?: boolean }>;
   series: Record<string, { ended?: string | null; name?: string }>;
 };
-type City = { lat: number; lng: number; source: 'nominatim' | 'manual' };
+type City = { lat: number; lng: number; source: 'wikipedia' | 'nominatim' | 'manual' };
 
 const read = <T>(f: string): T => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
 const write = (f: string, d: unknown) => fs.writeFileSync(path.join(DATA, f), JSON.stringify(d, null, 2) + '\n');
@@ -72,15 +79,63 @@ async function videoDetails(ids: string[]) {
   return out;
 }
 
-async function geocode(city: string, a2: string): Promise<City | null> {
+const UA = { 'User-Agent': 'shigetabi-map data updater (https://github.com/YutaFujii0/shigetabi-map)' };
+const round = (n: number) => Math.round(n * 100) / 100;
+
+// 国境の判定用（50m は小さな島国も含む）
+const shapes = new Map(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  (feature(world as any, (world as any).objects.countries) as any).features.map((f: any) => [String(f.id), f]),
+);
+/** 座標がその国の範囲内か。地図データに無い国は判定できないので通す */
+function inCountry(c: City, n3: string): boolean {
+  const f = shapes.get(n3);
+  if (!f) return true;
+  if (geoContains(f, [c.lng, c.lat])) return true;
+  // 海沿いの都市は粗い国境の外に出ることがあるので、少しずらして確かめる
+  return [[0.3, 0], [-0.3, 0], [0, 0.3], [0, -0.3]].some(([dx, dy]) => geoContains(f, [c.lng + dx, c.lat + dy]));
+}
+
+async function wikipedia(city: string): Promise<City | null> {
+  const qs = new URLSearchParams({ action: 'query', titles: city, redirects: '1', prop: 'coordinates|pageprops', ppprop: 'wikibase_item', format: 'json', formatversion: '2' });
+  const res = await fetch(`https://ja.wikipedia.org/w/api.php?${qs}`, { headers: UA });
+  if (!res.ok) return null;
+  type Page = { coordinates?: { lat: number; lon: number }[]; pageprops?: { wikibase_item?: string } };
+  const page = ((await res.json()) as { query?: { pages?: Page[] } }).query?.pages?.[0];
+  const co = page?.coordinates?.[0];
+  if (co) return { lat: round(co.lat), lng: round(co.lon), source: 'wikipedia' };
+  // 日本語版に座標が無いページは Wikidata の座標（P625）を見る
+  const q = page?.pageprops?.wikibase_item;
+  if (!q) return null;
+  const wd = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${q}.json`, { headers: UA });
+  if (!wd.ok) return null;
+  type Entity = { claims?: { P625?: { mainsnak: { datavalue?: { value: { latitude: number; longitude: number } } } }[] } };
+  const v = ((await wd.json()) as { entities: Record<string, Entity> }).entities[q]?.claims?.P625?.[0]?.mainsnak.datavalue?.value;
+  return v ? { lat: round(v.latitude), lng: round(v.longitude), source: 'wikipedia' } : null;
+}
+
+async function nominatim(city: string, a2: string): Promise<City | null> {
   const qs = new URLSearchParams({ q: city, countrycodes: a2.toLowerCase(), format: 'json', limit: '1', 'accept-language': 'ja' });
-  const res = await fetch(`https://nominatim.openstreetmap.org/search?${qs}`, {
-    headers: { 'User-Agent': 'shigetabi-map data updater (https://github.com/YutaFujii0/shigetabi-map)' },
-  });
+  const res = await fetch(`https://nominatim.openstreetmap.org/search?${qs}`, { headers: UA });
   await sleep(1100); // Nominatim の利用規約：1秒に1回まで
   if (!res.ok) return null;
   const [hit] = (await res.json()) as { lat: string; lon: string }[];
-  return hit ? { lat: Math.round(+hit.lat * 100) / 100, lng: Math.round(+hit.lon * 100) / 100, source: 'nominatim' } : null;
+  return hit ? { lat: round(+hit.lat), lng: round(+hit.lon), source: 'nominatim' } : null;
+}
+
+async function geocode(city: string, n3: string): Promise<City | null> {
+  const w = await wikipedia(city).catch(() => null);
+  if (w && inCountry(w, n3)) return w;
+  const n = await nominatim(city, toA2(n3) ?? '').catch(() => null);
+  return n && inCountry(n, n3) ? n : null;
+}
+
+/** 国旗の無いタイトル用の国名辞書（i18n-iso-countries の日本語名と別名 ＋ countries.json） */
+function nameDictionary(): Map<string, string> {
+  const dict = new Map<string, string>();
+  for (const [a2, names] of Object.entries(countries.getNames('ja', { select: 'all' }))) for (const n of names) if (n.length >= 2) dict.set(n, a2);
+  for (const c of read<{ iso_a2: string; name_ja: string; aliases: string[] }[]>('countries.json')) for (const n of [c.name_ja, ...c.aliases]) dict.set(n, c.iso_a2);
+  return dict;
 }
 
 const toN3 = (a2: string) => countries.alpha2ToNumeric(a2);
@@ -93,7 +148,8 @@ async function main() {
   const overrides = read<Overrides>('overrides.json');
   const cities = read<Record<string, City>>('cities.json');
   const prev = new Map(read<Video[]>('videos.json').map((v) => [v.video_id, v]));
-  const report = { unresolved: [] as Video[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
+  const names = nameDictionary();
+  const report = { unresolved: [] as Video[], byName: [] as Video[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
 
   // 1. 再生リスト → 動画ID（複数の再生リストに入っている動画は先に書いたシリーズを優先）
   const seriesOf = new Map<string, string>();
@@ -114,6 +170,9 @@ async function main() {
     if (ov?.exclude) continue;
     const old = prev.get(d.id);
     const p = parseTitle(d.snippet.title);
+    // 国旗が無い回（古い動画など）は本文の国名から推定する。移動回は除く
+    const byName = !p.a2.length && !p.flight;
+    if (byName) p.a2 = namesToA2(d.snippet.title, names);
     const n3 = p.a2.map((a2) => {
       const n = toN3(a2);
       if (!n) report.unknownFlags.push(`${a2}（${d.snippet.title}）`);
@@ -131,13 +190,16 @@ async function main() {
       filmed_at: p.filmed,
       ...(p.flight ? { flight: true } : {}),
       thumbnail: (d.snippet.thumbnails.medium ?? d.snippet.thumbnails.default)?.url,
-      extract: n3.length ? { method: 'title', confidence: p.city || p.flight ? 1 : 0.7, reviewed: false } : { method: 'unresolved', confidence: 0, reviewed: false },
+      extract: n3.length
+        ? { method: 'title', confidence: byName ? 0.6 : p.city || p.flight ? 1 : 0.7, reviewed: false }
+        : { method: 'unresolved', confidence: 0, reviewed: false },
     };
     // 人が確認済みの判定は残す（タイトル・公開日などAPIの値だけ更新）
     if (old?.extract.reviewed) v = { ...v, countries: old.countries, cities: old.cities, filmed_at: old.filmed_at, flight: old.flight, episode: old.episode, extract: old.extract };
     if (ov) v = { ...v, ...ov, extract: { method: 'manual', confidence: 1, reviewed: true } };
     if (!v.flight) delete v.flight;
     if (v.extract.method === 'unresolved' && !v.flight) report.unresolved.push(v);
+    if (byName && n3.length && !v.extract.reviewed) report.byName.push(v);
     if (!old) report.added.push(v);
     videos.push(v);
   }
@@ -163,7 +225,7 @@ async function main() {
       }
       let c: City | null | undefined = city ? cities[`${iso}:${city}`] : undefined;
       if (city && !c && GEOCODE) {
-        c = await geocode(city, toA2(iso) ?? '');
+        c = await geocode(city, iso);
         if (c) cities[`${iso}:${city}`] = c;
       }
       if (city && !c) report.noCoords.push(`${city}（${iso}）`);
@@ -202,6 +264,7 @@ async function main() {
     ``,
     ...(report.added.length ? [`### 新しい動画`, ...report.added.map((v) => `- ${v.title}（${v.countries.join(',') || '国なし'}）`), ``] : []),
     ...(report.unresolved.length ? [`### 国が判定できなかった動画（overrides.json で指定してください）`, ...report.unresolved.map((v) => `- \`${v.video_id}\` ${v.title}`), ``] : []),
+    ...(report.byName.length ? [`### 国旗が無く本文の国名から判定した動画（確認して overrides.json か reviewed で確定してください）`, ...report.byName.map((v) => `- \`${v.video_id}\` ${v.title} → ${v.countries.join(',')}`), ``] : []),
     ...(report.noCoords.length ? [`### 座標が見つからなかった都市（cities.json に追加してください）`, ...[...new Set(report.noCoords)].map((c) => `- ${c}`), ``] : []),
     ...(report.unknownFlags.length ? [`### 国コードに変換できなかった国旗`, ...report.unknownFlags.map((c) => `- ${c}`), ``] : []),
     ...(report.dup.length ? [`### 複数のシリーズに入っている動画（先のシリーズを採用）`, ...report.dup.map((c) => `- ${c}`), ``] : []),

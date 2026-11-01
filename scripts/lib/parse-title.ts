@@ -17,13 +17,36 @@ export type ParsedTitle = {
 const FLAG_RE = /([\u{1F1E6}-\u{1F1FF}])([\u{1F1E6}-\u{1F1FF}])/gu;
 const FLIGHT_RE = /(航空|エアライン|ファーストクラス|ビジネスクラス|エコノミー|空港|フライト|機内)/;
 
+// イングランド・スコットランド・ウェールズの旗（🏴 + タグ文字 gbeng など）はイギリスとして扱う
+const SUBDIVISION_RE = /\u{1F3F4}((?:[\u{E0061}-\u{E007A}])+)\u{E007F}/gu;
+
 export function flagsToA2(title: string): string[] {
-  const out: string[] = [];
+  const found: { i: number; a2: string }[] = [];
   for (const m of title.matchAll(FLAG_RE)) {
-    const a2 = [m[1], m[2]].map((c) => String.fromCharCode(c.codePointAt(0)! - 0x1f1e6 + 65)).join('');
-    if (!out.includes(a2)) out.push(a2);
+    found.push({ i: m.index, a2: [m[1], m[2]].map((c) => String.fromCharCode(c.codePointAt(0)! - 0x1f1e6 + 65)).join('') });
   }
-  return out;
+  for (const m of title.matchAll(SUBDIVISION_RE)) {
+    const tag = [...m[1]].map((c) => String.fromCharCode(c.codePointAt(0)! - 0xe0000)).join('');
+    found.push({ i: m.index, a2: tag.slice(0, 2).toUpperCase() });
+  }
+  return [...new Set(found.sort((a, b) => a.i - b.i).map((f) => f.a2))];
+}
+
+/**
+ * 国旗が無いタイトル用：本文中の国名（長いものから）を探す。nameToA2 は「国名 → alpha-2」の辞書。
+ * 誤検出がありうるので、呼び出し側で信頼度を下げて人の確認に回す
+ */
+export function namesToA2(title: string, nameToA2: Map<string, string>): string[] {
+  let rest = title.replace(/【[^】]*】/g, ' ');
+  const found: { i: number; a2: string }[] = [];
+  for (const name of [...nameToA2.keys()].sort((a, b) => b.length - a.length)) {
+    let i: number;
+    while ((i = rest.indexOf(name)) >= 0) {
+      found.push({ i, a2: nameToA2.get(name)! });
+      rest = rest.slice(0, i) + '\u0000'.repeat(name.length) + rest.slice(i + name.length);
+    }
+  }
+  return [...new Set(found.sort((a, b) => a.i - b.i).map((f) => f.a2))];
 }
 
 const pad = (n: number) => String(n).padStart(2, '0');
@@ -56,6 +79,8 @@ export function parseCity(title: string): { city: string | null; flight: boolean
     .replace(/\d+歳(ひとり|一人)?$/, '')
     .replace(/乗(り)?継(ぎ)?$/, '')
     .trim();
+  // 「バンコクからビエンチャン」は行き先、「ダナン、ホイアン」「ティンプー・プナカ」は最初の都市を採る
+  city = city.split(/から|→/).at(-1)!.split(/[、・,]/)[0].trim();
   const flight = FLIGHT_RE.test(city) || /乗(り)?継(ぎ)?/.test(m[1]);
   // 「成田ロンドン」「羽田ニューヨーク」のような移動回は都市として扱わない
   if (FLIGHT_RE.test(city) || /^(成田|羽田|関空|中部|福岡)/.test(city) || /[A-Za-z]{3,}/.test(city)) return { city: null, flight: true };
