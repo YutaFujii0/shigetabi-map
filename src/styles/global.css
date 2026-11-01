@@ -132,9 +132,22 @@ img { max-width: 100%; display: block; }
 .sec-h .sub { font-size: 12px; color: var(--muted); }
 
 /* Instagram */
-.igwrap { min-width: 0; }
+.igwrap { position: relative; min-width: 0; height: 0; padding-bottom: calc(66.67% + 192px); overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
 @media (max-width: 760px) { .igwrap { max-width: 540px; width: 100%; margin-inline: auto; } }
-.igwrap .instagram-media { margin: 0 !important; min-width: 0 !important; width: 100% !important; }
+.igwrap .instagram-media { position: absolute !important; inset: 0; margin: 0 !important; min-width: 0 !important; width: 100% !important; height: 100% !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+/* 読み込み中のスケルトン（アイコン・名前・写真6枚の形） */
+.ig-skel { position: absolute; inset: 0; z-index: 1; display: flex; flex-direction: column; background: var(--surface); transition: opacity 0.3s; }
+.igwrap.ready .ig-skel { opacity: 0; pointer-events: none; }
+.ig-skel-head { display: flex; align-items: center; gap: 18px; padding: 24px 22px; height: 146px; }
+.ig-skel-av { width: 88px; height: 88px; border-radius: 50%; flex: none; }
+.ig-skel-head > div { display: grid; gap: 10px; flex: 1; }
+.ig-skel-line { display: block; height: 12px; border-radius: 6px; }
+.ig-skel-line.w1 { width: 45%; } .ig-skel-line.w2 { width: 25%; } .ig-skel-line.w3 { width: 55%; }
+.ig-skel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.ig-skel-grid i { aspect-ratio: 1; }
+.ig-skel-av, .ig-skel-line, .ig-skel-grid i { background: linear-gradient(90deg, #eceae4 25%, #f5f3ee 50%, #eceae4 75%); background-size: 200% 100%; animation: skel 1.4s ease-in-out infinite; }
+@keyframes skel { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .ig-skel-av, .ig-skel-line, .ig-skel-grid i { animation: none; } }
 
 /* シリーズのタブ */
 .tabs { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 1px solid var(--line); }

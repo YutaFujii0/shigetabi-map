@@ -54,7 +54,7 @@ API の消費は 1回あたり「再生リストのページ数＋動画数/50�
 
 ### 定期実行
 
-`.github/workflows/update-data.yml` が毎日 6:17（JST）に取得し、差分があれば `data/update` ブランチで PR を作る。確認してマージすると Pages が再ビルドされる。必要な設定：
+`.github/workflows/update-data.yml` が4時間ごと（JST 2:17・6:17・10:17・14:17・18:17・22:17）に取得し、差分があれば `data/update` ブランチで PR を作る。確認してマージすると Pages が再ビルドされる。必要な設定：
 
 - Settings → Secrets and variables → Actions に `YOUTUBE_API_KEY`
 - Settings → Actions → General → 「Allow GitHub Actions to create and approve pull requests」をオン

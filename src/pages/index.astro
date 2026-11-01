@@ -101,7 +101,13 @@ const jsonLd = [
       </div>
     </aside>
     <!-- Instagram プロフィールの公式埋め込み（PC は地図の右、最新の動画の下）。直近の投稿が Instagram 側で自動的に更新される -->
+    {/* 埋め込みの高さは幅で決まる（高さ ≈ 幅×2/3＋190px）。最初からその高さで枠を確保し、読み込むまではスケルトンを出す。
+        こうしないと埋め込みの読み込み中に高さが変わり、それに合わせて地図の大きさも変わってしまう */}
     <div class="igwrap">
+      <div class="ig-skel" aria-hidden="true">
+        <div class="ig-skel-head"><i class="ig-skel-av"></i><div><i class="ig-skel-line w1"></i><i class="ig-skel-line w2"></i><i class="ig-skel-line w3"></i></div></div>
+        <div class="ig-skel-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
       <blockquote class="instagram-media" data-instgrm-permalink={site.instagram_url} data-instgrm-version="14">
         <a href={site.instagram_url} target="_blank" rel="noopener">Instagram で @{site.instagram_account} を見る</a>
       </blockquote>
@@ -116,13 +122,15 @@ const jsonLd = [
           };
           'requestIdleCallback' in window ? requestIdleCallback(go, { timeout: 3000 }) : setTimeout(go, 1500);
           // 埋め込みの iframe にタイトルを付ける（アクセシビリティ）
+          // 埋め込みの iframe にタイトルを付け、読み込めたらスケルトンを消す
+          const wrap = document.querySelector('.igwrap');
           new MutationObserver((_, ob) => {
-            const f = document.querySelector('.igwrap iframe');
-            if (f) {
-              f.title = 'Instagram @shigehiroyama';
-              ob.disconnect();
-            }
-          }).observe(document.querySelector('.igwrap'), { childList: true, subtree: true });
+            const f = wrap.querySelector('iframe');
+            if (!f) return;
+            ob.disconnect();
+            f.title = 'Instagram @shigehiroyama';
+            f.addEventListener('load', () => setTimeout(() => wrap.classList.add('ready'), 300), { once: true });
+          }).observe(wrap, { childList: true, subtree: true });
         });
       </script>
     </div>
