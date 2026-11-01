@@ -1,17 +1,20 @@
 ---
 // シリーズカード用の小さな地図。表示範囲にかかる国だけ出力して HTML を軽くする
-import { COUNTRY_SHAPES, arc, bbox, intersects } from '../lib/geo';
+import { COUNTRY_SHAPES, W as MAP_W, arc, bbox, intersects, unwrap } from '../lib/geo';
 import { visited, type RouteStop } from '../lib/data';
 interface Props { stops: RouteStop[] }
-const st = Astro.props.stops;
+const st = unwrap(Astro.props.stops);
 const b = bbox(st, 40);
 const asp = 8 / 16;
 const w = Math.max(b.w, b.h / asp), h = w * asp;
 const view = { x: b.x + b.w / 2 - w / 2, y: b.y + b.h / 2 - h / 2, w, h };
-const shapes = COUNTRY_SHAPES.filter((c) => intersects(c.bounds, view));
+// 日付変更線をまたぐ範囲では、国を左右にずらしたコピーも描く
+const shapes = [0, MAP_W, -MAP_W].flatMap((dx) =>
+  COUNTRY_SHAPES.filter((c) => intersects({ ...c.bounds, x: c.bounds.x + dx }, view)).map((c) => ({ ...c, dx })),
+);
 ---
 <svg class="mini" viewBox={`${view.x.toFixed(1)} ${view.y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-  {shapes.map((c) => <path class={visited.has(c.id) ? 'c v' : 'c'} d={c.d}></path>)}
+  {shapes.map((c) => <path class={visited.has(c.id) ? 'c v' : 'c'} d={c.d} transform={c.dx ? `translate(${c.dx},0)` : undefined}></path>)}
   {st.slice(1).map((s, i) => <path class="rt" style={`stroke-width:${(w / 400).toFixed(2)}`} d={arc(st[i], s)}></path>)}
   {st.map((s) => <circle cx={s.x} cy={s.y} r={(w / 180).toFixed(2)} fill="var(--surface)" stroke="var(--route)" stroke-width={(w / 600).toFixed(2)}></circle>)}
 </svg>

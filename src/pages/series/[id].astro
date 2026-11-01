@@ -4,7 +4,7 @@ import WorldMap from '../../components/WorldMap.astro';
 import VideoItem from '../../components/VideoItem.astro';
 import Title from '../../components/Title.astro';
 import Flag from '../../components/Flag.astro';
-import { bbox } from '../../lib/geo';
+import { bbox, unwrap } from '../../lib/geo';
 import {
   allSeries, visited, countryName, videosByCountry, lastStopIn, seriesSummary, getSeries, ym, youtubeUrl, type Series,
 } from '../../lib/data';
@@ -44,7 +44,7 @@ const bubbles = [...visited].map((iso) => {
   </div>
 
   <div class="seriesmap">
-    <WorldMap id="sermap" route={sm.stops} numbered fit={bbox(sm.stops, 70)} fitNarrow={bbox(sm.stops, 50)} />
+    <WorldMap id="sermap" route={sm.stops} numbered fit={bbox(unwrap(sm.stops), 70)} fitNarrow={bbox(unwrap(sm.stops), 50)} />
   </div>
 
   <section class="box">

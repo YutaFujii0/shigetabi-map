@@ -55,14 +55,33 @@ export function countryCenter(iso: string): Pt | undefined {
   return project(lng, lat);
 }
 
-/** 2点間を少し膨らんだ弧で結ぶ */
-export function arc(a: Pt, b: Pt): string {
+function curve(a: Pt, b: Pt): string {
   const mx = (a.x + b.x) / 2,
     my = (a.y + b.y) / 2,
     dx = b.x - a.x,
     dy = b.y - a.y,
     k = 0.18;
   return `M${a.x},${a.y} Q${(mx - dy * k).toFixed(1)},${(my + dx * k).toFixed(1)} ${b.x},${b.y}`;
+}
+
+/**
+ * 2点間を少し膨らんだ弧で結ぶ。日付変更線をまたぐ近い方の経路（オーストラリア → サモアなど）は、
+ * 地図を横断させずに端から出て反対の端から入る2本の弧にする
+ */
+export function arc(a: Pt, b: Pt): string {
+  const dx = b.x - a.x;
+  if (Math.abs(dx) <= W / 2) return curve(a, b);
+  const s = Math.sign(dx) * W;
+  return `${curve(a, { x: b.x - s, y: b.y })} ${curve({ x: a.x + s, y: a.y }, b)}`;
+}
+
+/** 日付変更線をまたいで散らばる点（太平洋の島々など）は、西側を +W ずらして1か所にまとまる座標にする */
+export function unwrap<T extends Pt>(pts: T[]): T[] {
+  const span = (xs: number[]) => Math.max(...xs) - Math.min(...xs);
+  const xs = pts.map((p) => p.x);
+  if (span(xs) <= W / 2) return pts;
+  const shifted = pts.map((p) => (p.x < W / 2 ? { ...p, x: p.x + W } : p));
+  return span(shifted.map((p) => p.x)) < span(xs) ? shifted : pts;
 }
 
 export function bbox(pts: Pt[], pad: number): Box {

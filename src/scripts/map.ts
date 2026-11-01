@@ -22,6 +22,10 @@ export function initMap(card: HTMLElement): MapController {
   const tip = card.querySelector<HTMLElement>('.tip')!;
   const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
   const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
+  // 日付変更線をまたぐシリーズでは地図を左右に複製している（<use>）。横方向は 3 枚ぶん動ける
+  const wrap = card.hasAttribute('data-wrap');
+  const X0 = wrap ? -W : 0,
+    X1 = wrap ? 2 * W : W;
   const routes = [...gR.querySelectorAll<SVGPathElement>('.rt')];
   let view = { cx: W / 2, cy: H / 2, k: 1 };
 
@@ -37,7 +41,7 @@ export function initMap(card: HTMLElement): MapController {
       h = H / view.k;
       w = h / asp;
     }
-    view.cx = w >= W ? W / 2 : Math.min(Math.max(view.cx, w / 2), W - w / 2);
+    view.cx = w >= X1 - X0 ? (X0 + X1) / 2 : Math.min(Math.max(view.cx, X0 + w / 2), X1 - w / 2);
     view.cy = h >= H ? H / 2 : Math.min(Math.max(view.cy, h / 2), H - h / 2);
     svg.setAttribute('viewBox', `${view.cx - w / 2} ${view.cy - h / 2} ${w} ${h}`);
     // ズームしても印や線の見た目の大きさがあまり変わらないようにする
@@ -140,9 +144,24 @@ export function initMap(card: HTMLElement): MapController {
     { passive: false },
   );
 
+  /** ポインタ下の国。複製（<use>）の上なら、ずらした分を戻して元の国を探す */
+  const paths = [...gC.querySelectorAll<SVGPathElement>('path[data-id]')];
+  function countryAt(e: MouseEvent): string | undefined {
+    const t = e.target as SVGElement;
+    if (t.dataset?.id) return t.dataset.id;
+    const use = t.closest?.('use.gCopy') as SVGUseElement | null;
+    if (!use) return undefined;
+    const m = svg.getScreenCTM();
+    if (!m) return undefined;
+    const p = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
+    const q = new DOMPoint(p.x - Number(use.dataset.dx), p.y);
+    return paths.find((el) => el.isPointInFill(q))?.dataset.id;
+  }
+  const hoverTarget = wrap ? svg : gC;
+
   // ツールチップ
-  gC.addEventListener('pointermove', (e) => {
-    const id = (e.target as SVGElement).dataset?.id;
+  hoverTarget.addEventListener('pointermove', (e) => {
+    const id = countryAt(e);
     if (!id || e.pointerType === 'touch' || (drag && moved)) {
       tip.hidden = true;
       return;
@@ -153,10 +172,10 @@ export function initMap(card: HTMLElement): MapController {
     tip.style.top = `${e.clientY - r.top}px`;
     tip.hidden = false;
   });
-  gC.addEventListener('pointerleave', () => (tip.hidden = true));
-  gC.addEventListener('click', (e) => {
+  hoverTarget.addEventListener('pointerleave', () => (tip.hidden = true));
+  hoverTarget.addEventListener('click', (e) => {
     if (moved) return;
-    const id = (e.target as SVGElement).dataset?.id;
+    const id = countryAt(e);
     if (!id) return;
     tip.hidden = true;
     const r = card.getBoundingClientRect();

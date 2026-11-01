@@ -1,6 +1,6 @@
 ---
 // 世界地図。国の塗り分け・ルート・アイコンはビルド時に SVG を出力し、ズーム・ドラッグ・クリックは src/scripts/map.ts が担当する
-import { COUNTRY_SHAPES, W, H, arc, type Box } from '../lib/geo';
+import { COUNTRY_SHAPES, W, H, arc, unwrap, type Box } from '../lib/geo';
 import {
   visited, latestCountries, currentPos, location, countryName, lastStopIn, getSeries, ym, type RouteStop,
 } from '../lib/data';
@@ -20,7 +20,11 @@ interface Props {
   /** 760px 以下での初期表示の範囲 */
   fitNarrow?: Box;
 }
-const { id, route, numbered = false, routeButton, marker = false, fit, fitNarrow } = Astro.props;
+const { id, route: rawRoute, numbered = false, routeButton, marker = false, fit, fitNarrow } = Astro.props;
+// シリーズのルートが日付変更線をまたぐ（オセアニア編など）ときは、ルートを1か所にまとめた座標で描き、
+// 世界地図を左右に複製して太平洋をまたいで見られるようにする
+const wrap = numbered && unwrap(rawRoute) !== rawRoute;
+const route = wrap ? unwrap(rawRoute) : rawRoute;
 
 const tips: Record<string, string> = {};
 for (const c of COUNTRY_SHAPES) {
@@ -35,10 +39,11 @@ const box = (b?: Box) => (b ? [b.x, b.y, b.w, b.h].map((n) => n.toFixed(1)).join
 const asOf = new Date(location.as_of).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}｜根拠：${location.source === 'manual' ? '管理者による設定' : 'Instagram の投稿'}（${asOf} 時点）`;
 ---
-<div class="mapcard" id={id} data-map data-fit={box(fit)} data-fit-narrow={box(fitNarrow)}>
+<div class="mapcard" id={id} data-map data-fit={box(fit)} data-fit-narrow={box(fitNarrow)} data-wrap={wrap ? '' : undefined}>
   <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="世界地図">
     <rect x="-3000" y="-3000" width="7000" height="7000" fill="transparent"></rect>
-    <g class="gC">{COUNTRY_SHAPES.map((c) => <path class={cls(c.id)} data-id={c.id} d={c.d}></path>)}</g>
+    <g class="gC" id={`${id}-countries`}>{COUNTRY_SHAPES.map((c) => <path class={cls(c.id)} data-id={c.id} d={c.d}></path>)}</g>
+    {wrap && [W, -W].map((dx) => <use class="gCopy" href={`#${id}-countries`} x={dx} data-dx={dx}></use>)}
     <g class="gR">
       {route.slice(1).map((s, i) => <path class="rt" d={arc(route[i], s)}></path>)}
       {route.map((s) => (
