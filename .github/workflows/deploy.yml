@@ -1,8 +1,7 @@
 name: Deploy to GitHub Pages
 
+# 公開を一時停止中のため手動実行のみ。再開するときは push: branches: [main] を戻す
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
