@@ -2,7 +2,7 @@
 // 世界地図。国の塗り分け・ルート・アイコンはビルド時に SVG を出力し、ズーム・ドラッグ・クリックは src/scripts/map.ts が担当する
 import { COUNTRY_SHAPES, W, H, arc, unwrap, type Box } from '../lib/geo';
 import {
-  visited, latestCountries, currentPos, location, countryName, lastStopIn, getSeries, ym, type RouteStop,
+  visited, latestCountries, isCountry, UNRECOGNIZED_STATES, currentPos, location, countryName, lastStopIn, getSeries, ym, type RouteStop,
 } from '../lib/data';
 import Marker from './Marker.astro';
 
@@ -30,11 +30,15 @@ const tips: Record<string, string> = {};
 for (const c of COUNTRY_SHAPES) {
   const name = countryName(c.id);
   const s = visited.has(c.id) ? lastStopIn(c.id) : undefined;
+  const extra = isCountry(c.id) ? '' : '・国数に含まない地域';
   tips[c.id] = visited.has(c.id)
-    ? `${name}（${s ? `${ym(s.arrived)}・${getSeries(s.series_id).name}` : '動画あり'}${latestCountries.has(c.id) ? '・最新動画' : ''}）`
-    : `${name}・まだの国`;
+    ? `${name}（${s ? `${ym(s.arrived)}・${getSeries(s.series_id).name}` : '動画あり'}${latestCountries.has(c.id) ? '・最新動画' : ''}${extra}）`
+    : UNRECOGNIZED_STATES.has(c.id)
+      ? `${name}・日本が承認していない国・地域`
+      : `${name}・まだの国`;
 }
-const cls = (cid: string) => ['c', visited.has(cid) && 'v', latestCountries.has(cid) && 'lat'].filter(Boolean).join(' ');
+const cls = (cid: string) =>
+  ['c', visited.has(cid) && 'v', latestCountries.has(cid) && 'lat', !visited.has(cid) && UNRECOGNIZED_STATES.has(cid) && 'u'].filter(Boolean).join(' ');
 const box = (b?: Box) => (b ? [b.x, b.y, b.w, b.h].map((n) => n.toFixed(1)).join(',') : undefined);
 const asOf = new Date(location.as_of).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}｜根拠：${location.source === 'manual' ? '管理者による設定' : 'Instagram の投稿'}（${asOf} 時点）`;
@@ -72,6 +76,7 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     <span><i class="sw" style="background:var(--visited)"></i>行った国</span>
     <span><i class="sw" style="background:var(--latest)"></i>最新動画の国</span>
     <span><i class="sw" style="background:var(--land)"></i>まだの国</span>
+    <span><i class="sw" style="background:var(--unrecognized)"></i>未承認の国・地域</span>
     {marker && (
       <span><svg class="mk-ico" viewBox="-12 -12 24 24" aria-hidden="true"><g class="legend-mk"><circle class="ring" r="9"></circle><circle class="core" r="5"></circle></g></svg>しげさん（推定）</span>
     )}

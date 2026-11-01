@@ -3,7 +3,7 @@
   --bg: #f8f9fa; --surface: #ffffff; --ink: #202124; --muted: #5f6368; --line: #dadce0;
   --accent: #1a73e8;
   --sea: #eef2f6; --land: #d9dee3; --land-hover: #c9cfd6;
-  --visited: #4a86e8; --latest: #f9ab00; --route: #3c4043;
+  --unrecognized: #80868b; --visited: #4a86e8; --latest: #f9ab00; --route: #3c4043;
   --aura1: #ffd34d; --aura2: #ff4f8b; --aura3: #7b5cff;
   --f-body: "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
   --f-num: "Roboto", "Noto Sans JP", system-ui, sans-serif;
@@ -31,6 +31,7 @@ img { max-width: 100%; display: block; }
 .count { margin-left: auto; display: flex; align-items: baseline; gap: 6px; font-size: 12px; font-weight: 700; color: var(--muted); }
 .count b { font-family: var(--f-num); font-weight: 700; font-size: 26px; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1; }
 .a-foot { margin-top: 32px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+.a-foot p { margin: 0 0 4px; }
 
 /* ===== map ===== */
 .mapcard { position: relative; background: var(--sea); border-radius: var(--r); overflow: hidden; border: 1px solid var(--line); touch-action: pan-y; user-select: none; -webkit-user-select: none; }
@@ -39,6 +40,7 @@ img { max-width: 100%; display: block; }
 .mapcard > svg.drag { cursor: grabbing; }
 .c { fill: var(--land); stroke: var(--surface); stroke-width: 0.6; transition: fill 0.15s; }
 .mapcard .c:hover { fill: var(--land-hover); }
+.c.u, .mapcard .c.u:hover { fill: var(--unrecognized); }
 .c.v { fill: var(--visited); }
 .mapcard .c.v:hover { fill: var(--visited); filter: brightness(1.08); }
 .c.lat, .mapcard .c.lat:hover { fill: var(--latest); }

@@ -8,6 +8,7 @@ import stopsJson from '../data/stops.json';
 import countriesJson from '../data/countries.json';
 import locationJson from '../data/location.json';
 import siteJson from '../data/site.json';
+import recognizedJson from '../data/recognized_countries.json';
 import { COUNTRY_SHAPES, countryCenter, project, type Pt } from './geo';
 
 countries.registerLocale(ja);
@@ -94,9 +95,17 @@ export const recentStops = (() => {
   return stops.slice(i);
 })();
 
+/* ---------- 国の数え方 ---------- */
+// 「○か国」は日本が国家として承認している国（日本を含む196か国）だけを数える。台湾・香港などの地域は地図には色を付けるが数えない
+export const RECOGNIZED = new Set(recognizedJson.alpha2.map((a2) => countries.alpha2ToNumeric(a2)!));
+export const UNRECOGNIZED_STATES = new Set(recognizedJson.unrecognized_states.iso_n3);
+export const isCountry = (iso: string) => RECOGNIZED.has(iso);
+export const countCountries = (isos: Iterable<string>) => new Set([...isos].filter(isCountry)).size;
+
 /* ---------- 地図の色 ---------- */
-// 行った国 ＝ 動画が公開されている国
+// 行った国 ＝ 動画が公開されている国・地域
 export const visited = new Set(videos.flatMap((v) => v.countries));
+export const visitedCountryCount = countCountries(visited);
 export const latestVideo = videos.at(-1)!;
 export const latestCountries = new Set(latestVideo.countries);
 
@@ -130,7 +139,7 @@ export function seriesSummary(s: Series) {
     stops: st,
     /** ルートに載らない動画（移動回・複数国の総集編など） */
     others: vs.filter((v) => !inStops.has(v.video_id)),
-    countryCount: new Set(vs.flatMap((v) => v.countries)).size,
+    countryCount: countCountries(vs.flatMap((v) => v.countries)),
     videoCount: vs.length,
     countryNames: st.map((x) => x.name).filter((n, i, a) => n !== a[i - 1]),
   };

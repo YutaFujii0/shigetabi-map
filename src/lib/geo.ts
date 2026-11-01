@@ -13,10 +13,11 @@ export type Box = { x: number; y: number; w: number; h: number };
 
 const topo = world as unknown as Topology<{ countries: GeometryCollection<{ name: string }> }>;
 const fc = feature(topo, topo.objects.countries) as FeatureCollection<Geometry, { name: string }>;
-// 南極は表示しない。id が無い地域（北キプロスなど）は名前で識別する
+// 南極は表示しない。id が無い地域は名前で識別する（コソボだけは ISO の暫定コード 983 を使う）
+const NO_ID: Record<string, string> = { Kosovo: '983' };
 const features = fc.features
   .filter((f) => f.id !== '010')
-  .map((f) => ({ ...f, id: (f.id as string | undefined) ?? `x-${f.properties.name}` })) as Feature<Geometry, { name: string }>[];
+  .map((f) => ({ ...f, id: (f.id as string | undefined) ?? NO_ID[f.properties.name] ?? `x-${f.properties.name}` })) as Feature<Geometry, { name: string }>[];
 
 const projection = geoNaturalEarth1().fitExtent(
   [
