@@ -14,7 +14,7 @@ import {
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const seriesUrl = (id: string) => `${base}/series/${id}/`;
-const latestSeries = getSeries(latestVideo.series_id);
+const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : null;
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
 const visitedList = [...visited];
@@ -30,7 +30,7 @@ const visitedList = [...visited];
         <a class="lv" href={youtubeUrl(latestVideo.video_id)} target="_blank" rel="noopener">
           <Thumb video={latestVideo} />
           <div class="bd">
-            <div class="sr"><i class="sw" style="background:var(--latest)"></i>{latestNames} ・ {latestSeries.name}</div>
+            <div class="sr"><i class="sw" style="background:var(--latest)"></i>{latestNames}{latestSeries && ` ・ ${latestSeries.name}`}</div>
             <div class="t"><Title title={latestVideo.title} /></div>
             <div class="d">{ymd(latestVideo.published_at)} 公開</div>
             <span class="more">YouTube で見る →</span>

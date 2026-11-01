@@ -27,7 +27,10 @@ export type Video = {
   title: string;
   published_at: string;
   duration: string;
-  series_id: string;
+  /** シリーズ（再生リスト）に入っていない動画は null。訪問国の判定にだけ使う */
+  series_id: string | null;
+  /** 3分以下の短い動画（ショート） */
+  short?: boolean;
   episode?: number | null;
   countries: string[];
   cities: string[];
@@ -106,14 +109,16 @@ export const countCountries = (isos: Iterable<string>) => new Set([...isos].filt
 // 行った国 ＝ 動画が公開されている国・地域
 export const visited = new Set(videos.flatMap((v) => v.countries));
 export const visitedCountryCount = countCountries(visited);
-export const latestVideo = videos.at(-1)!;
+// 最新の動画はショートを除いた中から選ぶ
+export const latestVideo = videos.findLast((v) => !v.short) ?? videos.at(-1)!;
 export const latestCountries = new Set(latestVideo.countries);
 
 export const videosByCountry = (iso: string) => videos.filter((v) => v.countries.includes(iso)).reverse();
 export const videosOfSeries = (id: string) => videos.filter((v) => v.series_id === id);
 /** その国を一番最近訪れた滞在 */
 export const lastStopIn = (iso: string) => stops.findLast((s) => s.iso_n3 === iso);
-export const seriesOfCountry = (iso: string) => [...new Set(videosByCountry(iso).map((v) => v.series_id))].map(getSeries);
+export const seriesOfCountry = (iso: string) =>
+  [...new Set(videosByCountry(iso).map((v) => v.series_id))].filter((id): id is string => !!id).map(getSeries);
 
 /* ---------- 現在地（推定） ---------- */
 export const currentPos = countryCenter(location.iso_n3);

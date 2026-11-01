@@ -1,6 +1,7 @@
 // YouTube Data API v3 からシリーズ（再生リスト）の動画を取得し、src/data の videos / series / stops を更新する。
 //   YOUTUBE_API_KEY=... node scripts/update-data.ts [--no-geocode]
-// - 対象の再生リストは src/data/playlists.json（許可リスト）
+// - シリーズ（ルート・シリーズページ）は src/data/playlists.json（許可リスト）の再生リストから作る
+// - 訪問国はチャンネルの全動画（アップロード一覧）から数える。シリーズ外の動画は国旗があるものだけ使う
 // - 国・都市・話数・撮影期間はタイトルから判定（scripts/lib/parse-title.ts）
 // - extract.reviewed が true の動画は判定結果を上書きしない。src/data/overrides.json の手動修正が最優先
 // - 都市の座標は src/data/cities.json にキャッシュ。無いものは Wikipedia（日本語版）→ OpenStreetMap Nominatim の順に調べ、
@@ -31,7 +32,11 @@ const ONGOING_DAYS = 45;
 type Playlist = { playlist_id: string; id: string; name: string; playlist_title: string };
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
-  video_id: string; title: string; published_at: string; duration: string; series_id: string;
+  video_id: string; title: string; published_at: string; duration: string;
+  /** シリーズ（許可リストの再生リスト）に入っていない動画は null */
+  series_id: string | null;
+  /** 3分以下の短い動画（ショート） */
+  short?: boolean;
   episode: number | null; countries: string[]; cities: string[]; filmed_at: { from: string; to: string } | null;
   flight?: boolean; thumbnail?: string; extract: Extract;
 };
@@ -165,6 +170,10 @@ function nameDictionary(): Map<string, string> {
 }
 
 const toN3 = (a2: string) => countries.alpha2ToNumeric(a2);
+function isoSeconds(d: string): number {
+  const m = d.match(/P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  return m ? (+(m[1] ?? 0) * 86400 + +(m[2] ?? 0) * 3600 + +(m[3] ?? 0) * 60 + +(m[4] ?? 0)) : 0;
+}
 const toA2 = (n3: string) => countries.numericToAlpha2(n3);
 const month = (d: string) => d.slice(0, 7);
 
@@ -175,7 +184,7 @@ async function main() {
   const cities = read<Record<string, City>>('cities.json');
   const prev = new Map(read<Video[]>('videos.json').map((v) => [v.video_id, v]));
   const names = nameDictionary();
-  const report = { unresolved: [] as Video[], byName: [] as Video[], searched: [] as string[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
+  const report = { extra: [] as Video[], unresolved: [] as Video[], byName: [] as Video[], searched: [] as string[], unknownFlags: [] as string[], noCoords: [] as string[], dup: [] as string[], removed: [] as string[], added: [] as Video[] };
 
   // 1. 再生リスト → 動画ID（複数の再生リストに入っている動画は先に書いたシリーズを優先）
   const seriesOf = new Map<string, string>();
@@ -188,16 +197,24 @@ async function main() {
     }
   }
 
-  // 2. 動画の詳細とタイトル解析
-  const details = await videoDetails([...seriesOf.keys()]);
+  // 2. チャンネルの全動画（アップロード一覧 UU...）。シリーズ外の動画も訪問国の判定に使う
+  const channelId = read<{ channel_id: string }>('site.json').channel_id;
+  const uploads = await playlistVideoIds(`UU${channelId.slice(2)}`);
+  console.log(`アップロード: ${uploads.length} 本（うちシリーズ外 ${uploads.filter((id) => !seriesOf.has(id)).length} 本）`);
+
+  // 3. 動画の詳細とタイトル解析
+  const details = await videoDetails([...new Set([...seriesOf.keys(), ...uploads])]);
   const videos: Video[] = [];
   for (const d of details) {
     const ov = overrides.videos[d.id];
     if (ov?.exclude) continue;
     const old = prev.get(d.id);
+    const inSeries = seriesOf.has(d.id);
     const p = parseTitle(d.snippet.title);
+    // シリーズ外の動画は国旗のあるものだけ使う（国内・企画ものなどは数えない）。日本だけの回も除く
+    if (!inSeries && !ov && p.a2.every((a2) => a2 === 'JP')) continue;
     // 国旗が無い回（古い動画など）は本文の国名から推定する。移動回は除く
-    const byName = !p.a2.length && !p.flight;
+    const byName = inSeries && !p.a2.length && !p.flight;
     if (byName) p.a2 = namesToA2(d.snippet.title, names);
     const n3 = p.a2.map((a2) => {
       const n = toN3(a2);
@@ -209,12 +226,13 @@ async function main() {
       title: d.snippet.title,
       published_at: d.snippet.publishedAt,
       duration: d.contentDetails.duration,
-      series_id: seriesOf.get(d.id)!,
+      series_id: seriesOf.get(d.id) ?? null,
       episode: p.episode,
       countries: n3,
       cities: p.city ? [p.city] : [],
       filmed_at: p.filmed,
       ...(p.flight ? { flight: true } : {}),
+      ...(isoSeconds(d.contentDetails.duration) <= 180 ? { short: true } : {}),
       thumbnail: (d.snippet.thumbnails.medium ?? d.snippet.thumbnails.default)?.url,
       extract: n3.length
         ? { method: 'title', confidence: byName ? 0.6 : p.city || p.flight ? 1 : 0.7, reviewed: false }
@@ -223,7 +241,9 @@ async function main() {
     // 人が確認済みの判定は残す（タイトル・公開日などAPIの値だけ更新）
     if (old?.extract.reviewed) v = { ...v, countries: old.countries, cities: old.cities, filmed_at: old.filmed_at, flight: old.flight, episode: old.episode, extract: old.extract };
     if (ov) v = { ...v, ...ov, extract: { method: 'manual', confidence: 1, reviewed: true } };
+    v.countries = v.countries.filter((n) => n !== '392'); // 日本は訪問国に数えない
     if (!v.flight) delete v.flight;
+    if (!inSeries) report.extra.push(v);
     if (v.extract.method === 'unresolved' && !v.flight) report.unresolved.push(v);
     if (byName && n3.length && !v.extract.reviewed) report.byName.push(v);
     if (!old) report.added.push(v);
@@ -232,7 +252,7 @@ async function main() {
   for (const id of prev.keys()) if (!videos.some((v) => v.video_id === id)) report.removed.push(id);
   videos.sort((a, b) => a.published_at.localeCompare(b.published_at));
 
-  // 3. ルート（stops）：シリーズごとに撮影順に並べ、同じ国・都市が続く動画を1つの滞在にまとめる
+  // 4. ルート（stops）：シリーズごとに撮影順に並べ、同じ国・都市が続く動画を1つの滞在にまとめる
   const when = (v: Video) => v.filmed_at?.from ?? v.published_at.slice(0, 10);
   const stops: unknown[] = [];
   for (const pl of playlists) {
@@ -261,7 +281,7 @@ async function main() {
     stops.push(...ss);
   }
 
-  // 4. シリーズ：期間は撮影時期から。最後の公開が最近なら「旅の途中」
+  // 5. シリーズ：期間は撮影時期から。最後の公開が最近なら「旅の途中」
   const now = Date.now();
   const series = playlists
     .map((pl) => {
@@ -282,13 +302,22 @@ async function main() {
   write('series.json', series);
   write('cities.json', Object.fromEntries(Object.entries(cities).sort(([a], [b]) => a.localeCompare(b))));
 
-  // 5. レポート
+  // 6. レポート
   const visited = new Set(videos.flatMap((v) => v.countries));
+  // 訪問国の通し番号（日本が承認している国を、初めて動画に出た撮影時期の順に並べる）。しげさんの「通算○/195ヶ国」との照合用
+  const recognized = new Set(read<{ alpha2: string[] }>('recognized_countries.json').alpha2.map((a2) => toN3(a2)));
+  const first = new Map<string, Video>();
+  for (const v of videos.slice().sort((a, b) => when(a).localeCompare(when(b)))) for (const n of v.countries) if (recognized.has(n) && !first.has(n)) first.set(n, v);
+  const ranking = [...first.entries()].map(([n, v], i) => `${i + 1}. ${countries.getName(toA2(n) ?? '', 'ja')}（${when(v)}）${v.series_id ? '' : ' ※シリーズ外'} ${v.title}`);
+  const seriesCountries = new Set(videos.filter((v) => v.series_id).flatMap((v) => v.countries));
+  const extraOnly = [...first.keys()].filter((n) => !seriesCountries.has(n));
   const lines = [
     `## データ更新`,
     ``,
-    `- 動画 ${videos.length} 本（新規 ${report.added.length} / 削除 ${report.removed.length}）、シリーズ ${series.length}、滞在 ${stops.length}、訪問国 ${visited.size}`,
+    `- 動画 ${videos.length} 本（新規 ${report.added.length} / 削除 ${report.removed.length}、うちシリーズ外 ${report.extra.length}）、シリーズ ${series.length}、滞在 ${stops.length}`,
+    `- 訪問国 **${first.size}/${recognized.size}**（日本が承認している国のみ。地域も含めると ${visited.size}）`,
     ``,
+    ...(extraOnly.length ? [`### シリーズ外の動画だけで数えている国（確認してください）`, ...extraOnly.map((n) => `- ${countries.getName(toA2(n) ?? '', 'ja')}：${first.get(n)!.title}`), ``] : []),
     ...(report.added.length ? [`### 新しい動画`, ...report.added.map((v) => `- ${v.title}（${v.countries.join(',') || '国なし'}）`), ``] : []),
     ...(report.unresolved.length ? [`### 国が判定できなかった動画（overrides.json で指定してください）`, ...report.unresolved.map((v) => `- \`${v.video_id}\` ${v.title}`), ``] : []),
     ...(report.byName.length ? [`### 国旗が無く本文の国名から判定した動画（確認して overrides.json か reviewed で確定してください）`, ...report.byName.map((v) => `- \`${v.video_id}\` ${v.title} → ${v.countries.join(',')}`), ``] : []),
@@ -297,6 +326,11 @@ async function main() {
     ...(report.unknownFlags.length ? [`### 国コードに変換できなかった国旗`, ...report.unknownFlags.map((c) => `- ${c}`), ``] : []),
     ...(report.dup.length ? [`### 複数のシリーズに入っている動画（先のシリーズを採用）`, ...report.dup.map((c) => `- ${c}`), ``] : []),
     ...(report.removed.length ? [`### 取得できなくなった動画（削除・非公開）`, ...report.removed.map((c) => `- ${c}`), ``] : []),
+    `<details><summary>訪問国の通し番号（撮影順）</summary>`,
+    ``,
+    ...ranking,
+    ``,
+    `</details>`,
   ];
   fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT, 'report.md'), lines.join('\n'));

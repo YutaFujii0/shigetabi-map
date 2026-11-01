@@ -22,7 +22,7 @@ Astro（静的出力）＋ d3-geo / world-atlas（Natural Earth 110m）。地図
 
 | ファイル | 書く人 | 内容 |
 |---|---|---|
-| `playlists.json` | 人 | 対象にする再生リスト（許可リスト）。国内・W杯などはここに入れなければ対象外 |
+| `playlists.json` | 人 | シリーズにする再生リスト（許可リスト）。ルートとシリーズページはここから作る。訪問国はチャンネルの全動画（国旗のあるもの）から数える |
 | `overrides.json` | 人 | 判定の手動修正。`videos.<動画ID>` に `countries`（数字コード）/`cities`/`filmed_at`/`series_id`/`flight`/`exclude`、`series.<id>` に `ended`/`name` |
 | `cities.json` | 自動＋人 | 都市の座標キャッシュ（キーは `数字コード:都市名`）。見つからない都市は手で足す |
 | `videos.json` | 自動 | 動画。`countries` は ISO 3166 数字コード、`episode` は【南米#01】の番号、`filmed_at` はタイトル末尾の撮影期間、`flight` は移動回 |

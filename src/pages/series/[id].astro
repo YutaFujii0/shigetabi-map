@@ -26,7 +26,8 @@ const bubbles = [...visited].map((iso) => {
   const inSeries = sm.stops.find((s) => s.iso_n3 === iso);
   const stop = inSeries ?? lastStopIn(iso);
   const vs = videosByCountry(iso).filter((v) => !inSeries || v.series_id === se.id).reverse();
-  return { iso, inSeries: !!inSeries, stop, vs, other: stop ? getSeries(stop.series_id) : getSeries(vs[0].series_id) };
+  const otherId = stop?.series_id ?? vs.find((v) => v.series_id)?.series_id;
+  return { iso, inSeries: !!inSeries, stop, vs, other: otherId ? getSeries(otherId) : null };
 });
 ---
 <Base title={se.name} description={`しげ旅「${se.name}」のルート（${sm.countryCount}か国）と全${sm.videoCount}本の動画を訪問順にまとめた非公式ファンサイトのページです。`}>
@@ -77,7 +78,7 @@ const bubbles = [...visited].map((iso) => {
         <button type="button" class="x" aria-label="閉じる">×</button>
         <div class="bh">
           <b><Flag iso={b.iso} />{countryName(b.iso)}</b>
-          <span>{b.stop ? `${ym(b.stop.arrived)} ・ ` : ''}{b.other.name}</span>
+          <span>{b.stop ? `${ym(b.stop.arrived)}` : ''}{b.stop && b.other ? ' ・ ' : ''}{b.other?.name}</span>
         </div>
         <ul>
           {b.vs.map((v) => (
@@ -86,7 +87,7 @@ const bubbles = [...visited].map((iso) => {
         </ul>
         {b.inSeries
           ? <button type="button" class="bl" data-jump={b.iso}>下の動画リストで見る ↓</button>
-          : <a class="bl" href={seriesUrl(b.other.id)}>{b.other.name}を見る →</a>}
+          : b.other && <a class="bl" href={seriesUrl(b.other.id)}>{b.other.name}を見る →</a>}
       </div>
     </template>
   ))}
