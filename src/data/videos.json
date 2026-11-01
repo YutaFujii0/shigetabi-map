@@ -400,6 +400,4314 @@
     }
   },
   {
+    "video_id": "YeYBW0G3QLg",
+    "title": "下地島31歳ひとり旅。ジェットスターなら1万円で宮古島【宮古諸島#1】",
+    "published_at": "2020-08-06T11:00:30Z",
+    "duration": "PT9M35S",
+    "series_id": "japan-miyako",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "下地島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/YeYBW0G3QLg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "EbdtsYjO760",
+    "title": "伊良部島31歳ひとり旅。2015年に宮古島へ橋がかかり近年大注目の島【宮古諸島#2】",
+    "published_at": "2020-08-24T10:00:07Z",
+    "duration": "PT14M6S",
+    "series_id": "japan-miyako",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "伊良部島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/EbdtsYjO760/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "AKL2rM5ecrE",
+    "title": "多良間島31歳ひとり旅。宮古島から船で2時間の小さな離島【宮古諸島#3】",
+    "published_at": "2020-08-27T13:00:08Z",
+    "duration": "PT16M26S",
+    "series_id": "japan-miyako",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "多良間島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/AKL2rM5ecrE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "y5IXKMN9P6s",
+    "title": "宮古島31歳ひとり旅。東洋一美しいビーチ擁する至高のリゾート【宮古諸島#4】",
+    "published_at": "2020-09-06T03:00:06Z",
+    "duration": "PT19M54S",
+    "series_id": "japan-miyako",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "宮古島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/y5IXKMN9P6s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "OdCUFfB3pWA",
+    "title": "池間島31歳ひとり旅。日本最大級のサンゴ礁、八重干潟（やびじ）の美しき海【宮古諸島#5】",
+    "published_at": "2020-09-10T08:00:02Z",
+    "duration": "PT16M25S",
+    "series_id": "japan-miyako",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "池間島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/OdCUFfB3pWA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "duyRekJ-IaY",
+    "title": "来間島31歳ひとり旅。島民160人の小さな離島【宮古諸島#6】",
+    "published_at": "2020-09-13T09:00:14Z",
+    "duration": "PT13M38S",
+    "series_id": "japan-miyako",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "来間島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/duyRekJ-IaY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Qxb9bIU434Q",
+    "title": "波照間島31歳ひとり旅。日本の一番南はこんな所です【八重山諸島#1】",
+    "published_at": "2020-09-16T17:30:01Z",
+    "duration": "PT18M34S",
+    "series_id": "japan-yaeyama",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "波照間島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Qxb9bIU434Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "smjVlcZ-nw0",
+    "title": "与那国島31歳ひとり旅。日本の一番西はこんな所です【八重山諸島#2】",
+    "published_at": "2020-09-27T11:15:05Z",
+    "duration": "PT21M56S",
+    "series_id": "japan-yaeyama",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "与那国島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/smjVlcZ-nw0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_EIQorlgYZo",
+    "title": "竹富島31歳ひとり旅。沖縄の原風景が残る赤瓦の集落【八重山諸島#3】",
+    "published_at": "2020-10-08T09:00:07Z",
+    "duration": "PT16M40S",
+    "series_id": "japan-yaeyama",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "竹富島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/_EIQorlgYZo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "YYuUuOh6HZ8",
+    "title": "小浜島31歳ひとり旅。NHK朝ドラ「ちゅらさん」の舞台【八重山諸島#4】",
+    "published_at": "2020-10-18T14:00:16Z",
+    "duration": "PT14M23S",
+    "series_id": "japan-yaeyama",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小浜島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/YYuUuOh6HZ8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_UcImLGI1I0",
+    "title": "黒島31歳ひとり旅。牛が人の10倍いる牛の島【八重山諸島#5】",
+    "published_at": "2020-10-24T09:00:25Z",
+    "duration": "PT13M3S",
+    "series_id": "japan-yaeyama",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "黒島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/_UcImLGI1I0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "CIRfh6WZwjw",
+    "title": "西表島31歳ひとり旅。東洋のガラパゴスは日本なのにマングローブ【八重山諸島#6】",
+    "published_at": "2020-10-31T14:02:25Z",
+    "duration": "PT18M46S",
+    "series_id": "japan-yaeyama",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "西表島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/CIRfh6WZwjw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Nf6uyP2iEpc",
+    "title": "西表島31歳ひとり旅。陸の孤島「船浮」集落へ行ってきた【八重山諸島#7】",
+    "published_at": "2020-11-16T14:31:45Z",
+    "duration": "PT24M30S",
+    "series_id": "japan-yaeyama",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "西表島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Nf6uyP2iEpc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "lcD699jzaBI",
+    "title": "鳩間島31歳ひとり旅。島民50人だから全員知り合い【八重山諸島#8】",
+    "published_at": "2020-11-23T14:30:05Z",
+    "duration": "PT17M40S",
+    "series_id": "japan-yaeyama",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "鳩間島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/lcD699jzaBI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "yd00qWAvMqs",
+    "title": "石垣島31歳ひとり旅。ミシュラン3つ星の川平湾もある離島の帝王【八重山諸島#9】",
+    "published_at": "2020-12-05T14:00:11Z",
+    "duration": "PT25M33S",
+    "series_id": "japan-yaeyama",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "石垣島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/yd00qWAvMqs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "VGi3NnU2g6Q",
+    "title": "鹿児島31歳ひとり旅。天文館はグルメ天国【鹿児島#1】",
+    "published_at": "2020-12-15T11:00:10Z",
+    "duration": "PT23M26S",
+    "series_id": "japan-kagoshima",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "鹿児島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/VGi3NnU2g6Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Mxp9u4hc-KM",
+    "title": "屋久島31歳ひとり旅。もののけ姫の舞台、白谷雲水峡【鹿児島#2】",
+    "published_at": "2020-12-22T13:30:03Z",
+    "duration": "PT19M39S",
+    "series_id": "japan-kagoshima",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "屋久島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Mxp9u4hc-KM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dzWTxMdHOAI",
+    "title": "屋久島31歳ひとり旅。往復22km、徒歩10時間と噂の縄文杉へ歩いてみた【鹿児島#3】",
+    "published_at": "2020-12-29T15:16:54Z",
+    "duration": "PT19M58S",
+    "series_id": "japan-kagoshima",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "屋久島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/dzWTxMdHOAI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "yPX_g5dipq8",
+    "title": "種子島31歳ひとり旅。宇宙に一番近い島【鹿児島#4】",
+    "published_at": "2021-01-03T09:00:33Z",
+    "duration": "PT21M6S",
+    "series_id": "japan-kagoshima",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "種子島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/yPX_g5dipq8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "vST6_TIJy4M",
+    "title": "喜界島31歳ひとり旅。みんな親切。施しの島【鹿児島#5】",
+    "published_at": "2021-01-08T13:30:05Z",
+    "duration": "PT18M53S",
+    "series_id": "japan-kagoshima",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "喜界島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/vST6_TIJy4M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3xwQARxvIcc",
+    "title": "奄美大島31歳ひとり旅。東洋のガラパゴスは海あり山あり酒もあり【鹿児島#6】",
+    "published_at": "2021-01-13T17:30:01Z",
+    "duration": "PT18M10S",
+    "series_id": "japan-kagoshima",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "奄美大島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/3xwQARxvIcc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "LB_C1hkJ6G4",
+    "title": "加計呂麻島31歳ひとり旅。寅さんも愛した奄美の秘境【鹿児島#7】",
+    "published_at": "2021-01-19T13:00:13Z",
+    "duration": "PT18M34S",
+    "series_id": "japan-kagoshima",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "加計呂麻島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/LB_C1hkJ6G4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "d0pQkhQriiI",
+    "title": "奄美大島31歳ひとり旅。秘境の入口、瀬戸内町【鹿児島#8】",
+    "published_at": "2021-01-24T11:00:12Z",
+    "duration": "PT15M3S",
+    "series_id": "japan-kagoshima",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "奄美大島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/d0pQkhQriiI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "hH9dJcslqv8",
+    "title": "徳之島31歳ひとり旅。長寿子宝日本一。熱く燃える闘牛の島【鹿児島#9】",
+    "published_at": "2021-01-27T11:00:28Z",
+    "duration": "PT14M48S",
+    "series_id": "japan-kagoshima",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "徳之島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/hH9dJcslqv8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0hJvwL9ChPM",
+    "title": "沖永良部島31歳ひとり旅。知る人ぞ知る東洋一の鍾乳洞【鹿児島#10】",
+    "published_at": "2021-01-30T11:30:00Z",
+    "duration": "PT20M4S",
+    "series_id": "japan-kagoshima",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "沖永良部島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/0hJvwL9ChPM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3cJsLSfvd_A",
+    "title": "与論島31歳ひとり旅。鹿児島県の一番南は沖縄よりも沖縄です【鹿児島#11】",
+    "published_at": "2021-02-05T11:00:01Z",
+    "duration": "PT20M46S",
+    "series_id": "japan-kagoshima",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "与論島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/3cJsLSfvd_A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "mh-UvrTco5w",
+    "title": "鹿児島31歳ひとり旅総集編。8島43日間の旅費は342,050円でした【鹿児島#12】",
+    "published_at": "2021-02-19T17:42:42Z",
+    "duration": "PT57M15S",
+    "series_id": "japan-kagoshima",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "鹿児島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/mh-UvrTco5w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "o9JNruxRlIY",
+    "title": "北大東島31歳ひとり旅。クレーンでしか上陸できない絶海の孤島。リアルクレーンゲーム【沖縄#01】",
+    "published_at": "2021-02-23T12:33:21Z",
+    "duration": "PT14M18S",
+    "series_id": "japan-okinawa",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "北大東島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/o9JNruxRlIY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "iBhVPo5UkMY",
+    "title": "南大東島31歳ひとり旅。ほとんどの人は台風中継しか知らない。【沖縄#02】",
+    "published_at": "2021-02-26T16:45:01Z",
+    "duration": "PT11M12S",
+    "series_id": "japan-okinawa",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "南大東島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/iBhVPo5UkMY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_K0ibPbfFh0",
+    "title": "渡嘉敷島31歳ひとり旅。高速船なら35分。気軽に行ける慶良間諸島。【沖縄#03】",
+    "published_at": "2021-02-28T11:30:02Z",
+    "duration": "PT9M45S",
+    "series_id": "japan-okinawa",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "渡嘉敷島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/_K0ibPbfFh0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "AUOUktZGMSs",
+    "title": "座間味島31歳ひとり旅。ケラマブルーの世界が恋する海。那覇から高速船で50分。【沖縄#04】",
+    "published_at": "2021-03-03T13:00:03Z",
+    "duration": "PT10M25S",
+    "series_id": "japan-okinawa",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "座間味島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/AUOUktZGMSs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Rv5vRCJzbmo",
+    "title": "阿嘉島31歳ひとり旅。慶良間諸島で一番のどかな絶好の穴場。【沖縄#05】",
+    "published_at": "2021-03-06T09:00:06Z",
+    "duration": "PT13M29S",
+    "series_id": "japan-okinawa",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "阿嘉島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Rv5vRCJzbmo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dEXSzj1CASA",
+    "title": "3/9帯広32歳ひとり旅。名物グルメの豚丼旨し【北海道1ヶ月生活1日目】",
+    "published_at": "2021-03-10T11:00:12Z",
+    "duration": "PT5M21S",
+    "series_id": "japan-hokkaido",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "帯広"
+    ],
+    "filmed_at": {
+      "from": "2021-03-09",
+      "to": "2021-03-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/dEXSzj1CASA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2jm381bzBQk",
+    "title": "3/10釧路32歳ひとり旅。ソウルフードのスパカツとザンギ【北海道1ヶ月生活2日目】",
+    "published_at": "2021-03-11T11:00:02Z",
+    "duration": "PT6M32S",
+    "series_id": "japan-hokkaido",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "釧路"
+    ],
+    "filmed_at": {
+      "from": "2021-03-10",
+      "to": "2021-03-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2jm381bzBQk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "hVTKiRo5y_4",
+    "title": "3/11網走32歳ひとり旅。流氷を見に行ったのに…【北海道1ヶ月生活3日目】",
+    "published_at": "2021-03-12T11:00:15Z",
+    "duration": "PT7M51S",
+    "series_id": "japan-hokkaido",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "網走"
+    ],
+    "filmed_at": {
+      "from": "2021-03-11",
+      "to": "2021-03-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/hVTKiRo5y_4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Eaaey2NoAY8",
+    "title": "3/12北見32歳ひとり旅。焼肉王国で肉を食う【北海道1ヶ月生活4日目】",
+    "published_at": "2021-03-13T11:00:05Z",
+    "duration": "PT7M38S",
+    "series_id": "japan-hokkaido",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "北見"
+    ],
+    "filmed_at": {
+      "from": "2021-03-12",
+      "to": "2021-03-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Eaaey2NoAY8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "t6gdwZSDQ9s",
+    "title": "3/13網走32歳ひとり旅。消えた流氷が帰ってきた！【北海道1ヶ月生活5日目】",
+    "published_at": "2021-03-14T11:00:14Z",
+    "duration": "PT7M28S",
+    "series_id": "japan-hokkaido",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "網走"
+    ],
+    "filmed_at": {
+      "from": "2021-03-13",
+      "to": "2021-03-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/t6gdwZSDQ9s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4cO1M6x9viY",
+    "title": "3/14美瑛・富良野32歳ひとり旅。有名な青い池に冬行ってみたら…【北海道1ヶ月生活6日目】",
+    "published_at": "2021-03-15T11:00:01Z",
+    "duration": "PT9M14S",
+    "series_id": "japan-hokkaido",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "美瑛"
+    ],
+    "filmed_at": {
+      "from": "2021-03-14",
+      "to": "2021-03-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4cO1M6x9viY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "AIwbCne33UQ",
+    "title": "3/15旭川32歳ひとり旅。北海道第2の都市を市内観光【北海道1ヶ月生活7日目】",
+    "published_at": "2021-03-16T11:00:03Z",
+    "duration": "PT9M49S",
+    "series_id": "japan-hokkaido",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "旭川"
+    ],
+    "filmed_at": {
+      "from": "2021-03-15",
+      "to": "2021-03-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/AIwbCne33UQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0NVgjux8NE8",
+    "title": "3/16旭川32歳ひとり旅。冬の旭山動物園【北海道1ヶ月生活8日目】",
+    "published_at": "2021-03-17T11:09:22Z",
+    "duration": "PT10M16S",
+    "series_id": "japan-hokkaido",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "旭川"
+    ],
+    "filmed_at": {
+      "from": "2021-03-16",
+      "to": "2021-03-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0NVgjux8NE8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "s-Kkn2C-0XI",
+    "title": "3/17旭川〜稚内32歳ひとり旅。宗谷本線で前代未聞のトラブル【北海道1ヶ月生活9日目】",
+    "published_at": "2021-03-18T11:45:40Z",
+    "duration": "PT10M35S",
+    "series_id": "japan-hokkaido",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "稚内"
+    ],
+    "filmed_at": {
+      "from": "2021-03-17",
+      "to": "2021-03-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/s-Kkn2C-0XI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Isf5EFauOPU",
+    "title": "3/18稚内〜利尻島32歳ひとり旅。冬の利尻ついに上陸【北海道1ヶ月生活10日目】",
+    "published_at": "2021-03-19T11:00:31Z",
+    "duration": "PT9M15S",
+    "series_id": "japan-hokkaido",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "利尻島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-18",
+      "to": "2021-03-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Isf5EFauOPU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "H0pH9W-OoK4",
+    "title": "3/19利尻島32歳ひとり旅。偶然入ったクセのある衝撃の居酒屋【北海道1ヶ月生活11日目】",
+    "published_at": "2021-03-20T12:11:26Z",
+    "duration": "PT9M49S",
+    "series_id": "japan-hokkaido",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "利尻島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-19",
+      "to": "2021-03-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/H0pH9W-OoK4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "__bhFBO6gBs",
+    "title": "3/20利尻島〜礼文島32歳ひとり旅。いざ日本最北端の離島へ【北海道1ヶ月生活12日目】",
+    "published_at": "2021-03-21T13:47:56Z",
+    "duration": "PT8M31S",
+    "series_id": "japan-hokkaido",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "礼文島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-20",
+      "to": "2021-03-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/__bhFBO6gBs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Ty7Gze8OCAE",
+    "title": "3/21礼文島32歳ひとり旅。強風の雪の中、最北限の地へ8km歩いた男の話【北海道1ヶ月生活13日目】",
+    "published_at": "2021-03-22T11:01:19Z",
+    "duration": "PT9M33S",
+    "series_id": "japan-hokkaido",
+    "episode": 13,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "礼文島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-21",
+      "to": "2021-03-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Ty7Gze8OCAE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "L-iT3LZBaiE",
+    "title": "3/22礼文島〜稚内32歳ひとり旅。日本の一番北、宗谷岬はこんな所です。【北海道1ヶ月生活14日目】",
+    "published_at": "2021-03-23T11:19:13Z",
+    "duration": "PT9M48S",
+    "series_id": "japan-hokkaido",
+    "episode": 14,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "稚内"
+    ],
+    "filmed_at": {
+      "from": "2021-03-22",
+      "to": "2021-03-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/L-iT3LZBaiE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zk1yrKoEe98",
+    "title": "3/23稚内〜羽幌32歳ひとり旅。知る人ぞ知る2つの離島の玄関口へ【北海道1ヶ月生活15日目】",
+    "published_at": "2021-03-24T14:08:45Z",
+    "duration": "PT9M5S",
+    "series_id": "japan-hokkaido",
+    "episode": 15,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "羽幌"
+    ],
+    "filmed_at": {
+      "from": "2021-03-23",
+      "to": "2021-03-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zk1yrKoEe98/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "PEF-vUgejiw",
+    "title": "3/24焼尻島32歳ひとり旅。ガイドブックに載らない島民180人の秘島【北海道1ヶ月生活16日目】",
+    "published_at": "2021-03-25T14:28:28Z",
+    "duration": "PT11M",
+    "series_id": "japan-hokkaido",
+    "episode": 16,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "焼尻島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-24",
+      "to": "2021-03-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/PEF-vUgejiw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "HMTl-i-1rh4",
+    "title": "3/25天売島32歳ひとり旅。海鳥たちの楽園は想像以上に楽園です【北海道1ヶ月生活17日目】",
+    "published_at": "2021-03-26T14:33:51Z",
+    "duration": "PT11M25S",
+    "series_id": "japan-hokkaido",
+    "episode": 17,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "天売島"
+    ],
+    "filmed_at": {
+      "from": "2021-03-25",
+      "to": "2021-03-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/HMTl-i-1rh4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "OMAyn9TlbmE",
+    "title": "3/26天売島〜留萌32歳ひとり旅。港町の豪華すぎる寿司21貫【北海道1ヶ月生活18日目】",
+    "published_at": "2021-03-27T11:30:01Z",
+    "duration": "PT7M52S",
+    "series_id": "japan-hokkaido",
+    "episode": 18,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "留萌"
+    ],
+    "filmed_at": {
+      "from": "2021-03-26",
+      "to": "2021-03-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/OMAyn9TlbmE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "K320jn0SGBw",
+    "title": "3/27留萌〜札幌32歳ひとり旅。本場のスープカレーとジンギスカン【北海道1ヶ月生活19日目】",
+    "published_at": "2021-03-28T12:30:45Z",
+    "duration": "PT8M40S",
+    "series_id": "japan-hokkaido",
+    "episode": 19,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "札幌"
+    ],
+    "filmed_at": {
+      "from": "2021-03-27",
+      "to": "2021-03-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/K320jn0SGBw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6IOk77u9WWE",
+    "title": "3/28札幌32歳ひとり旅。味噌ラーメン夜景ビール博物館【北海道1ヶ月生活20日目】",
+    "published_at": "2021-03-29T14:20:19Z",
+    "duration": "PT9M51S",
+    "series_id": "japan-hokkaido",
+    "episode": 20,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "札幌"
+    ],
+    "filmed_at": {
+      "from": "2021-03-28",
+      "to": "2021-03-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6IOk77u9WWE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "8dNB8hSa1dE",
+    "title": "3/29札幌〜小樽32歳ひとり旅。栄華を極めた情緒溢れる港町【北海道1ヶ月生活21日目】",
+    "published_at": "2021-03-30T11:39:32Z",
+    "duration": "PT8M49S",
+    "series_id": "japan-hokkaido",
+    "episode": 21,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小樽"
+    ],
+    "filmed_at": {
+      "from": "2021-03-29",
+      "to": "2021-03-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/8dNB8hSa1dE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0No0eKZZDM4",
+    "title": "3/30小樽32歳ひとり旅。これが港町の底力【北海道1ヶ月生活22日目】",
+    "published_at": "2021-03-31T14:16:02Z",
+    "duration": "PT10M10S",
+    "series_id": "japan-hokkaido",
+    "episode": 22,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小樽"
+    ],
+    "filmed_at": {
+      "from": "2021-03-30",
+      "to": "2021-03-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0No0eKZZDM4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3Z5MsyV-8nk",
+    "title": "3/31小樽〜八雲32歳ひとり旅。八雲って意外と大きな街なんだね【北海道1ヶ月生活23日目】",
+    "published_at": "2021-04-01T12:52:03Z",
+    "duration": "PT8M23S",
+    "series_id": "japan-hokkaido",
+    "episode": 23,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "八雲"
+    ],
+    "filmed_at": {
+      "from": "2021-03-31",
+      "to": "2021-03-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3Z5MsyV-8nk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QvQoRhR1LPg",
+    "title": "4/1八雲〜奥尻島32歳ひとり旅。北の離島の豪華鍋【北海道1ヶ月生活24日目】",
+    "published_at": "2021-04-02T14:10:45Z",
+    "duration": "PT8M50S",
+    "series_id": "japan-hokkaido",
+    "episode": 24,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "奥尻島"
+    ],
+    "filmed_at": {
+      "from": "2021-04-01",
+      "to": "2021-04-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/QvQoRhR1LPg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "A4x2-snXa8Q",
+    "title": "4/2奥尻島32歳ひとり旅。離島の暮らし【北海道1ヶ月生活25日目】",
+    "published_at": "2021-04-03T13:33:33Z",
+    "duration": "PT10M37S",
+    "series_id": "japan-hokkaido",
+    "episode": 25,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "奥尻島"
+    ],
+    "filmed_at": {
+      "from": "2021-04-02",
+      "to": "2021-04-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/A4x2-snXa8Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3DtPMdAZFXE",
+    "title": "4/3奥尻島〜函館32歳ひとり旅。イケてる港町【北海道1ヶ月生活26日目】",
+    "published_at": "2021-04-04T14:30:50Z",
+    "duration": "PT9M48S",
+    "series_id": "japan-hokkaido",
+    "episode": 26,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "函館"
+    ],
+    "filmed_at": {
+      "from": "2021-04-03",
+      "to": "2021-04-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3DtPMdAZFXE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qQfW5bVBC4I",
+    "title": "4/4函館32歳ひとり旅。雨の日はB級グルメ3連発【北海道1ヶ月生活27日目】",
+    "published_at": "2021-04-05T14:30:24Z",
+    "duration": "PT8M2S",
+    "series_id": "japan-hokkaido",
+    "episode": 27,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "函館"
+    ],
+    "filmed_at": {
+      "from": "2021-04-04",
+      "to": "2021-04-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qQfW5bVBC4I/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "cy1FMy2TTxI",
+    "title": "4/5函館32歳ひとり旅。函館の本気【北海道1ヶ月生活28日目】",
+    "published_at": "2021-04-06T14:50:38Z",
+    "duration": "PT10M16S",
+    "series_id": "japan-hokkaido",
+    "episode": 28,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "函館"
+    ],
+    "filmed_at": {
+      "from": "2021-04-05",
+      "to": "2021-04-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/cy1FMy2TTxI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "p4brCLJlqrU",
+    "title": "4/6函館〜えりも32歳ひとり旅。駅弁食いながら7時間の大移動【北海道1ヶ月生活29日目】",
+    "published_at": "2021-04-07T14:37:31Z",
+    "duration": "PT8M6S",
+    "series_id": "japan-hokkaido",
+    "episode": 29,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "えりも"
+    ],
+    "filmed_at": {
+      "from": "2021-04-06",
+      "to": "2021-04-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/p4brCLJlqrU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xj9UxQ0W0hI",
+    "title": "4/7えりも32歳ひとり旅。1ヶ月の締めくくりに遥々来たぜえりも岬【北海道1ヶ月生活30日目】",
+    "published_at": "2021-04-08T14:56:40Z",
+    "duration": "PT12M5S",
+    "series_id": "japan-hokkaido",
+    "episode": 30,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "えりも"
+    ],
+    "filmed_at": {
+      "from": "2021-04-07",
+      "to": "2021-04-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xj9UxQ0W0hI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "i3jsO7LB1Us",
+    "title": "4/8えりも〜東京32歳ひとり旅。1ヶ月間の北海道旅完結【北海道1ヶ月生活31日目】",
+    "published_at": "2021-04-09T14:45:38Z",
+    "duration": "PT8M7S",
+    "series_id": "japan-hokkaido",
+    "episode": 31,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "東京"
+    ],
+    "filmed_at": {
+      "from": "2021-04-08",
+      "to": "2021-04-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/i3jsO7LB1Us/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3eBwMKEvYjc",
+    "title": "北海道32歳ひとり旅総集編。1ヶ月の旅を10分にまとめてみた【北海道1ヶ月生活#32】",
+    "published_at": "2021-04-15T17:42:36Z",
+    "duration": "PT10M45S",
+    "series_id": "japan-hokkaido",
+    "episode": 32,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "北海道"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/3eBwMKEvYjc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "X3olGb2pAr4",
+    "title": "小笠原諸島32歳ひとり旅。乗船すると最低6日間は帰れない。おがさわら丸で父島へ24時間の船旅【東京#01】",
+    "published_at": "2021-04-21T13:52:57Z",
+    "duration": "PT11M46S",
+    "series_id": "japan-tokyo",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/X3olGb2pAr4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GiQXegHj7h4",
+    "title": "小笠原諸島母島32歳ひとり旅。東京から船で26時間かかる日本一遠い島を一周してみた。【東京#02】",
+    "published_at": "2021-04-25T05:13:25Z",
+    "duration": "PT14M52S",
+    "series_id": "japan-tokyo",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島母島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/GiQXegHj7h4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "nuhSVfquJ9c",
+    "title": "小笠原諸島母島32歳ひとり旅。東京から船で26時間かかる日本一遠い集落を歩いてみた。【東京#03】",
+    "published_at": "2021-04-29T09:00:12Z",
+    "duration": "PT12M56S",
+    "series_id": "japan-tokyo",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島母島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/nuhSVfquJ9c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ZkoZk0_auIU",
+    "title": "小笠原諸島父島32歳ひとり旅。1日100人しか入れない南島に上陸してきた。【東京#04】",
+    "published_at": "2021-05-05T10:37:08Z",
+    "duration": "PT13M1S",
+    "series_id": "japan-tokyo",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島父島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/ZkoZk0_auIU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NE8RqGGS7iE",
+    "title": "小笠原諸島父島32歳ひとり旅。東京から1,000km離れた東京を歩いてみた。【東京#05】",
+    "published_at": "2021-05-07T13:07:49Z",
+    "duration": "PT9M48S",
+    "series_id": "japan-tokyo",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島父島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/NE8RqGGS7iE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Mr1KtKzu9M8",
+    "title": "小笠原諸島父島32歳ひとり旅。世界自然遺産のビーチを巡り山を登る。【東京#06】",
+    "published_at": "2021-05-09T12:45:00Z",
+    "duration": "PT13M12S",
+    "series_id": "japan-tokyo",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島父島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/Mr1KtKzu9M8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-tqwaYdY3yY",
+    "title": "小笠原諸島32歳ひとり旅。日本一盛大なお見送りで完結。【東京#07】",
+    "published_at": "2021-05-16T06:00:01Z",
+    "duration": "PT15M18S",
+    "series_id": "japan-tokyo",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小笠原諸島"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/-tqwaYdY3yY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0Wu_YtmgVm0",
+    "title": "福島市32歳ひとり旅。円盤餃子とUFOの里【東北#01】",
+    "published_at": "2021-05-21T14:38:49Z",
+    "duration": "PT15M51S",
+    "series_id": "japan-tohoku",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "福島市"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/0Wu_YtmgVm0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "MVZsT3w23i8",
+    "title": "いわき市32歳ひとり旅。飲食店も大変なのに…神ハッピーアワーに感謝【東北#02】",
+    "published_at": "2021-05-23T12:30:10Z",
+    "duration": "PT9M28S",
+    "series_id": "japan-tohoku",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "いわき市"
+    ],
+    "filmed_at": null,
+    "thumbnail": "https://i.ytimg.com/vi/MVZsT3w23i8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1ooik0d_06w",
+    "title": "富岡町32歳ひとり旅。2017年に避難指示解除。福島第一原発から10kmの街【東北#03】2021年5月21日",
+    "published_at": "2021-05-26T10:00:01Z",
+    "duration": "PT9M42S",
+    "series_id": "japan-tohoku",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "富岡町"
+    ],
+    "filmed_at": {
+      "from": "2021-05-21",
+      "to": "2021-05-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1ooik0d_06w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "wrLFxbAOQj8",
+    "title": "双葉町32歳ひとり旅。福島第一原発から4km。住民が消えた街【東北#04】2021年5月22日",
+    "published_at": "2021-05-29T03:00:30Z",
+    "duration": "PT9M8S",
+    "series_id": "japan-tohoku",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "双葉町"
+    ],
+    "filmed_at": {
+      "from": "2021-05-22",
+      "to": "2021-05-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/wrLFxbAOQj8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WMNzhH2rBWY",
+    "title": "仙台市32歳ひとり旅。杜の都を観光バスで1日市内観光【東北#05】2021年5月26日",
+    "published_at": "2021-06-01T10:00:13Z",
+    "duration": "PT8M31S",
+    "series_id": "japan-tohoku",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "仙台市"
+    ],
+    "filmed_at": {
+      "from": "2021-05-26",
+      "to": "2021-05-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WMNzhH2rBWY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sxXX5oblQ2c",
+    "title": "仙台市32歳ひとり旅。ただ食べて飲むだけのおじさん。【東北#06】2021年5月27日〜28日",
+    "published_at": "2021-06-05T13:15:03Z",
+    "duration": "PT13M21S",
+    "series_id": "japan-tohoku",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "仙台市"
+    ],
+    "filmed_at": {
+      "from": "2021-05-27",
+      "to": "2021-05-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sxXX5oblQ2c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "FZA1CvL-Ppc",
+    "title": "松島町32歳ひとり旅。日本三景より牡蠣に夢中おじさん。【東北#07】2021年5月29日",
+    "published_at": "2021-06-08T12:18:37Z",
+    "duration": "PT10M28S",
+    "series_id": "japan-tohoku",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "松島町"
+    ],
+    "filmed_at": {
+      "from": "2021-05-29",
+      "to": "2021-05-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/FZA1CvL-Ppc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "CiJWOiC4TT4",
+    "title": "女川町32歳ひとり旅。14mの津波が襲った街の現在。【東北#08】2021年5月30日〜31日",
+    "published_at": "2021-06-10T10:00:09Z",
+    "duration": "PT11M9S",
+    "series_id": "japan-tohoku",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "女川町"
+    ],
+    "filmed_at": {
+      "from": "2021-05-30",
+      "to": "2021-05-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/CiJWOiC4TT4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "o1Ix2tpR21U",
+    "title": "石巻市32歳ひとり旅。元旅人のヤバい料理人と漁に出る。【東北#09】2021年5月31日〜6月1日",
+    "published_at": "2021-06-13T07:00:15Z",
+    "duration": "PT15M49S",
+    "series_id": "japan-tohoku",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "石巻市"
+    ],
+    "filmed_at": {
+      "from": "2021-05-31",
+      "to": "2021-06-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/o1Ix2tpR21U/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "aj6Cr5N8wlY",
+    "title": "石巻市32歳ひとり旅。震災犠牲者が日本最多だった街の現在【東北#10】2021年6月2日〜3日",
+    "published_at": "2021-06-16T10:00:01Z",
+    "duration": "PT11M30S",
+    "series_id": "japan-tohoku",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "石巻市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-02",
+      "to": "2021-06-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/aj6Cr5N8wlY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "troTE9_Mk5E",
+    "title": "気仙沼市32歳ひとり旅。NHK朝ドラ「おかえりモネ」の舞台はフカヒレだけじゃない【東北#11】2021年6月3日〜5日",
+    "published_at": "2021-06-19T03:00:13Z",
+    "duration": "PT17M3S",
+    "series_id": "japan-tohoku",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "気仙沼市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-03",
+      "to": "2021-06-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/troTE9_Mk5E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zGWZ1dgmST8",
+    "title": "陸前高田市32歳ひとり旅。ニュースで何度も聞いた奇跡の一本松。からの大船渡市で海鮮三昧。【東北#12】2021年6月6日",
+    "published_at": "2021-06-22T10:00:32Z",
+    "duration": "PT10M35S",
+    "series_id": "japan-tohoku",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "陸前高田市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-06",
+      "to": "2021-06-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zGWZ1dgmST8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dcUDjMUrf5Y",
+    "title": "釜石市32歳ひとり旅。鉄と魚とラグビーの街で、飲み歩きと釜石ラーメン。【東北#13】2021年6月7日〜8日",
+    "published_at": "2021-06-24T10:00:12Z",
+    "duration": "PT12M33S",
+    "series_id": "japan-tohoku",
+    "episode": 13,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "釜石市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-07",
+      "to": "2021-06-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/dcUDjMUrf5Y/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "lsw4DsxHR-k",
+    "title": "宮古市32歳ひとり旅。さながら極楽浄土で楽しむ酒と魚。【東北#14】2021年6月17日〜19日",
+    "published_at": "2021-06-27T11:00:17Z",
+    "duration": "PT14M20S",
+    "series_id": "japan-tohoku",
+    "episode": 14,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "宮古市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-17",
+      "to": "2021-06-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/lsw4DsxHR-k/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "t60LOGY1QMo",
+    "title": "八戸市32歳ひとり旅。はしご酒から偶然の出会いで更に呑みまくる。【東北#15】2021年6月19日〜21日",
+    "published_at": "2021-07-02T12:30:23Z",
+    "duration": "PT19M58S",
+    "series_id": "japan-tohoku",
+    "episode": 15,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "八戸市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-19",
+      "to": "2021-06-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/t60LOGY1QMo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "T3qtgT1O82E",
+    "title": "青森市32歳ひとり旅。縄文時代の三内丸山遺跡と昭和の酒場。【東北#16】2021年6月21日〜23日",
+    "published_at": "2021-07-09T10:00:11Z",
+    "duration": "PT14M10S",
+    "series_id": "japan-tohoku",
+    "episode": 16,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "青森市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-21",
+      "to": "2021-06-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/T3qtgT1O82E/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "JiFQCjKfJ40",
+    "title": "弘前市32歳ひとり旅。美しき城下町と名酒場。【東北#17】2021年6月23日〜25日",
+    "published_at": "2021-07-13T11:00:11Z",
+    "duration": "PT16M28S",
+    "series_id": "japan-tohoku",
+    "episode": 17,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "弘前市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-23",
+      "to": "2021-06-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/JiFQCjKfJ40/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zFGCnvK1QhY",
+    "title": "秋田市32歳ひとり旅。エンゲル係数ハイパーインフレ。【東北#18】2021年6月25日〜28日",
+    "published_at": "2021-07-17T14:32:49Z",
+    "duration": "PT15M18S",
+    "series_id": "japan-tohoku",
+    "episode": 18,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "秋田市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-25",
+      "to": "2021-06-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zFGCnvK1QhY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "dtfBNdrMgu4",
+    "title": "盛岡市32歳ひとり旅。盛岡三大麺を完全制覇。【東北#19】2021年6月28日〜7月1日",
+    "published_at": "2021-07-20T11:00:14Z",
+    "duration": "PT15M54S",
+    "series_id": "japan-tohoku",
+    "episode": 19,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "盛岡市"
+    ],
+    "filmed_at": {
+      "from": "2021-06-28",
+      "to": "2021-07-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/dtfBNdrMgu4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "uoerH47Mwk4",
+    "title": "花巻市32歳ひとり旅。大谷翔平が育った街。【東北#20】2021年7月1日〜3日",
+    "published_at": "2021-07-24T11:00:17Z",
+    "duration": "PT13M21S",
+    "series_id": "japan-tohoku",
+    "episode": 20,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "花巻市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-01",
+      "to": "2021-07-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/uoerH47Mwk4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "tWtBTTe-sLg",
+    "title": "石巻市32歳ひとり旅。日本一のパンと生ハムがやって来た日【東北#21】2021年7月3日〜5日",
+    "published_at": "2021-07-31T05:00:30Z",
+    "duration": "PT15M33S",
+    "series_id": "japan-tohoku",
+    "episode": 21,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "石巻市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-03",
+      "to": "2021-07-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/tWtBTTe-sLg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "2sYg1iG4zKs",
+    "title": "山形市32歳ひとり旅。芋煮、だし…山形グルメと山寺と。【東北#22】2021年7月5日〜8日",
+    "published_at": "2021-08-06T11:00:05Z",
+    "duration": "PT19M30S",
+    "series_id": "japan-tohoku",
+    "episode": 22,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "山形市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-05",
+      "to": "2021-07-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/2sYg1iG4zKs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "--dsMzTR3tM",
+    "title": "郡山市32歳ひとり旅。55日間の東北編完結。【東北#23】2021年7月8日〜10日",
+    "published_at": "2021-08-10T14:00:00Z",
+    "duration": "PT11M56S",
+    "series_id": "japan-tohoku",
+    "episode": 23,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "郡山市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-08",
+      "to": "2021-07-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/--dsMzTR3tM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0O0Yz-LPsn8",
+    "title": "長岡市32歳ひとり旅。懐かしき母の故郷。【新潟#1】2021年7月21日〜23日",
+    "published_at": "2021-08-14T07:00:00Z",
+    "duration": "PT14M50S",
+    "series_id": "japan-niigata",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "長岡市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-21",
+      "to": "2021-07-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0O0Yz-LPsn8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "470akePB4oQ",
+    "title": "新潟市32歳ひとり旅。米と酒が旨すぎる。【新潟#2】2021年7月23日〜26日",
+    "published_at": "2021-08-20T08:00:30Z",
+    "duration": "PT20M27S",
+    "series_id": "japan-niigata",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "新潟市"
+    ],
+    "filmed_at": {
+      "from": "2021-07-23",
+      "to": "2021-07-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/470akePB4oQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ZUGYXDfnnOU",
+    "title": "佐渡島両津32歳ひとり旅。トキが暮らす佐渡の玄関口。【新潟#3】2021年7月26日〜28日",
+    "published_at": "2021-08-25T11:00:14Z",
+    "duration": "PT22M17S",
+    "series_id": "japan-niigata",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "佐渡島両津"
+    ],
+    "filmed_at": {
+      "from": "2021-07-26",
+      "to": "2021-07-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ZUGYXDfnnOU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QGWqKCAGatc",
+    "title": "佐渡島相川32歳ひとり旅。徳川幕府を支えた佐渡金山。【新潟#4】2021年7月29日",
+    "published_at": "2021-08-29T03:00:07Z",
+    "duration": "PT12M8S",
+    "series_id": "japan-niigata",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "佐渡島相川"
+    ],
+    "filmed_at": {
+      "from": "2021-07-29",
+      "to": "2021-07-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/QGWqKCAGatc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4EtuSyG5Lag",
+    "title": "佐渡島佐和田32歳ひとり旅。常連が愛す飲放題居酒屋と二大回転寿司。【新潟#5】2021年7月30日〜8月1日",
+    "published_at": "2021-09-01T11:00:03Z",
+    "duration": "PT13M36S",
+    "series_id": "japan-niigata",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "佐渡島佐和田"
+    ],
+    "filmed_at": {
+      "from": "2021-07-30",
+      "to": "2021-08-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4EtuSyG5Lag/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "wnnbZ5afwF8",
+    "title": "佐渡島小木32歳ひとり旅。北前船で栄えた港町のたらい舟と人情酒場。【新潟#6】2021年8月1日〜8月3日",
+    "published_at": "2021-09-06T13:00:34Z",
+    "duration": "PT19M43S",
+    "series_id": "japan-niigata",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "佐渡島小木"
+    ],
+    "filmed_at": {
+      "from": "2021-08-01",
+      "to": "2021-08-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/wnnbZ5afwF8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ahqTjSWPZd8",
+    "title": "五島列島福江島32歳ひとり旅。五島最大の街を歩く。【長崎#1】2021年8月5日〜6日",
+    "published_at": "2021-09-28T13:31:40Z",
+    "duration": "PT14M36S",
+    "series_id": "japan-nagasaki",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島福江島"
+    ],
+    "filmed_at": {
+      "from": "2021-08-05",
+      "to": "2021-08-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ahqTjSWPZd8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "o-Yz_Clbn8o",
+    "title": "五島列島福江島32歳ひとり旅。五島最大の島を原付で一周。【長崎#2】2021年8月7日〜8日",
+    "published_at": "2021-09-30T13:30:06Z",
+    "duration": "PT12M41S",
+    "series_id": "japan-nagasaki",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島福江島"
+    ],
+    "filmed_at": {
+      "from": "2021-08-07",
+      "to": "2021-08-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/o-Yz_Clbn8o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Leb0NlF_qWU",
+    "title": "五島列島椛島32歳ひとり旅。島民100人ほどの島を日帰り散歩。【長崎#3】2021年8月9日",
+    "published_at": "2021-10-03T03:00:13Z",
+    "duration": "PT15M37S",
+    "series_id": "japan-nagasaki",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島椛島"
+    ],
+    "filmed_at": {
+      "from": "2021-08-09",
+      "to": "2021-08-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Leb0NlF_qWU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-9HP3Wsf98s",
+    "title": "五島列島久賀島32歳ひとり旅。島全体が世界遺産の島へ日帰り原付旅。【長崎#4】2021年8月10日",
+    "published_at": "2021-10-05T12:00:00Z",
+    "duration": "PT12M28S",
+    "series_id": "japan-nagasaki",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島久賀島"
+    ],
+    "filmed_at": {
+      "from": "2021-08-10",
+      "to": "2021-08-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-9HP3Wsf98s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "KxleQpYyzHs",
+    "title": "五島列島奈留島32歳ひとり旅。世界遺産の江上集落がある島で1泊。【長崎#5】2021年9月27日〜28日",
+    "published_at": "2021-10-08T10:00:10Z",
+    "duration": "PT11M20S",
+    "series_id": "japan-nagasaki",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島奈留島"
+    ],
+    "filmed_at": {
+      "from": "2021-09-27",
+      "to": "2021-09-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/KxleQpYyzHs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sMO-xsF5Ocg",
+    "title": "五島列島中通島32歳ひとり旅。幾多の教会と美しき景観あふれる五島で2番目に大きな島。【長崎#6】2021年9月28日〜30日",
+    "published_at": "2021-10-12T09:00:32Z",
+    "duration": "PT22M6S",
+    "series_id": "japan-nagasaki",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島中通島"
+    ],
+    "filmed_at": {
+      "from": "2021-09-28",
+      "to": "2021-09-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sMO-xsF5Ocg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1QP1f4a2-tA",
+    "title": "五島列島若松島32歳ひとり旅。美しき海岸線が続く上五島の秘境。【長崎#7】2021年10月1日〜2日",
+    "published_at": "2021-10-17T05:00:01Z",
+    "duration": "PT13M35S",
+    "series_id": "japan-nagasaki",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島若松島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-01",
+      "to": "2021-10-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1QP1f4a2-tA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "jwZJgnsizCQ",
+    "title": "五島列島野崎島32歳ひとり旅。ほぼ無人の島に残された世界遺産の教会と日本屈指の絶景ビーチ。【長崎#8】2021年10月2日",
+    "published_at": "2021-10-19T09:00:18Z",
+    "duration": "PT10M41S",
+    "series_id": "japan-nagasaki",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島野崎島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-02",
+      "to": "2021-10-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/jwZJgnsizCQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zjBDUcsdVwA",
+    "title": "五島列島小値賀島32歳ひとり旅。青い海に囲まれた温かい人々。【長崎#9】2021年10月3日〜4日",
+    "published_at": "2021-10-21T09:00:36Z",
+    "duration": "PT16M22S",
+    "series_id": "japan-nagasaki",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島小値賀島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-03",
+      "to": "2021-10-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zjBDUcsdVwA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "_Z2FfgXo_jw",
+    "title": "五島列島宇久島32歳ひとり旅。博多から船で4時間の五島列島最北端の島。【長崎#10】2021年10月4日〜5日",
+    "published_at": "2021-10-23T09:00:11Z",
+    "duration": "PT14M3S",
+    "series_id": "japan-nagasaki",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "五島列島宇久島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-04",
+      "to": "2021-10-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/_Z2FfgXo_jw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "a69xxLyOPDk",
+    "title": "壱岐32歳ひとり旅。行った事ない人は一度見た方が良い絶景ビーチの楽園。【長崎#11】2021年10月6日〜8日",
+    "published_at": "2021-10-26T13:00:00Z",
+    "duration": "PT21M38S",
+    "series_id": "japan-nagasaki",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "壱岐"
+    ],
+    "filmed_at": {
+      "from": "2021-10-06",
+      "to": "2021-10-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/a69xxLyOPDk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qZwyAZwPLXY",
+    "title": "対馬32歳ひとり旅。南部厳原港周辺。雄大な自然と穴子ざんまい。【長崎#12】2021年10月8日〜10日",
+    "published_at": "2021-10-31T06:00:11Z",
+    "duration": "PT18M11S",
+    "series_id": "japan-nagasaki",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "対馬"
+    ],
+    "filmed_at": {
+      "from": "2021-10-08",
+      "to": "2021-10-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qZwyAZwPLXY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Hk4he4j-33o",
+    "title": "対馬32歳ひとり旅。北部比田勝港周辺。韓国まで50kmの国境の島。【長崎#13】2021年10月10日〜11日",
+    "published_at": "2021-11-02T10:00:19Z",
+    "duration": "PT15M6S",
+    "series_id": "japan-nagasaki",
+    "episode": 13,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "対馬"
+    ],
+    "filmed_at": {
+      "from": "2021-10-10",
+      "to": "2021-10-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Hk4he4j-33o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Cqt-OOpX6ew",
+    "title": "神津島32歳ひとり旅。青い海と美しき山。神々が集まる伝説の島。【伊豆諸島#1】2021年10月13日〜16日",
+    "published_at": "2021-11-04T12:00:05Z",
+    "duration": "PT28M32S",
+    "series_id": "japan-izu-islands",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "神津島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-13",
+      "to": "2021-10-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Cqt-OOpX6ew/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Y2kVJagm0tI",
+    "title": "式根島32歳ひとり旅。海水と混ざり合う海岸の天然温泉に雨の中入浴。【伊豆諸島#2】2021年10月16日〜17日",
+    "published_at": "2021-11-08T13:34:38Z",
+    "duration": "PT11M46S",
+    "series_id": "japan-izu-islands",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "式根島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-16",
+      "to": "2021-10-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Y2kVJagm0tI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "w2O0bR9rU3o",
+    "title": "新島32歳ひとり旅。かつてのナンパ島で呑んだくれ。【伊豆諸島#3】2021年10月17日〜23日",
+    "published_at": "2021-11-12T18:10:56Z",
+    "duration": "PT28M27S",
+    "series_id": "japan-izu-islands",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "新島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-17",
+      "to": "2021-10-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/w2O0bR9rU3o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4HK0bREHL94",
+    "title": "利島32歳ひとり旅。宿が取れず弾丸日帰り旅。滞在時間わずか5時間で登山。【伊豆諸島#4】2021年10月23日〜24日",
+    "published_at": "2021-11-15T13:04:33Z",
+    "duration": "PT15M26S",
+    "series_id": "japan-izu-islands",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "利島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-23",
+      "to": "2021-10-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4HK0bREHL94/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "7wDJR-xtJDg",
+    "title": "伊豆大島32歳ひとり旅。高速船で1時間45分。東京からすぐ行ける火山島。【伊豆諸島#5】2021年10月25日〜26日",
+    "published_at": "2021-11-18T10:00:03Z",
+    "duration": "PT15M30S",
+    "series_id": "japan-izu-islands",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "伊豆大島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-25",
+      "to": "2021-10-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/7wDJR-xtJDg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "K7BfKlMF6-M",
+    "title": "伊豆大島32歳ひとり旅。伊豆の踊子の舞台「波浮港」で昼間から呑んだくれ。【伊豆諸島#6】2021年10月26日〜28日",
+    "published_at": "2021-11-21T09:00:16Z",
+    "duration": "PT21M19S",
+    "series_id": "japan-izu-islands",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "伊豆大島"
+    ],
+    "filmed_at": {
+      "from": "2021-10-26",
+      "to": "2021-10-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/K7BfKlMF6-M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "QwFjvZSyRsE",
+    "title": "青ヶ島32歳ひとり旅。約半分欠航！？日本一上陸困難な船旅。【伊豆諸島#7】2021年11月4日〜6日",
+    "published_at": "2021-11-26T10:00:12Z",
+    "duration": "PT21M8S",
+    "series_id": "japan-izu-islands",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "青ヶ島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-04",
+      "to": "2021-11-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/QwFjvZSyRsE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "J_vRR1nnczY",
+    "title": "青ヶ島32歳ひとり旅。人口169人の村で酒を呑みまくった。【伊豆諸島#8】2021年11月7日〜9日",
+    "published_at": "2021-12-01T11:00:11Z",
+    "duration": "PT15M41S",
+    "series_id": "japan-izu-islands",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "青ヶ島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-07",
+      "to": "2021-11-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/J_vRR1nnczY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0ndE0gKmf2c",
+    "title": "八丈島32歳ひとり旅。偶然出会った島民の方と呑みまくり。【伊豆諸島#9】2021年11月9日〜10日",
+    "published_at": "2021-12-06T11:00:00Z",
+    "duration": "PT20M25S",
+    "series_id": "japan-izu-islands",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "八丈島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-09",
+      "to": "2021-11-10"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0ndE0gKmf2c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "d_rlrbdw-2w",
+    "title": "八丈島32歳ひとり旅。島民の誰もが知る離島の名居酒屋。【伊豆諸島#10】2021年11月11日〜12日",
+    "published_at": "2021-12-09T12:00:31Z",
+    "duration": "PT11M37S",
+    "series_id": "japan-izu-islands",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "八丈島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-11",
+      "to": "2021-11-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/d_rlrbdw-2w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Nb0CaYOj1XQ",
+    "title": "三宅島32歳ひとり旅。2000年の噴火で全島民が避難した火山島。【伊豆諸島#11】2021年11月12日〜15日",
+    "published_at": "2021-12-12T09:00:09Z",
+    "duration": "PT24M52S",
+    "series_id": "japan-izu-islands",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "三宅島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-12",
+      "to": "2021-11-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Nb0CaYOj1XQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "b0VCo7Zb8xg",
+    "title": "御蔵島32歳ひとり旅。日帰り禁止の島へ禁断の日帰り旅。【伊豆諸島#12】2021年11月16日",
+    "published_at": "2021-12-15T14:13:52Z",
+    "duration": "PT12M40S",
+    "series_id": "japan-izu-islands",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "御蔵島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-16",
+      "to": "2021-11-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/b0VCo7Zb8xg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "q-XpZDed-j8",
+    "title": "高知32歳ひとり旅。坂本龍馬とカツオのたたき。【四国#1】2021年11月22日〜25日",
+    "published_at": "2021-12-18T12:15:05Z",
+    "duration": "PT21M55S",
+    "series_id": "japan-shikoku",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "高知"
+    ],
+    "filmed_at": {
+      "from": "2021-11-22",
+      "to": "2021-11-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/q-XpZDed-j8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ZXCwNhblM5M",
+    "title": "徳島32歳ひとり旅。酒と阿波踊りと鳴門の渦潮と。【四国#2】2021年11月25日〜28日",
+    "published_at": "2021-12-22T11:00:31Z",
+    "duration": "PT23M29S",
+    "series_id": "japan-shikoku",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "徳島"
+    ],
+    "filmed_at": {
+      "from": "2021-11-25",
+      "to": "2021-11-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ZXCwNhblM5M/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "3gq7XkGDGmk",
+    "title": "高松32歳ひとり旅。うどん県香川でうどん6杯。【四国#3】2021年11月28日〜12月3日",
+    "published_at": "2021-12-25T11:00:02Z",
+    "duration": "PT24M16S",
+    "series_id": "japan-shikoku",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "高松"
+    ],
+    "filmed_at": {
+      "from": "2021-11-28",
+      "to": "2021-12-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/3gq7XkGDGmk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "pavRuisnKOY",
+    "title": "松山32歳ひとり旅。みかん、鯛めし、道後温泉。【四国#4】2021年12月3日〜7日",
+    "published_at": "2021-12-28T11:00:32Z",
+    "duration": "PT24M52S",
+    "series_id": "japan-shikoku",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "松山"
+    ],
+    "filmed_at": {
+      "from": "2021-12-03",
+      "to": "2021-12-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/pavRuisnKOY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sHXwp2S4Tzw",
+    "title": "富山32歳ひとり旅。富山湾、天然のいけすかよ！【北陸#1】2021年12月14日〜17日",
+    "published_at": "2022-01-01T14:00:19Z",
+    "duration": "PT20M10S",
+    "series_id": "japan-hokuriku",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "富山"
+    ],
+    "filmed_at": {
+      "from": "2021-12-14",
+      "to": "2021-12-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sHXwp2S4Tzw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Mp1CbUcCe2Y",
+    "title": "金沢32歳ひとり旅。加賀百万石ってホントですか？【北陸#2】2021年12月17日〜20日",
+    "published_at": "2022-01-04T11:00:07Z",
+    "duration": "PT22M22S",
+    "series_id": "japan-hokuriku",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "金沢"
+    ],
+    "filmed_at": {
+      "from": "2021-12-17",
+      "to": "2021-12-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Mp1CbUcCe2Y/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WY1CGhekwFo",
+    "title": "福井32歳ひとり旅。恐竜王国で越前の魚介を満喫。【北陸#3】2021年12月20日〜23日",
+    "published_at": "2022-01-07T13:00:14Z",
+    "duration": "PT15M23S",
+    "series_id": "japan-hokuriku",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "福井"
+    ],
+    "filmed_at": {
+      "from": "2021-12-20",
+      "to": "2021-12-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WY1CGhekwFo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "1hUrYKibvF0",
+    "title": "長崎32歳ひとり旅。九州一周はじめました。【九州#1】2022年1月5日〜6日",
+    "published_at": "2022-01-16T11:00:02Z",
+    "duration": "PT12M3S",
+    "series_id": "japan-nagasaki",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "長崎"
+    ],
+    "filmed_at": {
+      "from": "2022-01-05",
+      "to": "2022-01-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/1hUrYKibvF0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "96ki-u86uFM",
+    "title": "軍艦島32歳ひとり旅。瀕死の重症でギリギリ上陸。【九州#2】2022年1月6日〜7日",
+    "published_at": "2022-01-19T16:00:08Z",
+    "duration": "PT9M51S",
+    "series_id": "japan-nagasaki",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "軍艦島"
+    ],
+    "filmed_at": {
+      "from": "2022-01-06",
+      "to": "2022-01-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/96ki-u86uFM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gOeqUFyIoas",
+    "title": "佐世保32歳ひとり旅。アメリカンな軍港の街。【九州#3】2022年1月7日〜9日",
+    "published_at": "2022-01-22T11:00:18Z",
+    "duration": "PT14M3S",
+    "series_id": "japan-nagasaki",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "佐世保"
+    ],
+    "filmed_at": {
+      "from": "2022-01-07",
+      "to": "2022-01-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gOeqUFyIoas/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "A-lEoUdcv5c",
+    "title": "SAGA32歳ひとり旅。佐賀牛さえあれば何もいらない。【九州#4】2022年1月9日〜11日",
+    "published_at": "2022-01-25T14:05:10Z",
+    "duration": "PT14M6S",
+    "series_id": "japan-kyushu",
+    "episode": 4,
+    "countries": [],
+    "cities": [],
+    "filmed_at": {
+      "from": "2022-01-09",
+      "to": "2022-01-11"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/A-lEoUdcv5c/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "sW1vnE_yDe0",
+    "title": "熊本33歳ひとり旅。馬刺、カラシ蓮根、米焼酎、熊本城。【九州#5】2022年1月11日〜13日",
+    "published_at": "2022-01-28T14:49:44Z",
+    "duration": "PT19M7S",
+    "series_id": "japan-kyushu",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "熊本"
+    ],
+    "filmed_at": {
+      "from": "2022-01-11",
+      "to": "2022-01-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/sW1vnE_yDe0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "U6CZH71Ihio",
+    "title": "天草33歳ひとり旅。人生最高の刺し盛りに出会った。【九州#6】2022年1月13日〜15日",
+    "published_at": "2022-01-31T14:30:07Z",
+    "duration": "PT16M2S",
+    "series_id": "japan-kyushu",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "天草"
+    ],
+    "filmed_at": {
+      "from": "2022-01-13",
+      "to": "2022-01-15"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/U6CZH71Ihio/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qhjAvXH9YIQ",
+    "title": "薩摩川内33歳ひとり旅。とある離島の玄関口に寄り道。【九州#7】2022年1月15日〜17日",
+    "published_at": "2022-02-03T13:45:56Z",
+    "duration": "PT12M33S",
+    "series_id": "japan-kagoshima",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "薩摩川内"
+    ],
+    "filmed_at": {
+      "from": "2022-01-15",
+      "to": "2022-01-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qhjAvXH9YIQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "MrNNyH-Mz_Q",
+    "title": "上甑島33歳ひとり旅。名前も読めない島ですから。【九州#8】2022年1月17日〜19日",
+    "published_at": "2022-02-06T17:15:01Z",
+    "duration": "PT21M38S",
+    "series_id": "japan-kagoshima",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "上甑島"
+    ],
+    "filmed_at": {
+      "from": "2022-01-17",
+      "to": "2022-01-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/MrNNyH-Mz_Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "XLbcJ1-C0Hk",
+    "title": "下甑島33歳ひとり旅。Dr.コトーの島。【九州#9】2022年1月19日〜21日",
+    "published_at": "2022-02-09T16:45:03Z",
+    "duration": "PT18M31S",
+    "series_id": "japan-kagoshima",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "下甑島"
+    ],
+    "filmed_at": {
+      "from": "2022-01-19",
+      "to": "2022-01-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/XLbcJ1-C0Hk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "L0eZaIwOESU",
+    "title": "鹿児島33歳ひとり旅。2度目だから観光せず飲み食いだけ。【九州#10】2022年1月21日〜23日",
+    "published_at": "2022-02-12T11:00:08Z",
+    "duration": "PT15M37S",
+    "series_id": "japan-kagoshima",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "鹿児島"
+    ],
+    "filmed_at": {
+      "from": "2022-01-21",
+      "to": "2022-01-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/L0eZaIwOESU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "25JfHj37wDE",
+    "title": "宮崎33歳ひとり旅。チキン南蛮、鶏もも焼き、釜揚げうどん、宮崎牛。【九州#11】2022年1月23日〜25日",
+    "published_at": "2022-02-15T11:00:03Z",
+    "duration": "PT15M41S",
+    "series_id": "japan-kyushu",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "宮崎"
+    ],
+    "filmed_at": {
+      "from": "2022-01-23",
+      "to": "2022-01-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/25JfHj37wDE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "puNH-RBOppE",
+    "title": "延岡33歳ひとり旅。宮崎県第3の都市で元祖チキン南蛮と高千穂峡。【九州#12】2022年1月25日〜27日",
+    "published_at": "2022-02-18T11:00:34Z",
+    "duration": "PT16M51S",
+    "series_id": "japan-kyushu",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "延岡"
+    ],
+    "filmed_at": {
+      "from": "2022-01-25",
+      "to": "2022-01-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/puNH-RBOppE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "JPNqAjftl5g",
+    "title": "大分33歳ひとり旅。とり天、琉球、麦焼酎、高崎山。【九州#13】2022年1月27日〜29日",
+    "published_at": "2022-02-21T11:00:10Z",
+    "duration": "PT16M26S",
+    "series_id": "japan-kyushu",
+    "episode": 13,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "大分"
+    ],
+    "filmed_at": {
+      "from": "2022-01-27",
+      "to": "2022-01-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/JPNqAjftl5g/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "XqOVYtI5anE",
+    "title": "別府33歳ひとり旅。日本一のおんせん県で地獄。【九州#14】2022年1月29日〜31日",
+    "published_at": "2022-02-24T11:00:25Z",
+    "duration": "PT21M26S",
+    "series_id": "japan-kyushu",
+    "episode": 14,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "別府"
+    ],
+    "filmed_at": {
+      "from": "2022-01-29",
+      "to": "2022-01-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/XqOVYtI5anE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Q2bZyvLy74Q",
+    "title": "北九州33歳ひとり旅。九州第2の都市はウマい店だらけ。【九州#15】2022年1月31日〜2月2日",
+    "published_at": "2022-02-27T12:00:09Z",
+    "duration": "PT20M31S",
+    "series_id": "japan-kyushu",
+    "episode": 15,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "北九州"
+    ],
+    "filmed_at": {
+      "from": "2022-01-31",
+      "to": "2022-02-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Q2bZyvLy74Q/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "g1XTZ1GMkn4",
+    "title": "唐津33歳ひとり旅。実はとんでもない街。【九州#16】2022年2月2日〜4日",
+    "published_at": "2022-03-02T11:00:32Z",
+    "duration": "PT19M34S",
+    "series_id": "japan-kyushu",
+    "episode": 16,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "唐津"
+    ],
+    "filmed_at": {
+      "from": "2022-02-02",
+      "to": "2022-02-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/g1XTZ1GMkn4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-D8miXML9dU",
+    "title": "久留米33歳ひとり旅。B級グルメしか食わん。【九州#17】2022年2月4日〜6日",
+    "published_at": "2022-03-05T11:00:00Z",
+    "duration": "PT16M48S",
+    "series_id": "japan-kyushu",
+    "episode": 17,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "久留米"
+    ],
+    "filmed_at": {
+      "from": "2022-02-04",
+      "to": "2022-02-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-D8miXML9dU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "T2MpeDicNmk",
+    "title": "福岡33歳ひとり旅。もつ鍋、水炊き、やっぱ最高。【九州#18】2022年2月6日〜8日",
+    "published_at": "2022-03-08T11:00:13Z",
+    "duration": "PT19M52S",
+    "series_id": "japan-kyushu",
+    "episode": 18,
+    "countries": [],
+    "cities": [],
+    "filmed_at": {
+      "from": "2022-02-06",
+      "to": "2022-02-08"
+    },
+    "flight": true,
+    "thumbnail": "https://i.ytimg.com/vi/T2MpeDicNmk/mqdefault.jpg",
+    "extract": {
+      "method": "unresolved",
+      "confidence": 0,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "0l3H35-qL58",
+    "title": "鳥取33歳ひとり旅。砂丘以外に何かあるのかい？【山陰#1】2022年3月12日〜14日",
+    "published_at": "2022-03-14T15:22:42Z",
+    "duration": "PT22M15S",
+    "series_id": "japan-sanin",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "鳥取"
+    ],
+    "filmed_at": {
+      "from": "2022-03-12",
+      "to": "2022-03-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/0l3H35-qL58/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "FVEF-rbT8A0",
+    "title": "米子33歳ひとり旅。一品475（ヨナゴ）円！？の爆安海鮮居酒屋を発見【山陰#2】2022年3月14日〜16日",
+    "published_at": "2022-03-16T17:03:01Z",
+    "duration": "PT19M49S",
+    "series_id": "japan-sanin",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "米子"
+    ],
+    "filmed_at": {
+      "from": "2022-03-14",
+      "to": "2022-03-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/FVEF-rbT8A0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "olHq95aRrJQ",
+    "title": "境港33歳ひとり旅。ゲゲゲの鬼太郎とカニだらけの港町【山陰#3】2022年3月16日〜18日",
+    "published_at": "2022-03-18T14:15:23Z",
+    "duration": "PT12M50S",
+    "series_id": "japan-sanin",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "境港"
+    ],
+    "filmed_at": {
+      "from": "2022-03-16",
+      "to": "2022-03-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/olHq95aRrJQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "FlMSFkfYw7s",
+    "title": "隠岐の島33歳ひとり旅。雨だから島後島を散歩して酒飲むだけ【山陰#4】2022年3月18日〜19日",
+    "published_at": "2022-03-20T18:16:00Z",
+    "duration": "PT17M49S",
+    "series_id": "japan-sanin",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "隠岐の島"
+    ],
+    "filmed_at": {
+      "from": "2022-03-18",
+      "to": "2022-03-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/FlMSFkfYw7s/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xmLSFANe_9w",
+    "title": "隠岐の島33歳ひとり旅。レンタカーで島後島を一周【山陰#5】2022年3月20日〜21日",
+    "published_at": "2022-03-22T18:20:46Z",
+    "duration": "PT16M18S",
+    "series_id": "japan-sanin",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "隠岐の島"
+    ],
+    "filmed_at": {
+      "from": "2022-03-20",
+      "to": "2022-03-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xmLSFANe_9w/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kvFIAUfHUU4",
+    "title": "隠岐諸島海士町33歳ひとり旅。後鳥羽上皇が島流しされ生涯を閉じた島。【山陰#6】2022年3月21日〜23日",
+    "published_at": "2022-03-24T17:40:41Z",
+    "duration": "PT22M39S",
+    "series_id": "japan-sanin",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "隠岐諸島海士町"
+    ],
+    "filmed_at": {
+      "from": "2022-03-21",
+      "to": "2022-03-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kvFIAUfHUU4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "035V0dNeP9Y",
+    "title": "隠岐諸島西ノ島33歳ひとり旅。崖マニアも絶叫する日本屈指の崖。【山陰#7】2022年3月23日〜25日",
+    "published_at": "2022-03-26T15:22:02Z",
+    "duration": "PT17M49S",
+    "series_id": "japan-sanin",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "隠岐諸島西ノ島"
+    ],
+    "filmed_at": {
+      "from": "2022-03-23",
+      "to": "2022-03-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/035V0dNeP9Y/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "n5hgeNOAdoQ",
+    "title": "隠岐諸島知夫里島33歳ひとり旅。600人の小さな島の超豪華コース料理に驚愕。【山陰#8】2022年3月25日〜26日",
+    "published_at": "2022-03-28T11:00:31Z",
+    "duration": "PT18M21S",
+    "series_id": "japan-sanin",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "隠岐諸島知夫里島"
+    ],
+    "filmed_at": {
+      "from": "2022-03-25",
+      "to": "2022-03-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/n5hgeNOAdoQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qUFLWwybVe4",
+    "title": "松江33歳ひとり旅。国宝松江城と宍道湖の豊かな恵み。【山陰#9】2022年3月27日〜29日",
+    "published_at": "2022-03-30T11:00:25Z",
+    "duration": "PT19M29S",
+    "series_id": "japan-sanin",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "松江"
+    ],
+    "filmed_at": {
+      "from": "2022-03-27",
+      "to": "2022-03-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qUFLWwybVe4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "SvgG6EJ9vCo",
+    "title": "出雲33歳ひとり旅。出雲大社以外ほぼ呑み歩きはしご酒。【山陰#10】2022年3月29日〜31日",
+    "published_at": "2022-04-01T11:00:15Z",
+    "duration": "PT19M54S",
+    "series_id": "japan-sanin",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "出雲"
+    ],
+    "filmed_at": {
+      "from": "2022-03-29",
+      "to": "2022-03-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/SvgG6EJ9vCo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "8gNbaz2rSEA",
+    "title": "萩33歳ひとり旅。あの人もこの人も！？偉人だらけの城下町【山陰#11】2022年3月31日〜4月2日",
+    "published_at": "2022-04-03T16:22:02Z",
+    "duration": "PT21M23S",
+    "series_id": "japan-sanin",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "萩"
+    ],
+    "filmed_at": {
+      "from": "2022-03-31",
+      "to": "2022-04-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/8gNbaz2rSEA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "j__KMJ6mMxM",
+    "title": "山口33歳ひとり旅。桜、温泉、五重塔、秋芳洞。瀬戸内編はじめました。【瀬戸内#1】2022年4月2日〜4日",
+    "published_at": "2022-04-05T16:01:35Z",
+    "duration": "PT18M41S",
+    "series_id": "japan-setouchi",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "山口"
+    ],
+    "filmed_at": {
+      "from": "2022-04-02",
+      "to": "2022-04-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/j__KMJ6mMxM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WguGQwk0VS8",
+    "title": "山口33歳ひとり旅。田舎に移住した大学の先輩に会いに行ってみた。【瀬戸内#2】2022年4月4日〜6日",
+    "published_at": "2022-04-07T14:16:35Z",
+    "duration": "PT12M57S",
+    "series_id": "japan-setouchi",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "山口"
+    ],
+    "filmed_at": {
+      "from": "2022-04-04",
+      "to": "2022-04-06"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WguGQwk0VS8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Tl7w7tHNVfo",
+    "title": "下関33歳ひとり旅。観光そっちのけでフグを食いフグを呑む。【瀬戸内#3】2022年4月6日〜8日",
+    "published_at": "2022-04-09T14:22:07Z",
+    "duration": "PT15M1S",
+    "series_id": "japan-setouchi",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "下関"
+    ],
+    "filmed_at": {
+      "from": "2022-04-06",
+      "to": "2022-04-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Tl7w7tHNVfo/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "NcuCL4NfAEk",
+    "title": "浅草ワクチンひとり旅。ホッピーでハッピーからの39.4℃で天国と地獄かよ。【番外編#4】2022年4月8日〜11日",
+    "published_at": "2022-04-12T11:30:10Z",
+    "duration": "PT17M9S",
+    "series_id": "japan-setouchi",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "浅草ワクチン"
+    ],
+    "filmed_at": {
+      "from": "2022-04-08",
+      "to": "2022-04-11"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/NcuCL4NfAEk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-sIc425Mg9k",
+    "title": "広島33歳ひとり旅。注ぎ方でビールの味が変わる？！お好み焼き、牡蠣、厳島神社、原爆ドーム。【瀬戸内#4】2022年4月11日〜14日",
+    "published_at": "2022-04-15T16:19:44Z",
+    "duration": "PT21M26S",
+    "series_id": "japan-setouchi",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "広島"
+    ],
+    "filmed_at": {
+      "from": "2022-04-11",
+      "to": "2022-04-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-sIc425Mg9k/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GFavW0m8SqU",
+    "title": "尾道33歳ひとり旅。旨いビールを呑む為にしまなみ海道をチャリで渡る男。【瀬戸内#5】2022年4月14日〜17日",
+    "published_at": "2022-04-18T12:05:06Z",
+    "duration": "PT22M45S",
+    "series_id": "japan-setouchi",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "尾道"
+    ],
+    "filmed_at": {
+      "from": "2022-04-14",
+      "to": "2022-04-17"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GFavW0m8SqU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gNWGqaWWSuk",
+    "title": "岡山33歳ひとり旅。デミカツ丼、ニラの刺身。後楽園以外ほぼグルメ。【瀬戸内#6】2022年4月17日〜19日",
+    "published_at": "2022-04-21T12:34:04Z",
+    "duration": "PT16M3S",
+    "series_id": "japan-setouchi",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "岡山"
+    ],
+    "filmed_at": {
+      "from": "2022-04-17",
+      "to": "2022-04-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gNWGqaWWSuk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "w-2mMx_PFvg",
+    "title": "直島33歳ひとり旅。島の呑み屋と瀬戸内国際芸術祭。【瀬戸内#7】2022年4月19日〜21日",
+    "published_at": "2022-04-25T14:07:55Z",
+    "duration": "PT16M12S",
+    "series_id": "japan-setouchi",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "直島"
+    ],
+    "filmed_at": {
+      "from": "2022-04-19",
+      "to": "2022-04-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/w-2mMx_PFvg/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "XPTBCKAT5O4",
+    "title": "豊島33歳ひとり旅。カレー酒場と瀬戸内国際芸術祭。【瀬戸内#8】2022年4月21日〜22日",
+    "published_at": "2022-04-28T11:00:13Z",
+    "duration": "PT11M53S",
+    "series_id": "japan-setouchi",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "豊島"
+    ],
+    "filmed_at": {
+      "from": "2022-04-21",
+      "to": "2022-04-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/XPTBCKAT5O4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "HyMsz2Hbw7c",
+    "title": "小豆島33歳ひとり旅。映えスポット盛り沢山なオリーブの島。【瀬戸内#9】2022年4月22日〜25日",
+    "published_at": "2022-05-01T17:17:50Z",
+    "duration": "PT18M27S",
+    "series_id": "japan-setouchi",
+    "episode": 9,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小豆島"
+    ],
+    "filmed_at": {
+      "from": "2022-04-22",
+      "to": "2022-04-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/HyMsz2Hbw7c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "zuUXB_XWwQQ",
+    "title": "姫路33歳ひとり旅。姫路グルメと姫路城。【瀬戸内#10】2022年4月25日〜28日",
+    "published_at": "2022-05-05T13:00:22Z",
+    "duration": "PT21M39S",
+    "series_id": "japan-setouchi",
+    "episode": 10,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "姫路"
+    ],
+    "filmed_at": {
+      "from": "2022-04-25",
+      "to": "2022-04-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/zuUXB_XWwQQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "lbuon5kFER4",
+    "title": "神戸33歳ひとり旅。美食の港町で呑み歩き。【瀬戸内#11】2022年4月28日〜5月1日",
+    "published_at": "2022-05-09T11:30:09Z",
+    "duration": "PT20M44S",
+    "series_id": "japan-setouchi",
+    "episode": 11,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "神戸"
+    ],
+    "filmed_at": {
+      "from": "2022-04-28",
+      "to": "2022-05-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/lbuon5kFER4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "qheb63wsJg8",
+    "title": "大阪33歳ひとり旅。B級グルメ呑み歩き。【瀬戸内#12】2022年5月1日〜3日",
+    "published_at": "2022-05-12T11:00:23Z",
+    "duration": "PT18M8S",
+    "series_id": "japan-setouchi",
+    "episode": 12,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "大阪"
+    ],
+    "filmed_at": {
+      "from": "2022-05-01",
+      "to": "2022-05-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/qheb63wsJg8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9-TGBYwaZX4",
+    "title": "久米島33歳ひとり旅。東洋一美しい無人島！？はての浜に行ってきた。【沖縄#6】2022年5月4日〜7日",
+    "published_at": "2022-05-20T17:00:04Z",
+    "duration": "PT30M12S",
+    "series_id": "japan-okinawa",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "久米島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-04",
+      "to": "2022-05-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9-TGBYwaZX4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xQnRU56OAyU",
+    "title": "那覇33歳ひとり旅。観光せず沖縄グルメ13軒【沖縄#7】2022年5月7日〜12日",
+    "published_at": "2022-05-25T11:00:28Z",
+    "duration": "PT22M44S",
+    "series_id": "japan-okinawa",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "那覇"
+    ],
+    "filmed_at": {
+      "from": "2022-05-07",
+      "to": "2022-05-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xQnRU56OAyU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Is-GTObJZFc",
+    "title": "沖縄33歳ひとり旅。本島から車で行ける12島巡り【沖縄#8】2022年5月13日〜16日",
+    "published_at": "2022-05-29T14:30:03Z",
+    "duration": "PT27M19S",
+    "series_id": "japan-okinawa",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "沖縄"
+    ],
+    "filmed_at": {
+      "from": "2022-05-13",
+      "to": "2022-05-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Is-GTObJZFc/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "MaDTPdczFqs",
+    "title": "トカラ列島33歳ひとり旅。アクセスは週2便の船のみ。日本最後の秘境への船旅【トカラ列島#1】2022年5月16日〜18日",
+    "published_at": "2022-06-04T14:30:34Z",
+    "duration": "PT20M19S",
+    "series_id": "japan-tokara",
+    "episode": 1,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "トカラ列島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-16",
+      "to": "2022-05-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/MaDTPdczFqs/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "fQcsNuuz5qw",
+    "title": "宝島33歳ひとり旅。キャプテンキッドの財宝伝説が残る浪漫秘境【トカラ列島#2】2022年5月18日〜23日",
+    "published_at": "2022-06-11T11:00:18Z",
+    "duration": "PT22M45S",
+    "series_id": "japan-tokara",
+    "episode": 2,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "宝島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-18",
+      "to": "2022-05-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/fQcsNuuz5qw/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "E94anwwZLO4",
+    "title": "小宝島33歳ひとり旅。これだから島旅はやめられない【トカラ列島#3】2022年5月23日〜28日",
+    "published_at": "2022-06-12T13:01:31Z",
+    "duration": "PT25M1S",
+    "series_id": "japan-tokara",
+    "episode": 3,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "小宝島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-23",
+      "to": "2022-05-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/E94anwwZLO4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "LH0ZOUr6FYM",
+    "title": "悪石島33歳ひとり旅。想定外のトラブル多発。【トカラ列島#4】2022年5月25日〜29日",
+    "published_at": "2022-06-13T12:45:01Z",
+    "duration": "PT17M30S",
+    "series_id": "japan-tokara",
+    "episode": 4,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "悪石島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-25",
+      "to": "2022-05-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/LH0ZOUr6FYM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "80tXNICU2pY",
+    "title": "諏訪之瀬島33歳ひとり旅。毎日噴火しまくってて心配になる島。【トカラ列島#5】2022年5月29日〜6月1日",
+    "published_at": "2022-06-14T12:08:36Z",
+    "duration": "PT16M6S",
+    "series_id": "japan-tokara",
+    "episode": 5,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "諏訪之瀬島"
+    ],
+    "filmed_at": {
+      "from": "2022-05-29",
+      "to": "2022-06-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/80tXNICU2pY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "LGDVvFx1S-A",
+    "title": "中之島33歳ひとり旅。様々な出会いに感謝した忘れられぬ島。【トカラ列島#6】2022年6月1日〜5日",
+    "published_at": "2022-06-15T13:58:52Z",
+    "duration": "PT22M55S",
+    "series_id": "japan-tokara",
+    "episode": 6,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "中之島"
+    ],
+    "filmed_at": {
+      "from": "2022-06-01",
+      "to": "2022-06-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/LGDVvFx1S-A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "-DIulZdcrEI",
+    "title": "口之島33歳ひとり旅。鹿児島から6時間でトカラの玄関口。【トカラ列島#7】2022年6月5日〜7日",
+    "published_at": "2022-06-16T12:00:00Z",
+    "duration": "PT15M17S",
+    "series_id": "japan-tokara",
+    "episode": 7,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "口之島"
+    ],
+    "filmed_at": {
+      "from": "2022-06-05",
+      "to": "2022-06-07"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/-DIulZdcrEI/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "B3mxo37BQC4",
+    "title": "平島33歳ひとり旅。トカラを全島制覇し国内編完結。【トカラ列島#8】2022年6月7日〜9日",
+    "published_at": "2022-06-17T11:00:10Z",
+    "duration": "PT17M39S",
+    "series_id": "japan-tokara",
+    "episode": 8,
+    "countries": [
+      "392"
+    ],
+    "cities": [
+      "平島"
+    ],
+    "filmed_at": {
+      "from": "2022-06-07",
+      "to": "2022-06-09"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/B3mxo37BQC4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
     "video_id": "CQ1F6LaIpug",
     "title": "成田ロンドン33歳ひとり旅。エティハド航空で二年半ぶりに海外行ったら22時間フライトがキツすぎた。【ヨーロッパ#1】2022年6月19日〜20日",
     "published_at": "2022-06-20T15:00:13Z",
@@ -1446,6 +5754,414 @@
       "to": "2022-10-28"
     },
     "thumbnail": "https://i.ytimg.com/vi/8zwoNsvUonE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9wtOsi3m_po",
+    "title": "【W杯#1】1泊3万円のコンテナはこんな感じです。2022年11月20日",
+    "published_at": "2022-11-20T22:00:58Z",
+    "duration": "PT6M58S",
+    "series_id": "worldcup-2022",
+    "episode": 1,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-20",
+      "to": "2022-11-20"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9wtOsi3m_po/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9GkndPrtiUM",
+    "title": "【W杯#2】ファンビレッジを探検。果たしてビールは飲めるのか？2022年11月21日",
+    "published_at": "2022-11-21T21:25:03Z",
+    "duration": "PT9M21S",
+    "series_id": "worldcup-2022",
+    "episode": 2,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-21",
+      "to": "2022-11-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9GkndPrtiUM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "kdsbyTngz68",
+    "title": "【W杯#3】カタールでビール飲むの大変過ぎました。2022年11月22日",
+    "published_at": "2022-11-23T00:17:30Z",
+    "duration": "PT9M7S",
+    "series_id": "worldcup-2022",
+    "episode": 3,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-22",
+      "to": "2022-11-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/kdsbyTngz68/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "H7vhOPJDgMQ",
+    "title": "【W杯#4】日本vsドイツ🇩🇪現地観戦で勝利するとこうなります！2022年11月23日",
+    "published_at": "2022-11-24T01:30:08Z",
+    "duration": "PT16M46S",
+    "series_id": "worldcup-2022",
+    "episode": 4,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-23",
+      "to": "2022-11-23"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/H7vhOPJDgMQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "cvMHF7zo_2o",
+    "title": "【W杯#5】1泊5万円のテントはこんな感じです。2022年11月24日",
+    "published_at": "2022-11-25T00:31:11Z",
+    "duration": "PT15M9S",
+    "series_id": "worldcup-2022",
+    "episode": 5,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-24",
+      "to": "2022-11-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/cvMHF7zo_2o/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9Jm_euCQhDA",
+    "title": "【W杯#6】ここに来ればカタールでも酒が飲めるぞ！2022年11月25日",
+    "published_at": "2022-11-26T00:00:03Z",
+    "duration": "PT11M17S",
+    "series_id": "worldcup-2022",
+    "episode": 6,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-25",
+      "to": "2022-11-25"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9Jm_euCQhDA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "EOFDn1d8Eog",
+    "title": "【W杯#7】3ヶ所のファンビレッジに潜入したらだいぶ違った。2022年11月26日",
+    "published_at": "2022-11-26T22:00:04Z",
+    "duration": "PT15M13S",
+    "series_id": "worldcup-2022",
+    "episode": 7,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-26",
+      "to": "2022-11-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/EOFDn1d8Eog/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "byMgbAvBvT0",
+    "title": "【W杯#8】日本vsコスタリカ🇨🇷試合前と後の高低差。スタジアムから負けて帰るのツラすぎる。2022年11月27日",
+    "published_at": "2022-11-28T00:30:11Z",
+    "duration": "PT16M26S",
+    "series_id": "worldcup-2022",
+    "episode": 8,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-27",
+      "to": "2022-11-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/byMgbAvBvT0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "tKXAlLHub-k",
+    "title": "【W杯#9】負けた悲しみを砂漠で癒す中東おじさん。2022年11月28日",
+    "published_at": "2022-11-28T22:30:06Z",
+    "duration": "PT9M39S",
+    "series_id": "worldcup-2022",
+    "episode": 9,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-28",
+      "to": "2022-11-28"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/tKXAlLHub-k/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "nXXhcqrzc-4",
+    "title": "【W杯#10】宿のチェックインで日が暮れる国カタール。2022年11月29日",
+    "published_at": "2022-11-29T23:30:10Z",
+    "duration": "PT9M59S",
+    "series_id": "worldcup-2022",
+    "episode": 10,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-29",
+      "to": "2022-11-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/nXXhcqrzc-4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "WLML2CO85nU",
+    "title": "【W杯#11】中東料理食べたいのに昼飯難民。2022年11月30日",
+    "published_at": "2022-12-01T01:23:43Z",
+    "duration": "PT13M21S",
+    "series_id": "worldcup-2022",
+    "episode": 11,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-11-30",
+      "to": "2022-11-30"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WLML2CO85nU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "GR0GH30mLxM",
+    "title": "【W杯#12】日本vsスペイン🇪🇸スタジアムから感動の瞬間をみんなで分かち合おう！2022年12月1日",
+    "published_at": "2022-12-02T04:30:05Z",
+    "duration": "PT18M32S",
+    "series_id": "worldcup-2022",
+    "episode": 12,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-01",
+      "to": "2022-12-01"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/GR0GH30mLxM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "4DKZpqboMN8",
+    "title": "【W杯#13】日本代表のせいで大変なことになってるんだが。2022年12月2日",
+    "published_at": "2022-12-03T01:30:01Z",
+    "duration": "PT10M40S",
+    "series_id": "worldcup-2022",
+    "episode": 13,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-02",
+      "to": "2022-12-02"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/4DKZpqboMN8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "ucz3aX6Ez8c",
+    "title": "【W杯#14】1泊6万円の船は完全に別世界だった。2022年12月3日",
+    "published_at": "2022-12-04T00:07:58Z",
+    "duration": "PT15M",
+    "series_id": "worldcup-2022",
+    "episode": 14,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-03",
+      "to": "2022-12-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ucz3aX6Ez8c/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Yo_EPip0YgQ",
+    "title": "【W杯#15】日本は今夜ここで勝ち史上初のベスト8に進出します。2022年12月4日",
+    "published_at": "2022-12-05T22:21:45Z",
+    "duration": "PT15M8S",
+    "series_id": "worldcup-2022",
+    "episode": 15,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-04",
+      "to": "2022-12-04"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Yo_EPip0YgQ/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "6lfumbbmgTM",
+    "title": "【W杯#16】日本vsクロアチア🇭🇷激闘の現地スタジアムからありがとう日本代表。2022年12月5日",
+    "published_at": "2022-12-06T19:15:41Z",
+    "duration": "PT22M13S",
+    "series_id": "worldcup-2022",
+    "episode": 16,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-05",
+      "to": "2022-12-05"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/6lfumbbmgTM/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9UuEf7a2cgo",
+    "title": "【W杯#17】カタールを出国。W杯の総費用は○○○万円でした。2022年12月6日〜8日",
+    "published_at": "2022-12-08T12:10:56Z",
+    "duration": "PT11M43S",
+    "series_id": "worldcup-2022",
+    "episode": 17,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2022-12-06",
+      "to": "2022-12-08"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9UuEf7a2cgo/mqdefault.jpg",
     "extract": {
       "method": "title",
       "confidence": 1,
@@ -4083,13 +8799,13 @@
     "title": "サッカーアジア杯旅🇶🇦エティハド航空ビジネスクラスでカタールへ参戦。【アジア杯#1】2024年1月13日〜14日",
     "published_at": "2024-01-14T10:04:46Z",
     "duration": "PT23M53S",
-    "series_id": null,
+    "series_id": "asiancup-2024",
     "episode": 1,
     "countries": [
       "634"
     ],
     "cities": [
-      "サッカーアジア杯"
+      "ドーハ"
     ],
     "filmed_at": {
       "from": "2024-01-13",
@@ -4103,16 +8819,66 @@
     }
   },
   {
+    "video_id": "ZM2Zq9K44-A",
+    "title": "アジア杯ベトナム戦を現地観戦！【アジア杯#2】2024年1月14日",
+    "published_at": "2024-01-15T14:01:52Z",
+    "duration": "PT19M18S",
+    "series_id": "asiancup-2024",
+    "episode": 2,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-14",
+      "to": "2024-01-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/ZM2Zq9K44-A/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "BOmWQplp8bY",
+    "title": "サッカーアジア杯チケットの買い方【アジア杯#3】2024年1月15日〜16日",
+    "published_at": "2024-01-18T11:00:10Z",
+    "duration": "PT20M31S",
+    "series_id": "asiancup-2024",
+    "episode": 3,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-15",
+      "to": "2024-01-16"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/BOmWQplp8bY/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
     "video_id": "jokMARokRdk",
     "title": "試合の無い日に視聴者さんと3軒ハシゴ酒🇶🇦ドーハ【アジア杯#4】2024年1月17日〜18日",
     "published_at": "2024-01-19T10:16:48Z",
     "duration": "PT10M15S",
-    "series_id": null,
+    "series_id": "asiancup-2024",
     "episode": 4,
     "countries": [
       "634"
     ],
-    "cities": [],
+    "cities": [
+      "ドーハ"
+    ],
     "filmed_at": {
       "from": "2024-01-17",
       "to": "2024-01-18"
@@ -4120,7 +8886,151 @@
     "thumbnail": "https://i.ytimg.com/vi/jokMARokRdk/mqdefault.jpg",
     "extract": {
       "method": "title",
-      "confidence": 0.7,
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "b9VksanHr04",
+    "title": "アジア杯日本対イラク35年ぶりの敗戦を現地観戦。【アジア杯#5】2024年1月19日",
+    "published_at": "2024-01-22T22:22:35Z",
+    "duration": "PT19M28S",
+    "series_id": "asiancup-2024",
+    "episode": 5,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-19",
+      "to": "2024-01-19"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/b9VksanHr04/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "Tq-VZi4V9nk",
+    "title": "インドネシア戦に勝利し決勝トーナメント進出決定！【アジア杯#7】2024年1月24日",
+    "published_at": "2024-01-26T02:42:31Z",
+    "duration": "PT11M52S",
+    "series_id": "asiancup-2024",
+    "episode": 7,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-24",
+      "to": "2024-01-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/Tq-VZi4V9nk/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "JmnY4mdpkfA",
+    "title": "優勝候補の韓国vsヨルダンを視察！【アジア杯#6】2024年1月20日〜22日",
+    "published_at": "2024-01-29T00:57:35Z",
+    "duration": "PT14M36S",
+    "series_id": "asiancup-2024",
+    "episode": 6,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-20",
+      "to": "2024-01-22"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/JmnY4mdpkfA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "9yzv4bnUEM4",
+    "title": "日本の対戦相手が二転三転した大波乱の韓国vsマレーシア【アジア杯#8】2024年1月25日〜27日",
+    "published_at": "2024-01-30T22:56:19Z",
+    "duration": "PT16M24S",
+    "series_id": "asiancup-2024",
+    "episode": 8,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-25",
+      "to": "2024-01-27"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/9yzv4bnUEM4/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "gCxhaXdDdIA",
+    "title": "日本vsバーレーン🇧🇭ベスト8進出の瞬間を現地観戦してきた。【アジア杯#9】2024年1月31日",
+    "published_at": "2024-02-01T01:23:00Z",
+    "duration": "PT19M21S",
+    "series_id": "asiancup-2024",
+    "episode": 9,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-01-31",
+      "to": "2024-01-31"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/gCxhaXdDdIA/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
+  },
+  {
+    "video_id": "xNQ6QeC_2Co",
+    "title": "日本vsイラン🇮🇷準々決勝で敗退した地獄の現地スタジアム。【アジア杯#10】2024年2月3日",
+    "published_at": "2024-02-06T13:30:45Z",
+    "duration": "PT22M4S",
+    "series_id": "asiancup-2024",
+    "episode": 10,
+    "countries": [
+      "634"
+    ],
+    "cities": [
+      "ドーハ"
+    ],
+    "filmed_at": {
+      "from": "2024-02-03",
+      "to": "2024-02-03"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/xNQ6QeC_2Co/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
       "reviewed": false
     }
   },
@@ -4351,7 +9261,7 @@
     "title": "エティハド航空ビジネスクラス旅🇦🇪帰国便に乗り遅れた時の対応がヤバすぎた。【アジア杯#11】2024年2月12日〜14日",
     "published_at": "2024-03-27T09:00:37Z",
     "duration": "PT33M58S",
-    "series_id": null,
+    "series_id": "asiancup-2024",
     "episode": 11,
     "countries": [
       "784"
@@ -7321,7 +12231,7 @@
     "title": "ワールドカップ初戦の地ダラスに到着！！🇺🇸【北中米W杯#1】2026年6月10日〜11日",
     "published_at": "2026-06-12T05:41:20Z",
     "duration": "PT24M55S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": 1,
     "countries": [
       "840"
@@ -7339,11 +12249,107 @@
     }
   },
   {
+    "video_id": "CxJgqDnVem8",
+    "title": "ワールドカップ第1戦と3戦の開催地ダラススタジアムに行ってみた！！【北中米W杯#2】2026年6月12日",
+    "published_at": "2026-06-13T19:27:55Z",
+    "duration": "PT28M49S",
+    "series_id": "worldcup-2026",
+    "episode": 2,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-12",
+      "to": "2026-06-12"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/CxJgqDnVem8/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "vCMWsUNx9xY",
+    "title": "テキサスBBQ食ってオランダ戦前夜祭行ってきた！！【北中米W杯#3】2026年6月13日",
+    "published_at": "2026-06-14T15:46:55Z",
+    "duration": "PT10M52S",
+    "series_id": "worldcup-2026",
+    "episode": 3,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-13",
+      "to": "2026-06-13"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/vCMWsUNx9xY/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "iAk-r8mKqYA",
+    "title": "W杯オランダ戦、大激闘の神試合スタジアム現地観戦！【北中米W杯#4】2026年6月14日",
+    "published_at": "2026-06-15T11:24:09Z",
+    "duration": "PT25M1S",
+    "series_id": "worldcup-2026",
+    "episode": 4,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-14",
+      "to": "2026-06-14"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/iAk-r8mKqYA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "YiHHNXzm8nA",
+    "title": "W杯第二戦チュニジア戦の舞台、メキシコのモンテレイに到着！【北中米W杯#5】2026年6月18日",
+    "published_at": "2026-06-19T22:16:57Z",
+    "duration": "PT18M14S",
+    "series_id": "worldcup-2026",
+    "episode": 5,
+    "countries": [
+      "484"
+    ],
+    "cities": [
+      "モンテレイ"
+    ],
+    "filmed_at": {
+      "from": "2026-06-18",
+      "to": "2026-06-18"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/YiHHNXzm8nA/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
     "video_id": "GL-iChSS-bE",
     "title": "W杯チュニジア戦🇲🇽メキシコ人の大応援で完全に日本のホーム！ in モンテレイ【北中米W杯#6】2026年6月20日",
     "published_at": "2026-06-21T13:05:24Z",
     "duration": "PT18M42S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": 6,
     "countries": [
       "484"
@@ -7358,6 +12364,100 @@
       "method": "title",
       "confidence": 0.7,
       "reviewed": false
+    }
+  },
+  {
+    "video_id": "UbTkEyU5mJc",
+    "title": "スウェーデン戦の舞台アメリカのテキサス州ダラスに帰還！【北中米W杯#7】2026年6月21日",
+    "published_at": "2026-06-24T21:28:41Z",
+    "duration": "PT14M24S",
+    "series_id": "worldcup-2026",
+    "episode": 7,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-21",
+      "to": "2026-06-21"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/UbTkEyU5mJc/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "WWfm_QdZSG4",
+    "title": "現地応援に行くとスウェーデン戦の前夜祭はこうなります！【北中米W杯#8】2026年6月24日",
+    "published_at": "2026-06-25T11:30:39Z",
+    "duration": "PT15M1S",
+    "series_id": "worldcup-2026",
+    "episode": 8,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-24",
+      "to": "2026-06-24"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/WWfm_QdZSG4/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "fcbMnLEr6Uk",
+    "title": "W杯スウェーデン戦、決勝T進出で現地サポーターは嬉しい悲鳴！【北中米W杯#9】2026年6月25日〜26日",
+    "published_at": "2026-06-28T08:47:26Z",
+    "duration": "PT30M35S",
+    "series_id": "worldcup-2026",
+    "episode": 9,
+    "countries": [
+      "840"
+    ],
+    "cities": [
+      "ダラス"
+    ],
+    "filmed_at": {
+      "from": "2026-06-25",
+      "to": "2026-06-26"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/fcbMnLEr6Uk/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
+    }
+  },
+  {
+    "video_id": "nhsRIWSv5us",
+    "title": "W杯ブラジル戦、現地スタジアムの天国と地獄。【北中米W杯#10】2026年6月29日",
+    "published_at": "2026-06-30T09:41:58Z",
+    "duration": "PT21M2S",
+    "series_id": "worldcup-2026",
+    "episode": 10,
+    "countries": [
+      "840"
+    ],
+    "cities": [],
+    "filmed_at": {
+      "from": "2026-06-29",
+      "to": "2026-06-29"
+    },
+    "thumbnail": "https://i.ytimg.com/vi/nhsRIWSv5us/mqdefault.jpg",
+    "extract": {
+      "method": "manual",
+      "confidence": 1,
+      "reviewed": true
     }
   },
   {
@@ -7590,7 +12690,7 @@
     "title": "カタール航空旅🇶🇦世界最高ビジネスクラスQsuiteドーハ→ダラス15時間半【W杯2026 #0】2026年6月9日〜10日",
     "published_at": "2026-09-03T12:44:16Z",
     "duration": "PT26M43S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": 0,
     "countries": [
       "634"
@@ -7614,7 +12714,7 @@
     "title": "サッカーW杯2026総集編前半🇺🇸ダラス🇲🇽モンテレイ2026年6月10日〜21日",
     "published_at": "2026-09-19T13:59:12Z",
     "duration": "PT58M3S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": null,
     "countries": [
       "840",
@@ -7638,7 +12738,7 @@
     "title": "サッカーW杯2026総集編後半🇺🇸ダラス、ヒューストン。2026年6月21日〜7月1日",
     "published_at": "2026-10-04T16:43:16Z",
     "duration": "PT48M58S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": null,
     "countries": [
       "840"
@@ -7661,7 +12761,7 @@
     "title": "シカゴ旅🇺🇸アメリカ第三の大都会でB級グルメ飲み歩き。2026年7月1日〜7日",
     "published_at": "2026-10-11T10:55:33Z",
     "duration": "PT55M56S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": null,
     "countries": [
       "840"
@@ -7686,7 +12786,7 @@
     "title": "ANAファーストクラスTHE Suite旅🇺🇸シカゴから成田まで12時間呑みまくり！【2026W杯 #12】2026年7月7日〜8日",
     "published_at": "2026-10-18T09:00:37Z",
     "duration": "PT37M10S",
-    "series_id": null,
+    "series_id": "worldcup-2026",
     "episode": 12,
     "countries": [
       "840"

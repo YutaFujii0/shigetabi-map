@@ -609,6 +609,71 @@
     "lng": -76.79,
     "source": "nominatim"
   },
+  "392:いわき市": {
+    "lat": 37.05,
+    "lng": 140.89,
+    "source": "wikipedia"
+  },
+  "392:えりも": {
+    "lat": 42.05,
+    "lng": 143.09,
+    "source": "nominatim"
+  },
+  "392:トカラ列島": {
+    "lat": 29.37,
+    "lng": 129.74,
+    "source": "wikipedia"
+  },
+  "392:三宅島": {
+    "lat": 34.08,
+    "lng": 139.53,
+    "source": "wikipedia"
+  },
+  "392:上甑島": {
+    "lat": 31.84,
+    "lng": 129.88,
+    "source": "wikipedia"
+  },
+  "392:下地島": {
+    "lat": 24.82,
+    "lng": 125.16,
+    "source": "wikipedia"
+  },
+  "392:下甑島": {
+    "lat": 31.72,
+    "lng": 129.74,
+    "source": "wikipedia"
+  },
+  "392:下関": {
+    "lat": 33.95,
+    "lng": 130.92,
+    "source": "nominatim"
+  },
+  "392:与論島": {
+    "lat": 27.04,
+    "lng": 128.42,
+    "source": "wikipedia"
+  },
+  "392:与那国島": {
+    "lat": 24.47,
+    "lng": 123,
+    "source": "wikipedia"
+  },
+  "392:中之島": {
+    "lat": 34.69,
+    "lng": 135.49,
+    "source": "nominatim"
+  },
+  "392:久留米": {
+    "lat": 33.32,
+    "lng": 130.5,
+    "source": "nominatim"
+  },
+  "392:久米島": {
+    "lat": 26.35,
+    "lng": 126.77,
+    "source": "wikipedia"
+  },
   "392:五島列島中通島": {
     "lat": 32.98,
     "lng": 129.07,
@@ -619,25 +684,695 @@
     "lng": 128.92,
     "source": "manual"
   },
+  "392:五島列島奈留島": {
+    "lat": 32.84,
+    "lng": 128.93,
+    "source": "search"
+  },
   "392:五島列島宇久島": {
     "lat": 33.27,
     "lng": 129.12,
     "source": "manual"
+  },
+  "392:五島列島小値賀島": {
+    "lat": 33.2,
+    "lng": 129.05,
+    "source": "search"
+  },
+  "392:五島列島椛島": {
+    "lat": 32.77,
+    "lng": 129,
+    "source": "search"
+  },
+  "392:五島列島福江島": {
+    "lat": 32.7,
+    "lng": 128.84,
+    "source": "search"
+  },
+  "392:五島列島若松島": {
+    "lat": 32.87,
+    "lng": 129.02,
+    "source": "search"
   },
   "392:五島列島野崎島": {
     "lat": 33.18,
     "lng": 129.13,
     "source": "manual"
   },
+  "392:仙台市": {
+    "lat": 38.27,
+    "lng": 140.87,
+    "source": "wikipedia"
+  },
+  "392:伊良部島": {
+    "lat": 24.84,
+    "lng": 125.17,
+    "source": "wikipedia"
+  },
+  "392:伊豆大島": {
+    "lat": 34.74,
+    "lng": 139.4,
+    "source": "wikipedia"
+  },
+  "392:佐世保": {
+    "lat": 33.16,
+    "lng": 129.73,
+    "source": "nominatim"
+  },
+  "392:佐渡島両津": {
+    "lat": 38.08,
+    "lng": 138.44,
+    "source": "nominatim"
+  },
+  "392:佐渡島佐和田": {
+    "lat": 38,
+    "lng": 138.32,
+    "source": "nominatim"
+  },
+  "392:佐渡島小木": {
+    "lat": 37.87,
+    "lng": 139,
+    "source": "nominatim"
+  },
+  "392:佐渡島相川": {
+    "lat": 34.32,
+    "lng": 134.04,
+    "source": "nominatim"
+  },
+  "392:八丈島": {
+    "lat": 33.11,
+    "lng": 139.79,
+    "source": "wikipedia"
+  },
+  "392:八戸市": {
+    "lat": 40.51,
+    "lng": 141.49,
+    "source": "wikipedia"
+  },
+  "392:八雲": {
+    "lat": 42.25,
+    "lng": 140.27,
+    "source": "nominatim"
+  },
+  "392:出雲": {
+    "lat": 34.53,
+    "lng": 135.89,
+    "source": "nominatim"
+  },
+  "392:函館": {
+    "lat": 41.77,
+    "lng": 140.73,
+    "source": "nominatim"
+  },
+  "392:別府": {
+    "lat": 33.28,
+    "lng": 131.5,
+    "source": "nominatim"
+  },
+  "392:利尻島": {
+    "lat": 45.17,
+    "lng": 141.25,
+    "source": "wikipedia"
+  },
+  "392:利島": {
+    "lat": 34.52,
+    "lng": 139.28,
+    "source": "wikipedia"
+  },
+  "392:加計呂麻島": {
+    "lat": 28.12,
+    "lng": 129.24,
+    "source": "wikipedia"
+  },
+  "392:北九州": {
+    "lat": 33.88,
+    "lng": 130.87,
+    "source": "nominatim"
+  },
+  "392:北大東島": {
+    "lat": 25.94,
+    "lng": 131.31,
+    "source": "wikipedia"
+  },
+  "392:北海道": {
+    "lat": 43.06,
+    "lng": 141.35,
+    "source": "wikipedia"
+  },
+  "392:北見": {
+    "lat": 43.8,
+    "lng": 143.9,
+    "source": "nominatim"
+  },
+  "392:南大東島": {
+    "lat": 25.85,
+    "lng": 131.24,
+    "source": "wikipedia"
+  },
+  "392:双葉町": {
+    "lat": 37.45,
+    "lng": 141.01,
+    "source": "wikipedia"
+  },
+  "392:口之島": {
+    "lat": 29.97,
+    "lng": 129.92,
+    "source": "wikipedia"
+  },
+  "392:唐津": {
+    "lat": 33.45,
+    "lng": 129.97,
+    "source": "nominatim"
+  },
+  "392:喜界島": {
+    "lat": 28.32,
+    "lng": 129.94,
+    "source": "wikipedia"
+  },
+  "392:境港": {
+    "lat": 35.55,
+    "lng": 133.22,
+    "source": "nominatim"
+  },
+  "392:壱岐": {
+    "lat": 33.78,
+    "lng": 129.72,
+    "source": "wikipedia"
+  },
+  "392:多良間島": {
+    "lat": 24.66,
+    "lng": 124.7,
+    "source": "wikipedia"
+  },
+  "392:大分": {
+    "lat": 33.23,
+    "lng": 131.61,
+    "source": "nominatim"
+  },
+  "392:大阪": {
+    "lat": 34.69,
+    "lng": 135.5,
+    "source": "wikipedia"
+  },
+  "392:天売島": {
+    "lat": 44.42,
+    "lng": 141.3,
+    "source": "wikipedia"
+  },
+  "392:天草": {
+    "lat": 32.46,
+    "lng": 130.19,
+    "source": "nominatim"
+  },
+  "392:奄美大島": {
+    "lat": 28.33,
+    "lng": 129.37,
+    "source": "wikipedia"
+  },
+  "392:奥尻島": {
+    "lat": 42.15,
+    "lng": 139.47,
+    "source": "wikipedia"
+  },
+  "392:女川町": {
+    "lat": 38.45,
+    "lng": 141.44,
+    "source": "wikipedia"
+  },
+  "392:姫路": {
+    "lat": 34.83,
+    "lng": 134.69,
+    "source": "nominatim"
+  },
+  "392:宝島": {
+    "lat": 29.14,
+    "lng": 129.21,
+    "source": "nominatim"
+  },
+  "392:宮古島": {
+    "lat": 24.8,
+    "lng": 125.28,
+    "source": "wikipedia"
+  },
+  "392:宮古市": {
+    "lat": 39.64,
+    "lng": 141.95,
+    "source": "wikipedia"
+  },
+  "392:宮崎": {
+    "lat": 31.92,
+    "lng": 131.43,
+    "source": "nominatim"
+  },
+  "392:富山": {
+    "lat": 36.7,
+    "lng": 137.21,
+    "source": "nominatim"
+  },
+  "392:富岡町": {
+    "lat": 37.35,
+    "lng": 141.01,
+    "source": "wikipedia"
+  },
+  "392:対馬": {
+    "lat": 34.42,
+    "lng": 129.33,
+    "source": "wikipedia"
+  },
+  "392:小宝島": {
+    "lat": 29.22,
+    "lng": 129.33,
+    "source": "wikipedia"
+  },
+  "392:小樽": {
+    "lat": 43.2,
+    "lng": 140.99,
+    "source": "nominatim"
+  },
+  "392:小浜島": {
+    "lat": 24.34,
+    "lng": 123.98,
+    "source": "wikipedia"
+  },
+  "392:小笠原諸島": {
+    "lat": 27.08,
+    "lng": 142.22,
+    "source": "wikipedia"
+  },
+  "392:小笠原諸島母島": {
+    "lat": 36.02,
+    "lng": 139.61,
+    "source": "nominatim"
+  },
+  "392:小笠原諸島父島": {
+    "lat": 34.39,
+    "lng": 132.46,
+    "source": "nominatim"
+  },
+  "392:小豆島": {
+    "lat": 34.51,
+    "lng": 134.29,
+    "source": "wikipedia"
+  },
+  "392:尾道": {
+    "lat": 34.42,
+    "lng": 133.2,
+    "source": "wikipedia"
+  },
+  "392:屋久島": {
+    "lat": 30.36,
+    "lng": 130.53,
+    "source": "wikipedia"
+  },
+  "392:山口": {
+    "lat": 34.17,
+    "lng": 131.48,
+    "source": "nominatim"
+  },
+  "392:山形市": {
+    "lat": 38.26,
+    "lng": 140.34,
+    "source": "wikipedia"
+  },
+  "392:岡山": {
+    "lat": 34.67,
+    "lng": 133.92,
+    "source": "nominatim"
+  },
+  "392:帯広": {
+    "lat": 42.92,
+    "lng": 143.2,
+    "source": "wikipedia"
+  },
+  "392:平島": {
+    "lat": 29.69,
+    "lng": 129.53,
+    "source": "nominatim"
+  },
+  "392:広島": {
+    "lat": 34.4,
+    "lng": 132.48,
+    "source": "nominatim"
+  },
+  "392:座間味島": {
+    "lat": 26.23,
+    "lng": 127.3,
+    "source": "wikipedia"
+  },
+  "392:延岡": {
+    "lat": 32.58,
+    "lng": 131.66,
+    "source": "wikipedia"
+  },
+  "392:式根島": {
+    "lat": 34.33,
+    "lng": 139.21,
+    "source": "wikipedia"
+  },
+  "392:弘前市": {
+    "lat": 40.6,
+    "lng": 140.46,
+    "source": "wikipedia"
+  },
+  "392:御蔵島": {
+    "lat": 33.87,
+    "lng": 139.6,
+    "source": "wikipedia"
+  },
+  "392:徳之島": {
+    "lat": 27.82,
+    "lng": 128.93,
+    "source": "wikipedia"
+  },
+  "392:徳島": {
+    "lat": 34.07,
+    "lng": 134.55,
+    "source": "nominatim"
+  },
+  "392:悪石島": {
+    "lat": 29.45,
+    "lng": 129.6,
+    "source": "wikipedia"
+  },
+  "392:新島": {
+    "lat": 34.37,
+    "lng": 139.27,
+    "source": "wikipedia"
+  },
+  "392:新潟市": {
+    "lat": 37.92,
+    "lng": 139.04,
+    "source": "wikipedia"
+  },
+  "392:旭川": {
+    "lat": 43.76,
+    "lng": 142.36,
+    "source": "nominatim"
+  },
+  "392:札幌": {
+    "lat": 43.07,
+    "lng": 141.35,
+    "source": "nominatim"
+  },
+  "392:来間島": {
+    "lat": 24.73,
+    "lng": 125.25,
+    "source": "wikipedia"
+  },
+  "392:東京": {
+    "lat": 35.68,
+    "lng": 139.77,
+    "source": "wikipedia"
+  },
+  "392:松山": {
+    "lat": 33.84,
+    "lng": 132.75,
+    "source": "nominatim"
+  },
+  "392:松島町": {
+    "lat": 38.38,
+    "lng": 141.07,
+    "source": "wikipedia"
+  },
+  "392:松江": {
+    "lat": 35.46,
+    "lng": 133.06,
+    "source": "nominatim"
+  },
+  "392:気仙沼市": {
+    "lat": 38.91,
+    "lng": 141.57,
+    "source": "wikipedia"
+  },
+  "392:池間島": {
+    "lat": 24.93,
+    "lng": 125.24,
+    "source": "wikipedia"
+  },
+  "392:沖永良部島": {
+    "lat": 27.37,
+    "lng": 128.57,
+    "source": "wikipedia"
+  },
+  "392:沖縄": {
+    "lat": 26.33,
+    "lng": 127.81,
+    "source": "nominatim"
+  },
+  "392:波照間島": {
+    "lat": 24.06,
+    "lng": 123.78,
+    "source": "wikipedia"
+  },
   "392:浅草ワクチン": {
     "lat": 35.71,
     "lng": 139.8,
     "source": "manual"
   },
+  "392:渡嘉敷島": {
+    "lat": 26.2,
+    "lng": 127.36,
+    "source": "wikipedia"
+  },
+  "392:焼尻島": {
+    "lat": 44.43,
+    "lng": 141.42,
+    "source": "wikipedia"
+  },
+  "392:熊本": {
+    "lat": 32.79,
+    "lng": 130.69,
+    "source": "nominatim"
+  },
+  "392:留萌": {
+    "lat": 43.94,
+    "lng": 141.64,
+    "source": "nominatim"
+  },
+  "392:盛岡市": {
+    "lat": 39.7,
+    "lng": 141.15,
+    "source": "wikipedia"
+  },
+  "392:直島": {
+    "lat": 34.46,
+    "lng": 133.98,
+    "source": "wikipedia"
+  },
+  "392:石垣島": {
+    "lat": 24.33,
+    "lng": 124.16,
+    "source": "wikipedia"
+  },
+  "392:石巻市": {
+    "lat": 38.43,
+    "lng": 141.3,
+    "source": "wikipedia"
+  },
+  "392:礼文島": {
+    "lat": 45.44,
+    "lng": 141.04,
+    "source": "wikipedia"
+  },
+  "392:神戸": {
+    "lat": 34.68,
+    "lng": 135.18,
+    "source": "nominatim"
+  },
+  "392:神津島": {
+    "lat": 34.22,
+    "lng": 139.15,
+    "source": "wikipedia"
+  },
+  "392:福井": {
+    "lat": 36.06,
+    "lng": 136.22,
+    "source": "nominatim"
+  },
+  "392:福島市": {
+    "lat": 37.76,
+    "lng": 140.47,
+    "source": "wikipedia"
+  },
+  "392:秋田市": {
+    "lat": 39.72,
+    "lng": 140.1,
+    "source": "wikipedia"
+  },
+  "392:稚内": {
+    "lat": 45.42,
+    "lng": 141.67,
+    "source": "wikipedia"
+  },
+  "392:種子島": {
+    "lat": 30.58,
+    "lng": 130.98,
+    "source": "wikipedia"
+  },
+  "392:竹富島": {
+    "lat": 24.33,
+    "lng": 124.09,
+    "source": "wikipedia"
+  },
+  "392:米子": {
+    "lat": 35.42,
+    "lng": 133.34,
+    "source": "nominatim"
+  },
+  "392:網走": {
+    "lat": 44.02,
+    "lng": 144.25,
+    "source": "nominatim"
+  },
+  "392:美瑛": {
+    "lat": 43.59,
+    "lng": 142.46,
+    "source": "nominatim"
+  },
+  "392:羽幌": {
+    "lat": 43.17,
+    "lng": 141.39,
+    "source": "nominatim"
+  },
+  "392:花巻市": {
+    "lat": 39.39,
+    "lng": 141.12,
+    "source": "wikipedia"
+  },
+  "392:萩": {
+    "lat": 34.39,
+    "lng": 131.4,
+    "source": "nominatim"
+  },
+  "392:薩摩川内": {
+    "lat": 31.81,
+    "lng": 130.3,
+    "source": "wikipedia"
+  },
+  "392:西表島": {
+    "lat": 24.29,
+    "lng": 123.86,
+    "source": "wikipedia"
+  },
+  "392:諏訪之瀬島": {
+    "lat": 29.61,
+    "lng": 129.7,
+    "source": "wikipedia"
+  },
+  "392:豊島": {
+    "lat": 34.48,
+    "lng": 134.07,
+    "source": "nominatim"
+  },
+  "392:軍艦島": {
+    "lat": 32.63,
+    "lng": 129.74,
+    "source": "nominatim"
+  },
+  "392:那覇": {
+    "lat": 26.21,
+    "lng": 127.68,
+    "source": "wikipedia"
+  },
+  "392:郡山市": {
+    "lat": 37.4,
+    "lng": 140.36,
+    "source": "wikipedia"
+  },
+  "392:金沢": {
+    "lat": 36.56,
+    "lng": 136.66,
+    "source": "wikipedia"
+  },
+  "392:釜石市": {
+    "lat": 39.28,
+    "lng": 141.89,
+    "source": "wikipedia"
+  },
+  "392:釧路": {
+    "lat": 42.99,
+    "lng": 144.38,
+    "source": "nominatim"
+  },
+  "392:長岡市": {
+    "lat": 37.45,
+    "lng": 138.85,
+    "source": "wikipedia"
+  },
+  "392:長崎": {
+    "lat": 32.75,
+    "lng": 129.87,
+    "source": "nominatim"
+  },
+  "392:阿嘉島": {
+    "lat": 26.2,
+    "lng": 127.28,
+    "source": "wikipedia"
+  },
+  "392:陸前高田市": {
+    "lat": 39.02,
+    "lng": 141.63,
+    "source": "wikipedia"
+  },
+  "392:隠岐の島": {
+    "lat": 36.2,
+    "lng": 133.17,
+    "source": "wikipedia"
+  },
+  "392:隠岐諸島海士町": {
+    "lat": 36.1,
+    "lng": 133.1,
+    "source": "search"
+  },
+  "392:隠岐諸島知夫里島": {
+    "lat": 36.2,
+    "lng": 133.17,
+    "source": "search"
+  },
   "392:隠岐諸島西ノ島": {
     "lat": 36.09,
-    "lng": 133.0,
+    "lng": 133,
     "source": "manual"
+  },
+  "392:青ヶ島": {
+    "lat": 32.46,
+    "lng": 139.76,
+    "source": "wikipedia"
+  },
+  "392:青森市": {
+    "lat": 40.82,
+    "lng": 140.75,
+    "source": "wikipedia"
+  },
+  "392:高松": {
+    "lat": 34.34,
+    "lng": 134.05,
+    "source": "wikipedia"
+  },
+  "392:高知": {
+    "lat": 33.57,
+    "lng": 133.54,
+    "source": "nominatim"
+  },
+  "392:鳥取": {
+    "lat": 35.49,
+    "lng": 134.23,
+    "source": "nominatim"
+  },
+  "392:鳩間島": {
+    "lat": 24.47,
+    "lng": 123.82,
+    "source": "wikipedia"
+  },
+  "392:鹿児島": {
+    "lat": 31.6,
+    "lng": 130.56,
+    "source": "nominatim"
+  },
+  "392:黒島": {
+    "lat": 32.6,
+    "lng": 128.83,
+    "source": "nominatim"
   },
   "398:アスタナ": {
     "lat": 51.13,
@@ -684,6 +1419,11 @@
     "lng": 74.57,
     "source": "wikipedia"
   },
+  "418:ヴィエンチャン": {
+    "lat": 17.97,
+    "lng": 102.6,
+    "source": "wikipedia"
+  },
   "418:バンビエン": {
     "lat": 18.93,
     "lng": 102.45,
@@ -697,11 +1437,6 @@
   "418:ルアンパバーン": {
     "lat": 19.88,
     "lng": 102.13,
-    "source": "wikipedia"
-  },
-  "418:ヴィエンチャン": {
-    "lat": 17.97,
-    "lng": 102.6,
     "source": "wikipedia"
   },
   "428:リガ": {
@@ -778,6 +1513,11 @@
     "lat": 19.43,
     "lng": -99.13,
     "source": "wikipedia"
+  },
+  "484:モンテレイ": {
+    "lat": 25.68,
+    "lng": -100.32,
+    "source": "search"
   },
   "492:モナコ": {
     "lat": 43.73,
@@ -1089,14 +1829,14 @@
     "lng": 99.32,
     "source": "wikipedia"
   },
-  "764:バンコク": {
-    "lat": 13.75,
-    "lng": 100.49,
-    "source": "wikipedia"
-  },
   "764:パンガン島": {
     "lat": 9.73,
     "lng": 100.01,
+    "source": "wikipedia"
+  },
+  "764:バンコク": {
+    "lat": 13.75,
+    "lng": 100.49,
     "source": "wikipedia"
   },
   "764:プーケット": {
@@ -1234,9 +1974,19 @@
     "lng": -122.33,
     "source": "wikipedia"
   },
+  "840:シカゴ": {
+    "lat": 41.88,
+    "lng": -87.63,
+    "source": "wikipedia"
+  },
   "840:シリコンバレー": {
     "lat": 37.38,
     "lng": -122.07,
+    "source": "wikipedia"
+  },
+  "840:ダラス": {
+    "lat": 32.78,
+    "lng": -96.81,
     "source": "wikipedia"
   },
   "840:ニューヨーク": {
