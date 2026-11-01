@@ -187,3 +187,10 @@ export function titleParts(title: string): ({ text: string } | { flag: string })
   if (last < title.length) parts.push({ text: title.slice(last) });
   return parts;
 }
+
+/** 動画がある国・地域を、初めて動画に出た撮影時期の順に並べたもの（ホームの訪問国一覧用） */
+export const visitedList = (() => {
+  const first = new Map<string, Video>();
+  for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b)))) for (const iso of v.countries) if (!first.has(iso)) first.set(iso, v);
+  return [...first.entries()].map(([iso, v]) => ({ iso, name: countryName(iso), since: filmedAt(v), isCountry: isCountry(iso), series: seriesOfCountry(iso) }));
+})();

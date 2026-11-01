@@ -196,7 +196,8 @@ export function initMap(card: HTMLElement): MapController {
   rb?.addEventListener('click', () => {
     const on = rb.getAttribute('aria-pressed') !== 'true';
     rb.setAttribute('aria-pressed', String(on));
-    card.classList.toggle('routes-off', !on);
+    // 左右の複製（<use>）にも反映されるよう、クラスではなく要素自体の style で消す
+    gR.style.display = on ? '' : 'none';
   });
 
   let lastNarrow = isNarrow();

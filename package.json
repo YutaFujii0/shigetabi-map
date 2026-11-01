@@ -12,6 +12,7 @@
     "test": "node --test scripts/lib/*.test.ts"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.4.4",
     "d3-geo": "^3.1.1",
     "flag-icons": "^7.6.0",

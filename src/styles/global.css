@@ -25,6 +25,7 @@ img { max-width: 100%; display: block; }
 
 /* header / footer */
 .a-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.logo-wrap { margin: 0; font-size: inherit; line-height: 1; }
 .logo { font-weight: 700; font-size: 22px; line-height: 1; text-decoration: none; }
 .logo b { color: var(--accent); font-weight: 700; }
 .pill { display: inline-flex; align-items: center; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); background: var(--surface); }
@@ -72,7 +73,6 @@ img { max-width: 100%; display: block; }
 .sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; flex: none; }
 .routebtn { position: absolute; right: 12px; bottom: 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 6px 12px; font-size: 12px; font-weight: 700; color: var(--accent); box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3); }
 .routebtn[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
-.routes-off .gR { display: none; }
 .tip { position: absolute; z-index: 4; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 4px 8px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -130%); }
 
 /* ===== home ===== */
@@ -136,6 +136,14 @@ img { max-width: 100%; display: block; }
 .scard .pd { font: 500 11px var(--f-num); color: var(--muted); }
 .scard .cs { font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .live { display: inline-flex; font-style: normal; font-size: 10px; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 1px 7px; line-height: 1.5; vertical-align: middle; }
+
+/* 訪問国一覧 */
+.countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 12px; counter-reset: c; }
+.countries li { display: flex; align-items: baseline; gap: 6px; font-size: 13px; counter-increment: c; min-width: 0; }
+.countries li::before { content: counter(c); font: 500 10px var(--f-num); color: var(--muted); min-width: 2em; text-align: right; }
+.countries a, .countries span { display: inline-flex; align-items: center; gap: 4px; text-decoration: none; font-weight: 700; line-height: 1.4; }
+.countries a:hover { color: var(--accent); }
+.countries small { font: 500 10px var(--f-num); color: var(--muted); white-space: nowrap; }
 
 /* 国旗 */
 .flag { flex: none; width: 1.333em; line-height: 1em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08); vertical-align: -0.1em; }

@@ -65,6 +65,12 @@ API の消費は 1回あたり「再生リストのページ数＋動画数/50�
 
 `astro.config.mjs` は独自ドメインの直下（`base: '/'`）でビルドする。github.io のサブパスで出す場合は `SITE_URL=https://yutafujii0.github.io BASE_PATH=/shigetabi-map` でビルドする。
 
+## SEO・OGP
+
+- ページごとの `<title>`・description・canonical・OGP（`public/og.png`）・JSON-LD（WebSite／シリーズ一覧／パンくず／動画一覧）は `src/layouts/Base.astro` と各ページで出している
+- `sitemap-index.xml` は `@astrojs/sitemap` がビルド時に作る。`public/robots.txt` から参照
+- OGP 画像は地図の見た目を変えたら作り直す（画像に数字は入れていない）
+
 ## 注意
 
 - 非公式ファンサイトであることをヘッダーとフッターに明記している。公開前に本人（運営）へ一声かけるのが望ましい

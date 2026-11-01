@@ -10,6 +10,7 @@ import { bbox, W, H } from '../lib/geo';
 import {
   allSeries, visited, latestVideo, recentStops, currentPos, site,
   countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
+  visitedCountryCount, visitedList, videos,
 } from '../lib/data';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -17,9 +18,21 @@ const seriesUrl = (id: string) => `${base}/series/${id}/`;
 const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : null;
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
-const visitedList = [...visited];
+const visitedIsos = [...visited];
+const seriesNames = allSeries.map((x) => x.name).join('・');
+const description = `旅系YouTuber「しげ旅（シゲタビ）」が訪れた${visitedCountryCount}か国と、${seriesNames}の全${allSeries.length}シリーズの旅のルート、全${videos.length}本の動画を世界地図でまとめた非公式ファンサイト。国をクリックするとその国の動画一覧が見られます。`;
+const site_url = new URL(import.meta.env.BASE_URL, Astro.site).href;
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: 'しげ旅マップ', alternateName: ['しげ旅 世界地図', 'シゲタビマップ'], url: site_url, inLanguage: 'ja', description },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'しげ旅のシリーズ一覧',
+    itemListElement: allSeries.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: `しげ旅 ${x.name}`, url: new URL(`series/${x.id}/`, site_url).href })),
+  },
+];
 ---
-<Base>
+<Base home description={description} jsonLd={jsonLd}>
   <div class="main">
     <WorldMap id="homemap" route={recentStops} routeButton="直近5か国のルート" marker fit={{ x: 0, y: 0, w: W, h: H }} fitNarrow={fitNarrow} />
 
@@ -39,7 +52,7 @@ const visitedList = [...visited];
         <p class="hint">地図で<b>黄色</b>の国がこの動画の国です。国をクリックすると、その国の動画一覧に切り替わります。</p>
       </div>
 
-      {visitedList.map((iso) => {
+      {visitedIsos.map((iso) => {
         const vs = videosByCountry(iso);
         const s = lastStopIn(iso);
         const ss = seriesOfCountry(iso);
@@ -97,6 +110,17 @@ const visitedList = [...visited];
         );
       })}
     </div>
+  </section>
+  <section class="sec">
+    <div class="sec-h"><h2>しげ旅の訪問国一覧</h2><span class="sub">動画がある国・地域を、初めて訪れた順に（{visitedList.length}か所）</span></div>
+    <ol class="countries">
+      {visitedList.map((c) => (
+        <li>
+          {c.series[0] ? <a href={seriesUrl(c.series.at(-1)!.id)}><Flag iso={c.iso} />{c.name}</a> : <span><Flag iso={c.iso} />{c.name}</span>}
+          <small>{ym(c.since)}{!c.isCountry && '・地域'}</small>
+        </li>
+      ))}
+    </ol>
   </section>
 </Base>
 

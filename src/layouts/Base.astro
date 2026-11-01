@@ -2,10 +2,22 @@
 import 'flag-icons/css/flag-icons.min.css';
 import '../styles/global.css';
 import { visitedCountryCount, countriesWithVideos, officialTally, RECOGNIZED } from '../lib/data';
-interface Props { title?: string; description?: string }
-const { title, description = '旅系YouTuber「しげ旅」の訪問国とシリーズのルートを世界地図で見られる非公式ファンサイトです。' } = Astro.props;
+interface Props {
+  /** ページの <title>（サイト名は後ろに付ける）。無ければホームのタイトル */
+  title?: string;
+  description: string;
+  /** 構造化データ（JSON-LD） */
+  jsonLd?: object[];
+  /** ホームではロゴを h1 にする */
+  home?: boolean;
+}
+const { title, description, jsonLd = [], home = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ（非公式ファンサイト）';
+const SITE_NAME = 'しげ旅マップ';
+const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜しげ旅の訪問国・ルートを世界地図でまとめ（非公式ファンサイト）`;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = new URL(`${base.replace(/\/$/, '')}/og.png`, Astro.site).href;
+const Logo = home ? 'h1' : 'div';
 ---
 <!doctype html>
 <html lang="ja">
@@ -14,8 +26,22 @@ const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ�
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content={home ? 'website' : 'article'} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:url" content={canonical} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="しげ旅マップ：しげ旅の訪問国を塗った世界地図" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    {jsonLd.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)}></script>)}
     <meta name="theme-color" content="#F8F9FA" />
     <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +66,7 @@ const pageTitle = title ? `${title}｜しげ旅マップ` : 'しげ旅マップ�
     </svg>
     <div class="wrap">
       <header class="a-head">
-        <a class="logo" href={base}>しげ旅<b>マップ</b></a>
+        <Logo class="logo-wrap"><a class="logo" href={base}>しげ旅<b>マップ</b></a></Logo>
         <span class="pill">非公式ファンサイト</span>
         <div class="count" title={officialTally ? `最新の動画の概要欄に書かれた「しげ旅通算${officialTally}/${RECOGNIZED.size}ヶ国」` : `日本を除く${RECOGNIZED.size}か国のうち、動画が公開されている国の数`}><b>{visitedCountryCount}</b><span class="of">/{RECOGNIZED.size}</span>か国 訪問</div>
       </header>
