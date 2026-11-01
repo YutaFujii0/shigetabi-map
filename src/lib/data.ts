@@ -92,6 +92,19 @@ export const stops: RouteStop[] = (stopsJson as Stop[])
     return vs.length ? [{ ...s, ...pos, name: countryName(s.iso_n3), videos: vs }] : [];
   });
 export const seriesStops = (id: string) => stops.filter((s) => s.series_id === id).sort((a, b) => a.seq - b.seq);
+/**
+ * 2つの滞在の間をルートの線でつなぐか。シリーズが変わる所や、撮影の間が1週間より空く所は
+ * いったん日本に帰っている（別の旅）ので線を引かない（オセアニア編 → アフリカ編、エジプト → W杯 → ミラノ など）
+ */
+const GAP_DAYS = 7;
+export function connected(a: RouteStop, b: RouteStop): boolean {
+  if (a.series_id !== b.series_id) return false;
+  // 撮影日がタイトルに無い動画（2020年の東南アジア一周など）は日付が公開日なので、間隔では判断しない
+  if (!a.videos.at(-1)?.filmed_at || !b.videos[0]?.filmed_at) return true;
+  const end = a.departed ?? a.arrived, start = b.arrived;
+  if (!end || !start) return true;
+  return (Date.parse(start) - Date.parse(end)) / 864e5 <= GAP_DAYS;
+}
 /** 直近5か国ぶんの滞在（同じ国の別の都市は1か国と数える） */
 export const recentStops = (() => {
   const isos = new Set<string>();

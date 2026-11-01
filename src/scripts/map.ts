@@ -22,10 +22,6 @@ export function initMap(card: HTMLElement): MapController {
   const tip = card.querySelector<HTMLElement>('.tip')!;
   const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
   const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
-  // 日付変更線をまたぐシリーズでは地図を左右に複製している（<use>）。横方向は 3 枚ぶん動ける
-  const wrap = card.hasAttribute('data-wrap');
-  const X0 = wrap ? -W : 0,
-    X1 = wrap ? 2 * W : W;
   const routes = [...gR.querySelectorAll<SVGPathElement>('.rt')];
   let view = { cx: W / 2, cy: H / 2, k: 1 };
 
@@ -41,7 +37,8 @@ export function initMap(card: HTMLElement): MapController {
       h = H / view.k;
       w = h / asp;
     }
-    view.cx = w >= X1 - X0 ? (X0 + X1) / 2 : Math.min(Math.max(view.cx, X0 + w / 2), X1 - w / 2);
+    // 地図は左右に1枚ずつ複製してある（<use>）。中心を 0〜W に戻せば、見た目は変わらずに何周でも横に回せる
+    view.cx = ((view.cx % W) + W) % W;
     view.cy = h >= H ? H / 2 : Math.min(Math.max(view.cy, h / 2), H - h / 2);
     svg.setAttribute('viewBox', `${view.cx - w / 2} ${view.cy - h / 2} ${w} ${h}`);
     // ズームしても印や線の見た目の大きさがあまり変わらないようにする
@@ -118,12 +115,12 @@ export function initMap(card: HTMLElement): MapController {
     const dx = e.clientX - drag.x,
       dy = e.clientY - drag.y;
     if (Math.abs(dx) + Math.abs(dy) > 4) moved = true;
-    // 全体表示のとき（k=1）はタッチでのドラッグをページスクロールに譲る
-    if (!moved || (view.k <= 1.01 && e.pointerType === 'touch')) return;
+    if (!moved) return;
     svg.classList.add('drag');
     const sc = svg.viewBox.baseVal.width / svg.getBoundingClientRect().width;
     view.cx = drag.cx - dx * sc;
-    view.cy = drag.cy - dy * sc;
+    // 全体表示のとき（k=1）のタッチは、横だけ地図を回し、縦はページのスクロールに譲る（touch-action: pan-y）
+    if (!(view.k <= 1.01 && e.pointerType === 'touch')) view.cy = drag.cy - dy * sc;
     apply();
   });
   const end = (e: PointerEvent) => {
@@ -157,7 +154,7 @@ export function initMap(card: HTMLElement): MapController {
     const q = new DOMPoint(p.x - Number(use.dataset.dx), p.y);
     return paths.find((el) => el.isPointInFill(q))?.dataset.id;
   }
-  const hoverTarget = wrap ? svg : gC;
+  const hoverTarget = svg;
 
   // ツールチップ
   hoverTarget.addEventListener('pointermove', (e) => {
