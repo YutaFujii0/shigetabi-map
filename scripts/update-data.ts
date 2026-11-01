@@ -219,6 +219,17 @@ async function main() {
 
   // 2. チャンネルの全動画（アップロード一覧 UU...）。シリーズ外の動画も訪問国の判定に使う
   const channelId = read<{ channel_id: string }>('site.json').channel_id;
+  // チャンネルの再生リストのうち、playlists.json に入っていないもの（新しいシリーズの見落とし防止）
+  const unlisted: string[] = [];
+  {
+    let pageToken: string | undefined;
+    do {
+      type Pls = { nextPageToken?: string; items: { id: string; snippet: { title: string }; contentDetails: { itemCount: number } }[] };
+      const r = await yt<Pls>('playlists', { part: 'snippet,contentDetails', channelId, maxResults: '50', ...(pageToken ? { pageToken } : {}) });
+      for (const p of r.items) if (!playlists.some((x) => x.playlist_id === p.id)) unlisted.push(`${p.snippet.title}（${p.contentDetails.itemCount}本）\`${p.id}\``);
+      pageToken = r.nextPageToken;
+    } while (pageToken);
+  }
   const uploads = await playlistVideoIds(`UU${channelId.slice(2)}`);
   console.log(`アップロード: ${uploads.length} 本（うちシリーズ外 ${uploads.filter((id) => !seriesOf.has(id)).length} 本）`);
 
@@ -367,6 +378,7 @@ async function main() {
     ...(report.unknownFlags.length ? [`### 国コードに変換できなかった国旗`, ...report.unknownFlags.map((c) => `- ${c}`), ``] : []),
     ...(report.dup.length ? [`### 複数のシリーズに入っている動画（先のシリーズを採用）`, ...report.dup.map((c) => `- ${c}`), ``] : []),
     ...(report.removed.length ? [`### 取得できなくなった動画（削除・非公開）`, ...report.removed.map((c) => `- ${c}`), ``] : []),
+    ...(unlisted.length ? [`### 対象にしていない再生リスト（シリーズにするなら playlists.json に追加）`, ...unlisted.map((x) => `- ${x}`), ``] : []),
     ...(tallyRows.length ? [`### 概要欄の「しげ旅通算○/195ヶ国」との照合（食い違いが変わった所）`, ...tallyRows, ``] : []),
     `<details><summary>訪問国の通し番号（撮影順）</summary>`,
     ``,
