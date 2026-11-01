@@ -134,6 +134,13 @@ img { max-width: 100%; display: block; }
 @media (max-width: 760px) { .igwrap { max-width: 540px; width: 100%; margin-inline: auto; } }
 .igwrap .instagram-media { margin: 0 !important; min-width: 0 !important; width: 100% !important; }
 
+/* シリーズのタブ */
+.tabs { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 1px solid var(--line); }
+.tabs [role="tab"] { border: 0; background: none; padding: 8px 14px 10px; font-size: 18px; font-weight: 700; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.tabs [role="tab"][aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tabs [role="tab"]:hover { color: var(--ink); }
+@media (max-width: 760px) { .tabs [role="tab"] { font-size: 15px; padding: 8px 10px; } }
+
 /* シリーズ一覧 */
 .series { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .scard { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; min-width: 0; text-decoration: none; transition: transform 0.15s, border-color 0.15s; }

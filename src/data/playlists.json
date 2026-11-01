@@ -4,62 +4,100 @@
     "id": "europe",
     "name": "ヨーロッパ編",
     "playlist_title": "ヨーロッパ",
-    "color": "#8B5CF6"
+    "color": "#8B5CF6",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6ucNks4ZAGGrHliQb00kmMD",
     "id": "north-america",
     "name": "北米編",
     "playlist_title": "北米",
-    "color": "#3B82F6"
+    "color": "#3B82F6",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6sL4o58ShgJGLk67fxEnT6k",
     "id": "central-america",
     "name": "中米編",
     "playlist_title": "中米",
-    "color": "#7CB518"
+    "color": "#7CB518",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6sT_MXqxjHze_mo3RmFLSVq",
     "id": "south-america",
     "name": "南米編",
     "playlist_title": "南米",
-    "color": "#EF4444"
+    "color": "#EF4444",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6uQe8P4AGCyHwvrcytBLEnj",
     "id": "caribbean",
     "name": "カリブ海編",
     "playlist_title": "カリブ海",
-    "color": "#14B8A6"
+    "color": "#14B8A6",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6tMD6Cuf21BTKlE-lws5xwe",
     "id": "southeast-asia",
     "name": "東南アジア一周編",
     "playlist_title": "東南アジア一周",
-    "color": "#F59E0B"
+    "color": "#F59E0B",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6vvUds8pBzGa-JvsEuCFSbP",
     "id": "asia",
     "name": "アジア編",
     "playlist_title": "アジア",
-    "color": "#EC4899"
+    "color": "#EC4899",
+    "group": "travel"
   },
   {
     "playlist_id": "PL_zqfBigax6uscPmG0v5pu1KQEQXosxm_",
     "id": "oceania",
     "name": "オセアニア編",
     "playlist_title": "オセアニア",
-    "color": "#0EA5E9"
+    "color": "#0EA5E9",
+    "group": "travel"
   },
   {
     "playlist_id": "PLWduGuFZu8K0",
     "id": "africa",
     "name": "アフリカ編",
     "playlist_title": "アフリカ",
-    "color": "#C2410C"
+    "color": "#C2410C",
+    "group": "travel"
+  },
+  {
+    "playlist_id": "PL_zqfBigax6urz6RzloUJ3DOPXIqU3-BN",
+    "id": "worldcup-2022",
+    "name": "カタールW杯編",
+    "playlist_title": "カタールW杯",
+    "color": "#CA8A04",
+    "group": "worldcup",
+    "default_country": "634",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PL_zqfBigax6tR7MuaXsPfhH5KfhxaEHmx",
+    "id": "asiancup-2024",
+    "name": "カタールアジア杯編",
+    "playlist_title": "カタールアジア杯",
+    "color": "#CA8A04",
+    "group": "worldcup",
+    "default_country": "634",
+    "name_fallback": false
+  },
+  {
+    "playlist_id": "PLAGFyMdxh2vk",
+    "id": "worldcup-2026",
+    "name": "北中米W杯編",
+    "playlist_title": "北中米W杯",
+    "color": "#CA8A04",
+    "group": "worldcup",
+    "name_fallback": false
   }
 ]

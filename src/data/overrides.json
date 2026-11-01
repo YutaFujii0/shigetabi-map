@@ -160,6 +160,15 @@
     },
     "africa": {
       "ended": null
+    },
+    "worldcup-2022": {
+      "ended": "2022-12"
+    },
+    "worldcup-2026": {
+      "ended": "2026-07"
+    },
+    "asiancup-2024": {
+      "ended": "2024-02"
     }
   }
 }

@@ -10,7 +10,7 @@ import { bbox, W, H } from '../lib/geo';
 import {
   allSeries, visited, latestVideo, recentStops, currentPos, site,
   countryName, videosByCountry, lastStopIn, seriesOfCountry, seriesSummary, seriesPeriod, getSeries, ym, ymd, youtubeUrl,
-  visitedCountryCount, visitedList, videos, seriesColor,
+  visitedCountryCount, visitedList, videos, seriesColor, travelSeries, worldcupSeries, seasonOf,
 } from '../lib/data';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -19,7 +19,7 @@ const latestSeries = latestVideo.series_id ? getSeries(latestVideo.series_id) : 
 const latestNames = latestVideo.countries.map(countryName).join('・');
 const fitNarrow = bbox(currentPos ? [...recentStops, currentPos] : recentStops, 60);
 const visitedIsos = [...visited];
-const seriesNames = allSeries.map((x) => x.name).join('・');
+const seriesNames = travelSeries.map((x) => x.name).join('・') + (worldcupSeries.length ? `、ワールドカップ編（${worldcupSeries.map((x) => x.name.replace(/編$/, '')).join('・')}）` : '');
 const description = `旅系YouTuber「しげ旅（シゲタビ）」の旅のルートと訪問国リスト（${visitedCountryCount}か国）、${seriesNames}の全${allSeries.length}シリーズ・全${videos.length}本の動画リストを世界地図でまとめた非公式ファンサイト。国をクリックするとその国の動画リストが見られます。`;
 const site_url = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const jsonLd = [
@@ -95,22 +95,32 @@ const jsonLd = [
 
 
   <section class="sec">
-    <div class="sec-h"><h2>旅のシリーズ</h2></div>
-    <div class="series">
-      {allSeries.slice().reverse().map((se) => {
-        const sm = seriesSummary(se);
-        return (
-          <a class="scard" href={seriesUrl(se.id)}>
-            <MiniMap stops={sm.stops} seriesId={se.id} />
-            <div class="bd">
-              <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}<span class="season">シーズン{se.order}</span>{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
-              <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
-              <div class="cs">{sm.countryNames.join(' → ')}</div>
-            </div>
-          </a>
-        );
-      })}
+    {/* 「旅のシリーズ」と「ワールドカップ編」をタブで切り替える */}
+    <div class="tabs" role="tablist" aria-label="シリーズの種類">
+      <button type="button" role="tab" id="tab-travel" aria-controls="tp-travel" aria-selected="true">旅のシリーズ</button>
+      {worldcupSeries.length > 0 && <button type="button" role="tab" id="tab-worldcup" aria-controls="tp-worldcup" aria-selected="false" tabindex="-1">ワールドカップ編 🏆</button>}
     </div>
+    {[
+      { key: 'travel', list: travelSeries },
+      { key: 'worldcup', list: worldcupSeries },
+    ].filter((g) => g.list.length).map((g) => (
+      <div class="series" role="tabpanel" id={`tp-${g.key}`} aria-labelledby={`tab-${g.key}`} hidden={g.key !== 'travel'}>
+        {g.list.slice().reverse().map((se) => {
+          const sm = seriesSummary(se);
+          const season = seasonOf(se.id);
+          return (
+            <a class="scard" href={seriesUrl(se.id)}>
+              <MiniMap stops={sm.stops} seriesId={se.id} />
+              <div class="bd">
+                <div class="nm"><i class="sdot" style={`background:${seriesColor(se.id)}`}></i>{se.name}{season && <span class="season">シーズン{season}</span>}{!se.ended && <i class="live">旅の途中</i>}<span class="arr">→</span></div>
+                <div class="pd">{seriesPeriod(se)} ・ {sm.countryCount}か国 ・ 動画{sm.videoCount}本</div>
+                <div class="cs">{sm.countryNames.join(' → ')}</div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    ))}
   </section>
   <section class="sec">
     <div class="sec-h"><h2>しげ旅の訪問国リスト</h2><span class="sub">動画がある国・地域を、初めて訪れた順に（{visitedList.length}か所）</span></div>
@@ -156,6 +166,26 @@ const jsonLd = [
   const chip = card.querySelector<HTMLButtonElement>('.pickchip')!;
   chip.addEventListener('click', () => {
     panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  });
+  // シリーズのタブ
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('.tabs [role="tab"]')];
+  function selectTab(t: HTMLButtonElement) {
+    for (const x of tabs) {
+      const on = x === t;
+      x.setAttribute('aria-selected', String(on));
+      x.tabIndex = on ? 0 : -1;
+      document.getElementById(x.getAttribute('aria-controls')!)!.hidden = !on;
+    }
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => selectTab(t));
+    t.addEventListener('keydown', (e) => {
+      const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!d) return;
+      const n = tabs[(i + d + tabs.length) % tabs.length];
+      selectTab(n);
+      n.focus();
+    });
   });
   panel.addEventListener('click', (e) => {
     if ((e.target as Element).closest('[data-latest]')) {

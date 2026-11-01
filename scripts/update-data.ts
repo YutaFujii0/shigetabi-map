@@ -29,7 +29,15 @@ const GEOCODE = !process.argv.includes('--no-geocode');
 /** 最後の公開からこの日数以内のシリーズは「旅の途中」とみなす */
 const ONGOING_DAYS = 45;
 
-type Playlist = { playlist_id: string; id: string; name: string; playlist_title: string; color?: string };
+type Playlist = {
+  playlist_id: string; id: string; name: string; playlist_title: string; color?: string;
+  /** travel（旅のシリーズ）か worldcup（ワールドカップ編）。省略時は travel */
+  group?: 'travel' | 'worldcup';
+  /** 国旗の無い動画に使う国（ISO 数字コード）。W杯カタール大会など、開催国が1つのとき */
+  default_country?: string;
+  /** 国旗の無い動画を本文の国名から推定するか（W杯は対戦相手の国名が入るので false） */
+  name_fallback?: boolean;
+};
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
   video_id: string; title: string; published_at: string; duration: string;
@@ -216,8 +224,10 @@ async function main() {
     // シリーズ外の動画は国旗のあるものだけ使う（国内・企画ものなどは数えない）。日本だけの回も除く
     if (!inSeries && !ov && p.a2.every((a2) => a2 === 'JP')) continue;
     // 国旗が無い回（古い動画など）は本文の国名から推定する。移動回は除く
-    const byName = inSeries && !p.a2.length && !p.flight;
+    const pl = playlists.find((x) => x.id === seriesOf.get(d.id));
+    const byName = inSeries && !p.a2.length && !p.flight && pl?.name_fallback !== false;
     if (byName) p.a2 = namesToA2(d.snippet.title, names);
+    if (!p.a2.length && !p.flight && pl?.default_country) p.a2 = [toA2(pl.default_country)!];
     const n3 = p.a2.map((a2) => {
       const n = toN3(a2);
       if (!n) report.unknownFlags.push(`${a2}（${d.snippet.title}）`);
@@ -294,7 +304,7 @@ async function main() {
       const lastPub = Math.max(...vs.map((v) => Date.parse(v.published_at)));
       const ov = overrides.series[pl.id] ?? {};
       const ended = 'ended' in ov ? ov.ended! : now - lastPub < ONGOING_DAYS * 864e5 ? null : month(ws.at(-1)!);
-      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id, color: pl.color };
+      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id, color: pl.color, group: pl.group ?? 'travel' };
     })
     .filter((s) => !!s)
     .sort((a, b) => a.started.localeCompare(b.started))

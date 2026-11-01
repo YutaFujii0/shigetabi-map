@@ -23,6 +23,8 @@ export type Series = {
   playlist_id: string;
   /** 地図の色（playlists.json で指定） */
   color?: string;
+  /** travel（旅のシリーズ）か worldcup（ワールドカップ編） */
+  group?: 'travel' | 'worldcup';
 };
 export type Video = {
   video_id: string;
@@ -65,6 +67,15 @@ export const location = locationJson as Location;
 
 const seriesById = new Map(allSeries.map((s) => [s.id, s]));
 export const getSeries = (id: string) => seriesById.get(id)!;
+export const travelSeries = allSeries.filter((s) => (s.group ?? 'travel') === 'travel');
+export const worldcupSeries = allSeries.filter((s) => s.group === 'worldcup');
+/** 旅のシリーズのシーズン番号（始まった順）。ワールドカップ編は undefined */
+export const seasonOf = (id: string) => {
+  const i = travelSeries.findIndex((s) => s.id === id);
+  return i >= 0 ? i + 1 : undefined;
+};
+/** 同じグループ（旅のシリーズ／ワールドカップ編）のシリーズ */
+export const seriesInGroup = (s: Series) => (s.group === 'worldcup' ? worldcupSeries : travelSeries);
 /** シリーズの色。playlists.json で指定が無ければ順番に割り当てる */
 const FALLBACK = ['#8B5CF6', '#EF4444', '#3B82F6', '#14B8A6', '#EC4899', '#0EA5E9', '#F59E0B', '#7CB518', '#C2410C'];
 export const seriesColor = (id: string) => seriesById.get(id)?.color ?? FALLBACK[allSeries.findIndex((s) => s.id === id) % FALLBACK.length];
