@@ -218,7 +218,8 @@
     "ended": "2022-12",
     "playlist_id": "PL_zqfBigax6urz6RzloUJ3DOPXIqU3-BN",
     "color": "#1E3A8A",
-    "group": "worldcup"
+    "group": "worldcup",
+    "low_priority": true
   },
   {
     "id": "south-america",
@@ -273,7 +274,8 @@
     "ended": "2024-02",
     "playlist_id": "PL_zqfBigax6tR7MuaXsPfhH5KfhxaEHmx",
     "color": "#1E3A8A",
-    "group": "worldcup"
+    "group": "worldcup",
+    "low_priority": true
   },
   {
     "id": "asia",
@@ -317,6 +319,7 @@
     "ended": "2026-07",
     "playlist_id": "PLAGFyMdxh2vk",
     "color": "#1E3A8A",
-    "group": "worldcup"
+    "group": "worldcup",
+    "low_priority": true
   }
 ]

@@ -89,7 +89,8 @@
     "group": "worldcup",
     "default_country": "634",
     "name_fallback": false,
-    "default_city": "ドーハ"
+    "default_city": "ドーハ",
+    "low_priority": true
   },
   {
     "playlist_id": "PL_zqfBigax6tR7MuaXsPfhH5KfhxaEHmx",
@@ -100,7 +101,8 @@
     "group": "worldcup",
     "default_country": "634",
     "name_fallback": false,
-    "default_city": "ドーハ"
+    "default_city": "ドーハ",
+    "low_priority": true
   },
   {
     "playlist_id": "PLAGFyMdxh2vk",
@@ -109,7 +111,8 @@
     "playlist_title": "北中米W杯",
     "color": "#1E3A8A",
     "group": "worldcup",
-    "name_fallback": false
+    "name_fallback": false,
+    "low_priority": true
   },
   {
     "playlist_id": "PL_zqfBigax6s3Jy73RmZvPoTmaADbOZWy",
