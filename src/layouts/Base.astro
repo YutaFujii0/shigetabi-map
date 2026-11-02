@@ -48,10 +48,14 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
     <style is:inline set:html={seriesCss}></style>
+    {/* 検索結果の画像は、動画のサムネイルではなくサイトの地図画像（og.png）を使ってもらう */}
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', url: canonical, name: pageTitle, primaryImageOfPage: { '@type': 'ImageObject', url: ogImage, width: 1200, height: 630 }, image: ogImage })}></script>
     {jsonLd.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)}></script>)}
     <meta name="theme-color" content="#FAFAF7" />
     <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
     <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon-32.png`} type="image/png" sizes="32x32" />
+    {/* Google の検索結果のアイコンは 48px の倍数の画像を使う */}
+    <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon-192.png`} type="image/png" sizes="192x192" />
     <link rel="apple-touch-icon" href={`${base.replace(/\/$/, '')}/apple-touch-icon.png`} />
     <link rel="preconnect" href="https://i.ytimg.com" />
     {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
