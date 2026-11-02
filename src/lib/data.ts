@@ -25,6 +25,8 @@ export type Series = {
   color?: string;
   /** travel（旅のシリーズ）／worldcup（ワールドカップ編）／japan（日本国内編） */
   group?: 'travel' | 'worldcup' | 'japan';
+  /** 地図の国の色を決めるときの優先度を下げる（ほかのシリーズでも行った国はそちらの色にする） */
+  low_priority?: boolean;
 };
 export type Video = {
   video_id: string;
@@ -218,9 +220,15 @@ export const visitedList = (() => {
 })();
 
 /** その国・地域に初めて行ったシリーズ（色分け用）。シリーズ外の動画しか無い国は undefined */
+// 優先度の低いシリーズ（ビジネスクラス世界一周編など）は、ほかのシリーズで行っていない国だけに使う
 const firstSeries = new Map<string, string>();
-for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b))))
-  if (v.series_id) for (const iso of v.countries) if (!firstSeries.has(iso)) firstSeries.set(iso, v.series_id);
+const firstLow = new Map<string, string>();
+for (const v of videos.slice().sort((a, b) => filmedAt(a).localeCompare(filmedAt(b)))) {
+  if (!v.series_id) continue;
+  const map = seriesById.get(v.series_id)?.low_priority ? firstLow : firstSeries;
+  for (const iso of v.countries) if (!map.has(iso)) map.set(iso, v.series_id);
+}
+for (const [iso, id] of firstLow) if (!firstSeries.has(iso)) firstSeries.set(iso, id);
 export const firstSeriesOf = (iso: string) => firstSeries.get(iso);
 /** そのシリーズの動画に出てくる国・地域 */
 export const countriesOfSeries = (id: string) => new Set(videosOfSeries(id).flatMap((v) => v.countries));

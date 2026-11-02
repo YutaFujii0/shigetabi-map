@@ -5,7 +5,8 @@
     "name": "ビジネスクラス世界一周編",
     "playlist_title": "ビジネスクラス世界一周",
     "color": "#15803D",
-    "group": "travel"
+    "group": "travel",
+    "low_priority": true
   },
   {
     "playlist_id": "PL_zqfBigax6v9isyw4yZ4EL61rpFwyc-2",

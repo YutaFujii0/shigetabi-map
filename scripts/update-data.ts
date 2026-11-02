@@ -41,6 +41,8 @@ type Playlist = {
   default_city?: string;
   /** false ならシリーズにせず、動画は訪問国（地図の色）の判定にだけ使う（LCC世界一周など） */
   series?: boolean;
+  /** 地図の国の色を決めるときの優先度を下げる（ほかのシリーズでも行った国はそちらの色にする） */
+  low_priority?: boolean;
 };
 type Extract = { method: 'title' | 'llm' | 'manual' | 'unresolved'; confidence: number; reviewed: boolean };
 type Video = {
@@ -335,7 +337,7 @@ async function main() {
       const lastPub = Math.max(...vs.map((v) => Date.parse(v.published_at)));
       const ov = overrides.series[pl.id] ?? {};
       const ended = 'ended' in ov ? ov.ended! : now - lastPub < ONGOING_DAYS * 864e5 ? null : month(ws.at(-1)!);
-      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id, color: pl.color, group: pl.group ?? 'travel' };
+      return { id: pl.id, name: ov.name ?? pl.name, playlist_title: pl.playlist_title, order: 0, started: month(ws[0]), ended, playlist_id: pl.playlist_id, color: pl.color, group: pl.group ?? 'travel', ...(pl.low_priority ? { low_priority: true } : {}) };
     })
     .filter((s) => !!s)
     .sort((a, b) => a.started.localeCompare(b.started))

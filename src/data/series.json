@@ -8,7 +8,8 @@
     "ended": "2021-09",
     "playlist_id": "PL_zqfBigax6tw7gSFMELT7iJz4TzAY0yF",
     "color": "#15803D",
-    "group": "travel"
+    "group": "travel",
+    "low_priority": true
   },
   {
     "id": "southeast-asia",
