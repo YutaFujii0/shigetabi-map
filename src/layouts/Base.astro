@@ -65,13 +65,18 @@ const seriesCss = allSeries.map((x) => `:where(.c).v.s-${x.id}{fill:${seriesColo
     <link rel="preload" as="style" href={FONTS} />
     <link rel="stylesheet" href={FONTS} media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href={FONTS} /></noscript>
-    <!-- Google tag (gtag.js) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-9K44ZCRMGB"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-9K44ZCRMGB');
+    {/* Google tag (gtag.js)。本番のドメインで、人が開いた時だけ計測する（CI の Lighthouse や Playwright での確認は数えない） */}
+    <script is:inline define:vars={{ host: Astro.site?.hostname, id: 'G-9K44ZCRMGB' }}>
+      if (location.hostname === host && !navigator.webdriver) {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+        gtag('js', new Date());
+        gtag('config', id);
+      }
     </script>
   </head>
   <body>
