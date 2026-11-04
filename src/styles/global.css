@@ -71,6 +71,8 @@ img { max-width: 100%; display: block; }
 .legend-mk .ring2 { fill: none; stroke: var(--aura1); stroke-width: 0.8; opacity: 0.8; animation: spin 14s linear infinite reverse; transform-box: fill-box; transform-origin: center; }
 .legend-mk .core { fill: url(#coreG); stroke: #fff; stroke-width: 1.2; }
 .legend-mk .star { fill: #fff; }
+.gM .legend-mk > * { pointer-events: none; }
+.gM .legend-mk > .hit { fill: transparent; pointer-events: all; cursor: pointer; }
 @keyframes pulse { 0%, 100% { transform: scale(0.85); opacity: 0.55; } 50% { transform: scale(1.15); opacity: 0.95; } }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .legend-mk * { animation: none !important; } }

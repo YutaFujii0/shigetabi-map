@@ -106,8 +106,9 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
     </g>
     {marker && currentPos && (
       <g class="gM">
-        <g class="legend-mk" data-sx={currentPos.x} data-sy={currentPos.y} transform={`translate(${currentPos.x},${currentPos.y})`}>
-          <Marker /><title>{markerTitle}</title>
+        {/* アイコンの中心を押すと、その国を押したのと同じにする。外側の光は押しても下の国に届く */}
+        <g class="legend-mk" data-id={location.iso_n3} data-tip={markerTitle} data-sx={currentPos.x} data-sy={currentPos.y} transform={`translate(${currentPos.x},${currentPos.y})`}>
+          <Marker /><circle class="hit" r="14"></circle>
         </g>
       </g>
     )}

@@ -156,30 +156,35 @@ export function initMap(card: HTMLElement): MapController {
     { passive: false },
   );
 
-  /** ポインタ下の国。複製（<use>）の上なら、ずらした分を戻して元の国を探す */
+  /** ポインタ下の国。複製（<use>）の上なら、ずらした分を戻して元の国を探す。しげさんアイコンの上ならその国 */
   const paths = [...gC.querySelectorAll('[data-id]')].filter((el): el is SVGGeometryElement => el instanceof SVGGeometryElement);
-  function countryAt(e: MouseEvent): string | undefined {
+  const hits = [...svg.querySelectorAll<SVGCircleElement>('.legend-mk .hit')];
+  function targetAt(e: MouseEvent): SVGElement | undefined {
     const t = e.target as SVGElement;
-    if (t.dataset?.id) return t.dataset.id;
+    const own = t.closest?.<SVGElement>('[data-id]');
+    if (own) return own;
     const use = t.closest?.('use.gCopy') as SVGUseElement | null;
     if (!use) return undefined;
     const m = svg.getScreenCTM();
     if (!m) return undefined;
     const p = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
     const q = new DOMPoint(p.x - Number(use.dataset.dx), p.y);
-    return paths.find((el) => el.isPointInFill(q))?.dataset.id;
+    const hit = hits.find((c) => c.isPointInFill(q.matrixTransform(c.getCTM()!.inverse())));
+    return hit?.closest<SVGElement>('[data-id]') ?? paths.find((el) => el.isPointInFill(q));
   }
+  const countryAt = (e: MouseEvent) => targetAt(e)?.dataset.id;
   const hoverTarget = svg;
 
   // ツールチップ
   hoverTarget.addEventListener('pointermove', (e) => {
-    const id = countryAt(e);
+    const el = targetAt(e);
+    const id = el?.dataset.id;
     if (!id || e.pointerType === 'touch' || (drag && moved)) {
       tip.hidden = true;
       return;
     }
     const r = card.getBoundingClientRect();
-    tip.textContent = tips[id] ?? '';
+    tip.textContent = el.dataset.tip ?? tips[id] ?? '';
     tip.style.left = `${e.clientX - r.left}px`;
     tip.style.top = `${e.clientY - r.top}px`;
     tip.hidden = false;
