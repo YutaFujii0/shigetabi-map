@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M42 46 C39.5 30.7 44.4 18.8 50 12 C55.6 18.8 60.5 30.7 58 46"/>
+<path d="M43.4 38.5 Q50 40 56.6 38.5" stroke-width="1.6"/>
+<path d="M44.7 31 Q50 32.5 55.3 31" stroke-width="1.6"/>
+<path d="M46.1 23.6 Q50 25.1 53.9 23.6" stroke-width="1.6"/>
+<path d="M50 12 L50 9" stroke-width="1.6"/>
+<path d="M26 48 C23.5 37.2 27.8 28.8 32 24 C36.2 28.8 40.5 37.2 38 48"/>
+<path d="M27 42.7 Q32 44.2 37 42.7" stroke-width="1.6"/>
+<path d="M28 37.4 Q32 38.9 36 37.4" stroke-width="1.6"/>
+<path d="M29.1 32.2 Q32 33.7 34.9 32.2" stroke-width="1.6"/>
+<path d="M32 24 L32 21" stroke-width="1.6"/>
+<path d="M62 48 C59.5 37.2 63.8 28.8 68 24 C72.2 28.8 76.5 37.2 74 48"/>
+<path d="M63 42.7 Q68 44.2 73 42.7" stroke-width="1.6"/>
+<path d="M64 37.4 Q68 38.9 72 37.4" stroke-width="1.6"/>
+<path d="M65.1 32.2 Q68 33.7 70.9 32.2" stroke-width="1.6"/>
+<path d="M68 24 L68 21" stroke-width="1.6"/>
+<path d="M10 50 C7.5 41.9 11.5 35.6 15 32 C18.5 35.6 22.5 41.9 20 50"/>
+<path d="M10.9 46 Q15 47.5 19.2 46" stroke-width="1.6"/>
+<path d="M11.7 42.1 Q15 43.6 18.3 42.1" stroke-width="1.6"/>
+<path d="M12.6 38.1 Q15 39.6 17.5 38.1" stroke-width="1.6"/>
+<path d="M15 32 L15 29" stroke-width="1.6"/>
+<path d="M80 50 C77.5 41.9 81.5 35.6 85 32 C88.5 35.6 92.5 41.9 90 50"/>
+<path d="M80.9 46 Q85 47.5 89.2 46" stroke-width="1.6"/>
+<path d="M81.7 42.1 Q85 43.6 88.3 42.1" stroke-width="1.6"/>
+<path d="M82.6 38.1 Q85 39.6 87.5 38.1" stroke-width="1.6"/>
+<path d="M85 32 L85 29" stroke-width="1.6"/>
+<path d="M8 50 L92 50 M8 50 L8 64 L92 64 L92 50 M24 46 L40 46 M60 46 L76 46 M40 46 L42 50 M58 46 L60 50 M24 46 L22 50 M76 46 L78 50"/>
+<path d="M14 54 L14 61 M20 54 L20 61 M26 54 L26 61 M32 54 L32 61 M38 54 L38 61 M62 54 L62 61 M68 54 L68 61 M74 54 L74 61 M80 54 L80 61 M86 54 L86 61" stroke-width="1.6"/>
+<path d="M45 64 L45 56 Q50 51 55 56 L55 64" stroke-width="1.6"/>
+<path d="M8 70 L92 70"/>
+<path d="M42 74 L44 82 M58 74 L56 82 M47 84 L50 88 L53 84 M26 74 L28 79 M38 74 L36 79 M74 74 L72 79 M62 74 L64 79" stroke-width="1.6"/>
+<path d="M10 76 L20 76 M80 76 L90 76 M14 84 L30 84 M68 84 L86 84 M30 90 L44 90 M56 90 L72 90" stroke-width="1.6"/>
+</svg>

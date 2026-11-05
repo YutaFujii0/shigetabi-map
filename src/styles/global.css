@@ -14,7 +14,8 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
-body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.7; }
+/* 地図とシリーズのゾーンの背景は、世界の観光スポットの線画を敷き詰めた柄（art/landmarks/ で作る）。訪問国リストとフッターは .plain で無地に戻す */
+body { margin: 0; background: var(--bg) url('../assets/bg-landmarks.svg') 0 0 / 1000px 820px repeat; color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.7; }
 h1, h2, h3, h4 { margin: 0; text-wrap: balance; }
 button { font: inherit; color: inherit; cursor: pointer; }
 a { color: inherit; }
@@ -39,6 +40,10 @@ img { max-width: 100%; display: block; }
 .count b { font-family: var(--f-num); font-weight: 700; font-size: 26px; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1; }
 .a-foot { margin-top: 32px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
 .a-foot p { margin: 0 0 4px; }
+.plain, .a-foot { position: relative; }
+.plain::before, .a-foot::before { content: ""; position: absolute; z-index: -1; left: calc(50% - 50vw); right: calc(50% - 50vw); background: var(--bg); }
+.plain::before { top: -20px; bottom: -33px; border-top: 1px solid var(--line); }
+.a-foot::before { top: -1px; bottom: -48px; }
 
 /* ===== map ===== */
 .mapcard { position: relative; background: var(--sea); border-radius: var(--r); overflow: hidden; border: 1px solid var(--line); touch-action: pan-y; user-select: none; -webkit-user-select: none; }
