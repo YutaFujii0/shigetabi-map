@@ -13842,5 +13842,30 @@
       "confidence": 1,
       "reviewed": false
     }
+  },
+  {
+    "video_id": "XihIZ_o62pU",
+    "title": "ベネチア旅🇮🇹イタリアの水の都で5泊6日飲み歩き【ヨーロッパ#65】2026年8月18日〜23日",
+    "published_at": "2026-11-07T05:30:46Z",
+    "duration": "PT1H21M3S",
+    "series_id": "europe",
+    "episode": 65,
+    "countries": [
+      "380"
+    ],
+    "cities": [
+      "ベネチア"
+    ],
+    "filmed_at": {
+      "from": "2026-08-18",
+      "to": "2026-08-23"
+    },
+    "tally": 138,
+    "thumbnail": "https://i.ytimg.com/vi/XihIZ_o62pU/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
   }
 ]
