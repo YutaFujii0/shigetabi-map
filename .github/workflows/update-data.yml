@@ -24,7 +24,8 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - run: npm run build
-      - uses: peter-evans/create-pull-request@v7
+      - id: cpr
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: data/update
           delete-branch: true
@@ -32,3 +33,13 @@ jobs:
           title: 'データ更新（YouTube）'
           body-path: scripts/out/report.md
           add-paths: src/data
+      # PR を作った・更新した時だけ Slack に知らせる（差分が無い日は何も送らない）
+      - if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+          OPERATION: ${{ steps.cpr.outputs.pull-request-operation }}
+        run: |
+          if [ "$OPERATION" = created ]; then verb='作りました'; else verb='更新しました'; fi
+          jq -n --arg text "YouTube のデータ更新 PR を${verb}。確認してマージしてください: $PR_URL" '{text: $text}' \
+            | curl -fsS -X POST -H 'Content-Type: application/json' --data @- "$SLACK_WEBHOOK_URL"
