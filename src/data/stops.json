@@ -962,6 +962,19 @@
     ]
   },
   {
+    "series_id": "europe",
+    "seq": 58,
+    "iso_n3": "380",
+    "city": "ベネチア",
+    "lat": 45.44,
+    "lng": 12.33,
+    "arrived": "2026-08-18",
+    "departed": "2026-08-23",
+    "video_ids": [
+      "XihIZ_o62pU"
+    ]
+  },
+  {
     "series_id": "north-america",
     "seq": 1,
     "iso_n3": "840",
