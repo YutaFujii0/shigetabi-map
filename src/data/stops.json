@@ -975,6 +975,19 @@
     ]
   },
   {
+    "series_id": "europe",
+    "seq": 59,
+    "iso_n3": "380",
+    "city": "ボローニャ",
+    "lat": 44.49,
+    "lng": 11.34,
+    "arrived": "2026-08-23",
+    "departed": "2026-08-28",
+    "video_ids": [
+      "UykzW-sW1K8"
+    ]
+  },
+  {
     "series_id": "north-america",
     "seq": 1,
     "iso_n3": "840",

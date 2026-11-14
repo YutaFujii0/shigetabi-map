@@ -13867,5 +13867,30 @@
       "confidence": 1,
       "reviewed": false
     }
+  },
+  {
+    "video_id": "UykzW-sW1K8",
+    "title": "ボローニャ旅🇮🇹イタリアの美食の街で5泊6日飲み歩き【ヨーロッパ#66】2026年8月23日〜28日",
+    "published_at": "2026-11-13T09:00:08Z",
+    "duration": "PT48M55S",
+    "series_id": "europe",
+    "episode": 66,
+    "countries": [
+      "380"
+    ],
+    "cities": [
+      "ボローニャ"
+    ],
+    "filmed_at": {
+      "from": "2026-08-23",
+      "to": "2026-08-28"
+    },
+    "tally": 138,
+    "thumbnail": "https://i.ytimg.com/vi/UykzW-sW1K8/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
   }
 ]
