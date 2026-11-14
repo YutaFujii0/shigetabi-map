@@ -49,8 +49,11 @@ const dots: { id: string; at: Pt; size: number }[] = [
   }),
 ];
 const tips: Record<string, string> = {};
+// 国名（Google アナリティクスのイベントに付ける）
+const names: Record<string, string> = {};
 for (const c of [...COUNTRY_SHAPES, ...dots]) {
   const name = countryName(c.id);
+  names[c.id] = name;
   const s = visited.has(c.id) ? lastStopIn(c.id) : undefined;
   const extra = isCountry(c.id) ? '' : '・国数に含まない地域';
   tips[c.id] = c.id === JAPAN
@@ -144,4 +147,5 @@ const markerTitle = `しげさん（推定）：${countryName(location.iso_n3)}�
   <div class="tip" hidden></div>
   <slot />
   <script type="application/json" data-tips set:html={JSON.stringify(tips)}></script>
+  <script type="application/json" data-names set:html={JSON.stringify(names)}></script>
 </div>

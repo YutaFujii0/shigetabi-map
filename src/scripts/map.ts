@@ -1,5 +1,10 @@
 // 地図の操作（ズーム・ドラッグ・ピンチ・ツールチップ・国のクリック）。
-// 国をクリックすると mapcard 要素に `map:pick` イベント（detail: { id, x, y }）を発火する
+// 国をクリックすると mapcard 要素に `map:pick` イベント（detail: { id, x, y }）を発火し、Google アナリティクスに select_country を送る
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
 const W = 1000,
   H = 520,
   MAX_K = 40;
@@ -21,6 +26,7 @@ export function initMap(card: HTMLElement): MapController {
   const gR = svg.querySelector<SVGGElement>('.gR')!;
   const tip = card.querySelector<HTMLElement>('.tip')!;
   const tips: Record<string, string> = JSON.parse(card.querySelector('[data-tips]')?.textContent ?? '{}');
+  const names: Record<string, string> = JSON.parse(card.querySelector('[data-names]')?.textContent ?? '{}');
   const scaled = [...svg.querySelectorAll<SVGGElement>('[data-sx]')];
   const dots = [...gC.querySelectorAll<SVGCircleElement>('circle.dot')];
   const fillWidth = card.hasAttribute('data-fill-width');
@@ -192,11 +198,20 @@ export function initMap(card: HTMLElement): MapController {
   hoverTarget.addEventListener('pointerleave', () => (tip.hidden = true));
   hoverTarget.addEventListener('click', (e) => {
     if (moved) return;
-    const id = countryAt(e);
+    const el = targetAt(e);
+    const id = el?.dataset.id;
     if (!id) return;
     tip.hidden = true;
     const r = card.getBoundingClientRect();
     card.dispatchEvent(new CustomEvent<PickDetail>('map:pick', { detail: { id, x: e.clientX - r.left, y: e.clientY - r.top } }));
+    // gtag は本番で人が開いた時だけある（src/layouts/Base.astro）
+    window.gtag?.('event', 'select_country', {
+      country_id: id,
+      country_name: names[id] ?? id,
+      visited: gC.querySelector(`[data-id="${CSS.escape(id)}"]`)?.classList.contains('v') ?? false,
+      via: el.classList.contains('legend-mk') ? 'marker' : 'map',
+      map: card.id,
+    });
   });
 
 
