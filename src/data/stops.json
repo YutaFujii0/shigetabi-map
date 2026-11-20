@@ -988,6 +988,19 @@
     ]
   },
   {
+    "series_id": "europe",
+    "seq": 60,
+    "iso_n3": "380",
+    "city": "フィレンツェ",
+    "lat": 43.77,
+    "lng": 11.25,
+    "arrived": "2026-08-28",
+    "departed": "2026-09-02",
+    "video_ids": [
+      "qztfiGO3ocE"
+    ]
+  },
+  {
     "series_id": "north-america",
     "seq": 1,
     "iso_n3": "840",

@@ -13892,5 +13892,30 @@
       "confidence": 1,
       "reviewed": false
     }
+  },
+  {
+    "video_id": "qztfiGO3ocE",
+    "title": "フィレンツェ旅🇮🇹イタリアの花の都で5泊6日飲み歩き【ヨーロッパ#67】2026年8月28日〜9月2日",
+    "published_at": "2026-11-20T09:00:18Z",
+    "duration": "PT43M46S",
+    "series_id": "europe",
+    "episode": 67,
+    "countries": [
+      "380"
+    ],
+    "cities": [
+      "フィレンツェ"
+    ],
+    "filmed_at": {
+      "from": "2026-08-28",
+      "to": "2026-09-02"
+    },
+    "tally": 138,
+    "thumbnail": "https://i.ytimg.com/vi/qztfiGO3ocE/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
   }
 ]
