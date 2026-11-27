@@ -13917,5 +13917,30 @@
       "confidence": 1,
       "reviewed": false
     }
+  },
+  {
+    "video_id": "sI-f4vj3T-0",
+    "title": "ナポリ旅🇮🇹イタリアの安くて旨い港町で5泊6日飲み歩き【ヨーロッパ#68】2026年9月2日〜7日",
+    "published_at": "2026-11-27T09:00:21Z",
+    "duration": "PT1H14M35S",
+    "series_id": "europe",
+    "episode": 68,
+    "countries": [
+      "380"
+    ],
+    "cities": [
+      "ナポリ"
+    ],
+    "filmed_at": {
+      "from": "2026-09-02",
+      "to": "2026-09-07"
+    },
+    "tally": 138,
+    "thumbnail": "https://i.ytimg.com/vi/sI-f4vj3T-0/mqdefault.jpg",
+    "extract": {
+      "method": "title",
+      "confidence": 1,
+      "reviewed": false
+    }
   }
 ]
