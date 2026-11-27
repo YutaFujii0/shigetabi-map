@@ -1001,6 +1001,19 @@
     ]
   },
   {
+    "series_id": "europe",
+    "seq": 61,
+    "iso_n3": "380",
+    "city": "ナポリ",
+    "lat": 40.83,
+    "lng": 14.25,
+    "arrived": "2026-09-02",
+    "departed": "2026-09-07",
+    "video_ids": [
+      "sI-f4vj3T-0"
+    ]
+  },
+  {
     "series_id": "north-america",
     "seq": 1,
     "iso_n3": "840",
